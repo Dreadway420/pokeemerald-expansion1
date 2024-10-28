@@ -104,7 +104,7 @@ Now, to better understand Mewtwo, we also need to understand Mew. Let's look at 
     #else
         .expYield = 64,
     #endif
-        .evYield_HP = 3,
+        .evYield_HP = 0,
         .itemCommon = ITEM_LUM_BERRY,
         .itemRare = ITEM_LUM_BERRY,
         .genderRatio = MON_GENDERLESS,

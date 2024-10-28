@@ -255,7 +255,7 @@ Updates egg moves to the refactored format. Only necessary if new species have b
         .types = MON_TYPES(TYPE_GRASS, TYPE_POISON),
         .catchRate = 45,
         .expYield = 64,
-        .evYield_SpAttack = 1,
+        .evYield_SpAttack = 0,
         .genderRatio = PERCENT_FEMALE(12.5),
         .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,

@@ -145,7 +145,7 @@ Route110_EventScript_NoRecordSet::
 	releaseall
 	end
 
-Route110_EventScript_ChallengeGuy::
+Route110_EventScript_ChallengeGuy:: 
 	lock
 	faceplayer
 	specialvar VAR_RESULT, GetPlayerAvatarBike

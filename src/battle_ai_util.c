@@ -2503,7 +2503,7 @@ static u32 GetWeatherDamage(u32 battlerId)
           && !(gStatuses3[battlerId] & (STATUS3_UNDERGROUND | STATUS3_UNDERWATER))
           && holdEffect != HOLD_EFFECT_SAFETY_GOGGLES)
         {
-            damage = GetNonDynamaxMaxHP(battlerId) / 16;
+            damage = GetNonDynamaxMaxHP(battlerId) / 8;
             if (damage == 0)
                 damage = 1;
         }

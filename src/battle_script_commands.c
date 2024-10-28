@@ -9656,7 +9656,7 @@ static void Cmd_various(void)
     case VARIOUS_TRY_ACTIVATE_RECEIVER: // Partner gets fainted's ally ability
     {
         VARIOUS_ARGS();
-        gBattlerAbility = BATTLE_PARTNER(battler);
+        gBattlerAbility = BATTLE_PARTNER(battler); 
         i = GetBattlerAbility(gBattlerAbility);
         if (IsBattlerAlive(gBattlerAbility)
             && (i == ABILITY_RECEIVER || i == ABILITY_POWER_OF_ALCHEMY)
