@@ -14985,9 +14985,9 @@ F_TRAINER_FEMALE |
 #line 6043
             .ability = ABILITY_RATTLED,
 #line 6044
-            .lvl = 8,
+            .lvl = 7,
 #line 6045
-            .nature = NATURE_ADAMANT,
+            .nature = NATURE_IMPISH,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 6046
@@ -15772,7 +15772,7 @@ F_TRAINER_FEMALE |
 #line 6364
             .iv = TRAINER_PARTY_IVS(31, 0, 31, 31, 31, 31),
 #line 6361
-            .ability = ABILITY_UNNERVE,
+            .ability = ABILITY_GRIM_NEIGH,
 #line 6362
             .lvl = 7,
 #line 6363

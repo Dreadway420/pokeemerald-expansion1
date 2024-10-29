@@ -6041,8 +6041,8 @@ Level: 7
 
 Poochyena  
 Ability: Rattled  
-Level: 8  
-Adamant Nature  
+Level: 7  
+Impish Nature  
 - Howl  
 - Bite  
 
@@ -6358,7 +6358,7 @@ Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon 
 
 Litleo (M)  
-Ability: Unnerve  
+Ability: Grim Neigh  
 Level: 7  
 Serious Nature  
 IVs: 0 Atk  

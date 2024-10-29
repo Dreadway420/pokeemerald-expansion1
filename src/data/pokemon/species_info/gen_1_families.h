@@ -6546,9 +6546,9 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 #if P_FAMILY_MANKEY
     [SPECIES_MANKEY] =
     {
-        .baseHP        = 40,
+        .baseHP        = 45,
         .baseAttack    = 80,
-        .baseDefense   = 35,
+        .baseDefense   = 45,
         .baseSpeed     = 70,
         .baseSpAttack  = 35,
         .baseSpDefense = 45,
@@ -6564,7 +6564,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     #if P_UPDATED_ABILITIES >= GEN_4
         .abilities = { ABILITY_DEFIANT },
     #else
-        .abilities = { ABILITY_VITAL_SPIRIT, ABILITY_NONE, ABILITY_DEFIANT },
+        .abilities = { ABILITY_DEFIANT },
     #endif
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Mankey"),
@@ -6613,9 +6613,9 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 
     [SPECIES_PRIMEAPE] =
     {
-        .baseHP        = 65,
+        .baseHP        = 70,
         .baseAttack    = 105,
-        .baseDefense   = 60,
+        .baseDefense   = 70,
         .baseSpeed     = 95,
         .baseSpAttack  = 60,
         .baseSpDefense = 70,
@@ -16818,7 +16818,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_ERRATIC ,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER),
-        .abilities = { ABILITY_IMMUNITY, ABILITY_THICK_FAT, ABILITY_GLUTTONY },
+        .abilities = { ABILITY_CHEEK_POUCH, ABILITY_THICK_FAT },
         .bodyColor = BODY_COLOR_BLACK,
         .speciesName = _("Snorlax"),
         .cryId = CRY_SNORLAX,
