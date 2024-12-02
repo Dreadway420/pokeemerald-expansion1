@@ -8652,6 +8652,9 @@ static const struct LevelUpMove sCacneaLevelUpLearnset[] = {
 
 static const struct LevelUpMove sCacturneLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_SPIKY_SHIELD),
+    LEVEL_UP_MOVE( 0, MOVE_NEEDLE_ARM),
+    LEVEL_UP_MOVE( 1, MOVE_SPIKY_SHIELD),
+    LEVEL_UP_MOVE( 1, MOVE_NEEDLE_ARM),
     LEVEL_UP_MOVE( 1, MOVE_POISON_STING),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_ABSORB),
@@ -10217,6 +10220,8 @@ static const struct LevelUpMove sCranidosLevelUpLearnset[] = {
 
 static const struct LevelUpMove sRampardosLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_ENDEAVOR),
+    LEVEL_UP_MOVE( 0, MOVE_HEAD_SMASH),
+    LEVEL_UP_MOVE( 1, MOVE_HEAD_SMASH),
     LEVEL_UP_MOVE( 1, MOVE_HEADBUTT),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_FOCUS_ENERGY),
@@ -10228,6 +10233,7 @@ static const struct LevelUpMove sRampardosLevelUpLearnset[] = {
     LEVEL_UP_MOVE(36, MOVE_ANCIENT_POWER),
     LEVEL_UP_MOVE(43, MOVE_ZEN_HEADBUTT),
     LEVEL_UP_MOVE(51, MOVE_SCREECH),
+    LEVEL_UP_MOVE(53, MOVE_ACCELEROCK),
     LEVEL_UP_MOVE(58, MOVE_HEAD_SMASH),
     LEVEL_UP_END
 };
@@ -10252,6 +10258,10 @@ static const struct LevelUpMove sShieldonLevelUpLearnset[] = {
 
 static const struct LevelUpMove sBastiodonLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_BLOCK),
+    LEVEL_UP_MOVE( 0, MOVE_POWER_GEM),
+    LEVEL_UP_MOVE( 0, MOVE_HYPER_VOICE),
+    LEVEL_UP_MOVE( 1, MOVE_HYPER_VOICE),
+    LEVEL_UP_MOVE( 1, MOVE_POWER_GEM),
     LEVEL_UP_MOVE( 1, MOVE_WIDE_GUARD),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_PROTECT),
@@ -10262,8 +10272,11 @@ static const struct LevelUpMove sBastiodonLevelUpLearnset[] = {
     LEVEL_UP_MOVE(24, MOVE_SWAGGER),
     LEVEL_UP_MOVE(28, MOVE_ANCIENT_POWER),
     LEVEL_UP_MOVE(36, MOVE_ENDURE),
+    LEVEL_UP_MOVE(39, MOVE_STEALTH_ROCK),
+    LEVEL_UP_MOVE(39, MOVE_SPIKES),
     LEVEL_UP_MOVE(43, MOVE_METAL_BURST),
     LEVEL_UP_MOVE(51, MOVE_IRON_HEAD),
+    LEVEL_UP_MOVE(56, MOVE_METEOR_BEAM),
     LEVEL_UP_MOVE(58, MOVE_HEAVY_SLAM),
     LEVEL_UP_END
 };

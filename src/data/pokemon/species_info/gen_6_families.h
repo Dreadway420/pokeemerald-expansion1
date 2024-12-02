@@ -3544,17 +3544,17 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .levelUpLearnset = sTyruntLevelUpLearnset,
         .teachableLearnset = sTyruntTeachableLearnset,
         .eggMoveLearnset = sTyruntEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL_DAY, 39, SPECIES_TYRANTRUM}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 39, SPECIES_TYRANTRUM}),
     },
 
     [SPECIES_TYRANTRUM] =
     {
-        .baseHP        = 82,
+        .baseHP        = 102,
         .baseAttack    = 121,
         .baseDefense   = 119,
         .baseSpeed     = 71,
         .baseSpAttack  = 69,
-        .baseSpDefense = 59,
+        .baseSpDefense = 79,
         .types = MON_TYPES(TYPE_ROCK, TYPE_DRAGON),
         .catchRate = 70,
         .expYield = 139,
@@ -3668,17 +3668,17 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .levelUpLearnset = sAmauraLevelUpLearnset,
         .teachableLearnset = sAmauraTeachableLearnset,
         .eggMoveLearnset = sAmauraEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL_NIGHT, 39, SPECIES_AURORUS}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 39, SPECIES_AURORUS}),
     },
 
     [SPECIES_AURORUS] =
     {
         .baseHP        = 123,
         .baseAttack    = 77,
-        .baseDefense   = 72,
+        .baseDefense   = 92,
         .baseSpeed     = 58,
         .baseSpAttack  = 99,
-        .baseSpDefense = 92,
+        .baseSpDefense = 102,
         .types = MON_TYPES(TYPE_ROCK, TYPE_ICE),
         .catchRate = 70,
         .expYield = 78,
