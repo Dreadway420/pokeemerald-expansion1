@@ -20,7 +20,7 @@ MauvilleCity_EventScript_MoveWattsonBackToGym::
 	clearflag FLAG_HIDE_MAUVILLE_GYM_WATTSON
 	setflag FLAG_HIDE_MAUVILLE_CITY_WATTSON
 	setflag FLAG_WATTSON_REMATCH_AVAILABLE
-	return
+	return 
 
 MauvilleCity_EventScript_Boy::
 	msgbox MauvilleCity_Text_NurseHurtMonBackToHealth, MSGBOX_NPC
@@ -70,6 +70,7 @@ MauvilleCity_EventScript_TVExplained::
 
 MauvilleCity_EventScript_WallysUncle::
 	lock
+	special HealPlayerParty
 	faceplayer
 	goto_if_set FLAG_DECLINED_WALLY_BATTLE_MAUVILLE, MauvilleCity_EventScript_UncleAskPlayerToBattleWally
 	msgbox MauvilleCity_Text_UncleHesTooPeppy, MSGBOX_DEFAULT
@@ -89,6 +90,7 @@ MauvilleCity_EventScript_UncleAskPlayerToBattleWally::
 
 MauvilleCity_EventScript_Wally::
 	lockall
+	special HealPlayerParty
 	goto_if_set FLAG_DECLINED_WALLY_BATTLE_MAUVILLE, MauvilleCity_EventScript_WallyRequestBattleAgain
 	applymovement LOCALID_WALLY, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
@@ -439,6 +441,9 @@ MauvilleCity_EventScript_CompletedNewMauville::
 	giveitem ITEM_TM_THUNDERBOLT
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	setflag FLAG_GOT_TM_THUNDERBOLT_FROM_WATTSON
+	setflag FLAG_ITEM_NEW_MAUVILLE_THUNDER_STONE
+	setflag FLAG_ITEM_NEW_MAUVILLE_ULTRA_BALL
+	setflag FLAG_ITEM_ROUTE_110_RARE_CANDY
 	msgbox MauvilleCity_Text_WattsonYoungTakeCharge, MSGBOX_DEFAULT
 	release
 	end
@@ -596,7 +601,7 @@ MauvilleCity_Text_WattsonWontBeChallenge:
 	.string "WATTSON: Don't you worry about it.\n"
 	.string "It won't be a challenge to you.\p"
 	.string "The entrance to NEW MAUVILLE is just\n"
-	.string "a short SURF away from ROUTE 110.\p"
+	.string "a short walk to your right.\p"
 	.string "That's it, then, you have my trust!\n"
 	.string "Wahahahaha!$"
 

@@ -79,6 +79,12 @@ PetalburgWoods_EventScript_DevonResearcherIntro::
 	applymovement LOCALID_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherLookAround
 	waitmovement 0
 	msgbox PetalburgWoods_Text_NotAOneToBeFound, MSGBOX_DEFAULT
+	special HealPlayerParty
+	setflag FLAG_ITEM_ROUTE_104_POKE_BALL
+	setflag FLAG_ITEM_ROUTE_104_PP_UP
+	setflag FLAG_CHALLENGED_GRUNT
+	setflag FLAG_HIDDEN_ITEM_ROUTE_104_HEART_SCALE
+	setflag FLAG_HIDDEN_ITEM_ROUTE_104_SUPER_POTION
 	closemessage
 	return
 
@@ -91,7 +97,7 @@ PetalburgWoods_EventScript_DevonResearcherPostBattle::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	msgbox PetalburgWoods_Text_ThatWasAwfullyClose, MSGBOX_DEFAULT
-	giveitem ITEM_GREAT_BALL
+	giveitem ITEM_GREAT_BALL, 50
 	goto_if_eq VAR_RESULT, FALSE, PetalburgWoods_EventScript_BagFull
 	goto PetalburgWoods_EventScript_DevonResearcherFinish
 	end
@@ -253,7 +259,7 @@ PetalburgWoods_EventScript_Girl::
 	faceplayer
 	goto_if_set FLAG_RECEIVED_MIRACLE_SEED, PetalburgWoods_EventScript_ExplainMiracleSeed
 	msgbox PetalburgWoods_Text_TryUsingThisItem, MSGBOX_DEFAULT
-	giveitem ITEM_MIRACLE_SEED
+	giveitem ITEM_TM_TRAILBLAZE
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	setflag FLAG_RECEIVED_MIRACLE_SEED
 	release

@@ -1060,7 +1060,7 @@ static bool32 CheckMatchCallChance(void)
         callChance = 2;
 
     if (Random() % 10 < callChance * 3)
-        return TRUE;
+        return FALSE;
     else
         return FALSE;
 }
@@ -1164,7 +1164,7 @@ bool32 TryStartMatchCall(void)
         && SelectMatchCallTrainer())
     {
         StartMatchCall();
-        return TRUE;
+        return FALSE;
     }
 
     return FALSE;

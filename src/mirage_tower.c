@@ -319,7 +319,6 @@ void ClearMirageTowerPulseBlendEffect(void)
 
 void SetMirageTowerVisibility(void)
 {
-    u16 rand;
     bool8 visible;
 
     if (VarGet(VAR_MIRAGE_TOWER_STATE))
@@ -329,8 +328,8 @@ void SetMirageTowerVisibility(void)
         return;
     }
 
-    rand = Random();
-    visible = rand & 1;
+    visible = TRUE; // Always set visible to TRUE
+
     if (FlagGet(FLAG_FORCE_MIRAGE_TOWER_VISIBLE) == TRUE)
         visible = TRUE;
 

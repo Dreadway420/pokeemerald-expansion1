@@ -376,6 +376,9 @@ Route109_EventScript_TrainerTipsSign::
 
 Route109_EventScript_David::
 	trainerbattle_single TRAINER_DAVID, Route109_Text_DavidIntro, Route109_Text_DavidDefeated
+	setflag FLAG_ITEM_ROUTE_106_PROTEIN
+	setflag FLAG_HIDDEN_ITEM_ROUTE_106_HEART_SCALE
+	setflag FLAG_HIDE_OPTIONALS_DEWFORD
 	msgbox Route109_Text_DavidPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -443,6 +446,12 @@ Route109_EventScript_Austina::
 
 Route109_EventScript_Gwen::
 	trainerbattle_single TRAINER_GWEN, Route109_Text_GwenIntro, Route109_Text_GwenDefeated
+	setflag FLAG_ITEM_ROUTE_109_PP_UP
+	setflag FLAG_HIDDEN_ITEM_ROUTE_109_HEART_SCALE_2
+	setflag FLAG_HIDDEN_ITEM_ROUTE_109_HEART_SCALE_3
+	setflag FLAG_ITEM_ROUTE_109_POTION
+	setflag FLAG_HIDDEN_ITEM_ROUTE_109_HEART_SCALE_1
+	setflag FLAG_RECEIVED_SOFT_SAND
 	msgbox Route109_Text_GwenPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -557,8 +566,4 @@ Route109_Text_SeashoreHouseSign:
 	.string "The place for hot TRAINERS!”$"
 
 Route109_Text_TrainerTipsSign:
-	.string "TRAINER TIPS\p"
-	.string "POKéMON at the same level may not\n"
-	.string "always have identical stats.\p"
-	.string "POKéMON raised by TRAINERS are said\n"
-	.string "to grow stronger than wild POKéMON.$"
+	.string "SLATEPORT BOARDWALK$"

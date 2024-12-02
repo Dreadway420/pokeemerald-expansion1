@@ -342,6 +342,21 @@ Route104_EventScript_ReceivedBulletSeed::
 	release
 	end
 
+Route104_EventScript_WALLYDAD::
+	lock
+	goto_if_set FLAG_RECEIVED_HM_REALSURF, Route104_EventScript_GoToShip
+	msgbox Route104_Text_GiveSurf, MSGBOX_NPC
+	giveitem ITEM_HM_SURF
+	setflag FLAG_RECEIVED_HM_REALSURF
+	goto_if_set FLAG_BADGE03_GET, Route104_EventScript_GoToShip
+	release
+	end
+
+Route104_EventScript_GoToShip::
+	msgbox Route104_Text_GoToShip, MSGBOX_NPC
+	release
+	end
+
 Route104_EventScript_Girl2::
 	msgbox Route104_Text_ImNotATrainer, MSGBOX_NPC
 	end
@@ -1037,10 +1052,9 @@ Route104_Text_LikeFillingMouthWithSeedsTakeThis:
 
 Route104_Text_TMsAreOneTimeUse:
 	.string "A word of advice!\p"
-	.string "A TM, TECHNICAL MACHINE, is good only\n"
-	.string "for one-time use.\p"
-	.string "Once you use it, it's gone.\n"
-	.string "Think twice before using it!$"
+	.string "TECHNICAL MACHINEs are not\n"
+	.string "one-time use.\p"
+	.string "You can use them as much as you want!$"
 
 Route104_Text_DontNeedThisTakeIt:
 	.string "This FLOWER SHOP started selling\n"
@@ -1170,3 +1184,12 @@ Route104_Text_BrendanPostBattle:
 	.string "making POKéMON battle.\p"
 	.string "Like MR. BRINEY, it's important to\n"
 	.string "become friends with your POKéMON.$"
+
+Route104_Text_GiveSurf:
+	.string "Good job! You are almost ready to\n"
+	.string "challenge NORMAN. Here, take this.$"
+
+Route104_Text_GoToShip:
+	.string "Before challenging NORMAN, you should\n"
+	.string "travel to ROUTE105, ROUTE108, and\p"
+	.string "explore the ABANDONED SHIP.$"

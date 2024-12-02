@@ -600,7 +600,7 @@ RustboroCity_EventScript_ReturnGoods::
 	call_if_eq VAR_TEMP_1, 3, RustboroCity_EventScript_EmployeeApproachPlayerDown2
 	call_if_eq VAR_TEMP_1, 4, RustboroCity_EventScript_EmployeeFacePlayerRight
 	msgbox RustboroCity_Text_YouGotItThankYou, MSGBOX_DEFAULT
-	giveitem ITEM_GREAT_BALL
+	giveitem ITEM_GREAT_BALL, 50
 	call_if_eq VAR_RESULT, FALSE, RustboroCity_EventScript_BagFull
 	msgbox RustboroCity_Text_PleaseComeWithMe, MSGBOX_DEFAULT
 	closemessage
@@ -680,6 +680,10 @@ RustboroCity_EventScript_EmployeeFacePlayerRight::
 RustboroCity_EventScript_Rival::
 	lockall
 	call_if_unset FLAG_MET_RIVAL_RUSTBORO, RustboroCity_EventScript_PlayRivalMusic
+	special HealPlayerParty
+	setflag FLAG_ITEM_ROUTE_116_ETHER
+	setflag FLAG_ITEM_ROUTE_116_POTION
+	setflag FLAG_ITEM_ROUTE_116_X_SPECIAL
 	applymovement LOCALID_RIVAL, Common_Movement_FacePlayer
 	waitmovement 0
 	goto RustboroCity_EventScript_RivalEncounter
@@ -851,6 +855,7 @@ RustboroCity_EventScript_MayEncounter::
 	msgbox RustboroCity_Text_MayPassedBrineyWantToBattle, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, RustboroCity_EventScript_BattleMay
 	msgbox RustboroCity_Text_MayOhHaventRaisedPokemonEnough, MSGBOX_DEFAULT
+	goto RustboroCity_EventScript_BattleMay
 	call RustboroCity_EventScript_RestoreBgm
 	releaseall
 	end
@@ -860,6 +865,7 @@ RustboroCity_EventScript_MayAskToBattle::
 	msgbox RustboroCity_Text_MayWantToBattle, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, RustboroCity_EventScript_BattleMay
 	msgbox RustboroCity_Text_MayOhHaventRaisedPokemonEnough, MSGBOX_DEFAULT
+	goto RustboroCity_EventScript_BattleMay
 	releaseall
 	end
 
@@ -918,6 +924,7 @@ RustboroCity_EventScript_BrendanEncounter::
 	msgbox RustboroCity_Text_BrendanPassedBrineyWantToBattle, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, RustboroCity_EventScript_BattleBrendan
 	msgbox RustboroCity_Text_BrendanNoConfidenceInPokemon, MSGBOX_DEFAULT
+	goto RustboroCity_EventScript_BattleBrendan
 	call RustboroCity_EventScript_RestoreBgm
 	releaseall
 	end
@@ -926,6 +933,7 @@ RustboroCity_EventScript_BrendanAskToBattle::
 	msgbox RustboroCity_Text_BrendanWantToBattle, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, RustboroCity_EventScript_BattleBrendan
 	msgbox RustboroCity_Text_BrendanNoConfidenceInPokemon, MSGBOX_DEFAULT
+	goto RustboroCity_EventScript_BattleBrendan
 	releaseall
 	end
 

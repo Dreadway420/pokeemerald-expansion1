@@ -96,6 +96,10 @@ PetalburgCity_EventScript_Boy::
 	release
 	end
 
+PetalburgCity_EventScript_GymClosed::
+	msgbox PetalburgCity_Text_GymClosed, MSGBOX_NPC
+	end
+
 PetalburgCity_EventScript_WallysMom::
 	msgbox PetalburgCity_Text_WhereIsWally, MSGBOX_NPC
 	end
@@ -765,3 +769,7 @@ PetalburgCity_Text_ImLookingForTalentedTrainers:
 	.string "I'm roaming the land in search of\n"
 	.string "talented TRAINERS.\p"
 	.string "I'm sorry to have taken your time.$"
+
+PetalburgCity_Text_GymClosed:
+	.string "The gym is closed right now.\n"
+	.string "Check back later.$"

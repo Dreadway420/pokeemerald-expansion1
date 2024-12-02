@@ -88,6 +88,14 @@ Route110_EventScript_OldWoman::
 	msgbox Route110_Text_WalkOnTheLowRoad, MSGBOX_NPC
 	end
 
+Route110_EventScript_Construction::
+	msgbox Route110_Text_CONSTRUCTION, MSGBOX_NPC
+	end
+
+Route110_EventScript_Lowroad_Construction::
+	msgbox Route110_Text_No_Low_Road, MSGBOX_NPC
+	end
+
 Route110_EventScript_CyclingGuy2::
 	msgbox Route110_Text_BikeTechniques, MSGBOX_NPC
 	end
@@ -203,6 +211,7 @@ Route110_EventScript_Dale::
 
 Route110_EventScript_Jacob::
 	trainerbattle_single TRAINER_JACOB, Route110_Text_JacobIntro, Route110_Text_JacobDefeated
+	setflag FLAG_HIDE_LOWROAD_CON
 	msgbox Route110_Text_JacobPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -375,6 +384,9 @@ Route110_EventScript_RivalTrigger3::
 
 Route110_EventScript_RivalScene::
 	lockall
+	special HealPlayerParty
+	setflag FLAG_ITEM_ROUTE_103_PP_UP
+	setflag FLAG_ITEM_ROUTE_103_GUARD_SPEC
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, Route110_EventScript_PlayMayMusic
 	call_if_eq VAR_RESULT, FEMALE, Route110_EventScript_PlayBrendanMusic
@@ -463,7 +475,13 @@ Route110_EventScript_BrendanDefeated::
 	end
 
 Route110_EventScript_GiveItemfinder::
-	giveitem ITEM_DOWSING_MACHINE
+	giveitem ITEM_PINSIRITE, 1
+	giveitem ITEM_MEDICHAMITE, 1
+	giveitem ITEM_HERACRONITE, 1
+	giveitem ITEM_SCIZORITE, 1
+	giveitem ITEM_HOUNDOOMINITE, 1
+	giveitem ITEM_ALTARIANITE, 1
+	giveitem ITEM_LOPUNNITE, 1
 	return
 
 Route110_EventScript_RivalExit::
@@ -777,9 +795,13 @@ Route110_Text_MayTakeThis:
 	.string "This is from me!$"
 
 Route110_Text_MayExplainItemfinder:
-	.string "MAY: That's an ITEMFINDER.\p"
-	.string "Try it out. If there is an item that's\n"
-	.string "not visible, it emits a sound.\p"
+	.string "MAY: Those are MEGA STONES.\p"
+	.string "To use them, you will need a \n"
+	.string "MEGA BRACELET.\p"
+	.string "I heard that the WINSTRATES\n"
+	.string "north of MAUVILLE have one.\p"
+	.string "You may need to beat them in a\n"
+	.string "battle. Be careful, they are strong!\p"
 	.string "Okay, {PLAYER}{KUN}, let's meet again!\p"
 	.string "I know it's a little silly coming from\n"
 	.string "me, but I think you should train a lot\l"
@@ -800,14 +822,16 @@ Route110_Text_BrendanTakeThis:
 	.string "BRENDAN: {PLAYER}, you've trained\n"
 	.string "without me noticing…\p"
 	.string "Good enough!\n"
-	.string "Here, take this.$"
+	.string "Here, take these.$"
 
 Route110_Text_BrendanExplainItemfinder:
-	.string "BRENDAN: That's an ITEMFINDER.\p"
-	.string "Use it to root around for items that\n"
-	.string "aren't visible.\p"
-	.string "If it senses something, it emits\n"
-	.string "a sound.\p"
+	.string "BRENDAN: Those are MEGA STONES.\p"
+	.string "To use them, you will need a \n"
+	.string "MEGA BRACELET.\p"
+	.string "I heard that the WINSTRATES\n"
+	.string "north of MAUVILLE have one.\p"
+	.string "You may need to beat them in a\n"
+	.string "battle. Be careful, they are strong!\p"
 	.string "Anyway, I'm off to look for new\n"
 	.string "POKéMON.$"
 
@@ -842,9 +866,18 @@ Route110_Text_TwoRoads:
 	.string "A road each for people and POKéMON.\n"
 	.string "Perhaps that is right and fair.$"
 
-Route110_Text_WalkOnTheLowRoad:
-	.string "I don't have a BIKE, so I'll take\n"
-	.string "a leisurely walk on the low road.$"
+Route110_Text_WalkOnTheLowRoad: 
+	.string "The CYCLING ROAD is under repair.\n"
+	.string "Come back later.$"
+
+Route110_Text_CONSTRUCTION:
+	.string "The CYCLING ROAD is under repair.\n"
+	.string "Come back later.\p"
+	.string "If you want to help, talk to WATTSON.$"
+
+Route110_Text_No_Low_Road::
+	.string "The path is under repair.\n"
+	.string "Try the CYCLING ROAD.$"
 
 Route110_Text_BikeTechniques:
 	.string "Learning techniques will make BIKE\n"

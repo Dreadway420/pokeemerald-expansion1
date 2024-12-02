@@ -49,6 +49,7 @@ VerdanturfTown_FriendshipRatersHouse_EventScript_VeryHappy::
 
 VerdanturfTown_FriendshipRatersHouse_EventScript_AdoresYou::
 	msgbox VerdanturfTown_FriendshipRatersHouse_Text_AdoresYou, MSGBOX_DEFAULT
+	giveitem ITEM_TM_RETURN
 	release
 	end
 

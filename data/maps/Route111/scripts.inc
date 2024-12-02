@@ -130,6 +130,7 @@ Route111_EventScript_MirageTowerDisappear::
 	waitstate
 	special StartMirageTowerFossilFallAndSink
 	waitstate
+	clearflag FLAG_FORCE_MIRAGE_TOWER_VISIBLE
 	setvar VAR_MIRAGE_TOWER_STATE, 2
 	clearflag FLAG_HIDE_DESERT_UNDERPASS_FOSSIL
 	goto_if_set FLAG_CHOSE_CLAW_FOSSIL, Route111_EventScript_RootFossilDisappeared
@@ -267,6 +268,7 @@ Route111_EventScript_SandstormTrigger::
 Route111_EventScript_Victor::
 	lock
 	faceplayer
+	special HealPlayerParty
 	setflag FLAG_LANDMARK_WINSTRATE_FAMILY
 	msgbox Route111_Text_BattleOurFamily, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, Route111_EventScript_BattleWinstrates

@@ -9,16 +9,18 @@ u32 GetCurrentLevelCap(void)
 {
     static const u32 sLevelCapFlagMap[][2] =
     {
-        {FLAG_LEVELCAP1, 8},
-        {FLAG_BADGE01_GET, 15},
-        {FLAG_BADGE02_GET, 19},
-        {FLAG_BADGE03_GET, 24},
-        {FLAG_BADGE04_GET, 29},
-        {FLAG_BADGE05_GET, 31},
-        {FLAG_BADGE06_GET, 33},
-        {FLAG_BADGE07_GET, 42},
-        {FLAG_BADGE08_GET, 46},
-        {FLAG_IS_CHAMPION, 58},
+        {FLAG_DEFEATED_RIVAL_ROUTE103, 8},
+        {FLAG_BADGE01_GET, 16},
+        {FLAG_DEFEATED_RIVAL_RUSTBORO, 20},
+        {FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_AQUA_GRUNTS, 27},
+        {FLAG_BADGE02_GET, 30},
+        {FLAG_BADGE03_GET, 35},
+        {FLAG_BADGE04_GET, 43},
+        {FLAG_BADGE05_GET, 53},
+        {FLAG_BADGE06_GET, 65},
+        {FLAG_BADGE07_GET, 80},
+        {FLAG_BADGE08_GET, 95},
+        {FLAG_IS_CHAMPION, 100},
     };
 
     u32 i;

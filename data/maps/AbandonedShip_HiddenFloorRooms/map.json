@@ -12,7 +12,7 @@
   "allow_running": true,
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
+  "connections": 0,
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -23,7 +23,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "ITEM_LUXURY_BALL",
+      "trainer_sight_or_berry_tree_id": "ITEM_ICY_ROCK",
       "script": "Common_EventScript_FindItem",
       "flag": "FLAG_ITEM_ABANDONED_SHIP_HIDDEN_FLOOR_ROOM_6_LUXURY_BALL"
     },
@@ -49,7 +49,7 @@
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "ITEM_TM_RAIN_DANCE",
+      "trainer_sight_or_berry_tree_id": "ITEM_TM_SANDSTORM",
       "script": "Common_EventScript_FindItem",
       "flag": "FLAG_ITEM_ABANDONED_SHIP_HIDDEN_FLOOR_ROOM_1_TM_RAIN_DANCE"
     },
@@ -62,7 +62,7 @@
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "ITEM_WATER_STONE",
+      "trainer_sight_or_berry_tree_id": "ITEM_DAMP_ROCK",
       "script": "Common_EventScript_FindItem",
       "flag": "FLAG_ITEM_ABANDONED_SHIP_HIDDEN_FLOOR_ROOM_3_WATER_STONE"
     }
@@ -132,28 +132,30 @@
       "dest_warp_id": "5"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "hidden_item",
-      "x": 42,
-      "y": 10,
+      "x": 33,
+      "y": 14,
       "elevation": 3,
       "item": "ITEM_KEY_TO_ROOM_1",
       "flag": "FLAG_HIDDEN_ITEM_ABANDONED_SHIP_RM_1_KEY"
     },
     {
       "type": "hidden_item",
-      "x": 20,
-      "y": 5,
+      "x": 33,
+      "y": 3,
       "elevation": 3,
       "item": "ITEM_KEY_TO_ROOM_2",
       "flag": "FLAG_HIDDEN_ITEM_ABANDONED_SHIP_RM_2_KEY"
     },
     {
       "type": "hidden_item",
-      "x": 1,
-      "y": 12,
+      "x": 7,
+      "y": 10,
       "elevation": 3,
       "item": "ITEM_KEY_TO_ROOM_4",
       "flag": "FLAG_HIDDEN_ITEM_ABANDONED_SHIP_RM_4_KEY"

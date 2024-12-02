@@ -25,6 +25,13 @@ Route109_SeashoreHouse_EventScript_AlreadyGaveIntroduction::
 Route109_SeashoreHouse_EventScript_DefeatedTrainers::
 	msgbox Route109_SeashoreHouse_Text_TakeTheseSodaPopBottles, MSGBOX_DEFAULT
 	giveitem ITEM_SODA_POP, 6
+	giveitem ITEM_LUCARIONITE, 1
+	giveitem ITEM_BLASTOISINITE, 1
+	giveitem ITEM_AMPHAROSITE, 1
+	giveitem ITEM_MANECTITE, 1
+	giveitem ITEM_GARDEVOIRITE, 1
+	giveitem ITEM_GALLADITE, 1
+	giveitem ITEM_CHOICE_SCARF, 1
 	goto_if_eq VAR_RESULT, FALSE, Route109_SeashoreHouse_EventScript_BagFull
 	setflag FLAG_RECEIVED_6_SODA_POP
 	release
@@ -99,11 +106,11 @@ Route109_SeashoreHouse_EventScript_TrainersNotCompleted::
 Route109_SeashoreHouse_Text_SeashoreHouseIntro:
 	.string "I'm the owner of the SEASHORE HOUSE.\n"
 	.string "But you can call me MR. SEA!\p"
-	.string "What I love above all is to see hot\n"
-	.string "POKéMON battles.\p"
 	.string "Let me see that your heart burns hot!\p"
 	.string "If you can defeat all the TRAINERS\n"
-	.string "here, I'll reward your efforts.$"
+	.string "here, I'll reward your efforts.\p"
+	.string "Be careful! There are strong\n"
+	.string "TRAINERS here right now.$"
 
 Route109_SeashoreHouse_Text_ShowMeSomeHotMatches:
 	.string "Show me some hot matches!\p"
@@ -164,14 +171,18 @@ Route109_SeashoreHouse_Text_JohannaPostBattle:
 	.string "Maybe I'll have a SODA POP.$"
 
 Route109_SeashoreHouse_Text_SimonIntro:
-	.string "I'm going to show you how great\n"
-	.string "my POKéMON are, but don't cry!$"
+	.string "I don't know how to say it, but…\n"
+	.string "To put it bluntly, you look pretty weak.\l"
+	.string "Are you sure you're up for me?\p"
+	.string "Hmm…\n"
+	.string "Well, all right!$"
 
 Route109_SeashoreHouse_Text_SimonDefeated:
-	.string "…I lost, but I won't cry…$"
+	.string "Wait a second!\n"
+	.string "You are tough after all!$"
 
 Route109_SeashoreHouse_Text_SimonPostBattle:
-	.string "If one of my POKéMON knew the move\n"
-	.string "for carrying me across water on its\l"
-	.string "back, I could get rid of this inner tube.$"
+	.string " Watch out! The FRONTIER BRAINS\n"
+	.string "are on vacation right now.\p"
+	.string "They are all as strong as me.$"
 

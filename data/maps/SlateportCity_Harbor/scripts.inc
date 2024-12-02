@@ -511,7 +511,7 @@ SlateportCity_Harbor_Text_FinishedMakingFerry:
 	.string "Please go for a short cruise on it!$"
 
 SlateportCity_Harbor_Text_WouldYouTradeScanner:
-	.string "CAPT. STERN: Oh?\n"
+	.string "Oh?\n"
 	.string "{PLAYER}{KUN}, that item you have…\p"
 	.string "That's a SCANNER! That would sure\n"
 	.string "help us on our explorations.\p"
@@ -521,26 +521,25 @@ SlateportCity_Harbor_Text_WouldYouTradeScanner:
 	.string "a DEEPSEASCALE that I have?$"
 
 SlateportCity_Harbor_Text_IfYouWantToTradeLetMeKnow:
-	.string "CAPT. STERN: Are you certain?\n"
+	.string "Are you certain?\n"
 	.string "It's useless to you, {PLAYER}{KUN}…\p"
 	.string "Well, okay, then. If you want to trade\n"
 	.string "your SCANNER, let me know.$"
 
 SlateportCity_Harbor_Text_TradeForDeepSeaTooth:
-	.string "CAPT. STERN: So you'll trade it for\n"
+	.string "So you'll trade it for\n"
 	.string "my DEEPSEATOOTH?$"
 
 SlateportCity_Harbor_Text_TradeForDeepSeaScale:
-	.string "CAPT. STERN: So you'll trade it for\n"
+	.string "So you'll trade it for\n"
 	.string "my DEEPSEASCALE?$"
 
 SlateportCity_Harbor_Text_WhichOneDoYouWant:
-	.string "CAPT. STERN: Which one do you want?$"
+	.string "Which one do you want?$"
 
 SlateportCity_Harbor_Text_HandedScannerToStern:
-	.string "{PLAYER} handed the SCANNER to\n"
-	.string "CAPT. STERN.$"
+	.string "{PLAYER} handed over the SCANNER.$\n"
 
 SlateportCity_Harbor_Text_ThisWillHelpResearch:
-	.string "CAPT. STERN: Thanks, {PLAYER}{KUN}!\n"
+	.string "Thanks, {PLAYER}{KUN}!\n"
 	.string "This will help our research a lot!$"

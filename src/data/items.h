@@ -14118,7 +14118,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_MEGA_RING] =
     {
-        .name = _("Mega Ring"),
+        .name = _("Mega Bracelet"),
         .price = 0,
         .importance = 1,
         .description = COMPOUND_STRING(

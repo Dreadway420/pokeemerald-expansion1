@@ -157,8 +157,8 @@ Route103_Text_LivRematchNotEnoughPokemon:
 	.string "It's not fair if you don't!$"
 
 Route103_Text_AndrewIntro:
-	.string "Gah! My fishing line's all snarled up!\n"
-	.string "I'm getting frustrated and mean!\l"
+	.string "I came here to look for cool POKEMON,\n"
+	.string "but all I can find are ROTOM!\l"
 	.string "That's it! Battle me!$"
 
 Route103_Text_AndrewDefeated:
@@ -198,28 +198,34 @@ Route103_Text_MiguelRematchPostBattle:
 	.string "the more adorable my POKéMON becomes.$"
 
 Route103_Text_PeteIntro:
-	.string "This sort of distance…\n"
-	.string "You should just swim it!$"
+	.string "Hey, my name's NOLAND!\n"
+	.string "Us FRONTIER BRAINS are on vacation,\l"
+	.string "so I came to study the GENERATOR.\p"
+	.string "Listen up, okay? Knowledge isn't only\n"
+	.string "about reading books or doing desk work.\p"
+	.string "Just doing that sort of thing…\n"
+	.string "It may as well be useless!$"
 
 Route103_Text_PeteDefeated:
-	.string "Oh, that's good going!$"
+	.string "NOLAND: What the…\p"
+	.string "You're out of my league!\n"
+	.string "Sheesh!$"
 
 Route103_Text_PetePostBattle:
-	.string "Oh, I understand where you're coming\n"
-	.string "from now.\p"
-	.string "If I had a POKéMON that trusty,\n"
-	.string "I'd want to SURF on it, too!$"
+	.string "Pfft, man!\p"
+	.string "That's absolutely the last time\n"
+	.string "I lose to you!\p"
+	.string "We have to do this again, hey?$"
 
 Route103_Text_IsabelleIntro:
-	.string "Watch where you're going!\n"
-	.string "We're going to crash!$"
+	.string "This place has great acoustics!$"
 
 Route103_Text_IsabelleDefeated:
 	.string "Groan…$"
 
 Route103_Text_IsabellePostBattle:
-	.string "I'm a poor swimmer so I was practicing…\n"
-	.string "Sorry for almost crashing into you.$"
+	.string "Thanks for killing the vibe.\n"
+	.string "What are you doing here anyway?$"
 
 Route103_Text_RhettIntro:
 	.string "Whoa!\n"

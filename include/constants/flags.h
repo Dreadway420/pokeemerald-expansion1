@@ -743,7 +743,7 @@
 #define FLAG_UNUSED_0x2B8  0x2B8 // Unused Flag
 #define FLAG_UNUSED_0x2B9  0x2B9 // Unused Flag
 #define FLAG_UNUSED_0x2BA  0x2BA // Unused Flag
-#define FLAG_UNUSED_0x2BB  0x2BB // Unused Flag
+#define FLAG_RECEIVED_HM_REALSURF  0x2BB // Unused Flag
 
 // Event Flags
 #define FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG                      0x2BC
@@ -1222,15 +1222,15 @@
 #define FLAG_ITEM_SAFARI_ZONE_NORTH_EAST_NUGGET                     0x491
 #define FLAG_ITEM_SAFARI_ZONE_SOUTH_EAST_BIG_PEARL                  0x492
 
-#define FLAG_RARECANDY_1                                           0x493 // Unused Flag
-#define FLAG_RARECANDY_2                                           0x494 // Unused Flag
+#define FLAG_CHALLENGED_GRUNT                                          0x493 // Unused Flag
+#define FLAG_HIDE_OPTIONALS_DEWFORD                                          0x494 // Unused Flag
 #define FLAG_RARECANDY_3                                           0x495 // Unused Flag
 #define RARE_RARECANDY_4                                           0x496 // Unused Flag
-#define FLAG_LEFTOVERS                                           0x497 // Unused Flag
+#define FLAG_LEFTOVERS                                           0x497 
 #define FLAG_UNUSED_0x498                                           0x498 // Unused Flag
 #define FLAG_UNUSED_0x499                                           0x499 // Unused Flag
 #define FLAG_RAREST_CANDY                                           0x49A // Unused Flag
-#define FLAG_LEVELCAP1                                           0x49B // Unused Flag
+#define FLAG_LEVELCAP1        //unused                                   0x49B // Unused Flag
 #define FLAG_LEVELCAP2                                           0x49C // Unused Flag
 #define FLAG_LEVELCAP3                                           0x49D // Unused Flag
 #define FLAG_LEVELCAP4                                           0x49E // Unused Flag
@@ -1240,11 +1240,11 @@
 #define FLAG_LEVELCAP8                                           0x4A2 // Unused Flag
 #define FLAG_LEVELCAP9                                           0x4A3 // Unused Flag
 #define FLAG_LEVELCAP10                                           0x4A4 // Unused Flag
-#define FLAG_LEVELCAP11                                           0x4A5 // Unused Flag
-#define FLAG_UNUSED_0x4A6                                           0x4A6 // Unused Flag
-#define FLAG_UNUSED_0x4A7                                           0x4A7 // Unused Flag
-#define FLAG_UNUSED_0x4A8                                           0x4A8 // Unused Flag
-#define FLAG_UNUSED_0x4A9                                           0x4A9 // Unused Flag
+#define FLAG_LEVELCAP11        //unused                                    0x4A5 // Unused Flag
+#define FLAG_HIDE_LOWROAD_CON                                           0x4A6 // Unused Flag
+#define FLAG_RECEIVED_CLAMPERL                                           0x4A7 // Unused Flag
+#define FLAG_SURF_AND_SHIP                                           0x4A8 // Unused Flag
+#define FLAG_FORCE_RUSTURF_TUNNEL                                           0x4A9 // Unused Flag
 #define FLAG_UNUSED_0x4AA                                           0x4AA // Unused Flag
 #define FLAG_UNUSED_0x4AB                                           0x4AB // Unused Flag
 #define FLAG_UNUSED_0x4AC                                           0x4AC // Unused Flag

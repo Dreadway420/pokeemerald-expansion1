@@ -5,6 +5,11 @@ Route106_EventScript_TrainerTipsSign::
 	msgbox Route106_Text_TrainerTips, MSGBOX_SIGN
 	end
 
+Route106_EventScript_Hiker::
+	setflag FLAG_RECEIVED_OLD_ROD
+	msgbox Route106_Text_NeedBadge02, MSGBOX_NPC
+	end
+
 Route106_EventScript_Douglas::
 	trainerbattle_single TRAINER_DOUGLAS, Route106_Text_DouglasIntro, Route106_Text_DouglasDefeated
 	msgbox Route106_Text_DouglasPostBattle, MSGBOX_AUTOCLOSE
@@ -45,4 +50,9 @@ Route106_Text_TrainerTips:
 	.string "TRAINER TIPS\p"
 	.string "Advice on catching POKéMON with a ROD:\n"
 	.string "Press the A Button if you get a bite.$"
+
+Route106_Text_NeedBadge02:
+	.string "It's too dark in Granite Cave.\p"
+	.string "You will need to challenge WATTSON\n"
+	.string "before you can enter.$"
 

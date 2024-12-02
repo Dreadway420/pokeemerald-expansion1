@@ -6,7 +6,7 @@ DewfordTown_House2_EventScript_Man::
 	faceplayer
 	goto_if_set FLAG_RECEIVED_SILK_SCARF, DewfordTown_House2_EventScript_ExplainSilkScarf
 	msgbox DewfordTown_House2_Text_WantYouToHaveSilkScarf, MSGBOX_DEFAULT
-	giveitem ITEM_SILK_SCARF
+	giveitem ITEM_EXPERT_BELT
 	goto_if_eq VAR_RESULT, FALSE, DewfordTown_House2_EventScript_NoRoomForScarf
 	setflag FLAG_RECEIVED_SILK_SCARF
 	release
@@ -28,8 +28,8 @@ DewfordTown_House2_EventScript_Boy::
 
 DewfordTown_House2_Text_WantYouToHaveSilkScarf:
 	.string "Gorge your eyes on this!\p"
-	.string "It's a SILK SCARF. It's right at the\n"
-	.string "cutting edge of fashion, yeah!\p"
+	.string "It's an EXPERT BELT. It's right at\n"
+	.string "the cutting edge of fashion, yeah!\p"
 	.string "Oh, I can see your eyes twinkling!\n"
 	.string "You appreciate my dazzling style!\p"
 	.string "Oh, you're a delight!\n"
@@ -42,9 +42,9 @@ DewfordTown_House2_Text_NoRoom:
 	.string "in order to get it!$"
 
 DewfordTown_House2_Text_ExplainSilkScarf:
-	.string "The SILK SCARF raises the power of\n"
-	.string "NORMAL-type moves.\p"
-	.string "It's a marvelous SCARF that will go\n"
+	.string "The EXPERT BELT raises the power of\n"
+	.string "Super Effective moves.\p"
+	.string "It's a marvelous BELT that will go\n"
 	.string "with almost all POKéMON!$"
 
 DewfordTown_House2_Text_BrawlySoCool:

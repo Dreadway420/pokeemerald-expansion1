@@ -300,6 +300,8 @@ SlateportCity_OceanicMuseum_1F_Text_RememberMeTakeThis:
 SlateportCity_OceanicMuseum_1F_Text_HopeINeverSeeYouAgain:
 	.string "That TM, it suits you more than it\n"
 	.string "does me.\p"
+	.string "Besides, you should get out of here.\n"
+	.string "I heard the ADMINS are coming!.\p"
 	.string "Hope I never see you again!\n"
 	.string "Wahahaha!$"
 

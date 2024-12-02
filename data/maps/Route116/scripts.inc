@@ -56,7 +56,10 @@ Route116_EventScript_DevonEmployee::
 
 Route116_EventScript_GiveRepeatBall::
 	setflag FLAG_MET_DEVON_EMPLOYEE
-	giveitem ITEM_REPEAT_BALL
+	giveitem ITEM_QUICK_BALL, 50
+	giveitem ITEM_ULTRA_BALL, 50
+	giveitem ITEM_NET_BALL, 50
+	giveitem ITEM_DUSK_BALL, 50
 	goto_if_eq VAR_RESULT, FALSE, Route116_EventScript_NoRoomForRepeatBall
 	msgbox Route116_Text_NewBallAvailableAtMart, MSGBOX_DEFAULT
 	closemessage
@@ -397,7 +400,7 @@ Route116_Text_ThankYouTokenOfAppreciation:
 	.string "For you, the most wonderful TRAINER,\n"
 	.string "I bear good news!\p"
 	.string "Recently, our company developed\n"
-	.string "a new kind of POKé BALL.\p"
+	.string "a few new kinds of POKé BALL.\p"
 	.string "As a token of our appreciation, this\n"
 	.string "is our gift to our wonderful TRAINER!$"
 

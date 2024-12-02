@@ -256,20 +256,12 @@ BattleFrontier_BattleFactoryBattleRoom_Text_GetAMoveOn:
 
 BattleFrontier_BattleFactoryBattleRoom_Text_NolandImFactoryHead:
 	.string "Hey, my name's NOLAND!\n"
-	.string "I'm basically in charge of this place,\l"
-	.string "which is why I'm the FACTORY HEAD!\p"
-	.string "I had a look at your Battle Swap data.\p"
-	.string "You seem to have the right idea,\n"
-	.string "but you're still square in your head!\p"
+	.string "Us FRONTIER BRAINS are on vacation,\l"
+	.string "so I came to study the GENERATOR.\p"
 	.string "Listen up, okay? Knowledge isn't only\n"
 	.string "about reading books or doing desk work.\p"
 	.string "Just doing that sort of thing…\n"
-	.string "It may as well be useless!\p"
-	.string "You have to experience things with\n"
-	.string "your heart and your body, understand?\p"
-	.string "I'll take you on under the same\n"
-	.string "conditions as you.\p"
-	.string "I'll be using rental POKéMON, too!$"
+	.string "It may as well be useless!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_ShakeOutKnowledgeBringItOn:
 	.string "Shake out every last bit of your\n"

@@ -21,7 +21,8 @@ DewfordTown_OnTransition:
 DewfordTown_EventScript_Briney::
 	lock
 	faceplayer
-	goto_if_unset FLAG_DELIVERED_STEVEN_LETTER, DewfordTown_EventScript_ReturnToPetalburgPrompt
+	goto_if_unset FLAG_RECEIVED_OLD_ROD, DewfordTown_EventScript_ReturnToPetalburgPrompt
+	goto_if_set FLAG_BADGE03_GET, DewfordTown_EventScript_ReturnToPetalburgPrompt
 	message DewfordTown_Text_WhereAreWeBound
 	waitmessage
 	multichoicedefault 21, 6, MULTI_BRINEY_ON_DEWFORD, 2, FALSE
@@ -67,6 +68,11 @@ DewfordTown_EventScript_SailBackToPetalburg::
 
 DewfordTown_EventScript_Woman::
 	msgbox DewfordTown_Text_TinyIslandCommunity, MSGBOX_NPC
+	end
+
+DewfordTown_EventScript_Brawly::
+	setflag FLAG_RECEIVED_OLD_ROD
+	msgbox DewfordTown_Text_DeliverLetter, MSGBOX_NPC
 	end
 
 DewfordTown_EventScript_TownSign::
@@ -643,6 +649,13 @@ DewfordTown_Text_TinyIslandCommunity:
 	.string "DEWFORD is a tiny island community.\n"
 	.string "If something gets trendy here,\l"
 	.string "everyone picks up on it right away.$"
+
+DewfordTown_Text_DeliverLetter:
+	.string "A challenger? If you want a chance\n"
+	.string "at beating me, then you should\l"
+	.string "challenge WATTSON first.\p"
+	.string "You also need to deliver\n"
+	.string "STEVEN'S LETTER.$"
 
 DewfordTown_Text_TownSign:
 	.string "DEWFORD TOWN\n"

@@ -1889,7 +1889,7 @@ static void Cmd_ppreduce(void)
 
 // The chance is 1/N for each stage.
 #if B_CRIT_CHANCE >= GEN_7
-    static const u8 sCriticalHitOdds[] = {24, 8, 2, 1, 1};
+    static const u8 sCriticalHitOdds[] = {100, 8, 2, 1, 1};
 #elif B_CRIT_CHANCE == GEN_6
     static const u8 sCriticalHitOdds[] = {16, 8, 2, 1, 1};
 #else
@@ -13583,11 +13583,11 @@ static void Cmd_presentdamagecalculation(void)
     {
         if (rand < 102)
         {
-            gBattleStruct->presentBasePower = 40;
+            gBattleStruct->presentBasePower = 80;
         }
         else if (rand < 178)
         {
-            gBattleStruct->presentBasePower = 80;
+            gBattleStruct->presentBasePower = 100;
         }
         else if (rand < 204)
         {
