@@ -233,7 +233,7 @@ AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mo
 
 Totodile  
 Ability: Sheer Force  
-Level: 10  
+Level: 9  
 - Aqua Jet  
 - Bite  
 - Ice Fang  
@@ -241,13 +241,13 @@ Level: 10
 
 Corphish  
 Ability: Adaptability  
-Level: 10  
+Level: 9  
 - Aqua Jet  
 - Thief  
 
 Poochyena @ Covert Cloak  
 Ability: Quick Feet  
-Level: 11  
+Level: 10  
 - Bite  
 - Sucker Punch  
 - Swagger  
@@ -341,7 +341,8 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Croconaw  
 Ability: Sheer Force  
-Level: 19  
+Level: 18  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Aqua Jet  
 - Bite  
 - Ice Fang  
@@ -349,13 +350,15 @@ Level: 19
 
 Corphish  
 Ability: Adaptability  
-Level: 19  
+Level: 18  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Aqua Jet  
 - Knock Off  
 
 Mightyena @ Covert Cloak  
 Ability: Intimidate  
-Level: 20  
+Level: 19  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Modest Nature
 - Crunch  
 - Sucker Punch  
@@ -1158,7 +1161,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Bibarel @ Lum Berry  
 Ability: Moody  
-Level: 26  
+Level: 24  
 IVs: 0 Atk  
 - Water Pulse  
 - Round  
@@ -1166,7 +1169,7 @@ IVs: 0 Atk
 
 Cramorant @ Lum Berry  
 Ability: Gulp Missile  
-Level: 26  
+Level: 24  
 - Dive  
 - Pluck  
 
@@ -1181,13 +1184,13 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Piloswine @ Assault Vest  
 Ability: Thick Fat  
-Level: 26  
+Level: 23  
 - Ice Fang  
 - Bulldoze  
 
 Diggersby @ Silk Scarf  
 Ability: Huge Power  
-Level: 26  
+Level: 23  
 - Quick Attack  
 - Bulldoze  
 
@@ -1270,7 +1273,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Clamperl @ Deep Sea Scale  
 Ability: Shell Armor  
-Level: 25  
+Level: 24  
 - Clamp  
 - Icy Wind
 
@@ -1621,6 +1624,7 @@ Level: 50
 Slurpuff @ Sitrus Berry 
 Ability: Unburden  
 Level: 50  
+IVs: 29 HP  
 - Belly Drum  
 - Play Rough  
 - Drain Punch  
@@ -1912,7 +1916,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Setup First Turn
+AI: Smart Switching / Check Bad Move / Try To Faint / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
 Mawile
 Level: 29
@@ -1946,7 +1950,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Setup First Turn
+AI: Smart Switching / Check Bad Move / Try To Faint / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
 Lairon
 Level: 45
@@ -2741,7 +2745,6 @@ Class: Rich Boy
 Pic: Rich Boy
 Gender: Male
 Music: Rich
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon
 
@@ -2749,28 +2752,15 @@ Zorua
 Ability: Illusion  
 Level: 9  
 IVs: 0 Atk  
-- Snarl  
+- Assurance  
 - Swift  
-
-Toxel  
-Ability: Static  
-Level: 10  
-- Nuzzle  
-- Acid  
-
-Zigzagoon  
-Ability: Pickup  
-Level: 10  
-- Pin Missile  
-- Mud-Slap  
-- Tackle  
 
 Gastly  
 Ability: Levitate  
-Level: 10  
+Level: 9  
 Adamant Nature  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Acid Spray  
+- Acid  
 - Ominous Wind  
 
 
@@ -4954,7 +4944,7 @@ Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Setup First Turn
+AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / AI_FLAG_FORCE_SETUP_FIRST_TURN
 Mugshot: Purple
 
 Mightyena
@@ -5161,7 +5151,7 @@ AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mo
 
 Glimmet @ Focus Sash  
 Ability: Toxic Debris  
-Level: 16  
+Level: 15  
 Bold Nature  
 IVs: 0 Atk  
 - Stealth Rock  
@@ -5171,7 +5161,7 @@ IVs: 0 Atk
 
 Larvitar @ Smooth Rock  
 Ability: Sand Stream  
-Level: 16  
+Level: 15  
 Modest Nature  
 IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sand Tomb  
@@ -5181,7 +5171,7 @@ IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Binacle @ Rindo Berry  
 Ability: Pickpocket  
-Level: 16  
+Level: 15  
 Mild Nature  
 IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Razor Shell  
@@ -5190,23 +5180,23 @@ IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Geodude-Alola @ Shuca Berry
 Ability: Galvanize  
-Level: 16  
+Level: 15  
 Gentle Nature  
 - Tackle  
 - Defense Curl  
 - Charge  
 - Thunder Wave  
 
-Rolycoly @ Berry Juice  
+Rolycoly @ Passho Berry  
 Ability: Steam Engine  
-Level: 16  
+Level: 15  
 Sassy Nature  
 - Heat Crash  
 - Smack Down
 
 Probopass @ Lum Berry  
 Ability: Sturdy  
-Level: 16  
+Level: 15  
 Hasty Nature  
 IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Block  
@@ -5597,7 +5587,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Kadabra  
 Ability: Synchronize  
-Level: 18  
+Level: 17  
 IVs: 0 Atk  
 - Confusion  
 
@@ -5725,14 +5715,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Clefairy @ Eviolite
 Ability: Friend Guard  
-Level: 14  
-IVs: 0 Atk    
-- Life Dew 
-- Follow Me
-
-Clefairy @ Eviolite
-Ability: Friend Guard  
-Level: 14  
+Level: 16  
 IVs: 0 Atk    
 - Life Dew 
 - Follow Me
@@ -6276,7 +6259,7 @@ Pic: Expert M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Smart Switching / AI_FLAG_SETUP_FIRST_TURN / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Smart Switching / AI_FLAG_FORCE_SETUP_FIRST_TURN / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Wattrel  
 Ability: Wind Power  
@@ -6490,6 +6473,7 @@ Poochyena
 Ability: Rattled  
 Level: 7  
 Modest Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Howl  
 - Bite  
 
@@ -6504,22 +6488,22 @@ AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mo
 
 Fletchling @ Choice Band  
 Ability: Big Pecks  
-Level: 9  
+Level: 8  
 - U-turn  
 - Flame Charge  
 
 Rockruff @ Expert Belt  
 Ability: Solid Rock  
-Level: 9  
+Level: 8  
 - Rock Throw  
 - Roar  
 
 Pawniard @ Leftovers  
 Ability: Defiant  
-Level: 9  
+Level: 8  
 Modest Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
-- Swords Dance  
+- Hone Claws  
 - Metal Claw  
 - Payback  
 
@@ -6542,7 +6526,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Growlithe-Hisui  
 Ability: Intimidate  
-Level: 16  
+Level: 15  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Flame Wheel  
 - Rock Tomb
@@ -6550,7 +6534,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Dwebble @ Loaded Dice  
 Ability: Weak Armor  
 Modest Nature
-Level: 16 
+Level: 15 
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe   
 - Rock Blast
 
@@ -6565,9 +6549,9 @@ AI: Double Battle / Check Bad Move / Try To Faint / Check Viability
 
 Stonjourner @ Leftovers  
 Ability: Power Spot  
-Level: 16  
+Level: 15  
 Modest Nature  
-IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+IVs: 0 Atk
 - Rock Throw  
 - Sandstorm
 
@@ -6819,11 +6803,10 @@ Music: Male
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon 
 
-Litleo (M)  
+Litleo 
 Ability: Grim Neigh  
-Level: 6  
+Level: 7  
 IVs: 0 Atk  
-- Echoed Voice  
 - Ember  
 - Yawn  
 
@@ -6972,7 +6955,7 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Smart Switching / Setup First Turn / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon
+AI: Smart Switching / AI_FLAG_FORCE_SETUP_FIRST_TURN / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon
 
 Surskit  
 Ability: Rain Dish  
@@ -6984,7 +6967,7 @@ Level: 11
 
 Wooper  
 Ability: Unaware  
-Level: 12  
+Level: 11  
 EVs: 252 SpA  
 Quiet Nature  
 IVs: 0 Atk  
@@ -6995,8 +6978,8 @@ Clauncher
 Ability: Mega Launcher  
 Level: 12
 Adamant Nature  
-IVs: 0 Atk / 14 SpA
-- Water Pulse  
+IVs: 0 Atk 
+- Water Gun  
 
 === TRAINER_CLAUDE ===
 Name: CLAUDE
@@ -7104,7 +7087,7 @@ IVs: 0 Atk
 - Rain Dance  
 - Memento  
 
-Basculegion-Female @ Shell Bell  
+Basculegion-F @ Shell Bell  
 Ability: Swift Swim  
 Level: 30  
 - Last Respects  
@@ -7176,14 +7159,12 @@ Ability: Bulletproof
 Level: 22    
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe 
 - Roar  
-- Protect  
 
 Lapras @ Sitrus Berry  
 Ability: Water Absorb  
 Level: 22    
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Roar  
-- Protect  
 
 === TRAINER_ELLIOT_2 ===
 Name: ELLIOT
@@ -9707,7 +9688,7 @@ AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mo
 
 Snivy @ Oran Berry  
 Ability: Contrary  
-Level: 15  
+Level: 14  
 - Vine Whip  
 - Tackle  
 
@@ -9718,7 +9699,7 @@ Level: 13
 
 Litten  
 Ability: Intimidate  
-Level: 15  
+Level: 14  
 - Ember  
 - Scratch  
 - Growl  
@@ -9900,14 +9881,12 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices 
 
 Wingull @ Damp Rock  
 Ability: Drizzle  
 Level: 19  
-EVs: 9 Spe  
 Serious Nature  
-IVs: 0 HP / 0 Def / 0 SpD / 0 Spe  
 - U-turn  
 
 Croagunk @ Leftovers  
@@ -10573,7 +10552,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Setup First Turn
+AI: Smart Switching / Check Bad Move / Try To Faint / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
 Tinkatink
 Level: 5
@@ -10837,7 +10816,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Setup First Turn
+AI: Smart Switching / Check Bad Move / Try To Faint / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
 Tinkatink
 Level: 5
@@ -11505,7 +11484,7 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Setup First Turn
+AI: Smart Switching / Check Bad Move / Try To Faint / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
 Breloom
 Level: 31
@@ -11533,7 +11512,7 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Setup First Turn
+AI: Smart Switching / Check Bad Move / Try To Faint / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
 Breloom
 Level: 37
@@ -11565,7 +11544,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Setup First Turn
+AI: Smart Switching / Check Bad Move / Try To Faint / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
 Gloom
 Level: 26
@@ -11583,7 +11562,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Setup First Turn
+AI: Smart Switching / Check Bad Move / Try To Faint / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
 Lotad
 Level: 28
@@ -11623,7 +11602,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Setup First Turn
+AI: Smart Switching / Check Bad Move / Try To Faint / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
 Gloom
 Level: 30
@@ -11659,7 +11638,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Setup First Turn
+AI: Smart Switching / Check Bad Move / Try To Faint / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
 Gloom
 Level: 36
@@ -11775,11 +11754,11 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Smart Switching / AI_FLAG_SETUP_FIRST_TURN / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Smart Switching / AI_FLAG_FORCE_SETUP_FIRST_TURN / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Shieldon @ Eviolite  
 Ability: Sturdy  
-Level: 16  
+Level: 15  
 IVs: 0 HP / 0 Def / 0 SpD  
 - Stealth Rock  
 - Hard Press  
@@ -11787,7 +11766,7 @@ IVs: 0 HP / 0 Def / 0 SpD
 
 Cranidos @ Assault Vest  
 Ability: Mold Breaker  
-Level: 16  
+Level: 15  
 Modest Nature  
 IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Headbutt  
@@ -12316,7 +12295,7 @@ Gender: Male
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Setup First Turn
+AI: Smart Switching / Check Bad Move / Try To Faint / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
 Kecleon
 Level: 33
@@ -12511,7 +12490,7 @@ Pic: Lass
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon / Setup First Turn 
+AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon / AI_FLAG_FORCE_SETUP_FIRST_TURN 
 
 Smoliv @ Big Root  
 Ability: Early Bird  
@@ -12554,7 +12533,7 @@ Level: 18
 
 Azumarill  
 Ability: Huge Power  
-Level: 19  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpD  
 - Aqua Jet  
 - Bounce  
@@ -12720,7 +12699,7 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon / Setup First Turn
+AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
 Dewpider  
 Ability: Water Bubble  
@@ -12732,14 +12711,14 @@ Level: 5
 
 Joltik  
 Ability: Compound Eyes  
-Level: 7  
+Level: 6  
 - Electroweb  
 - Fury Cutter  
 - Absorb  
 
 Tarountula  
 Ability: Stakeout  
-Level: 8  
+Level: 7  
 Modest Nature
 - Bug bite  
 
@@ -12750,23 +12729,29 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon / Setup First Turn
+AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
 Scyther @ Iron Ball  
 Ability: Technician  
-Level: 9  
+Level: 8  
 Timid Nature  
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpD  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpD  / 0 Spe
 - Quick Attack  
-- Fury Cutter  
-- Aerial Ace  
-- Swords Dance
+- Fury Cutter   
 
 Pinsir  
 Ability: Moxie  
 Level: 9  
 Modest Nature  
-IVs: 0 Atk  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpD  / 0 Spe
+- Bug Bite
+
+Kricketune  
+Ability: Technician  
+Level: 10  
+Modest Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpD  / 0 Spe
+- Fell Stinger  
 - Bug Bite
 
 === TRAINER_JOSE ===
@@ -12781,7 +12766,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 Kricketune  
 Ability: Technician  
 Level: 15  
-IVs: 0 HP / 0 Def / 0 SpA / 0 SpD 
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpD  / 0 Spe
 - Pounce  
 - Fell Stinger  
 
@@ -12846,7 +12831,7 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon / Stall / Setup First Turn
+AI: Smart Switching / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon / Stall / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
 Dwebble @ Sitrus Berry  
 Ability: Sturdy  
@@ -13048,13 +13033,13 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Geodude  
 Ability: Sturdy  
-Level: 16  
+Level: 15  
 - Bulldoze  
 - Rock Tomb  
 
 Gligar  
 Ability: Hyper Cutter  
-Level: 16  
+Level: 15  
 Modest Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpD / 0 Spe
 - Knock Off  
@@ -13064,8 +13049,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpD / 0 Spe
 
 Jangmo-o (M) @ Expert Belt  
 Ability: Bulletproof  
-Level: 17  
-- Brick Break  
+Level: 15  
+- Low Kick  
 - Dragon Tail
 
 === TRAINER_ERIC ===
@@ -13277,7 +13262,7 @@ Pic: Young Couple
 Gender: Male
 Music: Girl
 Double Battle: Yes
-AI: Smart Switching / Check Viability / Setup First Turn / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Smart Switching / Check Viability / AI_FLAG_FORCE_SETUP_FIRST_TURN / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Volbeat @ Focus Sash  
 Ability: Illuminate  
@@ -14304,7 +14289,7 @@ Pic: Old Couple
 Gender: Male
 Music: Intense
 Double Battle: Yes
-AI: Smart Switching / Check Bad Move / Try To Faint / Setup First Turn
+AI: Smart Switching / Check Bad Move / Try To Faint / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
 Medicham
 Level: 49
@@ -14502,7 +14487,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Murkrow @ Big Nugget  
 Ability: Super Luck  
-Level: 20  
+Level: 18  
 IVs: 0 SpA  
 - Air Cutter  
 - Thief  
@@ -14518,7 +14503,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Steenee @ Big Nugget  
 Ability: Oblivious  
-Level: 20  
+Level: 18  
 IVs: 0 Atk  
 - Low Sweep  
 - Rapid Spin  
@@ -14535,12 +14520,12 @@ AI: Smart Switching / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Po
 
 Mareanie @ Leftovers  
 Ability: Corrosion
-Level: 11  
+Level: 10  
 Lonely Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Toxic  
 - Water Gun
-- Protect  
+- Baneful Bunker  
 - Recover
 
 === TRAINER_HAILEY ===
@@ -14554,8 +14539,8 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Clamperl @ Deep Sea Tooth  
 Ability: Rattled  
-Level: 24  
-IVs: 0 Atk  
+Level: 23  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Shell Smash  
 - Water Gun
 
@@ -15380,7 +15365,6 @@ Level: 22
 Bold Nature  
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Whirlwind  
-- Protect  
 
 === TRAINER_CELIA ===
 Name: CELIA
@@ -15583,7 +15567,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Passimian @ Wiki Berry  
 Ability: Receiver  
-Level: 19  
+Level: 18  
 Bold Nature  
 IVs: 0 Atk / 0 SpA / 0 Spe  
 - Low Sweep  
@@ -15961,7 +15945,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Smart Switching / AI_FLAG_SETUP_FIRST_TURN / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon 
+AI: Smart Switching / AI_FLAG_FORCE_SETUP_FIRST_TURN / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon 
 
 Golem
 Level: 32

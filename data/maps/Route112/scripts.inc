@@ -64,6 +64,12 @@ Route112_EventScript_Hiker::
 	end
 
 Route112_EventScript_Brice::
+	setflag FLAG_ITEM_ROUTE_117_GREAT_BALL
+	setflag FLAG_ITEM_ROUTE_117_REVIVE
+	setflag FLAG_BRICE_OPTIONALS
+	setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_2
+	setflag FLAG_ITEM_ROUTE_111_ELIXIR
+	setflag FLAG_ITEM_ROUTE_111_HP_UP
 	trainerbattle_single TRAINER_BRICE, Route112_Text_BriceIntro, Route112_Text_BriceDefeat
 	msgbox Route112_Text_BricePostBattle, MSGBOX_AUTOCLOSE
 	end

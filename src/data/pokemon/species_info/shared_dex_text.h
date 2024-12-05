@@ -7,10 +7,10 @@ const u8 gFallbackPokedexText[] = _(
 
 // Gen 1 families
 const u8 gRaticateAlolaPokedexText[] = _(
-    "It forms a group of Rattata, which it \n"
-    "assumes command of. Each group\n"
-    "has its own territory, and disputes\n"
-    "over food happen often.");
+    "+10 / +20 / +10 / +0 / +0 / +10\n"
+    "\n"
+    "Adaptability, Thick Fat\n"
+    "");
 
 const u8 gPichuPokedexText[] = _(
     "It is still inept at retaining electricity.\n"

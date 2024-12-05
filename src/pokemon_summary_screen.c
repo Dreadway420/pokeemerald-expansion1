@@ -1725,9 +1725,11 @@ static void Task_HandleInput(u8 taskId)
             }
             else if (sMonSummaryScreen->currPageIndex == PSS_PAGE_INFO)
             {
-                StopPokemonAnimations();
-                PlaySE(SE_SELECT);
-                BeginCloseSummaryScreen(taskId);
+                if (ShouldShowRename())
+                {
+                    sMonSummaryScreen->callback = CB2_PssChangePokemonNickname;
+                    gSpecialVar_0x8004 = sMonSummaryScreen->curMonIndex;
+                }
             }
             else // Contest or Battle Moves
             {
@@ -1735,7 +1737,7 @@ static void Task_HandleInput(u8 taskId)
                 SwitchToMoveSelection(taskId);
                 }
             }
-        }
+        
         else if (JOY_NEW(B_BUTTON))
         {
             StopPokemonAnimations();
@@ -1745,7 +1747,7 @@ static void Task_HandleInput(u8 taskId)
         else if (JOY_NEW(START_BUTTON)
                 && ShouldShowMoveRelearner()
                 && (sMonSummaryScreen->currPageIndex == PSS_PAGE_BATTLE_MOVES || sMonSummaryScreen->currPageIndex == PSS_PAGE_CONTEST_MOVES))
-        {
+        {   
             sMonSummaryScreen->callback = CB2_InitLearnMove;
             gSpecialVar_0x8004 = sMonSummaryScreen->curMonIndex;
             gOriginSummaryScreenPage = sMonSummaryScreen->currPageIndex;
@@ -1761,6 +1763,7 @@ static void Task_HandleInput(u8 taskId)
             CloseSummaryScreen(taskId);
         }
     }
+}
 
 static void ChangeSummaryPokemon(u8 taskId, s8 delta)
 {

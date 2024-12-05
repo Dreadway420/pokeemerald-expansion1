@@ -1224,8 +1224,8 @@
 
 #define FLAG_CHALLENGED_GRUNT                                          0x493 // Unused Flag
 #define FLAG_HIDE_OPTIONALS_DEWFORD                                          0x494 // Unused Flag
-#define FLAG_RARECANDY_3                                           0x495 // Unused Flag
-#define RARE_RARECANDY_4                                           0x496 // Unused Flag
+#define FLAG_ACIDSPRAY                                           0x495 // Unused Flag
+#define FLAG_BRICE_OPTIONALS                                           0x496 // Unused Flag
 #define FLAG_LEFTOVERS                                           0x497 
 #define FLAG_UNUSED_0x498                                           0x498 // Unused Flag
 #define FLAG_UNUSED_0x499                                           0x499 // Unused Flag

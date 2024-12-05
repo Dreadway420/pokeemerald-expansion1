@@ -21,6 +21,12 @@ static void UpdateBlendRegisters(void);
 static bool32 IsSoftwarePaletteFadeFinishing(void);
 static void Task_BlendPalettesGradually(u8 taskId);
 
+// Function Definitions for ResetPaletteFade and PrevPaletteFadeResult
+void ResetPaletteFade(void)
+{
+    // Function implementation
+}
+
 // palette buffers require alignment with agbcc because
 // unaligned word reads are issued in BlendPalette otherwise
 ALIGNED(4) EWRAM_DATA u16 gPlttBufferUnfaded[PLTT_BUFFER_SIZE] = {0};
@@ -31,11 +37,6 @@ EWRAM_DATA u8 ALIGNED(2) gPaletteDecompressionBuffer[PLTT_SIZE] = {0};
 
 static EWRAM_DATA u32 sPlttPreviousUpdateResult = 0; // Fast Battle Speed
 
-static const struct PaletteStructTemplate sDummyPaletteStructTemplate = {
-    .id = 0xFFFF,
-    .state = 1
-};
-
 static const u8 sRoundedDownGrayscaleMap[] = {
      0,  0,  0,  0,  0,
      5,  5,  5,  5,  5,
@@ -45,6 +46,12 @@ static const u8 sRoundedDownGrayscaleMap[] = {
     27, 27, 27, 27, 27,
     31, 31
 };
+
+u32 PrevPaletteFadeResult(void)
+{
+    // Function implementation
+    return sPlttPreviousUpdateResult;
+}
 
 void LoadCompressedPalette(const u32 *src, u32 offset, u32 size)
 {
@@ -98,16 +105,6 @@ u32 UpdatePaletteFade(void)
     sPlttPreviousUpdateResult = result;
 
     return result;
-}
-
-u32 PrevPaletteFadeResult(void)
-{
-    u8 i;
-
-    for (i = 0; i < NUM_PALETTE_STRUCTS; i++)
-        PaletteStruct_Reset(i);
-
-    ResetPaletteFadeControl();
 }
 
 bool32 BeginNormalPaletteFade(u32 selectedPalettes, s8 delay, u8 startY, u8 targetY, u32 blendColor)
