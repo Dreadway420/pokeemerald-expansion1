@@ -62,7 +62,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Route115_EventScript_Nob",
-      "flag": "0"
+      "flag": "FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
@@ -75,7 +75,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_115_KELPSY_1",
       "script": "BerryTreeScript",
-      "flag": "0"
+      "flag": "FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
@@ -88,7 +88,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_115_KELPSY_2",
       "script": "BerryTreeScript",
-      "flag": "0"
+      "flag": "FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
@@ -101,7 +101,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_115_KELPSY_3",
       "script": "BerryTreeScript",
-      "flag": "0"
+      "flag": "FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
@@ -127,7 +127,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "6",
       "script": "Route115_EventScript_Koichi",
-      "flag": "0"
+      "flag": "FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MANIAC",
@@ -140,7 +140,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "Route115_EventScript_Hector",
-      "flag": "0"
+      "flag": "FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -192,7 +192,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_115_BLUK_1",
       "script": "BerryTreeScript",
-      "flag": "0"
+      "flag": "FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
@@ -205,7 +205,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_115_BLUK_2",
       "script": "BerryTreeScript",
-      "flag": "0"
+      "flag": "FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
@@ -270,7 +270,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "Route115_EventScript_Helene",
-      "flag": "0"
+      "flag": "FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LASS",
@@ -283,7 +283,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "Route115_EventScript_Alix",
-      "flag": "0"
+      "flag": "FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LASS",

@@ -53,6 +53,15 @@ Route113_EventScript_Jaylen::
 
 Route113_EventScript_Dillon::
 	trainerbattle_single TRAINER_DILLON, Route113_Text_DillonIntro, Route113_Text_DillonDefeat
+	setflag FLAG_WALLY_113
+	setflag FLAG_STONE_EDGE
+	setflag FLAG_HIDDEN_ITEM_ROUTE_113_NUGGET
+	setflag FLAG_ITEM_ROUTE_113_SUPER_REPEL
+	setflag FLAG_ITEM_ROUTE_111_STARDUST
+	setflag FLAG_HIDDEN_ITEM_ROUTE_111_RARE_CANDY
+	setflag FLAG_HIDDEN_ITEM_ROUTE_111_STARDUST
+	setflag FLAG_ITEM_ROUTE_111_TM_SANDSTORM
+	setvar VAR_MIRAGE_TOWER_STATE, 3 
 	msgbox Route113_Text_DillonPostBattle, MSGBOX_AUTOCLOSE
 	end
 

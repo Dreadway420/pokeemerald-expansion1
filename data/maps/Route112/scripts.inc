@@ -76,6 +76,12 @@ Route112_EventScript_Brice::
 
 Route112_EventScript_Trent::
 	trainerbattle_single TRAINER_TRENT_1, Route112_Text_TrentIntro, Route112_Text_TrentDefeat, Route112_EventScript_RegisterTrent
+	setflag FLAG_ITEM_ROUTE_117_GREAT_BALL
+	setflag FLAG_ITEM_ROUTE_117_REVIVE
+	setflag FLAG_BRICE_OPTIONALS
+	setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_2
+	setflag FLAG_ITEM_ROUTE_111_ELIXIR
+	setflag FLAG_ITEM_ROUTE_111_HP_UP
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, Route112_EventScript_RematchTrent
 	msgbox Route112_Text_TrentPostBattle, MSGBOX_DEFAULT
