@@ -5459,6 +5459,7 @@ IVs: 0 Atk
 Scovillain @ Expert Belt  
 Ability: Chlorophyll  
 Level: 52  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD 
 - Solar Beam  
 - Overheat  
 - Seed Bomb  
@@ -12731,7 +12732,8 @@ IVs: 0 Atk
 Ursaluna-Bloodmoon @ Absorb Bulb  
 Ability: Minds Eye  
 Level: 51  
-IVs: 0 Atk  
+Modest Nature
+IVs: 0 Atk / 0 SpA 
 - Blood Moon  
 - Earth Power  
 
