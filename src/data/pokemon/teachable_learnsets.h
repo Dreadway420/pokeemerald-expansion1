@@ -31398,6 +31398,7 @@ static const u16 sHuntailTeachableLearnset[] = {
     MOVE_ICE_FANG,
     MOVE_ICY_WIND,
     MOVE_IRON_DEFENSE,
+    MOVE_LIQUIDATION,
     MOVE_MUDDY_WATER,
     MOVE_MUD_SLAP,
     MOVE_PROTECT,

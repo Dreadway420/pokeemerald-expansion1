@@ -48042,6 +48042,7 @@
       "MOVE_SLEEP_TALK",
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
+      "MOVE_LIQUIDATION",
       "MOVE_WATERFALL",
       "MOVE_CONFIDE"
     ],

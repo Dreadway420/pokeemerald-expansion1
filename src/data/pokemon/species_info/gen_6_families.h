@@ -3931,10 +3931,10 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
     [SPECIES_CARBINK] =
     {
         .baseHP        = 50,
-        .baseAttack    = 50,
+        .baseAttack    = 75,
         .baseDefense   = 150,
         .baseSpeed     = 50,
-        .baseSpAttack  = 50,
+        .baseSpAttack  = 75,
         .baseSpDefense = 150,
         .types = MON_TYPES(TYPE_ROCK, TYPE_FAIRY),
         .catchRate = 70,
@@ -3946,7 +3946,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FAIRY, EGG_GROUP_MINERAL),
-        .abilities = { ABILITY_CLEAR_BODY, ABILITY_NONE, ABILITY_STURDY },
+        .abilities = { ABILITY_CLEAR_BODY, ABILITY_NONE, ABILITY_NONE },
         .bodyColor = BODY_COLOR_GRAY,
         .speciesName = _("Carbink"),
         .cryId = CRY_CARBINK,
@@ -3989,6 +3989,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         )
         .levelUpLearnset = sCarbinkLevelUpLearnset,
         .teachableLearnset = sCarbinkTeachableLearnset,
+        .evolutions = EVOLUTION({EVO_LEVEL, 60, SPECIES_DIANCIE}),
     },
 #endif //P_FAMILY_CARBINK
 
@@ -4401,7 +4402,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS, EGG_GROUP_AMORPHOUS),
-        .abilities = { ABILITY_NATURAL_CURE, ABILITY_FRISK, ABILITY_HARVEST },
+        .abilities = { ABILITY_HARVEST, ABILITY_NONE, ABILITY_NONE },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Phantump"),
         .cryId = CRY_PHANTUMP,
@@ -4445,18 +4446,18 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .levelUpLearnset = sPhantumpLevelUpLearnset,
         .teachableLearnset = sPhantumpTeachableLearnset,
         .eggMoveLearnset = sPhantumpEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_TREVENANT},
+        .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_TREVENANT},
                                 {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_TREVENANT}),
     },
 
     [SPECIES_TREVENANT] =
     {
-        .baseHP        = 85,
-        .baseAttack    = 110,
-        .baseDefense   = 76,
+        .baseHP        = 95,
+        .baseAttack    = 115,
+        .baseDefense   = 91,
         .baseSpeed     = 56,
         .baseSpAttack  = 65,
-        .baseSpDefense = 82,
+        .baseSpDefense = 97,
         .types = MON_TYPES(TYPE_GHOST, TYPE_GRASS),
         .catchRate = 70,
         .expYield = 167,
@@ -4466,7 +4467,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS, EGG_GROUP_AMORPHOUS),
-        .abilities = { ABILITY_NATURAL_CURE, ABILITY_FRISK, ABILITY_HARVEST },
+        .abilities = { ABILITY_HARVEST, ABILITY_NONE, ABILITY_NONE },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Trevenant"),
         .cryId = CRY_TREVENANT,

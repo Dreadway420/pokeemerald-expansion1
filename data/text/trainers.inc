@@ -619,18 +619,20 @@ Route107_Text_DarrinPostBattle:
 	.string "a plush, comfy bed.$"
 
 Route107_Text_TonyIntro:
-	.string "The sea is like my backyard.\n"
-	.string "Let's battle!$"
+	.string "Greetings…\n"
+	.string "My name is ANABEL.\p"
+	.string "Let me see your talent in\n"
+	.string "its entirety…$"
 
 Route107_Text_TonyDefeated:
-	.string "I lost on my home field…\n"
-	.string "I'm in shock!$"
+	.string "ANABEL: Fufufu, nicely done…\n"
+	.string "Your talent shall be recognized.\p"
+	.string "By the way, you can find KEYS to \n"
+	.string "the rooms below in the TRASH BINS.$"
 
 Route107_Text_TonyPostBattle:
-	.string "I swim the seas with a heart full of\n"
-	.string "dreams…\p"
-	.string "It's a song!\n"
-	.string "Anyways, I'm swimming some more.$"
+	.string "ANABEL: Fufufu, nicely done…\n"
+	.string "Your talent shall be recognized.$"
 
 Route107_Text_TonyRegister:
 	.string "You've shocked me to the bone!\n"
@@ -662,15 +664,23 @@ Route107_Text_DenisePostBattle:
 	.string "trendy at DEWFORD HALL.$"
 
 Route107_Text_BethIntro:
-	.string "Did you want to battle me?\n"
-	.string "Sure, I'll go with you!$"
+	.string "Aah, yes, indeed this life is grand!\n"
+	.string "Grand, it is! Eh?\p"
+	.string "I'm BRANDON!\p"
+	.string "You coming here means you have\n"
+	.string "that much confidence in yourself,\l"
+	.string "am I right?\p"
+	.string "Hahahah!\n"
+	.string "This should be exciting!$"
 
 Route107_Text_BethDefeated:
-	.string "I wasn't good enough for you.$"
+	.string "BRANDON: Hahahah! Grand it was!\n"
+	.string "Grand, yes, indeed!\p"
+	.string "Well done! You've earned recognition!$"
 
 Route107_Text_BethPostBattle:
-	.string "I think you're going to keep getting\n"
-	.string "better. I'll go for it, too!$"
+	.string "BRANDON: Young explorer!\n"
+	.string "I look forward to our next meeting!$"
 
 Route107_Text_LisaIntro:
 	.string "LISA: We challenge you as a sister\n"
@@ -1630,17 +1640,14 @@ Route113_Text_JaylenPostBattle:
 	.string "That's good for me--I can't stand heat!$"
 
 Route113_Text_DillonIntro:
-	.string "The volcano's eruption is proof that\n"
-	.string "the earth is alive.$"
+	.string "WALLY: Hey {PLAYER}!\n"
+	.string "Let's have another battle.$"
 
 Route113_Text_DillonDefeat:
-	.string "You're some kind of strong!$"
+	.string "I'll get you next time!$"
 
 Route113_Text_DillonPostBattle:
-	.string "Ouch! Owww! I can't see!\n"
-	.string "I got ashes in my eyelashes!\p"
-	.string "Get it? Ashes and eyelashes?\p"
-	.string "Okay, that was bad, sorry…$"
+	.string "I'll get you next time!$"
 
 Route113_Text_MadelineIntro:
 	.string "I use this parasol to ward off this\n"

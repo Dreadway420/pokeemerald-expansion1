@@ -2912,7 +2912,7 @@ static s32 AI_DoubleBattle(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
                   && BattlerStatCanRise(battlerAtkPartner, atkPartnerAbility, STAT_ATK)
                   && !CanIndexMoveFaintTarget(battlerAtk, battlerAtkPartner, AI_THINKING_STRUCT->movesetIndex, 0))
                 {
-                    RETURN_SCORE_PLUS(WEAK_EFFECT);
+                    RETURN_SCORE_PLUS(BEST_EFFECT);
                 }
                 break;
             case EFFECT_SKILL_SWAP:

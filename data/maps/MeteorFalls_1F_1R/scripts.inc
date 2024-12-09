@@ -105,26 +105,32 @@ MeteorFalls_1F_1R_Movement_MagmaGruntApproachPlayer:
 MeteorFalls_1F_1R_Movement_MagmaGrunt1Exit:
 	walk_fast_up
 	walk_fast_up
-	walk_fast_right
-	walk_fast_right
-	walk_fast_right
-	walk_fast_right
-	walk_fast_right
-	walk_fast_right
-	walk_fast_right
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
 	step_end
 
 MeteorFalls_1F_1R_Movement_MagmaGrunt2Exit:
 	walk_fast_up
 	walk_fast_up
 	walk_fast_up
-	walk_fast_right
-	walk_fast_right
-	walk_fast_right
-	walk_fast_right
-	walk_fast_right
-	walk_fast_right
-	walk_fast_right
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
 	step_end
 
 MeteorFalls_1F_1R_Movement_ArchieArrive:
@@ -157,13 +163,17 @@ MeteorFalls_1F_1R_Movement_AquaGrunt2Arrive:
 	step_end
 
 MeteorFalls_1F_1R_Movement_ArchieExit:
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
+	walk_up
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
 	step_end
 
 MeteorFalls_1F_1R_Movement_ArchieApproachPlayer:
@@ -177,13 +187,17 @@ MeteorFalls_1F_1R_Movement_ArchieApproachPlayer:
 MeteorFalls_1F_1R_Movement_AquaGrunt1Exit:
 	walk_up
 	walk_up
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
+	walk_up
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
 	step_end
 
 MeteorFalls_1F_1R_Movement_AquaGrunt1ApproachArchie:
@@ -197,13 +211,17 @@ MeteorFalls_1F_1R_Movement_AquaGrunt2Exit:
 	walk_up
 	walk_up
 	walk_up
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
+	walk_up
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
 	step_end
 
 MeteorFalls_1F_1R_Movement_AquaGrunt2ApproachArchie:

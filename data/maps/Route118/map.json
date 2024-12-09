@@ -110,7 +110,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MYSTERY_GIFT_MAN",
-      "x": 6,
+      "x": 5,
       "y": 8,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
@@ -305,7 +305,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MYSTERY_GIFT_MAN",
-      "x": 6,
+      "x": 5,
       "y": 7,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
@@ -318,7 +318,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 5,
+      "x": 4,
       "y": 5,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",

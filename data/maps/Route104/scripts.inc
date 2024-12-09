@@ -347,12 +347,18 @@ Route104_EventScript_WALLYDAD::
 	goto_if_set FLAG_RECEIVED_HM_REALSURF, Route104_EventScript_GoToShip
 	msgbox Route104_Text_GiveSurf, MSGBOX_NPC
 	giveitem ITEM_HM_SURF
+	setflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
+	setflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
+	setflag FLAG_HIDE_ROUTE_104_MR_BRINEY_BOAT
 	setflag FLAG_RECEIVED_HM_REALSURF
 	goto_if_set FLAG_BADGE03_GET, Route104_EventScript_GoToShip
 	release
 	end
 
 Route104_EventScript_GoToShip::
+	setflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
+	setflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
+	setflag FLAG_HIDE_ROUTE_104_MR_BRINEY_BOAT
 	msgbox Route104_Text_GoToShip, MSGBOX_NPC
 	release
 	end

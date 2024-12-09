@@ -187,13 +187,13 @@ LavaridgeTown_Gym_1F_EventScript_GymStatue::
 LavaridgeTown_Gym_1F_Text_GymGuideAdvice:
 	.string "Hey, how's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
-	.string "LAVARIDGE's GYM LEADER FLANNERY\n"
-	.string "uses FIRE-type POKéMON.\p"
-	.string "Her passion for POKéMON burns stronger\n"
-	.string "and hotter than a volcano.\p"
-	.string "Don't get too close to her--you'll burn!\n"
-	.string "Hose her down with water and then\l"
-	.string "go for it!$"
+	.string "From here on out, strong TRAINERS like\n"
+	.string "FLANNERY will make smarter decisions.\p"
+	.string "There is constant SUNNY WEATHER\n"
+	.string "here, so be prepared.\p"
+	.string "FLANNERY has part ELECTRIC, GRASS, and\n"
+	.string "WATER types, and her ACE is FLYING.\p"
+	.string "Go for it!$"
 
 LavaridgeTown_Gym_1F_Text_GymGuidePostVictory:
 	.string "Yow! That was a scorching-hot battle!$"

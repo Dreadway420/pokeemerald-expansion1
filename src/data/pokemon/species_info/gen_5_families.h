@@ -2084,9 +2084,9 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL),
     #if P_UPDATED_ABILITIES >= GEN_7
-        .abilities = { ABILITY_SAND_STREAM, ABILITY_SAND_STREAM, ABILITY_SAND_STREAM },
+        .abilities = { ABILITY_SAND_STREAM, ABILITY_SAND_STREAM, ABILITY_SAND_FORCE },
     #else
-        .abilities = { ABILITY_SAND_STREAM, ABILITY_SAND_STREAM, ABILITY_SAND_STREAM },
+        .abilities = { ABILITY_SAND_STREAM, ABILITY_SAND_STREAM, ABILITY_SAND_FORCE },
     #endif
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Boldore"),
@@ -2159,9 +2159,9 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL),
     #if P_UPDATED_ABILITIES >= GEN_7
-        .abilities = { ABILITY_SAND_STREAM, ABILITY_SAND_STREAM, ABILITY_SAND_STREAM },
+        .abilities = { ABILITY_SAND_STREAM, ABILITY_SAND_STREAM, ABILITY_SAND_FORCE },
     #else
-        .abilities = { ABILITY_SAND_STREAM, ABILITY_SAND_STREAM, ABILITY_SAND_STREAM },
+        .abilities = { ABILITY_SAND_STREAM, ABILITY_SAND_STREAM, ABILITY_SAND_FORCE },
     #endif
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Gigalith"),
@@ -2405,7 +2405,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseHP        = 110,
         .baseAttack    = 135,
         .baseDefense   = 60,
-        .baseSpeed     = 88,
+        .baseSpeed     = 98,
         .baseSpAttack  = 50,
         .baseSpDefense = 65,
         .types = MON_TYPES(TYPE_GROUND, TYPE_STEEL),
@@ -3707,17 +3707,17 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .levelUpLearnset = sPetililLevelUpLearnset,
         .teachableLearnset = sPetililTeachableLearnset,
         .eggMoveLearnset = sPetililEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_SUN_STONE, SPECIES_LILLIGANT},
-                                {EVO_NONE, 0, SPECIES_LILLIGANT_HISUI}),
+        .evolutions = EVOLUTION({EVO_LEVEL_NATURE_LOW_KEY, 30, SPECIES_LILLIGANT},
+                                {EVO_LEVEL_NATURE_AMPED, 30, SPECIES_LILLIGANT_HISUI}),
     },
 
     [SPECIES_LILLIGANT] =
     {
         .baseHP        = 70,
-        .baseAttack    = 60,
+        .baseAttack    = 50,
         .baseDefense   = 75,
-        .baseSpeed     = 90,
-        .baseSpAttack  = 110,
+        .baseSpeed     = 115,
+        .baseSpAttack  = 125,
         .baseSpDefense = 75,
         .types = MON_TYPES(TYPE_GRASS),
         .catchRate = 75,
@@ -3729,7 +3729,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS),
-        .abilities = { ABILITY_CHLOROPHYLL, ABILITY_OWN_TEMPO, ABILITY_LEAF_GUARD },
+        .abilities = { ABILITY_CHLOROPHYLL, ABILITY_NONE, ABILITY_LEAF_GUARD },
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = TRUE,
         .speciesName = _("Lilligant"),
@@ -3779,9 +3779,9 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
     [SPECIES_LILLIGANT_HISUI] =
     {
         .baseHP        = 70,
-        .baseAttack    = 105,
+        .baseAttack    = 125,
         .baseDefense   = 75,
-        .baseSpeed     = 105,
+        .baseSpeed     = 115,
         .baseSpAttack  = 50,
         .baseSpDefense = 75,
         .types = MON_TYPES(TYPE_GRASS, TYPE_FIGHTING),
@@ -3795,7 +3795,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS),
-        .abilities = { ABILITY_CHLOROPHYLL, ABILITY_HUSTLE, ABILITY_LEAF_GUARD },
+        .abilities = { ABILITY_CHLOROPHYLL, ABILITY_NONE, ABILITY_LEAF_GUARD },
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = TRUE,
         .speciesName = _("Lilligant"),
@@ -10007,7 +10007,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = 35,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE),
-        .abilities = { ABILITY_DEFIANT, ABILITY_SUPREME_OVERLORD },
+        .abilities = { ABILITY_DEFIANT, ABILITY_SUPREME_OVERLORD, ABILITY_SUPREME_OVERLORD },
         .bodyColor = BODY_COLOR_RED,
         .speciesName = _("Bisharp"),
         .cryId = CRY_BISHARP,
@@ -10070,7 +10070,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE),
-        .abilities = { ABILITY_DEFIANT, ABILITY_SUPREME_OVERLORD },
+        .abilities = { ABILITY_DEFIANT, ABILITY_SUPREME_OVERLORD, ABILITY_SUPREME_OVERLORD },
         .bodyColor = BODY_COLOR_BLACK,
         .speciesName = _("Kingambit"),
         .cryId = CRY_KINGAMBIT,

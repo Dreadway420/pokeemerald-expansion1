@@ -162,7 +162,11 @@ RustboroCity_DevonCorp_3F_EventScript_MrStone::
 
 RustboroCity_DevonCorp_3F_EventScript_GiveExpShare::
 	msgbox RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter, MSGBOX_DEFAULT
-	giveitem ITEM_EXP_SHARE
+	giveitem ITEM_METAL_COAT
+	giveitem ITEM_TM_ELECTRIC_TERRAIN
+	giveitem ITEM_TM_GRASSY_TERRAIN
+	giveitem ITEM_TM_MISTY_TERRAIN
+	giveitem ITEM_TM_PSYCHIC_TERRAIN
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	setflag FLAG_RECEIVED_EXP_SHARE
 	msgbox RustboroCity_DevonCorp_3F_Text_ExplainExpShare, MSGBOX_DEFAULT
@@ -226,16 +230,8 @@ RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
 	.string "MR. STONE: That device…\p"
 	.string "It's a POKéMON NAVIGATOR, or POKéNAV\n"
 	.string "for short.\p"
-	.string "It's an indispensable tool for any\n"
-	.string "TRAINER on an adventure.\p"
-	.string "It has a map of the HOENN region.\p"
-	.string "You can check the locations of\n"
-	.string "DEWFORD and SLATEPORT easily!\p"
-	.string "By the way, I've heard that sinister\n"
-	.string "criminals--MAGMA and AQUA, I believe--\l"
-	.string "have been making trouble far and wide.\p"
-	.string "I think it would be best if you rested\n"
-	.string "up before you go on your way.$"
+	.string "You can access your PC from\n"
+	.string "the CONDITION screen.$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare:
 	.string "MR. STONE: Well, then, {PLAYER}{KUN},\n"
@@ -251,13 +247,9 @@ RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter:
 	.string "It should help you, a TRAINER.$"
 
 RustboroCity_DevonCorp_3F_Text_ExplainExpShare:
-	.string "MR. STONE: A POKéMON holding that\n"
-	.string "EXP. SHARE will be given some of the\l"
-	.string "EXP Points from battle.\p"
-	.string "It will get EXP Points even if it didn't\n"
-	.string "actually battle.\p"
-	.string "I would say EXP. SHARE is quite useful\n"
-	.string "for raising weak POKéMON.$"
+	.string "I would say those will be quite\n"
+	.string "useful for the jounrney ahead.$"
+
 
 RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends:
 	.string "MR. STONE: Since my youth, I've immersed\n"

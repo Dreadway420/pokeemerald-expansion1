@@ -238,14 +238,14 @@ Route101_EventScript_BirchsBag::
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, Route101_EventScript_HideMayInBedroom
 	call_if_eq VAR_RESULT, FEMALE, Route101_EventScript_HideBrendanInBedroom
-	setflag FLAG_UNUSED_0x264
+	setflag FLAG_EXP_SHARE_ON
 	warp MAP_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB, 6, 5
 	waitstate
 	release
 	end
 
 Route101_EventScript_HideMayInBedroom::
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM 
 	return
 
 Route101_EventScript_HideBrendanInBedroom::

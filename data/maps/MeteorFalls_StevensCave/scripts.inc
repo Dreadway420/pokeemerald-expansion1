@@ -5,6 +5,7 @@ MeteorFalls_StevensCave_MapScripts::
 
 MeteorFalls_StevensCave_EventScript_Steven::
 	lock
+	special HealPlayerParty
 	goto_if_set FLAG_DEFEATED_METEOR_FALLS_STEVEN, MeteorFalls_StevensCave_EventScript_Defeated
 	waitse
 	playse SE_PIN
@@ -17,6 +18,12 @@ MeteorFalls_StevensCave_EventScript_Steven::
 	msgbox MeteorFalls_StevensCave_Text_ShouldKnowHowGoodIAmExpectWorst, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_STEVEN_2, MeteorFalls_StevensCave_Text_StevenDefeat
 	msgbox MeteorFalls_StevensCave_Text_MyPredictionCameTrue, MSGBOX_DEFAULT
+	giveitem ITEM_AERODACTYLITE
+	giveitem ITEM_CAMERUPTITE
+	giveitem ITEM_CHARIZARDITE_X
+	giveitem ITEM_CHARIZARDITE_Y
+	giveitem ITEM_KANGASKHANITE
+	giveitem ITEM_CHOICE_BAND
 	setflag FLAG_DEFEATED_METEOR_FALLS_STEVEN
 	release
 	end
@@ -31,13 +38,6 @@ MeteorFalls_StevensCave_EventScript_Defeated::
 MeteorFalls_StevensCave_Text_ShouldKnowHowGoodIAmExpectWorst:
 	.string "STEVEN: Oh, wow, {PLAYER}{KUN}.\n"
 	.string "I'm amazed you knew where to find me.\p"
-	.string "Do you, uh…maybe think of me as\n"
-	.string "just a rock maniac?\p"
-	.string "No, that can't be right.\p"
-	.string "We battled alongside each other at\n"
-	.string "the SOOTOPOLIS SPACE CENTER.\p"
-	.string "You should have a very good idea\n"
-	.string "about how good I am.\p"
 	.string "Okay, {PLAYER}{KUN}, if you're going to mount\n"
 	.string "a serious challenge, expect the worst!$"
 

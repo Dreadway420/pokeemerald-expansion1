@@ -3410,19 +3410,19 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .levelUpLearnset = sMisdreavusLevelUpLearnset,
         .teachableLearnset = sMisdreavusTeachableLearnset,
         .eggMoveLearnset = sMisdreavusEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_DUSK_STONE, SPECIES_MISMAGIUS}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 35, SPECIES_MISMAGIUS}),
     },
 
 #if P_GEN_4_CROSS_EVOS
     [SPECIES_MISMAGIUS] =
     {
-        .baseHP        = 60,
-        .baseAttack    = 60,
-        .baseDefense   = 60,
-        .baseSpeed     = 105,
-        .baseSpAttack  = 105,
-        .baseSpDefense = 105,
-        .types = MON_TYPES(TYPE_GHOST),
+        .baseHP        = 70,
+        .baseAttack    = 70,
+        .baseDefense   = 70,
+        .baseSpeed     = 110,
+        .baseSpAttack  = 110,
+        .baseSpDefense = 110,
+        .types = MON_TYPES(TYPE_GHOST, TYPE_FAIRY),
         .catchRate = 70,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 152 : 164,
         .evYield_SpAttack = 0,
@@ -3587,7 +3587,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 45 : 38,
         .evYield_HP = 0,
         .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 20,
+        .eggCycles = 1,
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
@@ -6360,7 +6360,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
 #if P_FAMILY_SKARMORY
     [SPECIES_SKARMORY] =
     {
-        .baseHP        = 65,
+        .baseHP        = 70,
         .baseAttack    = 80,
         .baseDefense   = 140,
         .baseSpeed     = 70,
@@ -6376,7 +6376,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING),
-        .abilities = { ABILITY_KEEN_EYE, ABILITY_STURDY, ABILITY_WEAK_ARMOR },
+        .abilities = { ABILITY_BATTLE_ARMOR, ABILITY_BATTLE_ARMOR, ABILITY_STURDY },
         .bodyColor = BODY_COLOR_GRAY,
         .speciesName = _("Skarmory"),
         .cryId = CRY_SKARMORY,

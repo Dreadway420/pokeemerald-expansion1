@@ -42,6 +42,7 @@ MtChimney_EventScript_Maxie::
 	lockall
 	playbgm MUS_ENCOUNTER_MAGMA, FALSE
 	msgbox MtChimney_Text_MeteoriteWillActivateVolcano, MSGBOX_DEFAULT
+	special HealPlayerParty
 	applymovement LOCALID_MAXIE, Common_Movement_FacePlayer
 	waitmovement 0
 	playse SE_PIN
@@ -633,16 +634,13 @@ MtChimney_Text_Grunt2PostBattle:
 	.string "in our way?$"
 
 MtChimney_Text_Grunt1Intro:
-	.string "If there were more land, I'd be able\n"
-	.string "to get a big house of my own!\p"
-	.string "I'm going to build it on hardened lava!$"
+	.string "COURTNEY: ...$"
 
 MtChimney_Text_Grunt1Defeat:
-	.string "My dream of a big house…$"
+	.string "COURTNEY: ...$"
 
 MtChimney_Text_Grunt1PostBattle:
-	.string "A kid like you, you ought to be\n"
-	.string "splashing about in the waves!$"
+	.string "COURTNEY: ...$"
 
 MtChimney_Text_TeamAquaAlwaysMessingWithPlans:
 	.string "That annoying TEAM AQUA…\n"

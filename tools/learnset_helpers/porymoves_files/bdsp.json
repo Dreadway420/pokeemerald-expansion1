@@ -41446,6 +41446,7 @@
       "MOVE_SWAGGER",
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
+      "MOVE_LIQUIDATION",
       "MOVE_WATERFALL"
     ],
     "EggMoves": [
