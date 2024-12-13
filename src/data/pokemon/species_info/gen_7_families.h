@@ -4237,7 +4237,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
 
 #define MINIOR_METEOR_SPECIES_INFO(Form)                    \
     {                                                       \
-        .baseHP        = 60,                                \
+        .baseHP        = 90,                                \
         .baseAttack    = 60,                                \
         .baseDefense   = 100,                               \
         .baseSpeed     = 60,                                \
@@ -4274,7 +4274,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
 
 #define MINIOR_CORE_SPECIES_INFO(Form, color, iconPal)          \
     {                                                           \
-        .baseHP        = 60,                                    \
+        .baseHP        = 90,                                    \
         .baseAttack    = 100,                                   \
         .baseDefense   = 60,                                    \
         .baseSpeed     = 120,                                   \

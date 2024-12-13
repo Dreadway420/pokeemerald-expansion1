@@ -294,15 +294,23 @@ Pic: Collector
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer
 
-Zangoose
-Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Sableye @ Sitrus Berry  
+Ability: Prankster  
+Level: 54  
+- Will-O-Wisp  
+- Thunder Wave  
+- Fake Out  
+- Knock Off  
 
-Seviper
-Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Pangoro @ Assault Vest  
+Ability: Scrappy  
+Level: 54  
+- Darkest Lariat  
+- Drain Punch  
+- Bullet Punch  
+- Storm Throw  
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_4 ===
 Name: GRUNT
@@ -591,15 +599,21 @@ Pic: Expert M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
-Makuhita
-Level: 30
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Whiscash @ Soft Sand  
+Ability: Swift Swim  
+Level: 52  
+- Earthquake  
+- Dragon Dance  
+- Muddy Water  
 
-Machoke
-Level: 30
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Marowak-Alola @ Thick Club  
+Ability: Lightning Rod  
+Level: 52  
+- Fire Punch  
+- Shadow Bone  
+- Earthquake  
 
 === TRAINER_MATT ===
 Name: MATT
@@ -736,19 +750,30 @@ Pic: Aroma Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
-Roselia
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Meowscarada @ Black Glasses  
+Ability: Protean  
+Level: 51  
+- Knock Off  
+- Flower Trick  
+- U-turn  
 
-Shroomish
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Arboliva @ Terrain Extender  
+Ability: Seed Sower  
+Level: 51  
+IVs: 0 Atk  
+- Energy Ball  
+- Hyper Voice  
+- Strength Sap  
+- Giga Drain  
 
-Roselia
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rillaboom @ Life Orb  
+Ability: Grassy Surge  
+Level: 52  
+- Grassy Glide  
+- Wood Hammer
+- Bulk Up  
 
 === TRAINER_FELIX ===
 Name: FELIX
@@ -778,15 +803,21 @@ Pic: Aroma Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
-Roselia
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Parasect @ Focus Sash  
+Ability: Dry Skin  
+Level: 54  
+- Spore  
+- Leech Life  
+- Seed Bomb  
+- Substitute  
 
-Gloom
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Lurantis @ Assault Vest  
+Ability: Contrary  
+Level: 54  
+- Leaf Storm  
+- Return  
 
 === TRAINER_ROSE_2 ===
 Name: ROSE
@@ -1035,6 +1066,31 @@ AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mo
 
 Magnezone  @ Air Balloon
 Ability: Magnet Pull  
+Level: 51  
+IVs: 0 Atk  
+- Flash Cannon  
+- Discharge
+- Thunderbolt
+
+Exploud @ Throat Spray  
+Ability: Punk Rock  
+Level: 51  
+Adamant Nature
+IVs: 0 Atk / 0 SpA  
+- Hyper Voice
+- Boomburst
+
+=== TRAINER_GABBY_AND_TY_2 ===
+Name: GABBY & TY
+Class: Interviewer
+Pic: Interviewer
+Gender: Male
+Music: Interviewer
+Double Battle: Yes
+AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+
+Magnezone  @ Air Balloon
+Ability: Magnet Pull  
 Level: 43  
 IVs: 0 Atk  
 - Flash Cannon  
@@ -1046,23 +1102,6 @@ Level: 43
 Adamant Nature  
 IVs: 0 Atk / 0 SpA  
 - Hyper Voice
-
-=== TRAINER_GABBY_AND_TY_2 ===
-Name: GABBY & TY
-Class: Interviewer
-Pic: Interviewer
-Gender: Male
-Music: Interviewer
-Double Battle: Yes
-AI: Smart Switching / Check Bad Move
-
-Magnemite
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Loudred
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_GABBY_AND_TY_3 ===
 Name: GABBY & TY
@@ -1122,7 +1161,7 @@ Pic: Interviewer
 Gender: Male
 Music: Interviewer
 Double Battle: Yes
-AI: Smart Switching / Check Bad Move
+AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Magneton
 Level: 39
@@ -1147,7 +1186,7 @@ Pic: Tuber F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Marshtomp @ Clear Amulet  
 Ability: Damp  
@@ -1277,7 +1316,7 @@ Pic: Tuber M
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Clamperl @ Deep Sea Scale  
 Ability: Shell Armor  
@@ -1531,49 +1570,49 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer
 
-Swellow
-Level: 28
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Focus Energy
-- Quick Attack
-- Wing Attack
-- Endeavor
+Swellow @ Flame Orb  
+Ability: Guts  
+Level: 54  
+- Protect  
+- Dual Wingbeat  
+- Facade  
 
-Trapinch
-Level: 28
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Bite
-- Dig
-- Feint Attack
-- Sand Tomb
+Flygon @ Lum Berry  
+Ability: Tinted Lens  
+Level: 54  
+- U-turn  
+- First Impression  
+- Earthquake  
+- Dragon Claw  
 
-Wailmer
-Level: 28
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Rollout
-- Whirlpool
-- Astonish
-- Water Pulse
+Magnezone @ Focus Sash  
+Ability: Magnet Pull  
+Level: 54  
+IVs: 0 Atk  
+- Thunderbolt  
+- Flash Cannon  
+- Thunder Wave  
+- Volt Switch  
 
-Magneton
-Level: 28
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thunderbolt
-- Supersonic
-- Thunder Wave
-- Sonic Boom
+Wailord @ Leftovers  
+Ability: Bulletproof  
+Level: 54  
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Flip Turn  
+- Liquidation  
+- Heavy Slam  
+- Water Spout  
 
-Shiftry
-Level: 28
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Giga Drain
-- Feint Attack
-- Double Team
-- Swagger
+Shiftry @ Tanga Berry  
+Ability: Chlorophyll  
+Level: 54  
+- Leaf Blade  
+- Knock Off  
+- Sucker Punch  
+- Fake Out  
 
 === TRAINER_VINCENT ===
 Name: VINCENT
@@ -1924,33 +1963,34 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Full Restore
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / AI_FLAG_FORCE_SETUP_FIRST_TURN
+AI: Smart Trainer
 
-Mawile
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Baton Pass
-- Feint Attack
-- Fake Tears
-- Bite
+Mawile @ Sitrus Berry  
+Ability: Intimidate  
+Level: 53  
+- Stealth Rock  
+- Swords Dance  
+- Sucker Punch  
+- Iron Head  
 
-Roselia
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Mega Drain
-- Magical Leaf
-- Grass Whistle
-- Leech Seed
+Amoonguss @ Leftovers  
+Ability: Regenerator  
+Level: 53  
+IVs: 0 Atk  
+- Spore  
+- Giga Drain  
+- Sludge Bomb  
+- Foul Play  
 
-Pelipper
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Fly
-- Water Gun
-- Mist
-- Protect
+Gyarados @ Wacan Berry  
+Ability: Intimidate  
+Level: 53  
+Modest Nature
+- Dragon Dance  
+- Bounce  
+- Aqua Tail  
+- Outrage  
 
 === TRAINER_KEIRA ===
 Name: KEIRA
@@ -2218,15 +2258,25 @@ Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer
 
-Duskull
-Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Dusknoir @ Punching Glove  
+Ability: Iron Fist  
+Level: 54  
+- Shadow Punch  
+- Thunder Punch  
+- Fire Punch  
+- Ice Punch  
 
-Shuppet
-Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Cursola @ Choice Specs  
+Ability: Perish Body  
+Level: 54  
+EVs: 248 HP / 248 Def / 8 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Shadow Ball  
+- Scald  
+- Ancient Power  
 
 === TRAINER_TAMMY ===
 Name: TAMMY
@@ -3831,15 +3881,21 @@ Pic: Guitarist
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
-Electrike
-Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Eelektross @ Magnet  
+Ability: Levitate  
+Level: 53  
+- Supercell Slam  
+- Thunder Wave  
+- Volt Switch  
+- Aqua Tail  
 
-Loudred
-Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Exploud @ Throat Spray  
+Ability: Punk Rock  
+Level: 53  
+- Boomburst  
+- Crunch  
 
 === TRAINER_DALTON_1 ===
 Name: DALTON
@@ -3848,15 +3904,14 @@ Pic: Guitarist
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
-Magnemite
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Whismur
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Noivern @ Throat Spray  
+Ability: Aerilate  
+Level: 55  
+IVs: 0 Atk  
+- Boomburst  
+- Dragon Pulse
 
 === TRAINER_DALTON_2 ===
 Name: DALTON
@@ -4649,11 +4704,17 @@ Pic: Psychic M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer
 
-Solrock
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Iron Crown @ Booster Energy  
+Ability: Quark Drive  
+Level: 54  
+EVs: 248 HP / 180 Def / 80 SpD  
+Bold Nature   
+- Tachyon Cutter  
+- Psychic  
+- Volt Switch  
+- Brick Break
 
 === TRAINER_CAMERON_2 ===
 Name: CAMERON
@@ -4825,15 +4886,22 @@ Pic: Psychic F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
-Kadabra
-Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Solrock @ Passho Berry  
+Ability: Levitate  
+Level: 52  
+- Rock Slide  
+- Zen Headbutt  
+- Flare Blitz  
 
-Lunatone
-Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Lunatone @ Rindo Berry  
+Ability: Levitate  
+Level: 52  
+IVs: 0 Atk  
+- Psychic  
+- Power Gem  
+- Shadow Ball  
 
 === TRAINER_JACKI_2 ===
 Name: JACKI
@@ -5834,7 +5902,7 @@ Pic: School Kid F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Clefairy @ Eviolite
 Ability: Friend Guard  
@@ -5960,7 +6028,7 @@ Pic: Sr And Jr
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Clefairy @ Eviolite  
 Ability: Friend Guard  
@@ -6289,7 +6357,7 @@ Pic: Pokefan F
 Gender: Female
 Music: Twins
 Double Battle: No
-AI: Smart Switching / AI_FLAG_DOUBLE_BATTLE / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: AI_FLAG_DOUBLE_BATTLE / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Plusle @ Choice Scarf  
 Ability: Plus  
@@ -7642,7 +7710,7 @@ Pic: Cycling Triathlete F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / AI_FLAG_SEQUENCE_SWITCHING
+AI: Check Bad Move / Try To Faint / Smart Mon Choices / AI_FLAG_SEQUENCE_SWITCHING
 
 Seaking @ Rindo Berry  
 Ability: Lightning Rod  
@@ -8232,11 +8300,23 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
-Wingull
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Staraptor @ Focus Sash  
+Ability: Intimidate  
+Level: 51  
+- Acrobatics  
+- Dual Wingbeat  
+- U-turn  
+- Facade  
+
+Corviknight @ Sitrus Berry  
+Ability: Mirror Armor  
+Level: 52  
+- Roost  
+- Brave Bird  
+- Body Press  
+- Steel Wing  
 
 === TRAINER_HUGH ===
 Name: HUGH
@@ -8394,15 +8474,22 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
-Taillow
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mandibuzz @ Leftovers  
+Ability: Big Pecks  
+Level: 55  
+- Foul Play  
+- Dual Wingbeat  
+- Knock Off  
+- Roost  
 
-Swellow
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Minior-Meteor @ Power Herb  
+Ability: Shields Down  
+Level: 55  
+- Meteor Beam  
+- Acrobatics  
+- Power Gem  
 
 === TRAINER_ROBERT_2 ===
 Name: ROBERT
@@ -9118,7 +9205,7 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / AI_FLAG_SEQUENCE_SWITCHING
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / AI_FLAG_SEQUENCE_SWITCHING
 
 Politoed @ Damp Rock  
 Ability: Drizzle  
@@ -9147,7 +9234,7 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Alomomola @ Leftovers  
 Ability: Regenerator  
@@ -9929,7 +10016,7 @@ Pic: Twins
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon
 
 Snivy @ Oran Berry  
 Ability: Contrary  
@@ -9965,15 +10052,29 @@ Pic: Twins
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Smart Switching / Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon
 
-Beautifly
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Frosmoth @ Leftovers  
+Ability: Ice Scales  
+Level: 51  
+EVs: 248 HP / 212 Def  
+Bold Nature  
+IVs: 0 Atk / 0 SpA / 0 SpD / 0 Spe  
+- Quiver Dance  
+- Ice Beam  
+- Bug Buzz  
+- Giga Drain  
 
-Dustox
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Volcarona @ Leftovers  
+Ability: Flame Body  
+Level: 51  
+EVs: 252 HP  
+Calm Nature  
+IVs: 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Quiver Dance  
+- Fiery Dance  
+- Bug Buzz  
+- Heat Wave  
 
 === TRAINER_AMY_AND_LIV_3 ===
 Name: AMY & LIV
@@ -10389,13 +10490,32 @@ Class: Cooltrainer 2
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer
 
-Absol
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Araquanid @ Focus Sash  
+Ability: Water Bubble  
+Level: 51  
+- Sticky Web  
+- Lunge  
+- Liquidation  
+- Toxic  
+
+Darmanitan @ Assault Vest  
+Ability: Zen Mode  
+Level: 52  
+- Flare Blitz  
+- Flamethrower  
+- Psychic  
+- Yawn  
+
+Cacturne @ Quick Claw  
+Ability: Water Absorb  
+Level: 52  
+- Needle Arm  
+- Knock Off  
+- Sucker Punch  
+- Substitute  
 
 === TRAINER_JONAS ===
 Name: JONAS
@@ -10404,15 +10524,24 @@ Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon
 
-Koffing
-Level: 31
+Venusaur @ Black Sludge  
+Ability: Chlorophyll  
+Level: 53  
+IVs: 0 Atk  
+- Toxic  
+- Synthesis  
+- Giga Drain  
+- Toxic Spikes  
+
+Salazzle @ Focus Sash  
+Ability: Merciless  
+Level: 53  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Toxic
-- Thunder
-- Self Destruct
-- Sludge Bomb
+- Sludge Wave  
+- Heat Wave  
+- Toxic  
 
 === TRAINER_KAYLEY ===
 Name: KAYLEY
@@ -10421,15 +10550,23 @@ Pic: Parasol Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon
 
-Castform
-Level: 31
+Ninetales @ Heat Rock  
+Ability: Drought  
+Level: 53  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sunny Day
-- Weather Ball
-- Flamethrower
-- Solar Beam
+- Dazzling Gleam  
+- Heat Wave  
+- Toxic  
+
+Castform @ Assault Vest  
+Ability: Forecast  
+Level: 53  
+EVs: 184 HP / 160 Def / 160 SpD  
+IVs: 0 Atk  
+- Weather Ball  
+- Solar Beam  
 
 === TRAINER_AURON ===
 Name: AURON
@@ -11287,17 +11424,66 @@ Level: 27
 - Slash  
 
 === TRAINER_DAVIS ===
-Name: DAVIS
-Class: Bug Catcher
-Pic: Bug Catcher
+Name: TUCKER
+Class: Dome Ace
+Pic: Dome Ace Tucker
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer / Ace Pokemon
 
-Pinsir
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ribombee @ Focus Sash  
+Ability: Shield Dust  
+Level: 54  
+IVs: 0 Atk / 0 SpA 
+- Sticky Web  
+- Moonblast  
+- Bug Buzz  
+- Stun Spore  
+
+Grimmsnarl @ Sitrus Berry  
+Ability: Prankster  
+Level: 54  
+- Thunder Wave  
+- Spirit Break  
+- False Surrender  
+- Fake Out  
+
+Primarina @ Terrain Extender  
+Ability: Misty Surge  
+Level: 54  
+IVs: 0 Atk / 0 SpA
+- Sparkling Aria  
+- Alluring Voice  
+- Aqua Jet  
+- Draining Kiss  
+
+Mismagius @ Life Orb  
+Ability: Levitate  
+Level: 54  
+IVs: 0 Atk / 0 SpA
+- Moonblast  
+- Shadow Ball  
+- Calm Mind  
+- Will-O-Wisp  
+
+Togekiss @ Sharp Beak  
+Ability: Serene Grace  
+Level: 54  
+IVs: 0 Atk / 0 SpA
+- Dazzling Gleam  
+- Draining Kiss  
+- Air Slash  
+- Tri Attack  
+
+Mawile @ Mawilite  
+Ability: Intimidate  
+Level: 55 
+IVs: 0 Atk / 0 SpA 
+- Iron Head  
+- Play Rough  
+- Thunder Fang  
+- Fire Fang  
 
 === TRAINER_MITCHELL ===
 Name: MITCHELL
@@ -13052,7 +13238,7 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Kricketune  
 Ability: Technician  
@@ -14425,7 +14611,7 @@ Pic: Twins
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Brute Bonnet @ Rocky Helmet  
 Ability: Protosynthesis  
@@ -14507,7 +14693,7 @@ Pic: Young Couple
 Gender: Male
 Music: Girl
 Double Battle: Yes
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Dustox @ Coba Berry  
 Ability: Shield Dust  
@@ -14800,7 +14986,7 @@ Pic: Rich Boy
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Murkrow @ Big Nugget  
 Ability: Super Luck  
@@ -14816,7 +15002,7 @@ Pic: Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Steenee @ Big Nugget  
 Ability: Oblivious  
@@ -14852,7 +15038,7 @@ Pic: Tuber F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Clamperl @ Deep Sea Tooth  
 Ability: Rattled  
@@ -14868,7 +15054,7 @@ Pic: Tuber M
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Clodsire @ Luminous Moss  
 Ability: Water Absorb  
@@ -14884,7 +15070,7 @@ Pic: Pokefan M
 Gender: Male
 Music: Twins
 Double Battle: No
-AI: Smart Switching / AI_FLAG_DOUBLE_BATTLE / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: AI_FLAG_DOUBLE_BATTLE / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Minun @ Lum Berry  
 Ability: Minus  
@@ -14909,7 +15095,7 @@ Pic: Guitarist
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Flaaffy @ Terrain Extender  
 Ability: Electric Surge  
@@ -14985,7 +15171,7 @@ Pic: Camper
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Stunfisk-Galar @ Grassy Seed  
 Ability: Mimicry  
@@ -15003,7 +15189,7 @@ Pic: Aroma Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Rillaboom @ Terrain Extender  
 Ability: Grassy Surge  
@@ -15020,7 +15206,7 @@ Pic: Picnicker
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Sunflora @ Focus Sash  
 Ability: Chlorophyll  
@@ -15045,7 +15231,7 @@ Pic: Kindler
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Torkoal @ Heat Rock  
 Ability: Drought  
@@ -15180,7 +15366,7 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Whiscash @ Choice Specs  
 Ability: Oblivious  
@@ -15195,7 +15381,7 @@ Pic: Picnicker
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Lanturn @ Air Balloon  
 Ability: Water Absorb  
@@ -15586,7 +15772,7 @@ Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon
 
 Rampardos @ Lum Berry  
 Ability: Mold Breaker  
@@ -15610,7 +15796,7 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon
 
 Bombirdier @ Lum Berry  
 Ability: Rocky Payload  
@@ -15649,7 +15835,7 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Pelipper @ Damp Rock  
 Ability: Drizzle  
@@ -15671,7 +15857,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Ferrothorn @ Rocky Helmet  
 Ability: Iron Barbs  
@@ -15791,7 +15977,7 @@ Pic: Kindler
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Armarouge @ Psychic Seed  
 Ability: Flash Fire  
@@ -15810,7 +15996,7 @@ Pic: Aroma Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 
 Exeggutor @ Sitrus Berry  
@@ -15888,7 +16074,7 @@ Pic: Psychic F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Hatterene @ Sitrus Berry  
 Ability: Magic Bounce  
@@ -15906,7 +16092,7 @@ Pic: Battle Girl
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Conkeldurr @ Flame Orb  
 Ability: Guts  
@@ -15940,7 +16126,7 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Passimian @ Wiki Berry  
 Ability: Receiver  
@@ -15990,7 +16176,7 @@ Pic: Psychic F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Malamar @ Salac Berry  
 Ability: Contrary  
@@ -16004,7 +16190,7 @@ Pic: Battle Girl
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Passimian @ Focus Sash  
 Ability: Receiver  

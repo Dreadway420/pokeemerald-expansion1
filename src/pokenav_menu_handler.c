@@ -389,12 +389,12 @@ static u32 HandleConditionMenuInput(struct Pokenav_Menu *menu)
             menu->callback = HandleConditionSearchMenuInput;
             return POKENAV_MENU_FUNC_OPEN_CONDITION_SEARCH;
         case POKENAV_MENUITEM_CONDITION_ACCESS_PC:
-            if(Overworld_MapTypeAllowsTeleportAndFly(gMapHeader.mapType)){
+            if(IsMapTypeOutdoors(gMapHeader.mapType)){
                 gSysPcFromPokenav = TRUE;
                 // Reusing from debug menu to gracefully close PC when done.
                 CreateTask(Task_WaitFadeAccessPC, 0);
                 return POKENAV_MENU_FUNC_EXIT; 
-            }
+            } //if(IsMapTypeAccessPC(gMapHeader.mapType)){
             else{
                 menu->callback = HandleCantAccessPCInput;
                 return POKENAV_MENU_FUNC_CANNOT_ACCESS_PC;

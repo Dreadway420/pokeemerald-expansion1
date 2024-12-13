@@ -25,10 +25,11 @@ Route118_OnFrame:
 Route118_EventScript_GoodRodFisherman::
 	lock
 	faceplayer
-	goto_if_set FLAG_RECEIVED_GOOD_ROD, Route118_EventScript_ReceivedGoodRod
-	msgbox Route118_Text_YouAgreeGoodRodIsGood, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, Route118_EventScript_ReceiveGoodRod
-	goto_if_eq VAR_RESULT, NO, Route118_EventScript_DeclineGoodRod
+	@goto_if_set FLAG_RECEIVED_GOOD_ROD, Route118_EventScript_ReceivedGoodRod
+	msgbox Route118_Text_YouAgreeGoodRodIsGood
+	@goto_if_eq VAR_RESULT, YES, Route118_EventScript_ReceiveGoodRod
+	@goto_if_eq VAR_RESULT, NO, Route118_EventScript_DeclineGoodRod
+	release
 	end
 
 Route118_EventScript_ReceiveGoodRod::
@@ -241,7 +242,7 @@ Route118_EventScript_Chester::
 	end
 
 Route118_EventScript_Deandre::
-	trainerbattle_single TRAINER_DEANDRE, Route118_Text_DeandreIntro, Route118_Text_DeandreDefeat
+	@ trainerbattle_single TRAINER_DEANDRE, Route118_Text_DeandreIntro, Route118_Text_DeandreDefeat
 	msgbox Route118_Text_DeandrePostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -264,9 +265,8 @@ Route118_Text_StevenQuestions:
 	.string "again somewhere.$"
 
 Route118_Text_YouAgreeGoodRodIsGood:
-	.string "Hmm!\n"
-	.string "A GOOD ROD is really good!\p"
-	.string "Wouldn't you agree?$"
+	.string "I heard that Route 119 is\n"
+	.string "great for catching FEEBAS.$"
 
 Route118_Text_IdenticalMindsTakeThis:
 	.string "Hmm!\n"

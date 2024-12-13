@@ -2702,9 +2702,9 @@ Route118_Text_DeandreDefeat:
 	.string "POKéMON 1, 2, and 3?!$"
 
 Route118_Text_DeandrePostBattle:
-	.string "Isn't it cool that I have a POKéMON\n"
-	.string "battle team?\p"
-	.string "You can copy me--I don't mind!$"
+	.string "I am trying to figure out how to \n"
+	.string "use CUT on this tree.\p"
+	.string "I will be done soon!$"
 
 Route119_Text_BrentIntro:
 	.string "We're the MIMIC CIRCLE!\n"
@@ -3517,16 +3517,22 @@ Route123_Text_FernandoPostRematch:
 	.string "by my tune, you'd lose.$"
 
 Route123_Text_DavisIntro:
-	.string "This is my awesome BUG POKéMON!\n"
-	.string "My big brother got it for me.$"
+	.string "TUCKER: Ah…\n"
+	.string "This is a wonderful place…\p"
+	.string "I will unleash all the power that\n"
+	.string "I possess! Right here and now!$"
 
 Route123_Text_DavisDefeat:
-	.string "Waaaah!\n"
-	.string "You meanie!$"
+	.string "TUCKER: You're genuinely fantastic!\p"
+	.string "Never before! I haven't ever lost in the\n"
+	.string "times I've had to unleash my power.\p"
+	.string "Yes, quite fantastic!$"
 
 Route123_Text_DavisPostBattle:
-	.string "Don't tell my brother I lost.\n"
-	.string "You have to keep it a secret!$"
+	.string "TUCKER: You're genuinely fantastic!\p"
+	.string "Never before! I haven't ever lost in the\n"
+	.string "times I've had to unleash my power.\p"
+	.string "Yes, quite fantastic!$"
 
 Route123_Text_JazmynIntro:
 	.string "My confidence will get a boost by\n"
