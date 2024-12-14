@@ -847,7 +847,6 @@ static void MainCB2(void)
     RunTasks();
     AnimateSprites();
     BuildOamBuffer();
-    UpdatePaletteFade();
 }
 
 static void VBlankCB(void)
@@ -917,7 +916,6 @@ void CB2_BattleDebugMenu(void)
         gMain.state++;
         break;
     case 5:
-        BeginNormalPaletteFade(-1, 0, 0x10, 0, 0);
         SetVBlankCallback(VBlankCB);
         SetMainCallback2(MainCB2);
         return;
@@ -1330,8 +1328,7 @@ static void SwitchToDebugView(u8 taskId)
 
 static void Task_DebugMenuFadeIn(u8 taskId)
 {
-    if (!gPaletteFade.active)
-        gTasks[taskId].func = Task_DebugMenuProcessInput;
+    gTasks[taskId].func = Task_DebugMenuProcessInput;
 }
 
 static void Task_DebugMenuProcessInput(u8 taskId)
@@ -1342,7 +1339,6 @@ static void Task_DebugMenuProcessInput(u8 taskId)
     // Exit the menu.
     if (JOY_NEW(SELECT_BUTTON) || ((JOY_NEW(B_BUTTON)) && data->activeWindow == ACTIVE_WIN_MAIN))
     {
-        BeginNormalPaletteFade(-1, 0, 0, 0x10, 0);
         gTasks[taskId].func = Task_DebugMenuFadeOut;
         return;
     }
@@ -1462,23 +1458,22 @@ static void Task_DebugMenuProcessInput(u8 taskId)
     }
 }
 
+
 static void Task_DebugMenuFadeOut(u8 taskId)
 {
-    if (!gPaletteFade.active)
-    {
-        struct BattleDebugMenu *data = GetStructPtr(taskId);
-        DestroyListMenuTask(data->mainListTaskId, 0, 0);
-        if (data->secondaryListTaskId != 0xFF)
-            DestroyListMenuTask(data->secondaryListTaskId, 0, 0);
+    struct BattleDebugMenu *data = GetStructPtr(taskId);
+    DestroyListMenuTask(data->mainListTaskId, 0, 0);
+    if (data->secondaryListTaskId != 0xFF)
+        DestroyListMenuTask(data->secondaryListTaskId, 0, 0);
 
-        FreeAllWindowBuffers();
-        UpdateMonData(data);
-        gBattleStruct->debugBattler = data->battlerId;
-        Free(data);
-        DestroyTask(taskId);
-        SetMainCallback2(ReshowBattleScreenAfterMenu);
-    }
+    FreeAllWindowBuffers();
+    UpdateMonData(data);
+    gBattleStruct->debugBattler = data->battlerId;
+    Free(data);
+    DestroyTask(taskId);
+    SetMainCallback2(ReshowBattleScreenAfterMenu);
 }
+
 
 static void PrintOnBattlerWindow(u8 windowId, u8 battlerId)
 {
