@@ -258,7 +258,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -656,7 +655,6 @@ Class: Aqua Admin
 Pic: Aqua Admin M
 Gender: Male
 Music: Aqua
-Items: Super Potion
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -766,7 +764,6 @@ Class: Aqua Leader
 Pic: Aqua Leader Archie
 Gender: Male
 Music: Aqua
-Items: Super Potion / Super Potion
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -861,7 +858,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -1700,7 +1696,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -1722,7 +1717,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -1771,7 +1765,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -1789,7 +1782,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -1807,7 +1799,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -1829,7 +1820,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -1855,7 +1845,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -1877,7 +1866,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -1899,7 +1887,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -1921,7 +1908,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -1943,7 +1929,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -1965,7 +1950,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -2078,7 +2062,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
@@ -2128,7 +2111,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -2142,7 +2124,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -2156,7 +2137,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -2170,7 +2150,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -2192,7 +2171,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -2210,7 +2188,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -2232,7 +2209,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -2254,7 +2230,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -2276,7 +2251,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -2298,7 +2272,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -2495,7 +2468,6 @@ Class: Lady
 Pic: Lady
 Gender: Female
 Music: Female
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move
 
@@ -2542,7 +2514,6 @@ Class: Lady
 Pic: Lady
 Gender: Female
 Music: Female
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move
 
@@ -2558,7 +2529,6 @@ Class: Lady
 Pic: Lady
 Gender: Female
 Music: Female
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move
 
@@ -2572,7 +2542,6 @@ Class: Lady
 Pic: Lady
 Gender: Female
 Music: Female
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move
 
@@ -2586,7 +2555,6 @@ Class: Lady
 Pic: Lady
 Gender: Female
 Music: Female
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move
 
@@ -2600,7 +2568,6 @@ Class: Lady
 Pic: Lady
 Gender: Female
 Music: Female
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move
 
@@ -2614,7 +2581,6 @@ Class: Lady
 Pic: Lady
 Gender: Female
 Music: Female
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move
 
@@ -2628,7 +2594,6 @@ Class: Lady
 Pic: Lady
 Gender: Female
 Music: Female
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move
 
@@ -2927,7 +2892,6 @@ Class: Rich Boy
 Pic: Rich Boy
 Gender: Male
 Music: Rich
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move
 
@@ -2941,7 +2905,6 @@ Class: Rich Boy
 Pic: Rich Boy
 Gender: Male
 Music: Rich
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move
 
@@ -2955,7 +2918,6 @@ Class: Rich Boy
 Pic: Rich Boy
 Gender: Male
 Music: Rich
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move
 
@@ -2969,7 +2931,6 @@ Class: Rich Boy
 Pic: Rich Boy
 Gender: Male
 Music: Rich
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move
 
@@ -2983,7 +2944,6 @@ Class: Rich Boy
 Pic: Rich Boy
 Gender: Male
 Music: Rich
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move
 
@@ -5217,7 +5177,6 @@ Class: Elite Four
 Pic: Elite Four Sidney
 Gender: Male
 Music: Elite Four
-Items: Full Restore / Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / AI_FLAG_FORCE_SETUP_FIRST_TURN
 Mugshot: Purple
@@ -5268,7 +5227,6 @@ Class: Elite Four
 Pic: Elite Four Phoebe
 Gender: Female
 Music: Elite Four
-Items: Full Restore / Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 Mugshot: Green
@@ -5319,7 +5277,6 @@ Class: Elite Four
 Pic: Elite Four Glacia
 Gender: Female
 Music: Elite Four
-Items: Full Restore / Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 Mugshot: Pink
@@ -5370,7 +5327,6 @@ Class: Elite Four
 Pic: Elite Four Drake
 Gender: Male
 Music: Elite Four
-Items: Full Restore / Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 Mugshot: Blue
@@ -5733,49 +5689,58 @@ Class: Leader
 Pic: Leader Winona
 Gender: Female
 Music: Female
-Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Risky
+AI: Smart Trainer / Ace Pokemon
 
-Swablu
-Level: 29
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Perish Song
-- Mirror Move
-- Safeguard
-- Aerial Ace
+Toucannon @ Zoom Lens  
+Ability: Skill Link  
+Level: 62  
+- Bullet Seed  
+- Rock Blast  
+- Dual Wingbeat  
+- Fury Attack  
 
-Tropius
-Level: 29
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Sunny Day
-- Aerial Ace
-- Solar Beam
-- Synthesis
+Tropius @ Sitrus Berry  
+Ability: Harvest  
+Level: 62  
+IVs: 0 Atk  
+- Air Slash  
+- Dragon Pulse  
+- Giga Drain  
+- Hurricane  
 
-Pelipper
-Level: 30
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Water Gun
-- Supersonic
-- Protect
-- Aerial Ace
+Gliscor @ Toxic Orb  
+Ability: Poison Heal  
+Level: 62  
+- Earthquake  
+- Dual Wingbeat  
+- Knock Off  
+- U-turn  
 
-Skarmory
-Level: 31
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Sand Attack
-- Fury Attack
-- Steel Wing
-- Aerial Ace
+Zapdos-Galar @ Life Orb  
+Ability: Defiant  
+Level: 62  
+- Blaze Kick  
+- Thunderous Kick  
+- Drill Peck  
+- Trailblaze  
 
-Altaria @ Oran Berry
-Level: 33
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Dragon Breath
-- Dragon Dance
-- Aerial Ace
+Corviknight @ Occa Berry  
+Ability: Mirror Armor  
+Level: 62  
+- Drill Peck  
+- Body Press  
+- Defog  
+- Iron Defense  
+
+Altaria @ Altarianite  
+Ability: Pixilate  
+Level: 62  
+IVs: 0 Atk  
+- Moonblast  
+- Hyper Voice  
+- Dragon Pulse  
+- Weather Ball  
 
 === TRAINER_TATE_AND_LIZA_1 ===
 Name: TATE&LIZA
@@ -5783,7 +5748,6 @@ Class: Leader
 Pic: Leader Tate And Liza
 Gender: Male
 Music: Female
-Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -5825,7 +5789,6 @@ Class: Leader
 Pic: Leader Juan
 Gender: Male
 Music: Male
-Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -6926,7 +6889,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -6952,7 +6914,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -7198,7 +7159,6 @@ Class: Champion
 Pic: Champion Wallace
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 Mugshot: Yellow
@@ -8463,19 +8423,28 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer
 
-Doduo
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Oricorio @ Life Orb  
+Ability: Dancer  
+Level: 61  
+IVs: 0 Atk  
+- Revelation Dance  
+- Air Slash  
 
-Skarmory
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Oricorio-Pom-Pom @ Choice Specs  
+Ability: Dancer  
+Level: 61  
+IVs: 0 Atk  
+- Revelation Dance  
+- Air Slash  
 
-Tropius
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Oricorio-Sensu @ Assault Vest  
+Ability: Dancer  
+Level: 61  
+IVs: 0 Atk  
+- Revelation Dance  
+- Air Slash  
 
 === TRAINER_HUMBERTO ===
 Name: HUMBERTO
@@ -8484,11 +8453,25 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Skarmory
-Level: 30
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Vespiquen @ Charti Berry  
+Ability: Technician  
+Level: 61  
+EVs: 248 HP / 8 Def / 252 Spe  
+Jolly Nature  
+- Attack Order  
+- Defend Order  
+- Heal Order  
+- Dual Wingbeat  
+
+Honchkrow @ Scope Lens  
+Ability: Super Luck  
+Level: 61  
+- Night Slash  
+- Sucker Punch  
+- Air Cutter  
+- Brave Bird  
 
 === TRAINER_PRESLEY ===
 Name: PRESLEY
@@ -8514,15 +8497,14 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer
 
-Doduo
-Level: 29
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-
-Pelipper
-Level: 29
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Pelipper @ Choice Specs  
+Ability: Drizzle  
+Level: 61  
+IVs: 0 Atk  
+- Hurricane  
+- Weather Ball  
 
 === TRAINER_COLIN ===
 Name: COLIN
@@ -8745,7 +8727,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Full Restore
 Double Battle: No
 
 Claydol
@@ -10728,7 +10709,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -10923,7 +10903,6 @@ Class: Rival
 Pic: Wally
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -12057,7 +12036,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -12248,7 +12226,6 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -12270,7 +12247,6 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -12284,7 +12260,6 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
@@ -12298,7 +12273,6 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -12312,7 +12286,6 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
@@ -12326,7 +12299,6 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -12372,7 +12344,6 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger F
 Gender: Female
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Trainer / Ace Pokemon
 
@@ -12394,7 +12365,6 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger F
 Gender: Female
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -12412,7 +12382,6 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger F
 Gender: Female
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
@@ -12430,7 +12399,6 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger F
 Gender: Female
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -12448,7 +12416,6 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger F
 Gender: Female
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
@@ -12466,7 +12433,6 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger F
 Gender: Female
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -12722,7 +12688,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -13126,7 +13091,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
@@ -13249,7 +13213,6 @@ Class: Magma Leader
 Pic: Magma Leader Maxie
 Gender: Male
 Music: Magma
-Items: Super Potion / Super Potion
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -14305,7 +14268,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -14441,15 +14403,15 @@ Pic: Camper
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer
 
-Swellow
-Level: 29
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-
-Xatu
-Level: 29
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Kilowattrel @ Assault Vest  
+Ability: Volt Absorb  
+Level: 61  
+IVs: 0 Atk  
+- Thunder  
+- Weather Ball  
+- Hurricane  
 
 === TRAINER_ASHLEY ===
 Name: ASHLEY
@@ -14458,19 +14420,34 @@ Pic: Picnicker
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer / Sequence Switching / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
-Swablu
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Vivillon-Pokeball @ Focus Sash  
+Ability: Friend Guard  
+Level: 61  
+IVs: 0 Atk  
+- Quiver Dance  
+- Air Slash  
+- Bug Buzz  
+- Giga Drain  
 
-Swablu
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Vivillon @ Focus Sash  
+Ability: Friend Guard  
+Level: 61  
+IVs: 0 Atk  
+- Quiver Dance  
+- Air Slash  
+- Bug Buzz  
+- Giga Drain  
 
-Swablu
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Vivillon-Fancy @ Focus Sash  
+Ability: Friend Guard  
+Level: 61  
+IVs: 0 Atk  
+- Quiver Dance  
+- Air Slash  
+- Bug Buzz  
+- Giga Drain  
 
 === TRAINER_WALLY_MAUVILLE ===
 Name: WALLY
@@ -14495,7 +14472,6 @@ Class: Rival
 Pic: Wally
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -14545,7 +14521,6 @@ Class: Rival
 Pic: Wally
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -14595,7 +14570,6 @@ Class: Rival
 Pic: Wally
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -14645,7 +14619,6 @@ Class: Rival
 Pic: Wally
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -14904,7 +14877,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Full Restore
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -14922,7 +14894,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -16066,7 +16037,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -16611,7 +16581,6 @@ Class: Expert
 Pic: Expert F
 Gender: Female
 Music: Intense
-Items: Hyper Potion
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -16687,7 +16656,6 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -16804,7 +16772,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -16929,7 +16896,6 @@ Class: Leader
 Pic: Leader Roxanne
 Gender: Female
 Music: Female
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / AI_FLAG_FORCE_SETUP_FIRST_TURN / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon 
 
@@ -16971,7 +16937,6 @@ Class: Leader
 Pic: Leader Roxanne
 Gender: Female
 Music: Female
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -17021,7 +16986,6 @@ Class: Leader
 Pic: Leader Roxanne
 Gender: Female
 Music: Female
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -17071,7 +17035,6 @@ Class: Leader
 Pic: Leader Roxanne
 Gender: Female
 Music: Female
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -17129,7 +17092,6 @@ Class: Leader
 Pic: Leader Brawly
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -17171,7 +17133,6 @@ Class: Leader
 Pic: Leader Brawly
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -17213,7 +17174,6 @@ Class: Leader
 Pic: Leader Brawly
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -17263,7 +17223,6 @@ Class: Leader
 Pic: Leader Brawly
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -17321,7 +17280,6 @@ Class: Leader
 Pic: Leader Wattson
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -17363,7 +17321,6 @@ Class: Leader
 Pic: Leader Wattson
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -17413,7 +17370,6 @@ Class: Leader
 Pic: Leader Wattson
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -17463,7 +17419,6 @@ Class: Leader
 Pic: Leader Wattson
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -17521,7 +17476,6 @@ Class: Leader
 Pic: Leader Flannery
 Gender: Female
 Music: Female
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -17563,7 +17517,6 @@ Class: Leader
 Pic: Leader Flannery
 Gender: Female
 Music: Female
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -17613,7 +17566,6 @@ Class: Leader
 Pic: Leader Flannery
 Gender: Female
 Music: Female
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -17671,7 +17623,6 @@ Class: Leader
 Pic: Leader Flannery
 Gender: Female
 Music: Female
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -17729,7 +17680,6 @@ Class: Leader
 Pic: Leader Norman
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -17771,7 +17721,6 @@ Class: Leader
 Pic: Leader Norman
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -17821,7 +17770,6 @@ Class: Leader
 Pic: Leader Norman
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -17871,7 +17819,6 @@ Class: Leader
 Pic: Leader Norman
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -17929,7 +17876,6 @@ Class: Leader
 Pic: Leader Winona
 Gender: Female
 Music: Female
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Risky
 
@@ -17979,7 +17925,6 @@ Class: Leader
 Pic: Leader Winona
 Gender: Female
 Music: Female
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Risky
 
@@ -18037,7 +17982,6 @@ Class: Leader
 Pic: Leader Winona
 Gender: Female
 Music: Female
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Risky
 
@@ -18095,7 +18039,6 @@ Class: Leader
 Pic: Leader Winona
 Gender: Female
 Music: Female
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Risky
 
@@ -18153,7 +18096,6 @@ Class: Leader
 Pic: Leader Tate And Liza
 Gender: Male
 Music: Female
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -18203,7 +18145,6 @@ Class: Leader
 Pic: Leader Tate And Liza
 Gender: Male
 Music: Female
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -18261,7 +18202,6 @@ Class: Leader
 Pic: Leader Tate And Liza
 Gender: Male
 Music: Female
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -18319,7 +18259,6 @@ Class: Leader
 Pic: Leader Tate And Liza
 Gender: Male
 Music: Female
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -18377,7 +18316,6 @@ Class: Leader
 Pic: Leader Juan
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -18427,7 +18365,6 @@ Class: Leader
 Pic: Leader Juan
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -18477,7 +18414,6 @@ Class: Leader
 Pic: Leader Juan
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -18535,7 +18471,6 @@ Class: Leader
 Pic: Leader Juan
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -18617,11 +18552,23 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer
 
-Tropius
-Level: 30
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Skarmory @ Leftovers  
+Ability: Sturdy  
+Level: 61  
+- Spikes  
+- Stealth Rock  
+- Swords Dance  
+- Steel Wing  
+
+Dragonite @ Yache Berry  
+Ability: Multiscale  
+Level: 61  
+- Dragon Dance  
+- Extreme Speed  
+- Dual Wingbeat  
+- Dragon Claw  
 
 === TRAINER_STEVEN_2 ===
 Name: STEVEN
@@ -19099,7 +19046,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -19117,7 +19063,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -19139,7 +19084,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 
@@ -19161,7 +19105,6 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
 AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
 

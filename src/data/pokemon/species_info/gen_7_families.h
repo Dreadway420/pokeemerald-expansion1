@@ -4320,12 +4320,12 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
 #if P_FAMILY_KOMALA
     [SPECIES_KOMALA] =
     {
-        .baseHP        = 75,
-        .baseAttack    = 115,
-        .baseDefense   = 80,
+        .baseHP        = 100,
+        .baseAttack    = 125,
+        .baseDefense   = 100,
         .baseSpeed     = 65,
         .baseSpAttack  = 65,
-        .baseSpDefense = 95,
+        .baseSpDefense = 115,
         .types = MON_TYPES(TYPE_NORMAL),
         .catchRate = 70,
         .expYield = 171,

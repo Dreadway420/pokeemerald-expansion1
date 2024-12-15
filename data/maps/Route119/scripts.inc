@@ -343,6 +343,10 @@ Route119_EventScript_Doug::
 	end
 
 Route119_EventScript_Greg::
+	setflag FLAG_HIDDEN_ITEM_ROUTE_123_REVIVE
+	setflag FLAG_HIDDEN_ITEM_ROUTE_123_PP_UP
+	setflag FLAG_HIDDEN_ITEM_ROUTE_123_RARE_CANDY
+	setflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_3
 	trainerbattle_single TRAINER_GREG, Route119_Text_GregIntro, Route119_Text_GregDefeat
 	msgbox Route119_Text_GregPostBattle, MSGBOX_AUTOCLOSE
 	end
