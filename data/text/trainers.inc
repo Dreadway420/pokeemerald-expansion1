@@ -2721,7 +2721,7 @@ Route119_Text_BrentPostBattle:
 
 Route119_Text_DonaldIntro:
 	.string "So, we finally meet!\n"
-	.string "My BUG POKéMON will keep you company!$"
+	.string "My POKéMON will keep you company!$"
 
 Route119_Text_DonaldDefeat:
 	.string "I wish we'd never met…$"

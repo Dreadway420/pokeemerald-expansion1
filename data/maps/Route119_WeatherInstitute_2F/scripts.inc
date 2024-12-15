@@ -46,6 +46,8 @@ Route119_WeatherInstitute_2F_EventScript_Grunt3::
 	end
 
 Route119_WeatherInstitute_2F_EventScript_Shelly::
+	special HealPlayerParty
+
 	trainerbattle_single TRAINER_SHELLY_WEATHER_INSTITUTE, Route119_WeatherInstitute_2F_Text_ShellyIntro, Route119_WeatherInstitute_2F_Text_ShellyDefeat, Route119_WeatherInstitute_2F_EventScript_ShellyDefeated
 	msgbox Route119_WeatherInstitute_2F_Text_ShellyPostBattle, MSGBOX_AUTOCLOSE
 	end
@@ -72,6 +74,12 @@ Route119_WeatherInstitute_2F_EventScript_ShellyDefeated::
 	fadescreen FADE_TO_BLACK
 	setflag FLAG_HIDE_ROUTE_119_TEAM_AQUA
 	setflag FLAG_HIDE_WEATHER_INSTITUTE_2F_AQUA_GRUNT_M
+	setflag FLAG_ITEM_ROUTE_119_HYPER_POTION_1
+	setflag FLAG_ITEM_ROUTE_119_RARE_CANDY
+	setflag FLAG_ITEM_ROUTE_119_SUPER_REPEL
+	setflag FLAG_ITEM_ROUTE_119_ZINC
+	setflag FLAG_ITEM_ROUTE_119_ELIXIR_1
+	setflag FLAG_HIDDEN_ITEM_ROUTE_119_CALCIUM
 	removeobject LOCALID_GRUNT_1
 	removeobject LOCALID_GRUNT_2
 	removeobject LOCALID_SHELLY

@@ -5702,12 +5702,12 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
 
     [SPECIES_GARBODOR] =
     {
-        .baseHP        = 100,
+        .baseHP        = 110,
         .baseAttack    = 95,
-        .baseDefense   = 102,
+        .baseDefense   = 112,
         .baseSpeed     = 75,
         .baseSpAttack  = 80,
-        .baseSpDefense = 102,
+        .baseSpDefense = 112,
         .types = MON_TYPES(TYPE_POISON),
         .catchRate = 70,
         .expYield = 167,

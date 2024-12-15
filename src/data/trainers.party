@@ -46,7 +46,7 @@ Optional fields for Pokemon:
           (Order does not matter)
     - EVs (252 HP / 128 Spe / 48 Def, defaults to all 0, is not capped at 512 total)
           (Order does not matter)
-    - Ball (Poke Ball or ITEM_POKE_BALL, defaults to Poke Ball
+    - Ball (Poke Ball or ITEM_POKE_BALL, defaults to Poke Ball)
     - Happiness (Number between 1 and 255)
     - Nature (Rash or NATURE_RASH, defaults to Hardy)
     - Shiny (Yes/No, defaults to No)
@@ -379,15 +379,23 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices 
 
-Zubat
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Cetitan @ Leftovers  
+Ability: Thick Fat  
+Level: 59  
+- Belly Drum  
+- Avalanche  
+- Ice Spinner  
+- Play Rough  
 
-Poochyena
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Barbaracle @ Assault Vest  
+Ability: Tough Claws  
+Level: 59  
+- Aqua Jet  
+- Razor Shell  
+- Stone Edge  
+- Power-Up Punch  
 
 === TRAINER_GRUNT_WEATHER_INST_2 ===
 Name: GRUNT
@@ -396,15 +404,23 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer
 
-Poochyena
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Beartic @ Expert Belt  
+Ability: Slush Rush  
+Level: 59  
+- Aqua Jet  
+- Icicle Crash  
+- Play Rough  
+- Brick Break  
 
-Carvanha
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Crawdaunt @ Assault Vest  
+Ability: Adaptability  
+Level: 59  
+- Crabhammer  
+- Aqua Jet  
+- Knock Off  
+- Crunch  
 
 === TRAINER_GRUNT_WEATHER_INST_3 ===
 Name: GRUNT
@@ -413,19 +429,23 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices 
 
-Poochyena
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Drednaw @ Assault Vest  
+Ability: Strong Jaw  
+Level: 59  
+- Jaw Lock  
+- Ice Fang  
+- Stone Edge  
+- Razor Shell  
 
-Zubat
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Carvanha
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Weavile @ Expert Belt  
+Ability: Dazzling  
+Level: 59  
+- Knock Off  
+- Ice Punch  
+- Fake Out  
+- Low Kick  
 
 === TRAINER_GRUNT_MUSEUM_1 ===
 Name: MATT
@@ -560,11 +580,26 @@ Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices
 
-Carvanha
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Obstagoon @ Life Orb  
+Ability: Reckless  
+Level: 59  
+- Knock Off  
+- Return  
+- Obstruct  
+- Body Press  
+
+Bruxish @ Iapapa Berry  
+Ability: Strong Jaw  
+Level: 59  
+EVs: 156 HP / 252 Atk / 96 Def / 4 SpD  
+Impish Nature  
+- Psychic Fangs  
+- Poison Fang  
+- Ice Fang  
+- Liquidation  
+
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_5 ===
 Name: GRUNT
@@ -653,15 +688,60 @@ Pic: Aqua Admin F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer / Ace Pokemon
 
-Carvanha
-Level: 28
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Politoed @ Damp Rock  
+Ability: Drizzle  
+Level: 59  
+- Flip Turn  
+- Scald  
+- Icy Wind  
+- Toxic  
 
-Mightyena
-Level: 28
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Barraskewda @ Sitrus Berry  
+Ability: Swift Swim  
+Level: 59  
+IVs: 0 Atk / 0 Spe
+- Liquidation  
+- Crunch  
+- Close Combat  
+- Aqua Jet  
+
+Overqwil @ Assault Vest  
+Ability: Swift Swim  
+Level: 59  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
+- Barb Barrage  
+- Crunch  
+- Aqua Jet  
+- Throat Chop  
+
+Greninja @ Expert Belt  
+Ability: Protean  
+Level: 59  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Surf  
+- Ice Beam  
+- Dark Pulse  
+- Water Shuriken  
+
+Veluza @ Focus Sash  
+Ability: Sharpness  
+Level: 59  
+IVs:  0 Atk / 0 Spe
+- Aqua Cutter  
+- Aqua Jet  
+- Psycho Cut  
+- Crunch  
+
+Sharpedo @ Sharpedonite  
+Ability: Speed Boost  
+Level: 60  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
+- Poison Fang  
+- Ice Fang  
+- Waterfall  
+- Crunch  
 
 === TRAINER_SHELLY_SEAFLOOR_CAVERN ===
 Name: SHELLY
@@ -4397,32 +4477,50 @@ Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices 
 
-Surskit
-Level: 26
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Golisopod @ Focus Sash  
+Ability: Emergency Exit  
+Level: 57  
+- First Impression  
+- Leech Life  
+- Liquidation  
+- Aqua Jet  
+
+Masquerain @ Wacan Berry  
+Ability: Swift Swim  
+Level: 57  
+IVs: 0 Atk  
+- Surf  
+- Chilling Water  
+- Bug Buzz  
+- Hurricane  
 
 === TRAINER_DONALD ===
 Name: DONALD
-Class: Bug Maniac
-Pic: Bug Maniac
+Class: Pokemaniac
+Pic: Pokemaniac
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon 
 
-Wurmple
-Level: 24
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Heliolisk @ Expert Belt  
+Ability: Dry Skin  
+Level: 56  
+IVs: 0 Atk  
+- Rising Voltage  
+- Hyper Voice  
+- Volt Switch  
+- Weather Ball  
 
-Silcoon
-Level: 24
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Beautifly
-Level: 24
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Klinklang @ Leftovers  
+Ability: Clear Body  
+Level: 57  
+- Rising Voltage  
+- Thunder Wave  
+- Gear Grind  
+- Autotomize  
 
 === TRAINER_TAYLOR ===
 Name: TAYLOR
@@ -4431,19 +4529,23 @@ Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon 
 
-Wurmple
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Araquanid @ Wacan Berry  
+Ability: Water Bubble  
+Level: 57  
+- Sticky Web  
+- Lunge  
+- Liquidation  
+- Leech Life  
 
-Cascoon
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Dustox
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Vikavolt @ Leftovers  
+Ability: Levitate  
+Level: 57  
+IVs: 0 Atk  
+- Rising Voltage  
+- Bug Buzz  
+- Agility  
 
 === TRAINER_JEFFREY_1 ===
 Name: JEFFREY
@@ -8325,15 +8427,16 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
-Wingull
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Tropius
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tropius @ Sitrus Berry  
+Ability: Harvest  
+Level: 59  
+IVs: 0 Atk  
+- Giga Drain  
+- Air Slash  
+- Hurricane  
+- Dragon Pulse  
 
 === TRAINER_PHIL ===
 Name: PHIL
@@ -8342,11 +8445,16 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer
 
-Swellow
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Kilowattrel @ Covert Cloak  
+Ability: Wind Power  
+Level: 58  
+IVs: 0 Atk  
+- Tailwind  
+- Thunder  
+- Weather Ball  
+- Air Slash  
 
 === TRAINER_JARED ===
 Name: JARED
@@ -8596,11 +8704,23 @@ Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint
+AI: Basic Trainer
 
-Ninjask
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Garbodor @ Black Sludge  
+Ability: Toxic Chain  
+Level: 60  
+- Toxic  
+- Toxic Spikes  
+- Poison Jab  
+- Pain Split  
+
+Seviper @ Life Orb  
+Ability: Merciless  
+Level: 60  
+- Poison Jab  
+- Poison Fang  
+- Glare  
+- Giga Drain  
 
 === TRAINER_TAKASHI ===
 Name: TAKASHI
@@ -8609,15 +8729,15 @@ Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint
+AI: Basic Trainer
 
-Ninjask
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Koffing
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Dragalge @ Shuca Berry  
+Ability: Adaptability  
+Level: 58  
+IVs: 0 Atk  
+- Surf  
+- Sludge Wave  
+- Dragon Pulse  
 
 === TRAINER_DIANNE ===
 Name: DIANNE
@@ -10921,19 +11041,59 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer / Ace Pokemon
 
-Slugma
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Hydrapple @ Leftovers  
+Ability: Regenerator  
+Level: 60  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe    
+- Nasty Plot  
+- Fickle Beam  
+- Leaf Storm  
+- Earth Power  
 
-Pelipper
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Darmanitan-Galar @ Focus Sash  
+Ability: Zen Mode  
+Level: 59  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Ice Punch  
+- Flare Blitz  
 
-Grovyle
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Lycanroc-Midnight @ Muscle Band  
+Ability: No Guard  
+Level: 60  
+IVs: 0 HP / 0 Def / 0 SpA / 0 SpD 
+- Stone Edge  
+- Crunch  
+- Sucker Punch  
+- Iron Tail  
+
+Wailord @ Assault Vest  
+Ability: Water Veil  
+Level: 59  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
+- Flip Turn  
+- Dive  
+- Heavy Slam  
+- Steel Roller  
+
+Grumpig @ Iapapa Berry  
+Ability: Neuroforce  
+Level: 60  
+IVs: 0 Atk  
+- Simple Beam  
+- Psychic  
+- Hyper Voice  
+- Confuse Ray  
+
+Chandelure @ Life Orb  
+Ability: Flash Fire  
+Level: 61  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe   
+- Flamethrower  
+- Shadow Ball  
+- Will-O-Wisp  
+- Hex  
 
 === TRAINER_BRENDAN_ROUTE_103_TREECKO ===
 Name: BRENDAN
@@ -11009,19 +11169,59 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer / Ace Pokemon
 
-Pelipper
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Wailord @ Assault Vest  
+Ability: Water Veil  
+Level: 59  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Flip Turn  
+- Dive  
+- Heavy Slam  
+- Steel Roller  
 
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Darmanitan-Galar @ Focus Sash  
+Ability: Zen Mode  
+Level: 59  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Ice Punch  
+- Flare Blitz  
 
-Combusken
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Talonflame @ Expert Belt  
+Ability: Gale Wings  
+Level: 60  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Brave Bird  
+- Flare Blitz  
+- Roost  
+- U-turn  
+
+Lycanroc @ Muscle Band  
+Ability: Solid Rock  
+Level: 60  
+IVs: 0 HP / 0 Def / 0 SpA / 0 SpD 
+- Rock Throw  
+- Bite  
+- Sucker Punch  
+- Accelerock  
+
+Grumpig @ Iapapa Berry  
+Ability: Neuroforce  
+Level: 60  
+IVs: 0 Atk  
+- Simple Beam  
+- Psychic  
+- Hyper Voice  
+- Confuse Ray  
+
+Tinkaton @ Leftovers  
+Ability: Mold Breaker  
+Level: 61 
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe    
+- Gigaton Hammer  
+- Fake Out  
+- Play Rough  
+- Ice Hammer  
 
 === TRAINER_BRENDAN_ROUTE_103_TORCHIC ===
 Name: BRENDAN
@@ -11097,19 +11297,59 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer / Ace Pokemon
 
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Hydrapple @ Leftovers  
+Ability: Regenerator  
+Level: 60  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Nasty Plot  
+- Fickle Beam  
+- Leaf Storm  
+- Earth Power  
 
-Slugma
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Darmanitan-Galar @ Focus Sash  
+Ability: Zen Mode  
+Level: 59  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Ice Punch  
+- Flare Blitz  
 
-Marshtomp
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Wailord @ Assault Vest  
+Ability: Water Veil  
+Level: 59  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
+- Flip Turn  
+- Dive  
+- Heavy Slam  
+- Steel Roller  
+
+Talonflame @ Expert Belt  
+Ability: Gale Wings  
+Level: 60  
+IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Brave Bird  
+- Flare Blitz  
+- Roost  
+- U-turn  
+
+Grumpig @ Iapapa Berry  
+Ability: Neuroforce  
+Level: 60  
+IVs: 0 Atk  
+- Simple Beam  
+- Psychic  
+- Hyper Voice  
+- Confuse Ray  
+
+Garganacl @ Leftovers  
+Ability: Purifying Salt  
+Level: 61  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
+- Salt Cure  
+- Recover  
+- Protect  
+- Earthquake  
 
 === TRAINER_MAY_ROUTE_103_MUDKIP ===
 Name: MAY
@@ -11185,19 +11425,59 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer / Ace Pokemon
 
-Slugma
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Hydrapple @ Leftovers  
+Ability: Regenerator  
+Level: 60  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe    
+- Nasty Plot  
+- Fickle Beam  
+- Leaf Storm  
+- Earth Power  
 
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Darmanitan-Galar @ Focus Sash  
+Ability: Zen Mode  
+Level: 59  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Ice Punch  
+- Flare Blitz  
 
-Grovyle
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Lycanroc-Midnight @ Muscle Band  
+Ability: No Guard  
+Level: 60  
+IVs: 0 HP / 0 Def / 0 SpA / 0 SpD 
+- Stone Edge  
+- Crunch  
+- Sucker Punch  
+- Iron Tail  
+
+Wailord @ Assault Vest  
+Ability: Water Veil  
+Level: 59  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
+- Flip Turn  
+- Dive  
+- Heavy Slam  
+- Steel Roller  
+
+Grumpig @ Iapapa Berry  
+Ability: Neuroforce  
+Level: 60  
+IVs: 0 Atk  
+- Simple Beam  
+- Psychic  
+- Hyper Voice  
+- Confuse Ray  
+
+Chandelure @ Life Orb  
+Ability: Flash Fire  
+Level: 61  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe   
+- Flamethrower  
+- Shadow Ball  
+- Will-O-Wisp  
+- Hex  
 
 === TRAINER_MAY_ROUTE_103_TREECKO ===
 Name: MAY
@@ -11273,19 +11553,59 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer / Ace Pokemon
 
-Pelipper
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Wailord @ Assault Vest  
+Ability: Water Veil  
+Level: 59  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Flip Turn  
+- Dive  
+- Heavy Slam  
+- Steel Roller  
 
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Darmanitan-Galar @ Focus Sash  
+Ability: Zen Mode  
+Level: 59  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Ice Punch  
+- Flare Blitz  
 
-Combusken
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Talonflame @ Expert Belt  
+Ability: Gale Wings  
+Level: 60  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Brave Bird  
+- Flare Blitz  
+- Roost  
+- U-turn  
+
+Lycanroc @ Muscle Band  
+Ability: Solid Rock  
+Level: 60  
+IVs: 0 HP / 0 Def / 0 SpA / 0 SpD 
+- Rock Throw  
+- Bite  
+- Sucker Punch  
+- Accelerock  
+
+Grumpig @ Iapapa Berry  
+Ability: Neuroforce  
+Level: 60  
+IVs: 0 Atk  
+- Simple Beam  
+- Psychic  
+- Hyper Voice  
+- Confuse Ray  
+
+Tinkaton @ Leftovers  
+Ability: Mold Breaker  
+Level: 61 
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe    
+- Gigaton Hammer  
+- Fake Out  
+- Play Rough  
+- Ice Hammer  
 
 === TRAINER_MAY_ROUTE_103_TORCHIC ===
 Name: MAY
@@ -11361,19 +11681,59 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer / Ace Pokemon
 
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Hydrapple @ Leftovers  
+Ability: Regenerator  
+Level: 60  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Nasty Plot  
+- Fickle Beam  
+- Leaf Storm  
+- Earth Power  
 
-Slugma
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Darmanitan-Galar @ Focus Sash  
+Ability: Zen Mode  
+Level: 59  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Ice Punch  
+- Flare Blitz  
 
-Marshtomp
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Wailord @ Assault Vest  
+Ability: Water Veil  
+Level: 59  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
+- Flip Turn  
+- Dive  
+- Heavy Slam  
+- Steel Roller  
+
+Talonflame @ Expert Belt  
+Ability: Gale Wings  
+Level: 60  
+IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Brave Bird  
+- Flare Blitz  
+- Roost  
+- U-turn  
+
+Grumpig @ Iapapa Berry  
+Ability: Neuroforce  
+Level: 60  
+IVs: 0 Atk  
+- Simple Beam  
+- Psychic  
+- Hyper Voice  
+- Confuse Ray  
+
+Garganacl @ Leftovers  
+Ability: Purifying Salt  
+Level: 61  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
+- Salt Cure  
+- Recover  
+- Protect  
+- Earthquake  
 
 === TRAINER_ISAAC_1 ===
 Name: ISAAC
@@ -11434,7 +11794,7 @@ AI: Smart Trainer / Ace Pokemon
 
 Ribombee @ Focus Sash  
 Ability: Shield Dust  
-Level: 54  
+Level: 55  
 IVs: 0 Atk / 0 SpA 
 - Sticky Web  
 - Moonblast  
@@ -11443,7 +11803,7 @@ IVs: 0 Atk / 0 SpA
 
 Grimmsnarl @ Sitrus Berry  
 Ability: Prankster  
-Level: 54  
+Level: 55  
 - Thunder Wave  
 - Spirit Break  
 - False Surrender  
@@ -11451,7 +11811,7 @@ Level: 54
 
 Primarina @ Terrain Extender  
 Ability: Misty Surge  
-Level: 54  
+Level: 55  
 IVs: 0 Atk / 0 SpA
 - Sparkling Aria  
 - Alluring Voice  
@@ -11460,7 +11820,7 @@ IVs: 0 Atk / 0 SpA
 
 Mismagius @ Life Orb  
 Ability: Levitate  
-Level: 54  
+Level: 55  
 IVs: 0 Atk / 0 SpA
 - Moonblast  
 - Shadow Ball  
@@ -11469,7 +11829,7 @@ IVs: 0 Atk / 0 SpA
 
 Togekiss @ Sharp Beak  
 Ability: Serene Grace  
-Level: 54  
+Level: 55  
 IVs: 0 Atk / 0 SpA
 - Dazzling Gleam  
 - Draining Kiss  
@@ -11871,13 +12231,16 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger M
 Gender: Male
 Music: Cool
-Items: Full Restore
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer / Ace Pokemon
 
-Breloom
-Level: 27
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Breloom @ Toxic Orb  
+Ability: Poison Heal  
+Level: 59  
+- Spore  
+- Mach Punch  
+- Seed Bomb  
+- Sky Uppercut  
 
 === TRAINER_LORENZO ===
 Name: LORENZO
@@ -11981,17 +12344,27 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger F
 Gender: Female
 Music: Cool
-Items: Full Restore
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / AI_FLAG_FORCE_SETUP_FIRST_TURN
+AI: Smart Trainer / Ace Pokemon
 
-Gloom
-Level: 26
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Shiinotic @ Leftovers  
+Ability: Rain Dish  
+Level: 57  
+IVs: 0 Atk  
+- Spore  
+- Moonblast  
+- Draining Kiss  
+- Giga Drain  
 
-Roselia
-Level: 26
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Parasect @ Expert Belt  
+Ability: Dry Skin  
+Level: 57  
+EVs: 248 HP / 108 Def / 152 SpD  
+Impish Nature  
+- Swords Dance  
+- Leech Life  
+- Seed Bomb  
+- Cross Poison  
 
 === TRAINER_JENNA ===
 Name: JENNA
@@ -12001,7 +12374,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / AI_FLAG_FORCE_SETUP_FIRST_TURN
+AI: Smart Trainer / Ace Pokemon
 
 Lotad
 Level: 28
@@ -12695,15 +13068,24 @@ Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer
 
-Zubat
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Politoed @ Damp Rock  
+Ability: Drizzle  
+Level: 59  
+IVs: 0 Atk  
+- Scald  
+- Weather Ball  
+- Ice Beam  
+- Icy Wind  
 
-Poochyena
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tentacruel @ Iapapa Berry  
+Ability: Rain Dish  
+Level: 59  
+- Knock Off  
+- Sludge Wave  
+- Weather Ball 
+- Scald  
 
 === TRAINER_TABITHA_MT_CHIMNEY ===
 Name: TABITHA
@@ -13261,15 +13643,23 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon 
 
-Nincada
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Galvantula @ Charti Berry  
+Ability: Swarm  
+Level: 56  
+IVs: 0 Atk  
+- Rising Voltage  
+- Bug Buzz  
+- Sticky Web  
 
-Ninjask
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Drapion @ Scope Lens  
+Ability: Sniper  
+Level: 57  
+- Night Slash  
+- Cross Poison  
+- Fell Stinger  
+- Leech Life  
 
 === TRAINER_GREG ===
 Name: GREG
@@ -13278,15 +13668,32 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
-Volbeat
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Kleavor @ Assault Vest  
+Ability: Sharpness  
+Level: 56  
+- Stone Axe  
+- X-Scissor  
+- U-turn  
 
-Illumise
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Volbeat @ Focus Sash  
+Ability: Prankster  
+Level: 57  
+IVs: 0 Atk  
+- Tail Glow  
+- Thunderbolt  
+- Bug Buzz  
+- Thunder Wave  
+
+Illumise @ Focus Sash  
+Ability: Tinted Lens  
+Level: 57  
+IVs: 0 Atk  
+- Moonblast  
+- Bug Buzz  
+- Tail Glow  
+- Draining Kiss  
 
 === TRAINER_KENT ===
 Name: KENT
@@ -13295,11 +13702,15 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon 
 
-Ninjask
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Armaldo @ Assault Vest  
+Ability: Swift Swim  
+Level: 57  
+- Aqua Jet  
+- X-Scissor  
+- Rock Slide  
+- Knock Off  
 
 === TRAINER_JAMES_1 ===
 Name: JAMES
@@ -13755,7 +14166,7 @@ Double Battle: Yes
 AI: Smart Switching / Check Viability / AI_FLAG_FORCE_SETUP_FIRST_TURN / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
 Volbeat @ Focus Sash  
-Ability: Illuminate  
+Ability: Prankster  
 Level: 41  
 IVs: 0 Atk  
 - Tail Glow  
@@ -13763,7 +14174,7 @@ IVs: 0 Atk
 - Signal Beam  
 
 Volbeat @ Focus Sash  
-Ability: Illuminate  
+Ability: Prankster  
 Level: 41  
 IVs: 0 Atk  
 - Tail Glow  
@@ -13955,23 +14366,23 @@ Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint
+AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon 
 
-Koffing
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Self Destruct
-- Sludge
-- Smokescreen
+Clodsire @ Air Balloon  
+Ability: Water Absorb  
+Level: 61  
+- Earthquake  
+- Poison Jab  
+- Toxic  
+- Toxic Spikes  
 
-Koffing
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Poison Gas
-- Sludge
-- Smokescreen
+Swalot @ Iapapa Berry  
+Ability: Gluttony  
+Level: 62  
+- Giga Drain  
+- Sludge Bomb  
+- Acid Armor  
+- Knock Off  
 
 === TRAINER_KEIGO ===
 Name: KEIGO
@@ -14961,23 +15372,20 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon 
 
-Magikarp
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Feebas @ Focus Sash  
+Ability: Swift Swim  
+Level: 57  
+- Flail  
 
-Tentacool
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Feebas
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Carvanha
-Level: 23
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Milotic @ Flame Orb  
+Ability: Marvel Scale  
+Level: 57  
+- Scald  
+- Protect  
+- Moonblast  
+- Draining Kiss  
 
 === TRAINER_DAWSON ===
 Name: DAWSON
@@ -16222,11 +16630,22 @@ Pic: Guitarist
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer
 
-Manectric
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Toxtricity-Low-Key @ Throat Spray  
+Ability: Punk Rock  
+Level: 60  
+IVs: 0 Atk  
+- Sludge Wave  
+- Overdrive  
+
+Boltund @ Magnet  
+Ability: Competitive  
+Level: 60  
+- Rising Voltage  
+- Nuzzle  
+- Play Rough  
+- Hyper Voice  
 
 === TRAINER_DAYTON ===
 Name: DAYTON
@@ -16235,15 +16654,16 @@ Pic: Kindler
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer
 
-Slugma
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Numel
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Coalossal @ Power Herb  
+Ability: Steam Engine  
+Level: 58   
+EVs: 252 HP / 56 Def / 200 SpD  
+- Flare Blitz  
+- Meteor Beam  
+- Heat Wave  
+- Rock Slide  
 
 === TRAINER_RACHEL ===
 Name: RACHEL
@@ -16252,11 +16672,14 @@ Pic: Parasol Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer
 
-Goldeen
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Castform @ Salac Berry  
+Ability: Forecast  
+Level: 58  
+IVs: 0 Atk  
+- Weather Ball  
+- Thunder  
 
 === TRAINER_LEONEL ===
 Name: LEONEL

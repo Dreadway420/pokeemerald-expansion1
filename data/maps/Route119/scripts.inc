@@ -44,6 +44,7 @@ Route119_EventScript_RivalEncounter::
 	lockall
 	addobject LOCALID_RIVAL_ON_BIKE
 	checkplayergender
+	special HealPlayerParty
 	call_if_eq VAR_RESULT, MALE, Route119_EventScript_PlayMayMusic
 	call_if_eq VAR_RESULT, FEMALE, Route119_EventScript_PlayBrendanMusic
 	delay 65
