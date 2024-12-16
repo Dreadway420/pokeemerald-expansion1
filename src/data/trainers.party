@@ -1005,31 +1005,34 @@ Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Baltoy
-Level: 27
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Psybeam
-- Self Destruct
-- Sandstorm
-- Ancient Power
+Omastar @ Expert Belt  
+Ability: Swift Swim  
+Level: 63  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Stealth Rock  
+- Surf  
+- Spikes  
+- Ancient Power  
 
-Sandshrew
-Level: 27
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Dig
-- Slash
-- Sand Attack
-- Poison Sting
+Kabutops @ Life Orb  
+Ability: Swift Swim  
+Level: 63  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aqua Jet  
+- Liquidation  
+- Rock Slide  
+- X-Scissor  
 
-Sandslash
-Level: 27
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Dig
-- Slash
-- Sand Attack
-- Poison Sting
+Relicanth @ Rindo Berry  
+Ability: Swift Swim  
+Level: 64  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Head Smash  
+- Liquidation  
+- Yawn  
+- Body Press  
 
 === TRAINER_FOSTER ===
 Name: FOSTER
@@ -1186,15 +1189,21 @@ Pic: Interviewer
 Gender: Male
 Music: Interviewer
 Double Battle: Yes
-AI: Smart Switching / Check Bad Move
+AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
-Magneton
-Level: 30
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Magnezone  @ Air Balloon
+Ability: Sturdy  
+Level: 61  
+IVs: 0 Atk  
+- Flash Cannon  
+- Thunder
 
-Loudred
-Level: 30
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Exploud @ Throat Spray  
+Ability: Punk Rock  
+Level: 61  
+Adamant Nature  
+IVs: 0 Atk / 0 SpA  
+- Boomburst
 
 === TRAINER_GABBY_AND_TY_4 ===
 Name: GABBY & TY
@@ -2112,11 +2121,31 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer
 
-Sableye
-Level: 30
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Drednaw @ Rindo Berry  
+Ability: Swift Swim  
+Level: 63  
+- Stone Edge  
+- Razor Shell  
+- Body Press  
+- Stealth Rock  
+
+Electrode-Hisui @ Assault Vest  
+Ability: Soundproof  
+Level: 63  
+IVs: 0 Atk  
+- Thunder  
+- Chloroblast  
+- Energy Ball  
+- Giga Drain  
+
+Staraptor @ Life Orb
+Ability: Reckless  
+Level: 63  
+Modest Nature
+IVs: 1 HP / 0 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Brave Bird  
 
 === TRAINER_HOPE ===
 Name: HOPE
@@ -4514,19 +4543,33 @@ Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices 
 
-Surskit
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Araquanid @ Leftovers  
+Ability: Water Bubble  
+Level: 63  
+- Sticky Web  
+- Liquidation  
+- Lunge  
+- Leech Life  
 
-Surskit
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Frosmoth @ Salac Berry  
+Ability: Ice Scales  
+Level: 63  
+IVs: 6 HP / 6 Atk / 6 Def / 0 SpA / 6 SpD / 6 Spe 
+- Giga Drain  
+- Ice Beam  
+- Hurricane  
+- Bug Buzz  
 
-Surskit
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Escavalier @ Choice Band  
+Ability: Shell Armor  
+Level: 64  
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Iron Head  
+- Megahorn  
+- Razor Shell  
+- Drill Run  
 
 === TRAINER_DEREK ===
 Name: DEREK
@@ -8513,15 +8556,23 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices 
 
-Wingull
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Bombirdier @ Assault Vest  
+Ability: Rocky Payload  
+Level: 62  
+- Stone Edge  
+- Dual Wingbeat  
+- Knock Off  
+- Lash Out  
 
-Natu
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Flygon @ Expert Belt  
+Ability: Tinted Lens  
+Level: 62  
+- First Impression  
+- Bug Bite  
+- Earthquake  
+- Dragon Claw  
 
 === TRAINER_ROBERT_1 ===
 Name: ROBERT
@@ -8530,11 +8581,14 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
-Swablu
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Braviary-Hisui @ Choice Specs  
+Ability: Tinted Lens  
+Level: 62  
+IVs: 0 Atk  
+- Esper Wing  
+- Air Slash
 
 === TRAINER_BENNY ===
 Name: BENNY
@@ -9183,20 +9237,37 @@ IVs: 0 Atk
 
 === TRAINER_CLARISSA ===
 Name: CLARISSA
-Class: Parasol Lady
-Pic: Parasol Lady
+Class: Cooltrainer 2
+Pic: Cooltrainer F
 Gender: Female
-Music: Female
+Music: Cool
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer / Ace Pokemon
 
-Roselia
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rillaboom @ Terrain Extender  
+Ability: Grassy Surge  
+Level: 61  
+- Grassy Glide  
+- Drum Beating  
+- Knock Off  
+- Drain Punch  
 
-Wailmer
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Drifblim @ Grassy Seed  
+Ability: Unburden  
+Level: 61  
+- Acrobatics  
+- Shadow Ball  
+- Air Slash  
+- Will-O-Wisp  
+
+Ferrothorn @ Rocky Helmet  
+Ability: Iron Barbs  
+Level: 61  
+IVs: 0 Spe  
+- Steel Roller  
+- Gyro Ball  
+- Power Whip  
+- Leech Seed  
 
 === TRAINER_ANGELICA ===
 Name: ANGELICA
@@ -9205,12 +9276,10 @@ Pic: Parasol Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer
 
-Castform
-Level: 30
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Rain Dance
+Castform @ Assault Vest
+Level: 63
 - Weather Ball
 - Thunder
 - Water Pulse
@@ -12227,19 +12296,22 @@ Pic: Pokemon Ranger M
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer
 
-Seedot
-Level: 28
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Serperior @ Sitrus Berry  
+Ability: Contrary  
+Level: 63  
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe 
+- Leaf Storm  
 
-Nuzleaf
-Level: 28
+Decidueye @ Life Orb  
+Ability: Overgrow  
+Level: 64  
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Lombre
-Level: 28
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Dual Wingbeat  
+- Seed Bomb  
+- Spirit Shackle  
+- Shadow Sneak 
 
 === TRAINER_SEBASTIAN ===
 Name: SEBASTIAN
@@ -12345,19 +12417,23 @@ Pic: Pokemon Ranger F
 Gender: Female
 Music: Cool
 Double Battle: No
-AI: Smart Trainer / Ace Pokemon
+AI: Smart Trainer 
 
-Lotad
-Level: 28
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Shiftry @ Tanga Berry  
+Ability: Wind Rider  
+Level: 63  
+- Tailwind  
+- Petal Blizzard  
+- Sucker Punch  
+- Knock Off  
 
-Lombre
-Level: 28
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Nuzleaf
-Level: 28
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Ludicolo @ Life Orb  
+Ability: Swift Swim  
+Level: 64  
+- Giga Drain  
+- Weather Ball  
+- Fake Out  
+- Chilling Water  
 
 === TRAINER_SOPHIA ===
 Name: SOPHIA
@@ -14328,7 +14404,7 @@ Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon 
+AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices 
 
 Clodsire @ Air Balloon  
 Ability: Water Absorb  
@@ -14353,23 +14429,25 @@ Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint
+AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices 
 
-Koffing
-Level: 28
+Munkidori @ Focus Sash  
+Ability: Toxic Chain  
+Level: 63  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Gas
-- Self Destruct
-- Sludge
-- Smokescreen
+- Toxic  
+- Fake Out  
+- Psychic  
+- Sludge Bomb  
 
-Ninjask
-Level: 28
+Toxicroak @ Assault Vest  
+Ability: Dry Skin  
+Level: 64  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sand Attack
-- Double Team
-- Fury Cutter
-- Swords Dance
+- Drain Punch  
+- Poison Jab  
+- Fake Out  
+- Power-Up Punch  
 
 === TRAINER_RILEY ===
 Name: RILEY
@@ -14378,23 +14456,15 @@ Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint
+AI: Basic Trainer
 
-Nincada
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Leech Life
-- Fury Swipes
-- Mind Reader
-- Dig
-
-Koffing
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Self Destruct
-- Sludge
-- Smokescreen
+Shedinja @ Focus Sash  
+Ability: Wonder Guard  
+Level: 63  
+- Swords Dance  
+- Shadow Sneak  
+- Shadow Claw  
+- X-Scissor
 
 === TRAINER_FLINT ===
 Name: FLINT
@@ -16194,17 +16264,70 @@ IVs: 0 Atk / 0 Spe
 - Air Cutter  
 
 === TRAINER_CAMRON ===
-Name: CAMRON
-Class: Triathlete
-Pic: Swimming Triathlete M
+Name: STEVEN
+Class: Rival
+Pic: Steven
 Gender: Male
-Music: Swimmer
+Music: Male
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer / Ace Pokemon
 
-Staryu
-Level: 26
+Orthworm @ Sitrus Berry  
+Ability: Earth Eater  
+Level: 61  
+EVs: 244 HP / 108 Def / 152 SpD  
+IVs: 0 Atk  
+- Shed Tail  
+
+Scizor @ Assault Vest  
+Ability: Technician  
+Level: 61  
+Modest Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bullet Punch  
+- Iron Head  
+- Lunge  
+- U-turn  
+
+Kingambit @ Leftovers  
+Ability: Supreme Overlord  
+Level: 61  
+Modest Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Knock Off  
+- Sucker Punch  
+- Iron Head  
+- Kowtow Cleave  
+
+Aegislash @ Air Balloon  
+Ability: Stance Change  
+Level: 61  
+Modest Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Shadow Claw  
+- Autotomize  
+- Iron Head  
+- Kings Shield  
+
+Metagross @ Life Orb  
+Ability: Analytic  
+Level: 61  
+Modest Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bullet Punch  
+- Zen Headbutt  
+- Meteor Mash  
+- Hammer Arm  
+
+Aggron @ Aggronite  
+Ability: Solid Rock  
+Level: 62  
+Modest Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Heavy Slam  
+- Autotomize  
+- Head Smash  
+- Iron Head  
 
 === TRAINER_CORY_1 ===
 Name: CORY
@@ -16657,14 +16780,15 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Basic Trainer / Omniscient
 
-Manectric
-Level: 30
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thunder
-- Quick Attack
-- Thunder Wave
+Bellibolt @ Assault Vest  
+Ability: Electromorphosis  
+Level: 63  
+IVs: 0 Atk  
+- Thunder  
+- Chilling Water  
+- Weather Ball  
 
 === TRAINER_CALLIE ===
 Name: CALLIE
@@ -16673,15 +16797,15 @@ Pic: Battle Girl
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer
 
-Meditite
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Makuhita
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Bewear @ Life Orb  
+Ability: Fluffy  
+Level: 63  
+- Body Slam  
+- Drain Punch  
+- Darkest Lariat  
+- Earthquake
 
 === TRAINER_CALE ===
 Name: CALE
@@ -18602,14 +18726,6 @@ IVs: 0 Atk
 - Make It Rain  
 - Nasty Plot  
 
-Aegislash @ Expert Belt  
-Ability: Stance Change  
-Level: 49  
-- Shadow Claw  
-- Swords Dance  
-- Iron Head  
-- Kings Shield  
-
 Archaludon @ Leftovers  
 Ability: Stamina  
 Level: 49  
@@ -18620,10 +18736,18 @@ IVs: 0 Atk
 
 Metagross @ Colbur Berry  
 Ability: Analytic  
-Level: 50  
+Level: 49  
 - Zen Headbutt  
 - Meteor Mash  
 - Bullet Punch  
+
+Scizor @ Scizorite  
+Ability: Technician  
+Level: 50  
+- Bullet Punch  
+- Iron Head  
+- X-Scissor  
+- Aerial Ace
 
 === TRAINER_ANABEL ===
 Name: ANABEL

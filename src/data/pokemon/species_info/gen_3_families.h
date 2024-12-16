@@ -2028,9 +2028,9 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_GRASS),
     #if P_UPDATED_ABILITIES >= GEN_9
-        .abilities = { ABILITY_CHLOROPHYLL },
+        .abilities = { ABILITY_CHLOROPHYLL, ABILITY_NONE, ABILITY_WIND_RIDER },
     #else
-        .abilities = { ABILITY_CHLOROPHYLL },
+        .abilities = { ABILITY_CHLOROPHYLL, ABILITY_NONE, ABILITY_WIND_RIDER },
     #endif
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Shiftry"),
@@ -9006,7 +9006,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .baseHP        = 65,
         .baseAttack    = 130,
         .baseDefense   = 60,
-        .baseSpeed     = 75,
+        .baseSpeed     = 101,
         .baseSpAttack  = 75,
         .baseSpDefense = 60,
         .types = MON_TYPES(TYPE_DARK),
@@ -9019,9 +9019,9 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
     #if P_UPDATED_ABILITIES >= GEN_4
-        .abilities = { ABILITY_PRESSURE, ABILITY_SUPER_LUCK, ABILITY_JUSTIFIED },
+        .abilities = { ABILITY_SUPER_LUCK, ABILITY_SUPER_LUCK, ABILITY_JUSTIFIED },
     #else
-        .abilities = { ABILITY_PRESSURE, ABILITY_NONE, ABILITY_JUSTIFIED },
+        .abilities = { ABILITY_SUPER_LUCK, ABILITY_SUPER_LUCK, ABILITY_JUSTIFIED },
     #endif
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = TRUE,
@@ -9075,7 +9075,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
     [SPECIES_ABSOL_MEGA] =
     {
         .baseHP        = 65,
-        .baseAttack    = 150,
+        .baseAttack    = 160,
         .baseDefense   = 60,
         .baseSpeed     = 115,
         .baseSpAttack  = 115,

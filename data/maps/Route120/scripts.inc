@@ -58,7 +58,6 @@ Route120_EventScript_SetBridgeKecleonMovement::
 
 Route120_OnTransition:
 	call GabbyAndTy_EventScript_UpdateLocation
-	call Route120_EventScript_SetWeather
 	end
 
 Route120_EventScript_SetWeather::
@@ -155,12 +154,8 @@ Route120_EventScript_BerryNotLove::
 	return
 
 Route120_EventScript_Steven::
-	lock
-	faceplayer
-	goto_if_set FLAG_NOT_READY_FOR_BATTLE_ROUTE_120, Route120_EventScript_StevenAskReadyForBattle
-	msgbox Route120_Text_StevenGreeting, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, Route120_EventScript_StevenNotReady
-	goto Route120_EventScript_StevenBattleKecleon
+	trainerbattle_single TRAINER_CAMRON, Steven_Text_Intro_120, Steven_120_Text_StevenDefeat
+	msgbox Route120_StevenPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route120_EventScript_StevenNotReady::
@@ -176,6 +171,7 @@ Route120_EventScript_StevenAskReadyForBattle::
 	end
 
 Route120_EventScript_StevenBattleKecleon::
+	special HealPlayerParty
 	msgbox Route120_Text_StevenShowMeYourPower, MSGBOX_DEFAULT
 	closemessage
 	call_if_eq VAR_FACING, DIR_NORTH, Route120_EventScript_PlayerApproachKecleonNorth
@@ -185,30 +181,17 @@ Route120_EventScript_StevenBattleKecleon::
 	delay 20
 	msgbox Route120_Text_StevenUsedDevonScope, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_BRIDGE_KECLEON, Common_Movement_WalkInPlaceFasterRight
-	waitmovement 0
-	applymovement LOCALID_BRIDGE_KECLEON, Movement_KecleonAppears
-	waitmovement 0
 	waitse
-	playmoncry SPECIES_KECLEON, CRY_MODE_ENCOUNTER
-	delay 40
-	waitmoncry
-	setwildbattle SPECIES_KECLEON, 30
+	trainerbattle_no_intro TRAINER_CAMRON, MeteorFalls_StevensCave_Text_StevenDefeat
 	setvar VAR_0x8009, 0
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
-	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
-	specialvar VAR_RESULT, GetBattleOutcome
-	goto_if_eq VAR_RESULT, B_OUTCOME_WON, Route120_EventScript_RemoveBridgeKecleonPostBattle
-	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, Route120_EventScript_RemoveBridgeKecleonPostBattle
-	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, Route120_EventScript_RemoveBridgeKecleonPostBattle
-	goto Route120_EventScript_StevenGiveDeconScope
+	goto Route120_EventScript_RemoveBridgeKecleonPostBattle
 	end
 
 Route120_EventScript_RemoveBridgeKecleonPostBattle::
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject LOCALID_BRIDGE_KECLEON
-	removeobject LOCALID_BRIDGE_KECLEON_SHADOW
 	fadescreenswapbuffers FADE_FROM_BLACK
 	goto Route120_EventScript_StevenGiveDeconScope
 	end
@@ -218,7 +201,6 @@ Route120_EventScript_StevenGiveDeconScope::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	msgbox Route120_Text_StevenGiveDevonScope, MSGBOX_DEFAULT
-	giveitem ITEM_DEVON_SCOPE
 	setflag FLAG_RECEIVED_DEVON_SCOPE
 	msgbox Route120_Text_StevenGoodbye, MSGBOX_DEFAULT
 	closemessage
@@ -367,11 +349,9 @@ Route120_Text_StevenGreeting:
 	.string "It's been a while.\p"
 	.string "There's something here that you can't\n"
 	.string "see, right?\p"
-	.string "Now, if I were to use this device on\n"
-	.string "the invisible obstacle…\p"
-	.string "No, no. Rather than describing it,\n"
-	.string "I should just show you.\l"
-	.string "That would be more fun.\p"
+	.string "I can clear it out of the way,\n"
+	.string "but I want you to battle me first.\p"
+	.string "That would be fun.\p"
 	.string "{PLAYER}{KUN}, are your POKéMON ready for\n"
 	.string "battle?$"
 
@@ -388,20 +368,13 @@ Route120_Text_StevenShowMeYourPower:
 	.string "power as a TRAINER!$"
 
 Route120_Text_StevenUsedDevonScope:
-	.string "STEVEN used the DEVON SCOPE.\p"
-	.string "An invisible POKéMON became completely\n"
-	.string "visible!\p"
-	.string "The startled POKéMON attacked!$"
+	.string "STEVEN used the DEVON SCOPE.$"
 
 Route120_Text_StevenGiveDevonScope:
 	.string "STEVEN: I see…\n"
 	.string "Your battle style is intriguing.\p"
 	.string "Your POKéMON have obviously grown\n"
-	.string "since I first met you in DEWFORD.\p"
-	.string "I'd like you to have this\n"
-	.string "DEVON SCOPE.\p"
-	.string "Who knows, there may be other\n"
-	.string "concealed POKéMON.$"
+	.string "since I first met you in DEWFORD.$"
 
 Route120_Text_StevenGoodbye:
 	.string "STEVEN: {PLAYER}{KUN}.\p"
@@ -430,3 +403,22 @@ Route120_Text_RouteSignFortree:
 Route120_Text_RouteSign121:
 	.string "{RIGHT_ARROW} ROUTE 121\n"
 	.string "{LEFT_ARROW} ROUTE 120$"
+
+
+Steven_Text_Intro_120:
+	.string "{PLAYER}{KUN}, are your POKéMON ready for\n"
+	.string "battle?$"
+
+Steven_120_Text_StevenDefeat:
+	.string "STEVEN: {PLAYER}{KUN}.\p"
+	.string "I enjoy seeing POKéMON and TRAINERS\n"
+	.string "who strive together.\p"
+	.string "I think you're doing great.\p"
+	.string "Well, let's meet again somewhere.$"
+
+Route120_StevenPostBattle:
+	.string "STEVEN: {PLAYER}{KUN}.\p"
+	.string "I enjoy seeing POKéMON and TRAINERS\n"
+	.string "who strive together.\p"
+	.string "I think you're doing great.\p"
+	.string "Well, let's meet again somewhere.$"
