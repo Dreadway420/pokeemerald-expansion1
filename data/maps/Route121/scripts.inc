@@ -33,6 +33,9 @@ Route121_EventScript_AquaGruntsMoveOut::
 	removeobject LOCALID_GRUNT_2
 	removeobject LOCALID_GRUNT_3
 	setvar VAR_ROUTE121_STATE, 1
+	setflag FLAG_123_GRUNTS
+	setflag FLAG_HIDDEN_ITEM_ROUTE_120_RARE_CANDY_2
+	setflag FLAG_ITEM_ROUTE_120_FULL_HEAL
 	releaseall
 	end
 

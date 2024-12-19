@@ -21,6 +21,10 @@ Route123_EventScript_GigaDrainGirl::
 	release
 	end
 
+Route123_EventScript_Grunts::
+	msgbox Route123_Text_Grunts, MSGBOX_AUTOCLOSE
+	end
+
 Route123_EventScript_NoGrassMons::
 	release
 	end
@@ -196,3 +200,6 @@ Route123_Text_RouteSignMtPyre:
 Route123_Text_BerryMastersHouse:
 	.string "BERRY MASTER'S HOUSE$"
 
+Route123_Text_Grunts:
+	.string "...\l"
+	.string "I hate this job...$"

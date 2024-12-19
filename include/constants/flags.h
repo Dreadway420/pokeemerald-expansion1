@@ -1245,11 +1245,11 @@
 #define FLAG_RECEIVED_CLAMPERL                                           0x4A7 // Unused Flag
 #define FLAG_SURF_AND_SHIP                                           0x4A8 // Unused Flag
 #define FLAG_FORCE_RUSTURF_TUNNEL                                           0x4A9 // Unused Flag
-#define FLAG_UNUSED_0x4AA                                           0x4AA // Unused Flag
-#define FLAG_UNUSED_0x4AB                                           0x4AB // Unused Flag
-#define FLAG_UNUSED_0x4AC                                           0x4AC // Unused Flag
-#define FLAG_UNUSED_0x4AD                                           0x4AD // Unused Flag
-#define FLAG_UNUSED_0x4AE                                           0x4AE // Unused Flag
+#define FLAG_123_GRUNTS                                           0x4AA // Unused Flag
+#define FLAG_121_GRUNTS                                           0x4AB // Unused Flag
+#define FLAG_SPENSER_EARTHQUAKE                                           0x4AC // Unused Flag
+#define FLAG_SPENSER_SASH                                           0x4AD // Unused Flag
+#define FLAG_SPENSER_EARTH_GEM                                           0x4AE // Unused Flag
 #define FLAG_UNUSED_0x4AF                                           0x4AF // Unused Flag
 #define FLAG_UNUSED_0x4B0                                           0x4B0 // Unused Flag
 #define FLAG_UNUSED_0x4B1                                           0x4B1 // Unused Flag
