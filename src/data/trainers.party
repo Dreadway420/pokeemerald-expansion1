@@ -101,11 +101,32 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Poochyena
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rotom-Wash @ Eject Button  
+Ability: Levitate  
+Level: 74  
+IVs: 0 Atk  
+- Will-O-Wisp  
+- Thunder Wave  
+- Volt Switch  
+- Hydro Pump  
+
+Avalugg-Hisui @ Assault Vest  
+Ability: Strong Jaw  
+Level: 74  
+- Mountain Gale  
+- Ice Fang  
+- Crunch  
+- Stone Edge  
+
+Muk-Alola @ Leftovers  
+Ability: Toxic Chain  
+Level: 74  
+- Poison Jab  
+- Knock Off  
+- Power-Up Punch  
+- Drain Punch  
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_2 ===
 Name: GRUNT
@@ -114,15 +135,32 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Zubat
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Araquanid @ Focus Sash  
+Ability: Water Bubble  
+Level: 74  
+- Sticky Web  
+- Liquidation  
+- Lunge  
+- Endeavor  
 
-Carvanha
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Clawitzer @ Life Orb  
+Ability: Mega Launcher  
+Level: 74  
+IVs: 0 Atk  
+- Aura Sphere  
+- Water Pulse  
+- Dragon Pulse  
+- Dark Pulse  
+
+Cetitan @ Sitrus Berry  
+Ability: Thick Fat  
+Level: 74  
+- Belly Drum  
+- Ice Spinner  
+- Play Rough  
+- Knock Off  
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_3 ===
 Name: GRUNT
@@ -131,11 +169,39 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Zubat
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Politoed @ Eject Button  
+Ability: Drizzle  
+Level: 74  
+- Flip Turn  
+- Scald  
+- Perish Song  
+- Toxic  
+
+Tentacruel @ Leftovers  
+Ability: Rain Dish  
+Level: 75  
+- Flip Turn  
+- Sludge Bomb  
+- Toxic Spikes  
+- Toxic  
+
+Blastoise @ Leftovers  
+Ability: Rain Dish  
+Level: 75  
+- Flash Cannon  
+- Surf  
+- Rapid Spin  
+- Protect  
+
+Ludicolo @ Sitrus Berry  
+Ability: Rain Dish  
+Level: 75  
+- Fake Out  
+- Protect  
+- Giga Drain  
+- Leech Seed  
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_4 ===
 Name: GRUNT
@@ -144,11 +210,18 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Carvanha
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Slowbro @ Slowbronite  
+Ability: Oblivious  
+Level: 76  
+EVs: 252 HP / 4 Def / 252 SpD  
+Sassy Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Flamethrower  
+- Scald  
+- Psychic Noise  
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_1 ===
 Name: GRUNT
@@ -281,15 +354,33 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer
 
-Manectric
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Mienshao @ Fist Plate  
+Ability: Regenerator  
+Level: 72  
+- U-turn  
+- Fake Out  
+- Drain Punch  
+- Fling  
 
-Shiftry
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Porygon-Z @ Starf Berry  
+Ability: Adaptability  
+Level: 72  
+IVs: 0 Atk  
+- Tri Attack  
+- Conversion  
+- Conversion 2  
+- Nasty Plot  
+
+Octillery @ Life Orb  
+Ability: Mega Launcher  
+Level: 73  
+IVs: 0 Atk  
+- Octazooka  
+- Dragon Pulse  
+- Aura Sphere  
+- Dark Pulse  
 
 === TRAINER_ALBERTO ===
 Name: ALBERTO
@@ -553,73 +644,71 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MT_PYRE_1 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
+Class: Team Aqua
+Pic: Aqua Grunt M
 Gender: Male
-Music: Magma
+Music: Aqua
 Double Battle: No
 AI: Smart Trainer
 
-Charizard @ Heat Rock  
-Ability: Drought  
+Politoed @ Damp Rock  
+Ability: Drizzle  
 Level: 67  
-- Air Slash  
-- Flamethrower  
-- Weather Ball  
-- Dragon Tail  
+IVs: 1 Atk / 30 SpA / 30 SpD  
+- Scald  
+- Chilling Water  
+- Icy Wind  
+- Hidden Power 
 
-Sunflora @ Jaboca Berry  
-Ability: Chlorophyll  
+Jynx @ Life Orb  
+Ability: Dry Skin  
 Level: 67  
-IVs: 0 Atk  
-- Solar Beam  
-- Weather Ball  
-- Synthesis  
+- Fake Out  
+- Ice Beam  
+- Draining Kiss  
+- Psychic  
 
-Tropius @ Expert Belt  
-Ability: Solar Power  
+Poliwrath @ Choice Band  
+Ability: Swift Swim  
 Level: 67  
-- Solar Beam  
-- Dragon Hammer  
-- Air Slash  
-- Synthesis  
+- Brick Break  
+- Liquidation  
+- Knock Off  
+- Body Slam  
 
 === TRAINER_GRUNT_MT_PYRE_2 ===
 Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
+Class: Team Aqua
+Pic: Aqua Grunt M
 Gender: Male
-Music: Magma
+Music: Aqua
 Double Battle: No
 AI: Smart Trainer
 
-Tangrowth @ Leftovers  
-Ability: Regenerator  
+Mr. Rime @ Light Clay  
+Ability: Tangled Feet  
 Level: 67  
 IVs: 0 Atk  
-- Giga Drain  
-- Leaf Storm  
-- Leech Seed  
-- Stun Spore  
-
-Darmanitan @ Quick Claw  
-Ability: Zen Mode  
-Level: 67  
-EVs: 252 HP / 116 Def / 140 SpD  
-Calm Nature  
-- Flare Blitz  
-- Flame Charge  
+- Reflect  
+- Light Screen  
+- Freeze-Dry  
 - Psychic  
-- Flamethrower  
 
-Nidoking @ Life Orb  
-Ability: Sheer Force  
+Mabosstiff @ Focus Sash  
+Ability: Intimidate  
 Level: 67  
-IVs: 0 Atk  
-- Sludge Bomb  
-- Thunderbolt  
-- Flamethrower  
-- Earth Power  
+- Hone Claws  
+- Play Rough  
+- Ice Fang  
+- Jaw Lock  
+
+Azumarill @ Sitrus Berry  
+Ability: Huge Power  
+Level: 67  
+- Aqua Jet  
+- Play Rough  
+- Liquidation  
+- Bounce  
 
 === TRAINER_GRUNT_MT_PYRE_3 ===
 Name: GRUNT
@@ -630,22 +719,24 @@ Music: Magma
 Double Battle: No
 AI: Basic Trainer / Omniscient
 
-Ninetales @ Heat Rock  
-Ability: Flash Fire  
+Abomasnow @ Icy Rock  
+Ability: Snow Warning  
 Level: 68  
-- Heat Wave  
-- Scorching Sands  
-- Weather Ball  
-- Energy Ball  
+IVs: 0 Atk / 0 SpA 
+Adamant Nature
+- Blizzard  
+- Giga Drain  
+- Chilling Water  
+- Grass Knot  
 
-Delphox @ Misty Seed  
-Ability: Magician  
+Dewgong @ Assault Vest  
+Ability: Ice Body  
 Level: 68  
-IVs: 0 Atk  
-- Mystical Fire  
-- Calm Mind  
-- Dazzling Gleam  
-- Psyshock  
+IVs: 0 Atk / 0 SpA
+- Surf  
+- Chilling Water  
+- Fake Out  
+- Ice Spinner  
 
 === TRAINER_GRUNT_WEATHER_INST_4 ===
 Name: GRUNT
@@ -682,11 +773,34 @@ Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Carvanha
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Avalugg @ Icy Rock  
+Ability: Snow Warning  
+Level: 74  
+IVs: 0 Spe  
+- Aurora Veil  
+- Body Press  
+- Gyro Ball  
+- Avalanche  
+
+Beartic @ Covert Cloak  
+Ability: Slush Rush  
+Level: 75  
+- Aqua Jet  
+- Icicle Crash  
+- Play Rough  
+- Power-Up Punch  
+
+Mamoswine @ Leftovers  
+Ability: Snow Cloak  
+Level: 74  
+Modest Nature  
+IVs: 0 Atk  
+- Icicle Crash  
+- Earthquake  
+- Ice Shard  
+- Substitute  
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_6 ===
 Name: GRUNT
@@ -695,11 +809,16 @@ Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer
 
-Zubat
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tatsugiri @ White Herb  
+Ability: Commander  
+Level: 75  
+IVs: 0 Atk  
+- Draco Meteor  
+- Chilling Water  
+- Nasty Plot  
+- Surf  
 
 === TRAINER_FREDRICK ===
 Name: FREDRICK
@@ -731,15 +850,56 @@ Pic: Aqua Admin M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer / Ace Pokemon
 
-Mightyena
-Level: 34
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Samurott-Hisui @ Focus Sash  
+Ability: Sharpness  
+Level: 75  
+- Ceaseless Edge  
+- Aqua Jet  
+- Sacred Sword  
+- Rain Dance  
 
-Golbat
-Level: 34
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Seismitoad @ Rindo Berry  
+Ability: Swift Swim  
+Level: 75  
+- Earthquake  
+- Liquidation  
+- Knock Off  
+- Power Whip  
+
+Blastoise @ Blastoisinite  
+Ability: Mega Launcher  
+Level: 75  
+IVs: 0 Atk  
+- Water Pulse  
+- Dragon Pulse  
+- Dark Pulse  
+- Flash Cannon  
+
+Barbaracle @ Assault Vest  
+Ability: Tough Claws  
+Level: 75  
+- Liquidation  
+- Stone Edge  
+- Cross Chop  
+- Dual Chop  
+
+Crabominable @ Sitrus Berry  
+Ability: Iron Fist  
+Level: 75  
+- Ice Punch  
+- Jet Punch  
+- Power-Up Punch  
+- Drain Punch  
+
+Crawdaunt @ Life Orb  
+Ability: Adaptability  
+Level: 76  
+- Swords Dance  
+- Aqua Jet  
+- Crabhammer  
+- Knock Off  
 
 === TRAINER_ZANDER ===
 Name: ZANDER
@@ -4148,15 +4308,31 @@ Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Poochyena
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Bombirdier @ Focus Sash  
+Ability: Rocky Payload  
+Level: 74  
+- U-turn  
+- Knock Off  
+- Rock Blast  
+- Stealth Rock  
 
-Zubat
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Lokix @ Mago Berry  
+Ability: Tinted Lens  
+Level: 74  
+- U-turn  
+- First Impression  
+- Knock Off  
+- Sucker Punch  
+
+Honchkrow @ Scope Lens  
+Ability: Super Luck  
+Level: 75  
+- U-turn  
+- Night Slash  
+- Air Cutter  
+- Air Slash  
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_8 ===
 Name: GRUNT
@@ -4165,11 +4341,15 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer
 
-Carvanha
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Dondozo @ Leftovers  
+Ability: Water Veil  
+Level: 75  
+- Order Up  
+- Aqua Tail  
+- Heavy Slam  
+- Body Press  
 
 === TRAINER_SHAWN ===
 Name: SHAWN
@@ -5342,11 +5522,23 @@ Pic: Gentleman
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Manectric
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Morpeko @ Life Orb  
+Ability: Hunger Switch  
+Level: 72  
+- Aura Wheel  
+- Fake Out  
+- Knock Off  
+- Thunder Punch  
+
+Luxray @ Life Orb  
+Ability: Galvanize  
+Level: 72  
+- Body Slam  
+- Quick Attack  
+- Knock Off  
+- Sucker Punch  
 
 === TRAINER_MICAH ===
 Name: MICAH
@@ -6370,23 +6562,21 @@ Pic: Sr And Jr
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer 
 
-Spinda
-Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Hypnosis
-- Psybeam
-- Dizzy Punch
-- Teeter Dance
+Shedinja @ Life Orb  
+Ability: Wonder Guard  
+Level: 72  
+- Swords Dance  
+- Shadow Sneak  
+- Shadow Claw  
+- Skitter Smack  
 
-Slaking
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Focus Punch
-- Yawn
-- Slack Off
-- Feint Attack
+Parasect @ Focus Sash  
+Ability: Effect Spore  
+Level: 72  
+IVs: 0 Atk  
+- Rage Powder  
 
 === TRAINER_ANNA_AND_MEG_1 ===
 Name: ANNA & MEG
@@ -6690,11 +6880,55 @@ Pic: Pokefan F
 Gender: Female
 Music: Twins
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
-Pikachu @ Oran Berry
-Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Pikachu-Hoenn @ Light Ball  
+Ability: Static  
+Level: 72  
+- Nuzzle  
+- Thunderbolt  
+- Grass Knot  
+- Quick Attack  
+
+Pikachu-Alola @ Light Ball  
+Ability: Static  
+Level: 72  
+- Fake Out  
+- Volt Tackle  
+- Nuzzle  
+- Play Rough  
+
+Pikachu-Unova @ Light Ball  
+Ability: Static  
+Level: 72  
+- Thunderbolt  
+- Nuzzle  
+- Knock Off  
+- Iron Tail  
+
+Pikachu-Sinnoh @ Light Ball  
+Ability: Static  
+Level: 72  
+- Fake Out  
+- Iron Tail  
+- Knock Off  
+- Thunderbolt  
+
+Pikachu-Kalos @ Light Ball  
+Ability: Static  
+Level: 72  
+- Grass Knot
+- Agility  
+- Nasty Plot  
+- Thunderbolt  
+
+Pikachu-Original @ Light Ball  
+Ability: Static  
+Level: 72  
+- Volt Tackle  
+- Fake Out  
+- Trailblaze  
+- Iron Tail  
 
 === TRAINER_BETHANY ===
 Name: BETHANY
@@ -7708,73 +7942,61 @@ Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BARNY ===
-Name: MAXIE
-Class: Magma Leader
-Pic: Magma Leader Maxie
+Name: ARCHIE
+Class: Aqua Leader
+Pic: Aqua Leader Archie
 Gender: Male
-Music: Magma
+Music: Aqua
 Double Battle: No
 AI: Smart Trainer / Ace Pokemon
 
-Torkoal @ Heat Rock  
-Ability: Drought  
+Pelipper @ Damp Rock  
+Ability: Drizzle  
 Level: 68  
-IVs: 0 Spe  
-- Eruption  
+- Hurricane  
 - Weather Ball  
-- Gyro Ball  
-- Solar Beam  
+- Roost  
+- U-turn  
 
-Magcargo @ Shuca Berry  
-Ability: Storm Drain  
+Overqwil @ Expert Belt  
+Ability: Poison Point  
 Level: 68  
-EVs: 120 HP / 8 Def / 156 SpD / 224 Spe  
-Calm Nature  
-IVs: 0 Atk  
-- Clear Smog  
-- Flamethrower  
-- Shell Smash  
-- Power Gem  
+- Barb Barrage  
+- Liquidation  
+- Throat Chop  
+- Aqua Jet  
 
-Ogerpon-Hearthflame @ Hearthflame Mask  
-Ability: Mold Breaker  
+Delibird @ Salac Berry  
+Ability: Huge Power  
 Level: 68  
-Modest Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Ivy Cudgel  
+- Triple Axel  
+- Freeze-Dry  
+- Drill Peck  
+- Chilling Water  
+
+Golisopod @ Focus Sash  
+Ability: Emergency Exit  
+Level: 68  
+- Aqua Jet  
+- Liquidation  
+- First Impression  
+- Leech Life  
+
+Ogerpon-Wellspring @ Wellspring Mask  
+Ability: Water Absorb  
+Level: 68  
 - Horn Leech  
-- Solar Blade  
+- Ivy Cudgel  
 - Spiky Shield  
+- U-turn  
 
-Skeledirge @ Throat Spray  
-Ability: Unaware  
+Gyarados @ Gyaradosite  
+Ability: Intimidate  
 Level: 68  
-Adamant Nature  
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
-- Torch Song  
-- Shadow Ball  
-- Slack Off  
-- Alluring Voice  
-
-Ursaluna-Bloodmoon @ Absorb Bulb  
-Ability: Minds Eye  
-Level: 68  
-Adamant Nature  
-IVs: 0 Atk / 0 SpA  
-- Blood Moon  
-- Earth Power  
-- Calm Mind  
-- Moonblast  
-
-Houndoom @ Houndoominite  
-Ability: Flash Fire  
-Level: 68  
-IVs: 0 Atk  
-Adamant Nature
-- Flamethrower  
-- Dark Pulse  
-- Nasty Plot  
-- Solar Beam  
+- Crunch  
+- Waterfall  
+- Bounce  
+- Dragon Dance  
 
 === TRAINER_WADE ===
 Name: WADE
@@ -11437,7 +11659,7 @@ IVs: 0 HP / 0 Def / 0 SpA / 0 SpD
 - Iron Tail  
 
 Wailord @ Assault Vest  
-Ability: Water Veil  
+Ability: Bulletproof
 Level: 59  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 - Flip Turn  
@@ -11540,7 +11762,7 @@ Double Battle: No
 AI: Smart Trainer / Ace Pokemon
 
 Wailord @ Assault Vest  
-Ability: Water Veil  
+Ability: Bulletproof
 Level: 59  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Flip Turn  
@@ -11684,7 +11906,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Flare Blitz  
 
 Wailord @ Assault Vest  
-Ability: Water Veil  
+Ability: Bulletproof
 Level: 59  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 - Flip Turn  
@@ -11821,7 +12043,7 @@ IVs: 0 HP / 0 Def / 0 SpA / 0 SpD
 - Iron Tail  
 
 Wailord @ Assault Vest  
-Ability: Water Veil  
+Ability: Bulletproof
 Level: 59  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 - Flip Turn  
@@ -11924,7 +12146,7 @@ Double Battle: No
 AI: Smart Trainer / Ace Pokemon
 
 Wailord @ Assault Vest  
-Ability: Water Veil  
+Ability: Bulletproof
 Level: 59  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Flip Turn  
@@ -12068,7 +12290,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Flare Blitz  
 
 Wailord @ Assault Vest  
-Ability: Water Veil  
+Ability: Bulletproof
 Level: 59  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 - Flip Turn  
@@ -12900,24 +13122,21 @@ Music: Magma
 Double Battle: No
 AI: Basic Trainer / Omniscient
 
-Stunfisk-Galar @ Misty Seed  
-Ability: Mimicry  
-Level: 68  
-EVs: 248 SpA  
-Modest Nature  
-IVs: 0 Atk  
-- Terrain Pulse  
-- Flash Cannon  
-- Earth Power  
-- Pain Split  
+Arctovish @ Leftovers  
+Ability: Slush Rush  
+Level: 67  
+IVs: 0 Atk / 0 SpA
+- Liquidation  
+- Icicle Crash  
+- Rock Slide  
+- Body Slam  
 
-Trevenant @ Sitrus Berry  
-Ability: Harvest  
-Level: 68  
-- Horn Leech  
-- Poltergeist  
-- Power-Up Punch  
-- Trailblaze  
+Glaceon @ Heavy-Duty Boots  
+Ability: Snow Cloak  
+Level: 67  
+Adamant Nature
+IVs: 0 Atk / 0 SpA
+- Blizzard  
 
 === TRAINER_GRUNT_JAGGED_PASS ===
 Name: GRUNT
@@ -13621,19 +13840,64 @@ Pic: Magma Leader Maxie
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer / Ace Pokemon
 
-Mightyena
-Level: 37
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Torkoal @ Heat Rock  
+Ability: Drought  
+Level: 72  
+IVs: 0 Spe  
+- Eruption  
+- Weather Ball  
+- Gyro Ball  
+- Solar Beam  
 
-Crobat
-Level: 38
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Magcargo @ Shuca Berry  
+Ability: Water Absorb  
+Level: 72  
+EVs: 120 HP / 8 Def / 156 SpD / 224 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Clear Smog  
+- Flamethrower  
+- Shell Smash  
+- Power Gem  
 
-Camerupt
-Level: 39
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Ogerpon-Hearthflame @ Hearthflame Mask  
+Ability: Mold Breaker  
+Level: 72  
+- Ivy Cudgel  
+- Horn Leech  
+- Solar Blade  
+- Spiky Shield  
+
+Skeledirge @ Throat Spray  
+Ability: Unaware  
+Level: 72  
+Adamant Nature  
+IVs: 0 Atk  
+- Torch Song  
+- Shadow Ball  
+- Slack Off  
+- Alluring Voice  
+
+Ursaluna-Bloodmoon @ Absorb Bulb  
+Ability: Minds Eye  
+Level: 72  
+Adamant Nature  
+IVs: 0 Atk / 0 SpA  
+- Blood Moon  
+- Earth Power  
+- Calm Mind  
+- Moonblast  
+
+Houndoom @ Houndoominite  
+Ability: Flash Fire  
+Level: 72  
+IVs: 0 Atk  
+- Flamethrower  
+- Dark Pulse  
+- Nasty Plot  
+- Solar Beam  
 
 === TRAINER_MAXIE_MT_CHIMNEY ===
 Name: MAXIE
@@ -15078,23 +15342,60 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer / Ace Pokemon
 
-Tropius
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Hydrapple @ Leftovers  
+Ability: Regenerator  
+Level: 74  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Giga Drain  
+- Fickle Beam  
+- Leaf Storm  
+- Earth Power  
 
-Slugma
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Darmanitan-Galar @ Focus Sash  
+Ability: Zen Mode  
+Level: 74  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Earthquake  
+- Flare Blitz  
+- Icicle Crash  
+- Hammer Arm  
 
-Pelipper
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Lycanroc-Midnight @ Choice Band  
+Ability: No Guard  
+Level: 74  
+IVs: 0 HP / 0 Def / 0 SpA / 0 SpD  
+- Stone Edge  
+- Crunch  
+- Sucker Punch  
+- Iron Tail  
 
-Grovyle
-Level: 34
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Wailord @ Assault Vest  
+Ability: Bulletproof 
+Level: 74  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Flip Turn  
+- Dive  
+- Heavy Slam  
+- Steel Roller  
+ 
+Grumpig @ Choice Specs  
+Ability: Neuroforce  
+Level: 74  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
+- Chilling Water  
+- Psychic  
+- Hyper Voice  
+- Power Gem  
+
+Chandelure @ Life Orb  
+Ability: Flash Fire  
+Level: 75  
+- Flamethrower  
+- Shadow Ball  
+- Will-O-Wisp  
+- Hex  
 
 === TRAINER_BRENDAN_LILYCOVE_TREECKO ===
 Name: BRENDAN
@@ -15103,23 +15404,60 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer / Ace Pokemon
 
-Tropius
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Wailord @ Assault Vest  
+Ability: Bulletproof 
+Level: 74  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Flip Turn  
+- Dive  
+- Heavy Slam  
+- Steel Roller  
 
-Pelipper
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Darmanitan-Galar @ Focus Sash  
+Ability: Zen Mode  
+Level: 74  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Earthquake  
+- Flare Blitz  
+- Icicle Crash  
+- Hammer Arm  
 
-Ludicolo
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Talonflame @ Expert Belt  
+Ability: Gale Wings  
+Level: 74  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Brave Bird  
+- Flare Blitz  
+- Roost  
+- U-turn  
 
-Combusken
-Level: 34
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Lycanroc @ Choice Band  
+Ability: Solid Rock  
+Level: 74  
+IVs: 0 HP / 0 Def / 0 SpA / 0 SpD  
+- Stone Edge  
+- Crunch  
+- Sucker Punch  
+- Accelerock  
+
+Grumpig @ Choice Specs  
+Ability: Neuroforce  
+Level: 74  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe    
+- Chilling Water  
+- Psychic  
+- Hyper Voice  
+- Power Gem  
+
+Tinkaton @ Leftovers  
+Ability: Mold Breaker  
+Level: 75  
+- Gigaton Hammer  
+- Fake Out  
+- Play Rough  
+- Ice Hammer  
 
 === TRAINER_BRENDAN_LILYCOVE_TORCHIC ===
 Name: BRENDAN
@@ -15128,23 +15466,60 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer / Ace Pokemon
 
-Tropius
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Hydrapple @ Leftovers  
+Ability: Regenerator  
+Level: 74  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Nasty Plot  
+- Fickle Beam  
+- Leaf Storm  
+- Earth Power  
 
-Ludicolo
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Darmanitan-Galar @ Focus Sash  
+Ability: Zen Mode  
+Level: 74  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Earthquake  
+- Flare Blitz  
+- Icicle Crash  
+- Hammer Arm  
 
-Slugma
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Wailord @ Assault Vest  
+Ability: Bulletproof 
+Level: 74  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Flip Turn  
+- Dive  
+- Heavy Slam  
+- Steel Roller  
 
-Marshtomp
-Level: 34
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Talonflame @ Expert Belt  
+Ability: Gale Wings  
+Level: 74  
+IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Brave Bird  
+- Flare Blitz  
+- Roost  
+- U-turn  
+
+Grumpig @ Choice Specs  
+Ability: Neuroforce  
+Level: 74  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe    
+- Chilling Water  
+- Psychic  
+- Hyper Voice  
+- Power Gem  
+
+Garganacl @ Sitrus Berry  
+Ability: Purifying Salt  
+Level: 75    
+- Salt Cure  
+- Recover  
+- Protect  
+- Earthquake  
 
 === TRAINER_MAY_LILYCOVE_MUDKIP ===
 Name: MAY
@@ -15153,23 +15528,60 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer / Ace Pokemon
 
-Tropius
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Hydrapple @ Leftovers  
+Ability: Regenerator  
+Level: 74  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Giga Drain  
+- Fickle Beam  
+- Leaf Storm  
+- Earth Power  
 
-Slugma
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Darmanitan-Galar @ Focus Sash  
+Ability: Zen Mode  
+Level: 74  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Earthquake  
+- Flare Blitz  
+- Icicle Crash  
+- Hammer Arm  
 
-Pelipper
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Lycanroc-Midnight @ Choice Band  
+Ability: No Guard  
+Level: 74  
+IVs: 0 HP / 0 Def / 0 SpA / 0 SpD  
+- Stone Edge  
+- Crunch  
+- Sucker Punch  
+- Iron Tail  
 
-Grovyle
-Level: 34
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Wailord @ Assault Vest  
+Ability: Bulletproof 
+Level: 74  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Flip Turn  
+- Dive  
+- Heavy Slam  
+- Steel Roller  
+
+Grumpig @ Choice Specs  
+Ability: Neuroforce  
+Level: 74  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
+- Chilling Water  
+- Psychic  
+- Hyper Voice  
+- Power Gem  
+
+Chandelure @ Life Orb  
+Ability: Flash Fire  
+Level: 75  
+- Flamethrower  
+- Shadow Ball  
+- Will-O-Wisp  
+- Hex  
 
 === TRAINER_MAY_LILYCOVE_TREECKO ===
 Name: MAY
@@ -15178,23 +15590,60 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer / Ace Pokemon
 
-Tropius
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Wailord @ Assault Vest  
+Ability: Bulletproof 
+Level: 74  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Flip Turn  
+- Dive  
+- Heavy Slam  
+- Steel Roller  
 
-Pelipper
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Darmanitan-Galar @ Focus Sash  
+Ability: Zen Mode  
+Level: 74  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Earthquake  
+- Flare Blitz  
+- Icicle Crash  
+- Hammer Arm  
 
-Ludicolo
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Talonflame @ Expert Belt  
+Ability: Gale Wings  
+Level: 74  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Brave Bird  
+- Flare Blitz  
+- Roost  
+- U-turn  
 
-Combusken
-Level: 34
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Lycanroc @ Choice Band  
+Ability: Solid Rock  
+Level: 74  
+IVs: 0 HP / 0 Def / 0 SpA / 0 SpD  
+- Stone Edge  
+- Crunch  
+- Sucker Punch  
+- Accelerock  
+
+Grumpig @ Choice Specs  
+Ability: Neuroforce  
+Level: 74  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe    
+- Chilling Water  
+- Psychic  
+- Hyper Voice  
+- Power Gem  
+
+Tinkaton @ Leftovers  
+Ability: Mold Breaker  
+Level: 75  
+- Gigaton Hammer  
+- Fake Out  
+- Play Rough  
+- Ice Hammer  
 
 === TRAINER_MAY_LILYCOVE_TORCHIC ===
 Name: MAY
@@ -15203,23 +15652,60 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer / Ace Pokemon
 
-Tropius
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Hydrapple @ Leftovers  
+Ability: Regenerator  
+Level: 74   
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Nasty Plot  
+- Fickle Beam  
+- Leaf Storm  
+- Earth Power  
 
-Ludicolo
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Darmanitan-Galar @ Focus Sash  
+Ability: Zen Mode  
+Level: 74   
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Earthquake  
+- Flare Blitz  
+- Icicle Crash  
+- Hammer Arm  
 
-Slugma
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Wailord @ Assault Vest  
+Ability: Bulletproof
+Level: 74    
+IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Flip Turn  
+- Dive  
+- Heavy Slam  
+- Steel Roller  
 
-Marshtomp
-Level: 34
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Talonflame @ Expert Belt  
+Ability: Gale Wings  
+Level: 74  
+IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Brave Bird  
+- Flare Blitz  
+- Roost  
+- U-turn  
+
+Grumpig @ Choice Specs  
+Ability: Neuroforce  
+Level: 74  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe    
+- Chilling Water  
+- Psychic  
+- Hyper Voice  
+- Power Gem  
+
+Garganacl @ Sitrus Berry  
+Ability: Purifying Salt  
+Level: 75   
+- Salt Cure  
+- Recover  
+- Protect  
+- Earthquake  
 
 === TRAINER_JONAH ===
 Name: JONAH
@@ -16206,11 +16692,35 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Zubat
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tangrowth @ Leftovers  
+Ability: Regenerator  
+Level: 68  
+IVs: 0 Atk  
+- Giga Drain  
+- Leaf Storm  
+- Leech Seed  
+- Stun Spore  
+
+Darmanitan @ Quick Claw  
+Ability: Zen Mode  
+Level: 68  
+EVs: 252 HP / 116 Def / 140 SpD  
+Calm Nature  
+- Flare Blitz  
+- Flame Charge  
+- Psychic  
+- Flamethrower  
+
+Nidoking @ Life Orb  
+Ability: Sheer Force  
+Level: 69  
+IVs: 0 Atk  
+- Sludge Bomb  
+- Thunderbolt  
+- Flamethrower  
+- Earth Power  
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_2 ===
 Name: GRUNT
@@ -16219,11 +16729,31 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer 
 
-Poochyena
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Charizard @ Heat Rock  
+Ability: Drought  
+Level: 68  
+- Air Slash  
+- Flamethrower  
+- Weather Ball  
+- Dragon Tail  
+
+Sunflora @ Jaboca Berry  
+Ability: Chlorophyll  
+Level: 68  
+IVs: 0 Atk  
+- Solar Beam  
+- Weather Ball  
+- Synthesis  
+
+Tropius @ Expert Belt  
+Ability: Solar Power  
+Level: 68  
+- Solar Beam  
+- Dragon Hammer  
+- Air Slash  
+- Synthesis  
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_3 ===
 Name: GRUNT
@@ -16232,11 +16762,25 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer / Omniscient
 
-Numel
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ninetales @ Heat Rock  
+Ability: Flash Fire  
+Level: 68  
+IVs: 0 Atk  
+- Heat Wave  
+- Scorching Sands  
+- Weather Ball  
+- Energy Ball  
+
+Delphox @ Grassy Seed  
+Ability: Magician  
+Level: 68  
+IVs: 0 Atk  
+- Mystical Fire  
+- Calm Mind  
+- Dazzling Gleam  
+- Psyshock  
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_4 ===
 Name: GRUNT
@@ -16245,15 +16789,23 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer / Omniscient
 
-Baltoy
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rillaboom @ Grassy Seed  
+Ability: Grassy Surge
+Level: 68  
+- Grassy Glide  
+- Solar Blade  
+- Knock Off  
+- Fake Out  
 
-Zubat
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Trevenant @ Sitrus Berry  
+Ability: Harvest  
+Level: 68  
+- Horn Leech  
+- Poltergeist  
+- Power-Up Punch  
+- Trailblaze  
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_5 ===
 Name: GRUNT
@@ -16262,15 +16814,31 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Baltoy
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Marowak-Alola @ Thick Club  
+Ability: Rock Head  
+Level: 69  
+- Flare Blitz  
+- Shadow Bone  
+- Bonemerang  
+- Power-Up Punch  
 
-Numel
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Flapple @ Sitrus Berry  
+Ability: Ripen  
+Level: 69  
+- Grav Apple  
+- Dragon Dance  
+- Dragon Rush  
+- Acrobatics  
+
+Mamoswine @ Assault Vest  
+Ability: Thick Fat  
+Level: 69  
+- Earthquake  
+- Ice Shard  
+- Icicle Spear  
+- Body Slam  
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_6 ===
 Name: GRUNT
@@ -16279,11 +16847,27 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer / Omniscient
 
-Mightyena
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Pyroar @ Air Balloon  
+Ability: Grim Neigh  
+Level: 69  
+IVs: 0 Atk  
+- Hyper Voice  
+- Flamethrower  
+- Heat Wave  
+- Snarl  
+
+Heatmor @ Salac Berry  
+Ability: Gluttony  
+Level: 69  
+EVs: 252 HP / 148 Def / 108 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Giga Drain  
+- Heat Wave  
+- Flamethrower  
+- Scorching Sands  
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_7 ===
 Name: GRUNT
@@ -16292,11 +16876,35 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Zubat
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Wormadam-Sandy @ Focus Sash  
+Ability: Overcoat  
+Level: 70  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Quiver Dance  
+- Bug Buzz  
+- Earth Power  
+- Shadow Ball  
+
+Meganium @ Big Root  
+Ability: Misty Surge  
+Level: 70  
+IVs: 0 Atk  
+- Terrain Pulse  
+- Sparkly Swirl  
+- Giga Drain  
+- Synthesis  
+
+Simisear @ Iapapa Berry  
+Ability: Gluttony  
+Level: 70  
+- Acrobatics  
+- Overheat  
+- Flare Blitz  
+- Power-Up Punch  
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_8 ===
 Name: GRUNT
@@ -16305,11 +16913,34 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Poochyena
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Appletun @ Light Clay  
+Ability: Thick Fat  
+Level: 70  
+IVs: 0 Atk  
+- Light Screen  
+- Reflect  
+- Apple Acid  
+- Draco Meteor  
+
+Rapidash @ Shuca Berry  
+Ability: Flame Body  
+Level: 70  
+- High Horsepower  
+- Play Rough  
+- Megahorn  
+- Flare Blitz  
+
+Magmortar @ Assault Vest  
+Ability: Flame Body  
+Level: 70  
+EVs: 252 Def  
+IVs: 0 Atk  
+- Lava Plume  
+- Fire Blast  
+- Scorching Sands  
+- Acid Spray  
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_9 ===
 Name: GRUNT
@@ -16318,11 +16949,32 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Zubat
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rotom-Heat @ White Herb  
+Ability: Levitate  
+Level: 70  
+IVs: 0 Atk  
+- Overheat  
+- Thunder Wave  
+- Volt Switch  
+- Will-O-Wisp  
+
+Krookodile @ Rocky Helmet  
+Ability: Intimidate  
+Level: 70  
+- Earthquake  
+- Darkest Lariat  
+- Power-Up Punch  
+- Fire Fang  
+
+Brambleghast @ Expert Belt  
+Ability: Wind Rider  
+Level: 71  
+- Poltergeist  
+- Shadow Sneak  
+- Skitter Smack  
+- Seed Bomb  
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_10 ===
 Name: GRUNT
@@ -16331,24 +16983,88 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Mightyena
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Iron Moth @ Shuca Berry  
+Ability: Quark Drive  
+Level: 70  
+IVs: 0 Atk  
+- Toxic Spikes  
+- Toxic  
+- Sludge Wave  
+- Fiery Dance  
+
+Salazzle @ Shuca Berry  
+Ability: Merciless  
+Level: 71  
+IVs: 0 Atk  
+- Venoshock  
+- Dragon Pulse  
+- Sludge Bomb  
+- Belch  
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_11 ===
-Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
-Gender: Male
+Name: COURTNEY
+Class: Magma Admin
+Pic: Magma Grunt F
+Gender: Female
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer / Ace Pokemon
 
-Baltoy
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Excadrill @ Leftovers  
+Ability: Mold Breaker  
+Level: 71  
+Modest Nature 
+- Iron Head  
+- Earthquake  
+- Stealth Rock  
+- Rapid Spin  
+
+Ceruledge @ Focus Sash  
+Ability: Weak Armor  
+Level: 71  
+Modest Nature 
+- Bitter Blade  
+- Shadow Sneak  
+- Shadow Claw  
+- Swords Dance
+
+Toedscruel @ Leftovers  
+Ability: Mycelium Might  
+Level: 71  
+- Spore  
+- Giga Drain  
+- Knock Off  
+- Earth Power  
+
+Moltres-Galar @ Charti Berry  
+Ability: Berserk  
+Level: 71  
+IVs: 0 Atk  
+- Fiery Wrath  
+- Hurricane  
+- Air Slash  
+- Ancient Power  
+
+Iron Leaves @ Electric Seed  
+Ability: Quark Drive  
+Level: 71  
+Adamant Nature
+IVs: 0 Atk  
+- Electric Terrain  
+- Psyblade  
+- Leaf Blade  
+- Trailblaze  
+
+Charizard @ Charizardite X  
+Ability: Drought  
+Level: 72  
+Modest Nature
+- Dragon Claw  
+- Blaze Kick  
+- Dual Wingbeat  
+- Power-Up Punch  
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_12 ===
 Name: GRUNT
@@ -16357,11 +17073,16 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer / Omniscient
 
-Numel
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Oricorio @ Focus Sash  
+Ability: Dancer  
+Level: 71  
+IVs: 0 Atk  
+- Revelation Dance  
+- Alluring Voice  
+- Air Slash  
+- Icy Wind  
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_13 ===
 Name: GRUNT
@@ -16370,11 +17091,16 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer / Omniscient / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
-Zubat
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Volcarona @ Focus Sash  
+Ability: Flame Body  
+Level: 71  
+IVs: 0 Atk  
+- Quiver Dance  
+- Fiery Dance  
+- Bug Buzz  
+- Heat Wave  
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_14 ===
 Name: GRUNT
@@ -16383,11 +17109,31 @@ Pic: Magma Grunt F
 Gender: Female
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Mightyena
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mudsdale @ Leftovers  
+Ability: Stamina  
+Level: 69  
+- High Horsepower  
+- Heavy Slam  
+- Body Press  
+- Rock Slide  
+
+Emboar @ Salac Berry  
+Ability: Reckless  
+Level: 69  
+- Flare Blitz  
+- Wild Charge  
+- Head Smash  
+- Hammer Arm  
+
+Cinderace @ Expert Belt  
+Ability: Libero  
+Level: 69  
+- Pyro Ball  
+- Court Change  
+- U-turn  
+- High Jump Kick  
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_15 ===
 Name: GRUNT
@@ -16396,11 +17142,23 @@ Pic: Magma Grunt F
 Gender: Female
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer / Omniscient
 
-Numel
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Arcanine-Hisui @ Leftovers  
+Ability: Intimidate  
+Level: 69  
+- Rock Slide  
+- Raging Fury  
+- Extreme Speed  
+- Heat Crash  
+
+Coalossal @ Passho Berry  
+Ability: Steam Engine  
+Level: 69  
+- Heat Wave  
+- Heat Crash  
+- Stone Edge  
+- Scorching Sands  
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_16 ===
 Name: GRUNT
@@ -16409,11 +17167,31 @@ Pic: Magma Grunt F
 Gender: Female
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Baltoy
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gliscor @ Toxic Orb  
+Ability: Poison Heal  
+Level: 70  
+- Stealth Rock  
+- U-turn  
+- Earthquake  
+- Acrobatics  
+
+Talonflame @ Heavy-Duty Boots  
+Ability: Gale Wings  
+Level: 70  
+- Brave Bird  
+- Flare Blitz  
+- Dual Wingbeat  
+- U-turn  
+
+Flareon @ Toxic Orb  
+Ability: Guts  
+Level: 71  
+- Protect  
+- Flare Blitz  
+- Flame Charge  
+- Quick Attack  
 
 === TRAINER_TABITHA_MAGMA_HIDEOUT ===
 Name: TABITHA
@@ -16422,23 +17200,63 @@ Pic: Magma Admin
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer / Ace Pokemon
 
-Numel
-Level: 26
-IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
+Clodsire @ Leftovers  
+Ability: Water Absorb  
+Level: 71  
+- Spikes  
+- Stealth Rock  
+- Toxic Spikes  
+- Earthquake  
 
-Mightyena
-Level: 28
-IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
+Armarouge @ Focus Sash  
+Ability: Weak Armor  
+Level: 71 
+Adamant Nature
+IVs: 0 Atk / 0 SpA
+- Armor Cannon  
+- Psyshock  
+- Scorching Sands  
+- Calm Mind  
 
-Zubat
-Level: 30
-IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
+Diggersby @ Expert Belt  
+Ability: Huge Power  
+Level: 71  
+Modest Nature
+IVs: 0 Atk  
+- Quick Attack  
+- Agility 
+- Body Slam  
+- Earthquake  
 
-Camerupt
-Level: 33
-IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
+Gouging Fire @ Booster Energy 
+Ability: Protosynthesis  
+Level: 71  
+EVs: 252 SpD  
+Modest Nature  
+IVs: 0 Atk  
+- Raging Fury  
+- Burning Bulwark  
+- Outrage  
+- Temper Flare
+
+Dhelmise @ Blunder Policy  
+Ability: Steelworker  
+Level: 71  
+- Anchor Shot  
+- Power Whip  
+- Poltergeist  
+- Knock Off  
+
+Camerupt @ Cameruptite  
+Ability: Solid Rock  
+Level: 72  
+IVs: 0 Atk / 0 SpA 
+- Lava Plume  
+- Earth Power  
+- Eruption  
+- Flash Cannon  
 
 === TRAINER_DARCY ===
 Name: DARCY
@@ -17178,31 +17996,25 @@ Pic: Pokemon Breeder M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer / Sequence Switching 
 
-Makuhita
-Level: 25
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Zoroark @ Chople Berry  
+Ability: Illusion  
+Level: 72  
+IVs: 0 Atk  
+- Dark Pulse  
+- Flamethrower  
+- Nasty Plot  
+- Extrasensory  
 
-Wingull
-Level: 25
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-Tropius
-Level: 25
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-Zigzagoon
-Level: 25
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-Electrike
-Level: 25
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-Numel
-Level: 25
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Gengar @ Expert Belt  
+Ability: Cursed Body  
+Level: 72  
+IVs: 0 Atk  
+- Shadow Ball  
+- Sludge Wave  
+- Sludge Bomb  
+- Thunder Wave  
 
 === TRAINER_PAT ===
 Name: PAT
@@ -17211,31 +18023,24 @@ Pic: Pokemon Breeder F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer / Sequence Switching 
 
-Poochyena
-Level: 25
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Zoroark-Hisui @ Colbur Berry  
+Ability: Illusion  
+Level: 72  
+IVs: 0 Atk  
+- Flamethrower  
+- Hyper Voice  
+- Will-O-Wisp  
+- Bitter Malice  
 
-Shroomish
-Level: 25
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-Electrike
-Level: 25
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-Marill
-Level: 25
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-Sandshrew
-Level: 25
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-Gulpin
-Level: 25
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Kingambit @ Chople Berry  
+Ability: Supreme Overlord  
+Level: 72  
+- Knock Off  
+- Iron Head  
+- Sucker Punch  
+- Low Kick  
 
 === TRAINER_CRISTIN_1 ===
 Name: CRISTIN
@@ -17244,15 +18049,32 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer
 
-Loudred
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Tyranitar @ Chople Berry  
+Ability: Sand Stream  
+Level: 72  
+- Pursuit  
+- Knock Off  
+- Rock Slide  
+- Superpower  
 
-Vigoroth
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Clefable @ Babiri Berry  
+Ability: Magic Guard  
+Level: 72  
+IVs: 0 Atk  
+- Moonblast  
+- Thunderbolt  
+- Flamethrower  
+- Ice Beam  
+
+Dugtrio-Alola @ Shuca Berry  
+Ability: Sand Force  
+Level: 73  
+- Earthquake  
+- Iron Head  
+- Sucker Punch  
+- Aerial Ace  
 
 === TRAINER_MAY_RUSTBORO_TREECKO ===
 Name: MAY

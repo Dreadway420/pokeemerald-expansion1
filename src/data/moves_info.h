@@ -1124,7 +1124,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
             "Stingers on the forelegs\n"
             "jab the foe twice."),
         .effect = EFFECT_HIT,
-        .power = 25,
+        .power = 45,
         .type = TYPE_BUG,
         .accuracy = 100,
         .pp = 20,
@@ -4843,7 +4843,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
             "Fires a lump of ink to\n"
             "damage and cut accuracy."),
         .effect = EFFECT_HIT,
-        .power = 85,
+        .power = 95,
         .type = TYPE_WATER,
         .accuracy = 100,
         .pp = 10,

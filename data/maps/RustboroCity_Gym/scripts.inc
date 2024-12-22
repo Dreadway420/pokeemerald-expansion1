@@ -16,6 +16,7 @@ RustboroCity_Gym_EventScript_RoxanneDefeated::
 	call Common_EventScript_PlayGymBadgeFanfare
 	msgbox RustboroCity_Gym_Text_StoneBadgeInfoTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_RUSTBORO_GYM
+	setflag FLAG_REGI_DOORS_OPENED
 	setflag FLAG_BADGE01_GET
 	setflag FLAG_HIDDEN_ITEM_ROUTE_104_POKE_BALL
 	setflag FLAG_HIDDEN_ITEM_ROUTE_104_ANTIDOTE

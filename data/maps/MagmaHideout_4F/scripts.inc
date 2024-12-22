@@ -14,6 +14,7 @@ MagmaHideout_4F_EventScript_Maxie::
 	playbgm MUS_ENCOUNTER_MAGMA, FALSE
 	msgbox MagmaHideout_4F_Text_MaxieAwakenGroudon, MSGBOX_DEFAULT
 	closemessage
+	special HealPlayerParty
 	delay 20
 	setvar VAR_RESULT, 1
 	playse SE_M_DETECT
@@ -77,6 +78,10 @@ MagmaHideout_4F_EventScript_Maxie::
 	removeobject LOCALID_GRUNT_3
 	removeobject LOCALID_TABITHA
 	setflag FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS
+	setflag FLAG_121_GRUNTS
+	setflag FLAG_ITEM_MAGMA_HIDEOUT_2F_2R_FULL_RESTORE
+	setflag FLAG_ITEM_MAGMA_HIDEOUT_3F_2R_PP_MAX
+	setflag FLAG_ITEM_MAGMA_HIDEOUT_3F_1R_NUGGET
 	fadescreen FADE_FROM_BLACK
 	releaseall
 	end
@@ -134,18 +139,13 @@ MagmaHideout_4F_EventScript_Tabitha::
 	end
 
 MagmaHideout_4F_Text_Grunt11Intro:
-	.string "I want to see GROUDON, too, but they\n"
-	.string "won't let me see even its tail…\p"
-	.string "It's got me feeling really frustrated.\p"
-	.string "Oh, no!\n"
-	.string "I blabbed about GROUDON!$"
+	.string "...$"
 
 MagmaHideout_4F_Text_Grunt11Defeat:
-	.string "I guess it's impossible to win if one\n"
-	.string "doesn't have a calm mind…$"
+	.string "...$"
 
 MagmaHideout_4F_Text_Grunt11PostBattle:
-	.string "I wonder if GROUDON even has a tail?$"
+	.string "...$"
 
 MagmaHideout_4F_Text_Grunt12Intro:
 	.string "Fuhahaha!\n"
@@ -229,4 +229,6 @@ MagmaHideout_4F_Text_MaxieImGoingAfterGroudon:
 	.string "With GROUDON gone, there is no longer\n"
 	.string "any need for this blasted volcano.\p"
 	.string "I am going after GROUDON, so this\n"
-	.string "is where we part!$"
+	.string "is where we part!\p"
+	.string "If you want to make yourself useful,\n"
+	.string "go to SLATEPORT and stop AQUA.$"

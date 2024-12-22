@@ -3516,11 +3516,11 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
 
     [SPECIES_BRONZONG] =
     {
-        .baseHP        = 67,
+        .baseHP        = 82,
         .baseAttack    = 89,
         .baseDefense   = 116,
         .baseSpeed     = 33,
-        .baseSpAttack  = 79,
+        .baseSpAttack  = 89,
         .baseSpDefense = 116,
         .types = MON_TYPES(TYPE_STEEL, TYPE_PSYCHIC),
         .catchRate = 90,
@@ -3543,7 +3543,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .weight = 1870,
         .description = COMPOUND_STRING(
             "In ages past, this Pokémon was revered as\n"
-            "a bringer of rain. One caused a news stir\n"
+            "a bringer of rain. One caused a news stir\ng"
             "when it was dug up at a construction site\n"
             "after a 2000-year sleep."),
         .pokemonScale = 272,
@@ -3944,7 +3944,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .baseHP        = 108,
         .baseAttack    = 170,
         .baseDefense   = 115,
-        .baseSpeed     = 92,
+        .baseSpeed     = 102,
         .baseSpAttack  = 120,
         .baseSpDefense = 95,
         .types = MON_TYPES(TYPE_DRAGON, TYPE_GROUND),

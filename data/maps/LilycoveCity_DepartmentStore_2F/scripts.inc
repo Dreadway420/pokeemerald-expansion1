@@ -25,17 +25,17 @@ LilycoveCity_DepartmentStore_2F_EventScript_ClerkLeft::
 
 	.align 2
 LilycoveCity_DepartmentStore_2F_Pokemart1:
-	.2byte ITEM_POKE_BALL
-	.2byte ITEM_GREAT_BALL
-	.2byte ITEM_ULTRA_BALL
-	.2byte ITEM_ESCAPE_ROPE
-	.2byte ITEM_FULL_HEAL
-	.2byte ITEM_ANTIDOTE
-	.2byte ITEM_PARALYZE_HEAL
-	.2byte ITEM_BURN_HEAL
-	.2byte ITEM_ICE_HEAL
-	.2byte ITEM_AWAKENING
-	.2byte ITEM_FLUFFY_TAIL
+	.2byte ITEM_CHOICE_BAND
+	.2byte ITEM_CHOICE_SCARF
+	.2byte ITEM_CHOICE_SPECS
+	.2byte ITEM_LIFE_ORB
+	.2byte ITEM_LEFTOVERS
+	.2byte ITEM_ROCKY_HELMET
+	.2byte ITEM_ASSAULT_VEST
+	.2byte ITEM_ABILITY_CAPSULE
+	.2byte ITEM_ABILITY_PATCH
+	.2byte ITEM_PP_MAX
+	.2byte ITEM_MAX_REPEL
 	.2byte ITEM_NONE
 	release
 	end
@@ -52,16 +52,16 @@ LilycoveCity_DepartmentStore_2F_EventScript_ClerkRight::
 
 	.align 2
 LilycoveCity_DepartmentStore_2F_Pokemart2:
-	.2byte ITEM_POTION
-	.2byte ITEM_SUPER_POTION
-	.2byte ITEM_HYPER_POTION
-	.2byte ITEM_MAX_POTION
-	.2byte ITEM_REVIVE
-	.2byte ITEM_REPEL
-	.2byte ITEM_SUPER_REPEL
-	.2byte ITEM_MAX_REPEL
-	.2byte ITEM_WAVE_MAIL
-	.2byte ITEM_MECH_MAIL
+	.2byte ITEM_ADAMANT_MINT
+	.2byte ITEM_MODEST_MINT
+	.2byte ITEM_JOLLY_MINT
+	.2byte ITEM_TIMID_MINT
+	.2byte ITEM_BRAVE_MINT
+	.2byte ITEM_QUIET_MINT
+	.2byte ITEM_BOLD_MINT
+	.2byte ITEM_CALM_MINT
+	.2byte ITEM_IMPISH_MINT
+	.2byte ITEM_CAREFUL_MINT
 	.2byte ITEM_NONE
 	release
 	end

@@ -23,6 +23,7 @@ MeteorFalls_StevensCave_EventScript_Steven::
 	giveitem ITEM_CHARIZARDITE_X
 	giveitem ITEM_CHARIZARDITE_Y
 	giveitem ITEM_KANGASKHANITE
+	giveitem ITEM_STEELIXITE
 	giveitem ITEM_LIFE_ORB
 	setflag FLAG_DEFEATED_METEOR_FALLS_STEVEN
 	setflag FLAG_ITEM_ROUTE_114_RARE_CANDY

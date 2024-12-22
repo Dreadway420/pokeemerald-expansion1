@@ -1418,16 +1418,16 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 10, SPECIES_BEEDRILL}),
     },
 
-#define BEEDRILL_ATTACK (P_UPDATED_STATS >= GEN_6 ? 90 : 80)
+#define BEEDRILL_ATTACK (P_UPDATED_STATS >= GEN_6 ? 100 : 100)
 
     [SPECIES_BEEDRILL] =
     {
         .baseHP        = 65,
-        .baseAttack    = BEEDRILL_ATTACK,
-        .baseDefense   = 40,
-        .baseSpeed     = 75,
+        .baseAttack    = 100,
+        .baseDefense   = 70,
+        .baseSpeed     = 95,
         .baseSpAttack  = 45,
-        .baseSpDefense = 80,
+        .baseSpDefense = 100,
         .types = MON_TYPES(TYPE_BUG, TYPE_POISON),
         .catchRate = 70,
     #if P_UPDATED_EXP_YIELDS >= GEN_8
@@ -1447,7 +1447,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG),
-        .abilities = { ABILITY_SWARM, ABILITY_NONE, ABILITY_SNIPER },
+        .abilities = { ABILITY_TECHNICIAN, ABILITY_NONE, ABILITY_SWARM },
         .bodyColor = BODY_COLOR_YELLOW,
         .speciesName = _("Beedrill"),
         .cryId = CRY_BEEDRILL,
@@ -7139,7 +7139,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
-        .abilities = { ABILITY_INTIMIDATE, ABILITY_ROCK_HEAD },
+        .abilities = { ABILITY_INTIMIDATE, ABILITY_ROCK_HEAD, ABILITY_FLASH_FIRE },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Arcanine"),
         .cryId = CRY_ARCANINE,
@@ -11007,7 +11007,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 #if P_GEN_2_CROSS_EVOS
     [SPECIES_STEELIX] =
     {
-        .baseHP        = 75,
+        .baseHP        = 90,
         .baseAttack    = 85,
         .baseDefense   = 200,
         .baseSpeed     = 30,
@@ -11085,7 +11085,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 #if P_MEGA_EVOLUTIONS
     [SPECIES_STEELIX_MEGA] =
     {
-        .baseHP        = 75,
+        .baseHP        = 90,
         .baseAttack    = 125,
         .baseDefense   = 230,
         .baseSpeed     = 30,
@@ -12101,7 +12101,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER),
-        .abilities = { ABILITY_LIGHTNING_ROD, ABILITY_LIGHTNING_ROD, ABILITY_LIGHTNING_ROD },
+        .abilities = { ABILITY_LIGHTNING_ROD, ABILITY_LIGHTNING_ROD, ABILITY_ROCK_HEAD },
         .bodyColor = BODY_COLOR_PURPLE,
         .speciesName = _("Marowak"),
         .cryId = CRY_MAROWAK,
@@ -12899,7 +12899,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseDefense   = 120,
         .baseSpeed     = 40,
         .baseSpAttack  = 45,
-        .baseSpDefense = 45,
+        .baseSpDefense = 65,
         .types = MON_TYPES(TYPE_GROUND, TYPE_ROCK),
         .catchRate = 70,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 150 : 180,
@@ -12975,7 +12975,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseDefense   = 130,
         .baseSpeed     = 40,
         .baseSpAttack  = 55,
-        .baseSpDefense = 55,
+        .baseSpDefense = 75,
         .types = MON_TYPES(TYPE_GROUND, TYPE_ROCK),
         .catchRate = 70,
     #if P_UPDATED_EXP_YIELDS >= GEN_8

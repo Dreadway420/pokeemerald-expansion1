@@ -91,6 +91,7 @@ PetalburgCity_EventScript_Boy::
 	faceplayer
 	msgbox PetalburgCity_Text_WaterReflection, MSGBOX_DEFAULT
 	closemessage
+	setflag FLAG_REGI_DOORS_OPENED
 	applymovement LOCALID_BOY, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	release

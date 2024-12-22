@@ -240,6 +240,7 @@ static const struct LevelUpMove sBeedrillLevelUpLearnset[] = {
     LEVEL_UP_MOVE(38, MOVE_AGILITY),
     LEVEL_UP_MOVE(41, MOVE_ENDEAVOR),
     LEVEL_UP_MOVE(44, MOVE_FELL_STINGER),
+    LEVEL_UP_MOVE(44, MOVE_TWINEEDLE),
     LEVEL_UP_END
 };
 #endif //P_FAMILY_WEEDLE
