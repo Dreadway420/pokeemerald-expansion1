@@ -28,6 +28,15 @@ AquaHideout_B2F_EventScript_MattNoticePlayer::
 AquaHideout_B2F_EventScript_Matt::
 	trainerbattle_single TRAINER_MATT, AquaHideout_B2F_Text_MattIntro, AquaHideout_B2F_Text_MattDefeat, AquaHideout_B2F_EventScript_SubmarineEscape
 	msgbox AquaHideout_B2F_Text_MattPostBattle, MSGBOX_DEFAULT
+	setflag FLAG_ITEM_SAFARI_ZONE_NORTH_WEST_TM_SOLAR_BEAM
+	setflag FLAG_ITEM_AQUA_HIDEOUT_B1F_MAX_ELIXIR
+	setflag FLAG_ITEM_AQUA_HIDEOUT_B1F_NUGGET
+	setflag FLAG_ITEM_AQUA_HIDEOUT_B1F_MASTER_BALL
+	setflag FLAG_ITEM_ROUTE_121_REVIVE
+	setflag FLAG_HIDDEN_ITEM_ROUTE_121_MAX_REVIVE
+	setflag ITEM_ELECTRIC_GEM
+	setflag ITEM_WATER_GEM
+	setflag ITEM_GRASS_GEM
 	release
 	end
 

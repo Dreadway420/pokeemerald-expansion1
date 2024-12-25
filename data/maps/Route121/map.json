@@ -249,7 +249,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "Route121_EventScript_Vanessa",
-      "flag": "0"
+      "flag": "FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
@@ -262,7 +262,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Route121_EventScript_Walter",
-      "flag": "0"
+      "flag": "FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_HEX_MANIAC",
@@ -340,7 +340,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "Route121_EventScript_Marcel",
-      "flag": "0"
+      "flag": "FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
@@ -351,9 +351,9 @@
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "6",
+      "trainer_sight_or_berry_tree_id": "7",
       "script": "Route121_EventScript_Cristin",
-      "flag": "0"
+      "flag": "FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",

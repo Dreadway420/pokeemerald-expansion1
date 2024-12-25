@@ -2202,13 +2202,13 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .levelUpLearnset = sCharcadetLevelUpLearnset,
         .teachableLearnset = sCharcadetTeachableLearnset,
         .eggMoveLearnset = sCharcadetEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_AUSPICIOUS_ARMOR, SPECIES_ARMAROUGE},
-                                {EVO_ITEM, ITEM_MALICIOUS_ARMOR, SPECIES_CERULEDGE}),
+        .evolutions = EVOLUTION({EVO_LEVEL_NATURE_AMPED, 40, SPECIES_ARMAROUGE},
+                                {EVO_LEVEL_NATURE_LOW_KEY, 40, SPECIES_CERULEDGE}),
     },
 
     [SPECIES_ARMAROUGE] =
     {
-        .baseHP        = 90,
+        .baseHP        = 100,
         .baseAttack    = 60,
         .baseDefense   = 100,
         .baseSpeed     = 75,
@@ -2223,7 +2223,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .friendship = 20,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE),
-        .abilities = { ABILITY_FLASH_FIRE },
+        .abilities = { ABILITY_FLASH_FIRE, ABILITY_NONE, ABILITY_WEAK_ARMOR },
         .bodyColor = BODY_COLOR_RED,
         .speciesName = _("Armarouge"),
         .cryId = CRY_ARMAROUGE,
@@ -2269,9 +2269,9 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
 
     [SPECIES_CERULEDGE] =
     {
-        .baseHP        = 85,
+        .baseHP        = 95,
         .baseAttack    = 125,
-        .baseDefense   = 85,
+        .baseDefense   = 90,
         .baseSpeed     = 85,
         .baseSpAttack  = 60,
         .baseSpDefense = 100,
@@ -2284,7 +2284,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .friendship = 20,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE),
-        .abilities = { ABILITY_WEAK_ARMOR },
+        .abilities = { ABILITY_WEAK_ARMOR, ABILITY_NONE, ABILITY_FLASH_FIRE },
         .bodyColor = BODY_COLOR_PURPLE,
         .speciesName = _("Ceruledge"),
         .cryId = CRY_CERULEDGE,

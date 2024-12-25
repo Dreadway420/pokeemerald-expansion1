@@ -444,11 +444,15 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer / Omniscient
 
-Gyarados
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gyarados @ Focus Sash  
+Ability: Intimidate  
+Level: 75  
+- Dragon Dance  
+- Waterfall  
+- Crunch  
+- Outrage  
 
 === TRAINER_GRUNT_RUSTURF_TUNNEL ===
 Name: GRUNT
@@ -3754,16 +3758,29 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ROLAND ===
 Name: ROLAND
-Class: Swimmer M
-Pic: Swimmer M
+Class: Cooltrainer
+Pic: Cooltrainer M
 Gender: Male
-Music: Swimmer
+Music: Cool
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer / Omniscient
 
-Carvanha
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mantine @ Lum Berry  
+Ability: Storm Drain  
+Level: 75  
+IVs: 0 Atk  
+- Scald  
+- Roost  
+- Air Slash  
+- Tailwind  
+
+Aerodactyl @ Passho Berry  
+Ability: Solid Rock  
+Level: 75  
+- Dual Wingbeat  
+- Dragon Claw  
+- Rock Slide  
+- Crunch  
 
 === TRAINER_NOLEN ===
 Name: NOLEN
@@ -5162,11 +5179,15 @@ Pic: Psychic M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer / Omniscient
 
-Kirlia
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Indeedee-F @ Psychic Seed  
+Ability: Synchronize  
+Level: 76  
+- Follow Me  
+- Expanding Force  
+- Fake Out  
+- Ally Switch  
 
 === TRAINER_VIRGIL ===
 Name: VIRGIL
@@ -5175,11 +5196,22 @@ Pic: Psychic M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Ralts
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Braviary-Hisui @ Choice Specs  
+Ability: Tinted Lens  
+Level: 76  
+IVs: 0 Atk  
+- Esper Wing 
+- Air Slash 
+
+Gallade @ Choice Scarf  
+Ability: Justified  
+Level: 76  
+- Close Combat  
+- Zen Headbutt  
+- Knock Off  
+- Sacred Sword  
 
 === TRAINER_BLAKE ===
 Name: BLAKE
@@ -5188,11 +5220,24 @@ Pic: Psychic M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer / Omniscient
 
-Girafarig
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Chimecho @ Focus Sash  
+Ability: Levitate  
+Level: 76  
+IVs: 0 Atk  
+- Perish Song  
+- Protect  
+- Wish  
+
+Starmie @ Life Orb  
+Ability: Illuminate  
+Level: 76  
+IVs: 0 Atk  
+- Scald  
+- Psychic  
+- Power Gem  
+- Thunder Wave  
 
 === TRAINER_WILLIAM ===
 Name: WILLIAM
@@ -5341,11 +5386,45 @@ Pic: Psychic F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Kirlia
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Orbeetle @ Focus Sash  
+Ability: Swarm  
+Level: 76  
+EVs: 252 HP / 252 SpA  
+Modest Nature  
+IVs: 0 Atk  
+- Sticky Web  
+- Bug Buzz  
+- Future Sight  
+- Psyshock  
+
+Slowking-Galar @ Leftovers  
+Ability: Regenerator  
+Level: 76  
+IVs: 0 Atk  
+- Eerie Spell  
+- Sludge Bomb  
+- Surf  
+- Flamethrower  
+
+Rabsca @ Sitrus Berry  
+Ability: Magic Bounce  
+Level: 76  
+IVs: 0 Atk  
+- Calm Mind  
+- Bug Buzz  
+- Psychic  
+- Energy Ball  
+
+Rapidash-Galar @ Choice Band  
+Ability: Pastel Veil  
+Level: 76  
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+- Play Rough  
+- Psyshield Bash  
+- Psycho Cut  
+- Spirit Break  
 
 === TRAINER_SAMANTHA ===
 Name: SAMANTHA
@@ -5354,11 +5433,22 @@ Pic: Psychic F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer / Omniscient
 
-Xatu
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Gothitelle @ Light Clay  
+Ability: Shadow Tag  
+Level: 76  
+- Fake Out  
+- Reflect  
+- Light Screen  
+
+Malamar @ Assault Vest  
+Ability: Contrary  
+Level: 76  
+- Superpower  
+- Night Slash  
+- Psycho Cut  
+- Knock Off  
 
 === TRAINER_MAURA ===
 Name: MAURA
@@ -5367,11 +5457,16 @@ Pic: Psychic F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer / Omniscient
 
-Kadabra
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Indeedee @ Psychic Seed  
+Ability: Psychic Surge  
+Level: 76  
+IVs: 0 Atk  
+- Expanding Force  
+- Mystical Fire  
+- Shadow Ball  
+- Hyper Voice  
 
 === TRAINER_KAYLA ===
 Name: KAYLA
@@ -6243,39 +6338,57 @@ Pic: Leader Tate And Liza
 Gender: Male
 Music: Female
 Double Battle: Yes
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Basic Trainer / Omniscient
 
-Claydol
-Level: 41
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Earthquake
-- Ancient Power
-- Psychic
-- Light Screen
+Claydol @ Soft Sand  
+Ability: Levitate  
+Level: 76  
+- Earthquake  
+- Rapid Spin  
+- Explosion  
+- Zen Headbutt  
 
-Xatu
-Level: 41
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Psychic
-- Sunny Day
-- Confuse Ray
-- Calm Mind
+Musharna @ Leftovers  
+Ability: Telepathy  
+Level: 76  
+IVs: 0 Atk  
+- Moonblast  
+- Moonlight  
+- Psychic  
+- Dazzling Gleam  
 
-Lunatone @ Sitrus Berry
-Level: 42
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Light Screen
-- Psychic
-- Hypnosis
-- Calm Mind
+Solrock @ Muscle Band  
+Ability: Levitate  
+Level: 76  
+- Flare Blitz  
+- Morning Sun  
+- Stone Edge  
+- Zen Headbutt  
 
-Solrock @ Sitrus Berry
-Level: 42
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Sunny Day
-- Solar Beam
-- Psychic
-- Flamethrower
+Lunatone @ Wise Glasses  
+Ability: Levitate  
+Level: 76  
+IVs: 0 Atk  
+- Moonblast  
+- Moonlight  
+- Psychic  
+- Power Gem  
+
+Medicham @ Medichamite  
+Ability: Pure Power  
+Level: 76  
+- High Jump Kick  
+- Drain Punch  
+- Zen Headbutt  
+- Fake Out  
+
+Jirachi @ Assault Vest  
+Ability: Serene Grace  
+Level: 76  
+- Iron Head  
+- Zen Headbutt  
+- Doom Desire  
+- Body Slam  
 
 === TRAINER_JUAN_1 ===
 Name: JUAN
@@ -10137,11 +10250,16 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer / Omniscient
 
-Marill
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Lanturn @ Life Orb  
+Ability: Volt Absorb  
+Level: 75  
+IVs: 0 Atk  
+- Thunder Wave  
+- Thunderbolt  
+- Scald  
+- Ice Beam  
 
 === TRAINER_TANYA ===
 Name: TANYA
@@ -13289,11 +13407,26 @@ Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Meditite
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Hoopa @ Choice Scarf  
+Ability: Magician  
+Level: 76  
+Timid Nature  
+IVs: 0 Atk  
+- Psychic  
+- Shadow Ball  
+- Focus Blast  
+- Thunderbolt  
+
+Hoopa-Unbound @ Assault Vest  
+Ability: Magician  
+Level: 76  
+Quiet Nature  
+- Knock Off  
+- Psychic Noise  
+- Drain Punch  
+- Thunderbolt  
 
 === TRAINER_LEONARDO ===
 Name: LEONARDO
@@ -13389,11 +13522,33 @@ Pic: Gentleman
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Spoink
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Grumpig @ Life Orb  
+Ability: Neuroforce  
+Level: 76  
+IVs: 0 Atk  
+- Psychic  
+- Hyper Voice  
+- Focus Blast  
+- Power Gem  
+
+Slowbro @ Leftovers  
+Ability: Regenerator  
+Level: 76  
+IVs: 0 Atk  
+- Thunder Wave  
+- Chilling Water  
+- Yawn  
+- Reflect  
+
+Metagross @ Assault Vest  
+Ability: Analytic  
+Level: 76  
+- Meteor Mash  
+- Bullet Punch  
+- Zen Headbutt  
+- Hammer Arm  
 
 === TRAINER_KATHLEEN ===
 Name: KATHLEEN
@@ -13641,16 +13796,29 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ISABELLA ===
 Name: ISABELLA
-Class: Triathlete
-Pic: Swimming Triathlete F
+Class: Cooltrainer
+Pic: Cooltrainer F
 Gender: Female
-Music: Swimmer
+Music: Cool
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer / Omniscient
 
-Staryu
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rhyperior @ Rindo Berry  
+Ability: Lightning Rod  
+Level: 75  
+- Earthquake  
+- Stone Edge  
+- Hammer Arm  
+- Thunder Punch  
+
+Palossand @ Choice Band  
+Ability: Water Compaction  
+Level: 75  
+EVs: 252 Atk  
+Brave Nature  
+- Earthquake  
+- Poltergeist  
+- Rock Slide  
 
 === TRAINER_GRUNT_WEATHER_INST_5 ===
 Name: GRUNT
@@ -15910,23 +16078,36 @@ Pic: Sr And Jr
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer / Omniscient
 
-Swablu
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sing
-- Fury Attack
-- Safeguard
-- Aerial Ace
+Weezing-Galar @ Misty Seed  
+Ability: Misty Surge  
+Level: 75  
+IVs: 0 Atk  
+- Strange Steam  
+- Dazzling Gleam  
+- Sludge Bomb  
+- Toxic  
 
-Numel
-Level: 35
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Flamethrower
-- Take Down
-- Rest
-- Earthquake
+Diancie @ Choice Scarf  
+Level: 75  
+Tera Type: Rock  
+EVs: 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Misty Explosion  
+
+Lickilicky @ Life Orb  
+Ability: Cloud Nine  
+Level: 76  
+EVs: 252 HP / 252 SpA  
+Modest Nature  
+IVs: 0 Atk  
+- Terrain Pulse  
+- Round  
+- Flamethrower  
+- Ice Beam  
+
 
 === TRAINER_TYRA_AND_IVY ===
 Name: TYRA & IVY

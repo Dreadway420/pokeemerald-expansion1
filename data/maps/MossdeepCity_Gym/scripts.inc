@@ -54,6 +54,7 @@ MossdeepCity_Gym_EventScript_SetSwitch4Metatiles::
 	end
 
 MossdeepCity_Gym_EventScript_TateAndLiza::
+	special HealPlayerParty
 	trainerbattle_double TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaIntro, MossdeepCity_Gym_Text_TateAndLizaDefeat, MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons, MossdeepCity_Gym_EventScript_TateAndLizaDefeated, NO_MUSIC
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, MossdeepCity_Gym_EventScript_TateAndLizaRematch
@@ -95,7 +96,7 @@ MossdeepCity_Gym_EventScript_TateAndLizaDefeated::
 	end
 
 MossdeepCity_Gym_EventScript_GiveCalmMind2::
-	giveitem ITEM_TM_CALM_MIND
+	giveitem ITEM_TM_PSYCHIC
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	msgbox MossdeepCity_Gym_Text_ExplainCalmMind, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_CALM_MIND
@@ -103,7 +104,7 @@ MossdeepCity_Gym_EventScript_GiveCalmMind2::
 	end
 
 MossdeepCity_Gym_EventScript_GiveCalmMind::
-	giveitem ITEM_TM_CALM_MIND
+	giveitem ITEM_TM_PSYCHIC
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	msgbox MossdeepCity_Gym_Text_ExplainCalmMind, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_CALM_MIND
@@ -373,12 +374,11 @@ MossdeepCity_Gym_Text_GymGuideAdvice:
 	.string "Yo, how's it going, CHAMPION-bound\n"
 	.string "{PLAYER}?\p"
 	.string "The GYM LEADERS here use\n"
-	.string "PSYCHIC-type POKéMON.\p"
-	.string "If you go up against them with\n"
-	.string "FIGHTING- or POISON-type POKéMON,\l"
-	.string "they'll inflict horrible damage!\p"
-	.string "Plus, they'll come at you with\n"
-	.string "outstanding combination attacks.\p"
+	.string "PSYCHIC-type POKéMON, with part\p"
+	.string "GROUND, FAIRY, ROCK, FIGHTING, and\n"
+	.string "STEEL types.\p"
+	.string "Their SOLROCK and LUNATONE know \n"
+	.string "FIRE and FAIRY moves respectively.\p"
 	.string "If you want to win, you'll need to show\n"
 	.string "them how tight you are with your\l"
 	.string "POKéMON. Go for it!$"
@@ -582,10 +582,8 @@ MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis:
 	.string "TATE: You should also take this, too.$"
 
 MossdeepCity_Gym_Text_ExplainCalmMind:
-	.string "TATE: That TM04 contains…\n"
-	.string "LIZA: CALM MIND!\p"
-	.string "TATE: It raises SP. ATK and…\n"
-	.string "LIZA: It raises SP. DEF!\p"
+	.string "TATE: That TM contains…\n"
+	.string "LIZA: Psychic!\p"
 	.string "TATE: It's a move that's perfect…\n"
 	.string "LIZA: For PSYCHIC POKéMON!\p"
 	.string "… … … … … …$"

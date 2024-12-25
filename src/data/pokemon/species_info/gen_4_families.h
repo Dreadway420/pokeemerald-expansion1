@@ -4911,12 +4911,12 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
 
     [SPECIES_ABOMASNOW] =
     {
-        .baseHP        = 90,
+        .baseHP        = 110,
         .baseAttack    = 92,
-        .baseDefense   = 75,
+        .baseDefense   = 95,
         .baseSpeed     = 60,
         .baseSpAttack  = 92,
-        .baseSpDefense = 85,
+        .baseSpDefense = 105,
         .types = MON_TYPES(TYPE_GRASS, TYPE_ICE),
         .catchRate = 70,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 152 : 188,
@@ -4987,7 +4987,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
 #if P_MEGA_EVOLUTIONS
     [SPECIES_ABOMASNOW_MEGA] =
     {
-        .baseHP        = 90,
+        .baseHP        = 110,
         .baseAttack    = 132,
         .baseDefense   = 105,
         .baseSpeed     = 30,
@@ -5004,7 +5004,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER, EGG_GROUP_GRASS),
-        .abilities = { ABILITY_SNOW_WARNING, ABILITY_SNOW_WARNING, ABILITY_SNOW_WARNING },
+        .abilities = { ABILITY_ICE_BODY, ABILITY_ICE_BODY, ABILITY_ICE_BODY },
         .bodyColor = BODY_COLOR_WHITE,
         .speciesName = _("Abomasnow"),
         .cryId = CRY_ABOMASNOW_MEGA,
