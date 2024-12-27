@@ -640,11 +640,32 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Numel
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Brute Bonnet @ Leftovers  
+Ability: Protosynthesis  
+Level: 75  
+- Spore  
+- Seed Bomb  
+- Crunch  
+- Zen Headbutt  
+
+Torterra @ Rocky Helmet  
+Ability: Shell Armor  
+Level: 76  
+- Curse  
+- Headlong Rush  
+- Earthquake  
+- Wood Hammer  
+
+Turtonator @ Focus Sash  
+Ability: Shell Armor  
+Level: 76  
+IVs: 0 Atk  
+- Shell Trap  
+- Scorching Sands  
+- Flamethrower  
+- Dragon Pulse  
 
 === TRAINER_GRUNT_MT_PYRE_1 ===
 Name: GRUNT
@@ -2859,25 +2880,66 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Water Pulse
 
 === TRAINER_GRUNT_SPACE_CENTER_2 ===
-Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
-Gender: Male
+Name: COURTNEY
+Class: Magma Admin
+Pic: Magma Grunt F
+Gender: Female
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer / Ace Pokemon
 
-Mightyena
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Excadrill @ Leftovers  
+Ability: Mold Breaker  
+Level: 76  
+- Iron Head  
+- Earthquake  
+- Stealth Rock  
+- Rapid Spin  
 
-Mightyena
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ceruledge @ Focus Sash  
+Ability: Weak Armor  
+Level: 76  
+Serious Nature  
+- Bitter Blade  
+- Shadow Sneak  
+- Shadow Claw  
+- Swords Dance  
 
-Numel
-Level: 30
+Heatran @ Air Balloon  
+Ability: Flash Fire  
+Level: 76  
+Adamant Nature  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Scorching Sands  
+- Flash Cannon  
+- Lava Plume  
+- Magma Storm  
+
+Moltres-Galar @ Charti Berry  
+Ability: Berserk  
+Level: 76  
+IVs: 0 Atk  
+- Fiery Wrath  
+- Hurricane  
+- Air Slash  
+- Ancient Power  
+
+Iron Leaves @ Electric Seed  
+Ability: Quark Drive  
+Level: 76  
+Modest Nature  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 17 SpD / 0 Spe
+- Electric Terrain  
+- Psyblade  
+- Leaf Blade  
+
+Charizard @ Charizardite X  
+Ability: Drought  
+Level: 77   
+- Outrage  
+- Flare Blitz  
+- Dual Wingbeat  
+- Power-Up Punch  
 
 === TRAINER_CINDY_2 ===
 Name: CINDY
@@ -11544,19 +11606,37 @@ Pic: Magma Admin
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Basic Trainer / Omniscient 
 
-Camerupt
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Torkoal @ Heat Rock  
+Ability: Drought  
+Level: 77  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpD / 0 Spe 
+- Eruption  
+- Weather Ball  
+- Gyro Ball  
+- Solar Beam  
 
-Mightyena
-Level: 38
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Gouging Fire @ Assault Vest
+Ability: Protosynthesis  
+Level: 77  
+EVs: 252 SpD   
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA  / 0 Spe
+Modest Nature
+- Raging Fury  
+- Burning Bulwark  
+- Outrage  
+- Temper Flare  
 
-Golbat
-Level: 40
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Camerupt @ Cameruptite  
+Ability: Solid Rock  
+Level: 78  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Adamant Nature
+- Lava Plume  
+- Earth Power  
+- Eruption  
+- Flash Cannon  
 
 === TRAINER_EDWIN_2 ===
 Name: EDWIN
@@ -13596,15 +13676,33 @@ Pic: Magma Grunt F
 Gender: Female
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Zubat
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Sandy Shocks @ Air Balloon  
+Ability: Protosynthesis  
+Level: 75  
+IVs: 0 Atk  
+- Volt Switch  
+- Thunder Wave  
+- Scorching Sands  
+- Thunderbolt  
 
-Poochyena
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Incineroar @ Expert Belt  
+Ability: Intimidate  
+Level: 75  
+- Darkest Lariat  
+- Knock Off  
+- Drain Punch  
+- Flare Blitz  
+
+Electrode-Hisui @ Lum Berry  
+Ability: Adaptability  
+Level: 76  
+IVs: 0 Atk  
+- Chloroblast  
+- Energy Ball  
+- Thunderbolt  
+- Volt Switch  
 
 === TRAINER_GRUNT_SPACE_CENTER_4 ===
 Name: GRUNT
@@ -13613,11 +13711,31 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Baltoy
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Iron Treads @ Focus Sash  
+Ability: Quark Drive  
+Level: 76  
+- Stealth Rock  
+- Iron Head  
+- Earthquake  
+- Rapid Spin  
+
+Tapu Bulu @ Miracle Seed  
+Ability: Grassy Surge  
+Level: 76  
+- Horn Leech  
+- Wood Hammer  
+- Seed Bomb  
+- Natures Madness  
+
+Infernape @ Punching Glove  
+Ability: Iron Fist  
+Level: 76  
+- Drain Punch  
+- Fire Punch  
+- Mach Punch  
+- Thunder Punch  
 
 === TRAINER_GRUNT_SPACE_CENTER_5 ===
 Name: GRUNT
@@ -13626,11 +13744,30 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Zubat
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Toedscruel @ Focus Sash  
+Ability: Mycelium Might  
+Level: 76 
+IVs: 0 HP / 0 Def / 0 SpD / 0 Spe 
+- Spore   
+- Earth Power  
+- Power Whip  
+
+Stunfisk @ Focus Sash  
+Ability: Static  
+Level: 76  
+IVs: 0 Atk  
+- Thunder Wave  
+- Memento  
+
+Typhlosion-Hisui @ Quick Claw  
+Ability: Blaze  
+Level: 77  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
+- Infernal Parade  
+- Will-O-Wisp  
+- Incinerate  
 
 === TRAINER_GRUNT_SPACE_CENTER_6 ===
 Name: GRUNT
@@ -13639,11 +13776,33 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer / Sequence Switching
 
-Mightyena
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Darmanitan @ Salac Berry  
+Ability: Zen Mode  
+Level: 77  
+IVs: 0 Atk / 0 Spe
+- Flare Blitz  
+- Flamethrower  
+- Psychic  
+- Zen Headbutt  
+
+Hippowdon @ Smooth Rock  
+Ability: Sand Stream  
+Level: 77  
+- Earthquake  
+- Slack Off  
+- Body Press  
+- Stone Edge  
+
+Cacturne @ Leftovers  
+Ability: Sand Veil  
+Level: 77 
+IVs: 0 HP / 0 Def / 0 SpA / 0 SpD 
+- Needle Arm  
+- Giga Drain  
+- Knock Off  
+- Dark Pulse  
 
 === TRAINER_GRUNT_SPACE_CENTER_7 ===
 Name: GRUNT
@@ -13652,11 +13811,32 @@ Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Baltoy
-Level: 32
+Dugtrio @ Iron Ball  
+Ability: Arena Trap  
+Level: 77  
+Modest Nature  
+IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Fling  
+- Earthquake  
+- Memento  
+
+Tsareena @ Assault Vest  
+Ability: Queenly Majesty  
+Level: 77  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rapid Spin  
+- Trop Kick  
+- High Jump Kick  
+- Triple Axel  
+
+Tauros-Paldea-Blaze @ Expert Belt  
+Ability: Intimidate  
+Level: 77 
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
+- Raging Bull  
+- Close Combat  
 
 === TRAINER_MACEY ===
 Name: MACEY
@@ -16091,7 +16271,6 @@ IVs: 0 Atk
 
 Diancie @ Choice Scarf  
 Level: 75  
-Tera Type: Rock  
 EVs: 252 Spe  
 Timid Nature  
 IVs: 0 Atk  
@@ -17463,19 +17642,37 @@ Pic: Magma Leader Maxie
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Basic Trainer / Omniscient
 
-Mightyena
-Level: 42
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Skeledirge @ Throat Spray  
+Ability: Unaware  
+Level: 77  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
+Adamant Nature
+- Torch Song  
+- Shadow Ball  
+- Slack Off  
+- Alluring Voice  
 
-Crobat
-Level: 43
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Ogerpon-Hearthflame @ Hearthflame Mask  
+Ability: Mold Breaker  
+Level: 77 
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+Modest Nature
+- Ivy Cudgel  
+- Horn Leech  
+- Solar Blade  
+- Spiky Shield  
 
-Camerupt
-Level: 44
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Houndoom @ Houndoominite  
+Ability: Flash Fire  
+Level: 78    
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
+Adamant Nature
+- Flamethrower  
+- Dark Pulse  
+- Nasty Plot  
+- Solar Beam  
 
 === TRAINER_PETE ===
 Name: NOLAND

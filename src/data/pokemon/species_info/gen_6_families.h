@@ -5292,7 +5292,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 
     [SPECIES_NOIVERN] =
     {
-        .baseHP        = 85,
+        .baseHP        = 80,
         .baseAttack    = 70,
         .baseDefense   = 80,
         .baseSpeed     = 123,

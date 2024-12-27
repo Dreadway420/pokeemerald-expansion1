@@ -40,65 +40,72 @@
         {
             {
 #line 15
-            .species = SPECIES_METANG,
+            .species = SPECIES_MELMETAL,
             .gender = TRAINER_MON_RANDOM_GENDER,
-#line 19
-            .ev = TRAINER_PARTY_EVS(0, 252, 252, 0, 6, 0),
+#line 15
+            .heldItem = ITEM_ASSAULT_VEST,
 #line 18
+            .ev = TRAINER_PARTY_EVS(252, 0, 4, 0, 0, 252),
+#line 20
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-#line 17
-            .lvl = 42,
 #line 16
-            .nature = NATURE_BRAVE,
+            .ability = ABILITY_IRON_FIST,
+#line 17
+            .lvl = 76,
+#line 19
+            .nature = NATURE_CAREFUL,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 20
-                MOVE_LIGHT_SCREEN,
-                MOVE_PSYCHIC,
-                MOVE_REFLECT,
-                MOVE_METAL_CLAW,
+                MOVE_DOUBLE_IRON_BASH,
             },
             },
             {
-#line 25
-            .species = SPECIES_SKARMORY,
+#line 22
+            .species = SPECIES_STEELIX,
             .gender = TRAINER_MON_RANDOM_GENDER,
-#line 29
-            .ev = TRAINER_PARTY_EVS(252, 0, 0, 0, 6, 252),
-#line 28
-            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-#line 27
-            .lvl = 43,
+#line 22
+            .heldItem = ITEM_STEELIXITE,
 #line 26
-            .nature = NATURE_IMPISH,
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+#line 23
+            .ability = ABILITY_ROCK_HEAD,
+#line 24
+            .lvl = 76,
+#line 25
+            .nature = NATURE_MODEST,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
-#line 30
-                MOVE_TOXIC,
-                MOVE_AERIAL_ACE,
-                MOVE_PROTECT,
-                MOVE_STEEL_WING,
+#line 26
+                MOVE_IRON_HEAD,
+                MOVE_HEAVY_SLAM,
+                MOVE_DRILL_RUN,
+                MOVE_ROCK_SLIDE,
             },
             },
             {
-#line 35
-            .species = SPECIES_AGGRON,
+#line 31
+            .species = SPECIES_GOODRA_HISUI,
             .gender = TRAINER_MON_RANDOM_GENDER,
-#line 39
-            .ev = TRAINER_PARTY_EVS(0, 252, 0, 0, 252, 6),
-#line 38
-            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-#line 37
-            .lvl = 44,
+#line 31
+            .heldItem = ITEM_LEFTOVERS,
+#line 34
+            .ev = TRAINER_PARTY_EVS(252, 0, 0, 0, 0, 252),
 #line 36
-            .nature = NATURE_ADAMANT,
+            .iv = TRAINER_PARTY_IVS(31, 0, 31, 31, 31, 31),
+#line 32
+            .ability = ABILITY_GOOEY,
+#line 33
+            .lvl = 76,
+#line 35
+            .nature = NATURE_SASSY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
-#line 40
-                MOVE_THUNDER,
-                MOVE_PROTECT,
-                MOVE_SOLAR_BEAM,
-                MOVE_DRAGON_CLAW,
+#line 37
+                MOVE_MUDDY_WATER,
+                MOVE_FLASH_CANNON,
+                MOVE_SHELTER,
+                MOVE_BODY_PRESS,
             },
             },
         },

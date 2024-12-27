@@ -6682,7 +6682,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
     [SPECIES_CACTURNE] =
     {
         .baseHP        = 100,
-        .baseAttack    = 115,
+        .baseAttack    = 105,
         .baseDefense   = 100,
         .baseSpeed     = 60,
         .baseSpAttack  = 100,

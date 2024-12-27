@@ -189,6 +189,7 @@ MossdeepCity_SpaceCenter_2F_EventScript_Maxie::
 
 MossdeepCity_SpaceCenter_2F_EventScript_Steven::
 	lockall
+	special HealPlayerParty
 	goto_if_set FLAG_INTERACTED_WITH_STEVEN_SPACE_CENTER, MossdeepCity_SpaceCenter_2F_EventScript_ReadyForBattlePrompt
 	setflag FLAG_INTERACTED_WITH_STEVEN_SPACE_CENTER
 	msgbox MossdeepCity_SpaceCenter_2F_Text_StevenWhyStealRocketFuel, MSGBOX_DEFAULT

@@ -12,32 +12,29 @@ Pic: Steven
 Gender: Male
 Music: Male
 
-Metang
-Brave Nature
-Level: 42
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 Atk / 252 Def / 6 SpA
-- Light Screen
-- Psychic
-- Reflect
-- Metal Claw
+Melmetal @ Assault Vest  
+Ability: Iron Fist  
+Level: 76  
+EVs: 252 HP / 4 Def / 252 SpD  
+Careful Nature  
+- Double Iron Bash  
 
-Skarmory
-Impish Nature
-Level: 43
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 HP / 6 SpA / 252 SpD
-- Toxic
-- Aerial Ace
-- Protect
-- Steel Wing
+Steelix @ Steelixite  
+Ability: Rock Head  
+Level: 76  
+Modest Nature  
+- Iron Head  
+- Heavy Slam  
+- Drill Run  
+- Rock Slide  
 
-Aggron
-Adamant Nature
-Level: 44
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 Atk / 252 SpA / 6 SpD
-- Thunder
-- Protect
-- Solar Beam
-- Dragon Claw
+Goodra-Hisui @ Leftovers  
+Ability: Gooey  
+Level: 76  
+EVs: 252 HP / 252 SpD  
+Sassy Nature  
+IVs: 0 Atk  
+- Muddy Water  
+- Flash Cannon  
+- Shelter  
+- Body Press  
