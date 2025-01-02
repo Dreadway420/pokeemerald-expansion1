@@ -1816,10 +1816,10 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
     {
         .baseHP        = 105,
         .baseAttack    = 115,
-        .baseDefense   = 100,
+        .baseDefense   = 110,
         .baseSpeed     = 74,
         .baseSpAttack  = 48,
-        .baseSpDefense = 88,
+        .baseSpDefense = 92,
         .types = MON_TYPES(TYPE_WATER, TYPE_ROCK),
         .catchRate = 75,
         .expYield = 172,
