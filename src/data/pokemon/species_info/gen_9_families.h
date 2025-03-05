@@ -7052,7 +7052,6 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .formSpeciesIdTable = sPoltchageistFormSpeciesIdTable,
     },
 
-    
 
     [SPECIES_SINISTCHA_UNREMARKABLE] =
     {
