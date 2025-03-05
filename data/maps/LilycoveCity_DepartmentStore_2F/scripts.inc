@@ -36,9 +36,7 @@ LilycoveCity_DepartmentStore_2F_Pokemart1:
 	.2byte ITEM_ABILITY_PATCH
 	.2byte ITEM_PP_MAX
 	.2byte ITEM_MAX_REPEL
-	.2byte ITEM_NONE
-	release
-	end
+	pokemartlistend
 
 LilycoveCity_DepartmentStore_2F_EventScript_ClerkRight::
 	lock
@@ -62,9 +60,7 @@ LilycoveCity_DepartmentStore_2F_Pokemart2:
 	.2byte ITEM_CALM_MINT
 	.2byte ITEM_IMPISH_MINT
 	.2byte ITEM_CAREFUL_MINT
-	.2byte ITEM_NONE
-	release
-	end
+	pokemartlistend
 
 LilycoveCity_DepartmentStore_2F_Text_LearnToUseItemsProperly:
 	.string "Learn to use items properly.\n"
