@@ -2,6 +2,8 @@
 #include "palette.h"
 #include "util.h"
 #include "decompress.h"
+#include "malloc.h"
+#include "menu.h"
 #include "gpu_regs.h"
 #include "task.h"
 #include "constants/rgb.h"
@@ -55,9 +57,9 @@ u32 PrevPaletteFadeResult(void)
 
 void LoadCompressedPalette(const u32 *src, u32 offset, u32 size)
 {
-    LZDecompressWram(src, gDecompressionBuffer);
-    CpuCopy16(gDecompressionBuffer, &gPlttBufferUnfaded[offset], size);
-    CpuCopy16(gDecompressionBuffer, &gPlttBufferFaded[offset], size);
+    void *buffer = malloc_and_decompress(src, NULL);
+    LoadPalette(buffer, offset, size);
+    Free(buffer);
 }
 
 void LoadPalette(const void *src, u32 offset, u32 size)
