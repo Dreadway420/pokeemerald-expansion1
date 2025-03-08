@@ -763,12 +763,15 @@ LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese:
 	.string "I've got some stuff for you, too!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls:
-	.string "MAY: That candy can be used to\n"
+	.string "MAY: THIS IS IMPORTANT!\p"
+	.string "That candy can be used to\n"
 	.string "level up your POKéMON!\p"
 	.string "Only use it to level up a new POKéMON\n"
 	.string "to your party's average level,\p"
 	.string "or to reach the levelcap before\n"
-	.string "challenging a GYM LEADER!$"
+	.string "challenging a GYM LEADER!\p"
+	.string "Press R in battle to throw POKéBALLS,\n"
+	.string "and hold R to cycle through them."
 
 LittlerootTown_ProfessorBirchsLab_Text_OhYourBagsFull:
 	.string "Oh? Your BAG's full.$"
@@ -784,12 +787,15 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese:
 	.string "I'll give you these.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls:
-	.string "BRENDAN: That candy can be used\n"
-	.string "to level up your POKéMON.\p"
+	.string "BRENDAN: THIS IS IMPORTANT!\p"
+	.string "That candy can be used to\n"
+	.string "level up your POKéMON!\p"
 	.string "Only use it to level up a new POKéMON\n"
 	.string "to your party's average level,\p"
 	.string "or to reach the levelcap before\n"
-	.string "challenging a GYM LEADER.$"
+	.string "challenging a GYM LEADER!\p"
+	.string "Press R in battle to throw POKéBALLS,\n"
+	.string "and hold R to cycle through them."
 
 LittlerootTown_ProfessorBirchsLab_Text_HeyYourBagsFull:
 	.string "Hey, your BAG's full.$"

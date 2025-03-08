@@ -10408,6 +10408,19 @@ const struct Item gItemsInfo[] =
 
 // TMs/HMs. They don't have a set flingPower, as that's handled by GetFlingPowerFromItemId.
 //=================================================================================================================================
+[ITEM_TM_TAKE_DOWN] =
+{
+    .name = _("TM01"),
+    .price = 3000,
+    .description = COMPOUND_STRING(
+        "Placeholder string"),
+    .importance = I_REUSABLE_TMS,
+    .pocket = POCKET_TM_HM,
+    .type = ITEM_USE_PARTY_MENU,
+    .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    .secondaryId = MOVE_TAKE_DOWN,
+},
+
     [ITEM_TM_CHARM] =
     {
         .name = _("TM02"),
