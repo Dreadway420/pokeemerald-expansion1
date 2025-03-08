@@ -1623,7 +1623,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .windMove = TRUE,
         .additionalEffects = ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_FREEZE_OR_FROSTBITE,
-            .chance = 20,
+            .chance = 30,
         }),
         .contestEffect = CONTEST_EFFECT_HIGHLY_APPEALING,
         .contestCategory = CONTEST_CATEGORY_BEAUTY,
@@ -14804,7 +14804,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .effect = EFFECT_HIT,
         .power = 90,
         .type = TYPE_FAIRY,
-        .accuracy = 95,
+        .accuracy = 100,
         .pp = 10,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
@@ -15971,7 +15971,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Slams hard into the foe with\n"
             "its entire body."),
         .effect = EFFECT_HIT,
-        .power = 95,
+        .power = 105,
         .type = TYPE_GROUND,
         .accuracy = 95,
         .pp = 10,
