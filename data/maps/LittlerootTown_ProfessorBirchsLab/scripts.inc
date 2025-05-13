@@ -534,6 +534,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_MayGivePokeBalls::
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese, MSGBOX_DEFAULT
 	giveitem ITEM_POKE_BALL, 50
 	giveitem ITEM_RAREST_CANDY, 1
+	giveitem ITEM_POKEMON_BOX_LINK
 	call_if_eq VAR_RESULT, FALSE, LittlerootTown_ProfessorBirchsLab_EventScript_MayNoRoomForPokeBalls
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls, MSGBOX_DEFAULT
 	setvar VAR_RESULT, 0
@@ -543,6 +544,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_BrendanGivePokeBalls::
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese, MSGBOX_DEFAULT
 	giveitem ITEM_POKE_BALL, 50
 	giveitem ITEM_RAREST_CANDY, 1
+	giveitem ITEM_POKEMON_BOX_LINK
 	call_if_eq VAR_RESULT, FALSE, LittlerootTown_ProfessorBirchsLab_EventScript_BrendanNoRoomForPokeBalls
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls, MSGBOX_DEFAULT
 	setvar VAR_RESULT, 1
@@ -770,8 +772,10 @@ LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls:
 	.string "to your party's average level,\p"
 	.string "or to reach the levelcap before\n"
 	.string "challenging a GYM LEADER!\p"
+	.string "You can use the BOX LINK in the\n"
+	.string "KEY ITEMS bag to use the PC.\p"
 	.string "Press R in battle to throw POKéBALLS,\n"
-	.string "and hold R to cycle through them."
+	.string "and hold R to cycle through them.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_OhYourBagsFull:
 	.string "Oh? Your BAG's full.$"
@@ -794,8 +798,10 @@ LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls:
 	.string "to your party's average level,\p"
 	.string "or to reach the levelcap before\n"
 	.string "challenging a GYM LEADER!\p"
+	.string "You can use the BOX LINK in the\n"
+	.string "KEY ITEMS bag to use the PC.\p"
 	.string "Press R in battle to throw POKéBALLS,\n"
-	.string "and hold R to cycle through them."
+	.string "and hold R to cycle through them.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_HeyYourBagsFull:
 	.string "Hey, your BAG's full.$"

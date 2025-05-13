@@ -3319,7 +3319,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 
     [SPECIES_BARBARACLE] =
     {
-        .baseHP        = 102,
+        .baseHP        = 112,
         .baseAttack    = 110,
         .baseDefense   = 115,
         .baseSpeed     = 68,
@@ -3603,7 +3603,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .baseHP        = 71,
         .baseAttack    = 73,
         .baseDefense   = 88,
-        .baseSpeed     = 59,
+        .baseSpeed     = 101,
         .baseSpAttack  = 120,
         .baseSpDefense = 89,
         .types = MON_TYPES(TYPE_WATER),
@@ -4302,7 +4302,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         )
         .levelUpLearnset = sCarbinkLevelUpLearnset,
         .teachableLearnset = sCarbinkTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 60, SPECIES_DIANCIE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 85, SPECIES_DIANCIE}),
     },
 #endif //P_FAMILY_CARBINK
 
@@ -5084,7 +5084,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS),
-        .abilities = { ABILITY_PICKUP, ABILITY_FRISK, ABILITY_INSOMNIA },
+        .abilities = { ABILITY_CURSED_BODY, ABILITY_FRISK, ABILITY_INSOMNIA },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Pumpkaboo"),
         .cryId = CRY_PUMPKABOO_SUPER,
@@ -5551,7 +5551,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = BERGMITE_EGG_GROUPS,
-        .abilities = { ABILITY_STRONG_JAW, ABILITY_STRONG_JAW, ABILITY_SNOW_WARNING },
+        .abilities = { ABILITY_STRONG_JAW, ABILITY_SNOW_WARNING, ABILITY_STURDY },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Avalugg"),
         .cryId = CRY_AVALUGG,

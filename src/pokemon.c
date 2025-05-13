@@ -5608,11 +5608,13 @@ u8 GetMoveRelearnerMoves(struct Pokemon *mon, u16 *moves)
     u16 species = GetMonData(mon, MON_DATA_SPECIES, 0);
     u8 level = GetMonData(mon, MON_DATA_LEVEL, 0);
     const struct LevelUpMove *learnset = GetSpeciesLevelUpLearnset(species);
+    //const u16 *teachableLearnset = GetSpeciesTeachableLearnset(species);
     int i, j, k;
 
     for (i = 0; i < MAX_MON_MOVES; i++)
         learnedMoves[i] = GetMonData(mon, MON_DATA_MOVE1 + i, 0);
 
+    // Include level-up moves
     for (i = 0; i < MAX_LEVEL_UP_MOVES; i++)
     {
         u16 moveLevel;
@@ -5638,8 +5640,27 @@ u8 GetMoveRelearnerMoves(struct Pokemon *mon, u16 *moves)
         }
     }
 
+    // Include teachable learnset moves
+    //for (i = 0; teachableLearnset[i] != MOVE_UNAVAILABLE; i++)
+    //{
+    //    u16 teachableMove = teachableLearnset[i];
+//
+    //    for (j = 0; j < MAX_MON_MOVES && learnedMoves[j] != teachableMove; j++)
+    //        ;
+//
+    //    if (j == MAX_MON_MOVES)
+    //    {
+    //        for (k = 0; k < numMoves && moves[k] != teachableMove; k++)
+    //            ;
+//
+    //        if (k == numMoves)
+    //            moves[numMoves++] = teachableMove;
+    //    }
+    //}
+//
     return numMoves;
 }
+
 
 u8 GetLevelUpMovesBySpecies(u16 species, u16 *moves)
 {

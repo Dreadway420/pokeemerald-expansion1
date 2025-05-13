@@ -920,6 +920,7 @@ SootopolisCity_EventScript_StevenMaxieArchieLeft::
 SootopolisCity_EventScript_StevenHelpedWallace::
 	msgbox SootopolisCity_Text_NeverBeenToSkyPillar, MSGBOX_DEFAULT
 	releaseall
+	warp MAP_SKY_PILLAR_OUTSIDE, 12, 10
 	end
 
 SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin::
@@ -1335,6 +1336,7 @@ SootopolisCity_EventScript_WallaceMoveFromGymWest::
 
 SootopolisCity_EventScript_GoToSkyPillar::
 	msgbox SootopolisCity_Text_HaventYouScaledSkyPillar, MSGBOX_DEFAULT
+	warp MAP_SKY_PILLAR_OUTSIDE, 12, 10
 	release
 	end
 
@@ -1407,9 +1409,9 @@ SootopolisCity_Movement_DestroyTask::
 
 SootopolisCity_Text_GymSign:
 	.string "SOOTOPOLIS CITY POKéMON GYM\n"
-	.string "LEADER: JUAN\p"
+	.string "LEADER: GLACIA\p"
 	.string "“The GYM LEADER with the beauty\n"
-	.string "of pure water!”$"
+	.string "of pure ice!”$"
 
 SootopolisCity_Text_CitySign:
 	.string "SOOTOPOLIS CITY\p"

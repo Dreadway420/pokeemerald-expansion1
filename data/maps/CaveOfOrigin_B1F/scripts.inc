@@ -59,6 +59,7 @@ CaveOfOrigin_B1F_EventScript_AtSkyPillar::
 	clearflag FLAG_HIDE_SKY_PILLAR_WALLACE
 	fadescreen FADE_FROM_BLACK
 	release
+	warp MAP_SKY_PILLAR_OUTSIDE, 12, 10
 	end
 
 CaveOfOrigin_B1F_Text_WallaceStory:
@@ -67,7 +68,7 @@ CaveOfOrigin_B1F_Text_WallaceStory:
 	.string "My name is WALLACE.\p"
 	.string "I was once the GYM LEADER of\n"
 	.string "SOOTOPOLIS, but something came up.\p"
-	.string "So now, I've entrusted my mentor JUAN\n"
+	.string "So now, I've entrusted GLACIA\n"
 	.string "with the GYM's operation.\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
@@ -116,5 +117,6 @@ CaveOfOrigin_B1F_Text_WellHeadToSkyPillar:
 	.string "That's it!\n"
 	.string "It must be the SKY PILLAR!\p"
 	.string "{PLAYER}{KUN}, there's not a moment to lose!\n"
-	.string "We'll head to the SKY PILLAR right away!$"
+	.string "We'll head to the SKY PILLAR right away!\p"
+	.string "Fly to SLATEPORT, and surf EAST.$"
 

@@ -10,6 +10,7 @@ SeafloorCavern_Room9_MapScripts::
 
 SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre::
 	lockall
+	special HealPlayerParty
 	setvar VAR_0x8004, LOCALID_ARCHIE
 	setvar VAR_0x8005, LOCALID_MAXIE
 	setvar VAR_0x8006, LOCALID_GRUNT_1

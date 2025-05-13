@@ -1385,12 +1385,12 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
 
     [SPECIES_CRABOMINABLE] =
     {
-        .baseHP        = 97,
+        .baseHP        = 107,
         .baseAttack    = 132,
-        .baseDefense   = 97,
+        .baseDefense   = 107,
         .baseSpeed     = 43,
         .baseSpAttack  = 62,
-        .baseSpDefense = 87,
+        .baseSpDefense = 93,
         .types = MON_TYPES(TYPE_FIGHTING, TYPE_ICE),
         .catchRate = 70,
         .expYield = 171,

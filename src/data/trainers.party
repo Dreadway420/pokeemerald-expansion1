@@ -230,11 +230,25 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer / AI_FLAG_ACE_POKEMON
 
-Poochyena
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Grimmsnarl @ Light Clay  
+Ability: Prankster  
+Level: 78  
+Adamant Nature  
+- Reflect  
+- Light Screen  
+- Thunder Wave  
+- Power-Up Punch  
+
+Poliwrath @ Roseli Berry  
+Ability: Water Absorb  
+Level: 80  
+EVs: 196 HP / 156 Def / 156 SpD  
+- Drain Punch  
+- Darkest Lariat  
+- Poison Jab  
+- Liquidation  
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_2 ===
 Name: GRUNT
@@ -243,11 +257,32 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer / AI_FLAG_ACE_POKEMON
 
-Carvanha
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Eiscue @ Assault Vest  
+Ability: Ice Face  
+Level: 80  
+- Head Smash  
+- Ice Spinner  
+- Liquidation  
+- Flip Turn  
+
+Mightyena @ Choice Scarf  
+Ability: Moxie  
+Level: 81  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Fire Fang  
+- Play Rough  
+- Psychic Fangs  
+- Throat Chop  
+
+Inteleon @ Choice Specs  
+Ability: Super Luck  
+Level: 80  
+IVs: 0 Atk  
+- Snipe Shot  
+
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_3 ===
 Name: GRUNT
@@ -256,11 +291,37 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Zubat
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Cryogonal @ Light Clay  
+Ability: Levitate  
+Level: 80  
+EVs: 252 SpA  
+Modest Nature  
+IVs: 0 Atk  
+- Blizzard  
+- Flash Cannon  
+- Chilling Water  
+- Light Screen  
+
+Swanna @ Damp Rock  
+Ability: Hydration  
+Level: 80  
+EVs: 252 SpA  
+Modest Nature  
+IVs: 0 Atk  
+- Tailwind  
+- Chilling Water  
+- Rain Dance  
+- Hurricane  
+
+Honchkrow @ Scope Lens  
+Ability: Super Luck  
+Level: 80  
+- Night Slash  
+- Air Slash  
+- Quick Attack  
+- Sucker Punch  
 
 === TRAINER_GABRIELLE_1 ===
 Name: GABRIELLE
@@ -431,11 +492,31 @@ Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Carvanha
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Krookodile @ Expert Belt  
+Ability: Intimidate  
+Level: 80  
+- Darkest Lariat  
+- Earthquake  
+- Dragon Tail  
+- Body Slam  
+
+Mamoswine @ Salac Berry  
+Ability: Thick Fat  
+Level: 80  
+- Earthquake  
+- Ice Shard  
+- Icicle Crash  
+- Knock Off  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+Level: 80  
+- Earthquake  
+- Muddy Water  
+- Power-Up Punch  
+- Waterfall  
 
 === TRAINER_DECLAN ===
 Name: DECLAN
@@ -1028,15 +1109,61 @@ Pic: Aqua Admin F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer / Ace Pokemon
 
-Sharpedo
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Politoed @ Damp Rock  
+Ability: Drizzle  
+Level: 81  
+- Flip Turn  
+- Scald  
+- Icy Wind  
+- Toxic  
 
-Mightyena
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Keldeo-Resolute @ Leftovers  
+Ability: Justified  
+Level: 81  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Secret Sword  
+- Vacuum Wave  
+- Surf  
+- Chilling Water
+
+Chien-Pao @ Life Orb  
+Ability: Sword of Ruin  
+Level: 81  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
+- Sacred Sword  
+- Ice Spinner  
+- Crunch  
+- Psychic Fangs  
+
+Overqwil @ Assault Vest  
+Ability: Swift Swim  
+Level: 81  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Barb Barrage  
+- Crunch  
+- Aqua Jet  
+- Liquidation  
+
+Veluza @ Psychic Gem  
+Ability: Sharpness  
+Level: 81   
+Adamant Nature  
+IVs: 0 Spe  
+- Aqua Cutter  
+- Aqua Jet  
+- Psycho Cut  
+- Crunch  
+
+Sharpedo @ Sharpedonite  
+Ability: Speed Boost  
+Level: 82  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe   
+- Poison Fang  
+- Ice Fang  
+- Waterfall  
+- Crunch  
 
 === TRAINER_ARCHIE ===
 Name: ARCHIE
@@ -1045,19 +1172,57 @@ Pic: Aqua Leader Archie
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer 
 
-Mightyena
-Level: 41
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Palafin @ Choice Band  
+Ability: Zero to Hero  
+Level: 82  
+EVs: 252 Spe  
+Jolly Nature  
+- Flip Turn  
+- Drain Punch  
+- Jet Punch  
+- Wave Crash  
 
-Crobat
-Level: 41
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Iron Bundle @ Booster Energy  
+Ability: Quark Drive  
+Level: 82  
+- Freeze-Dry  
+- Chilling Water  
+- Ice Beam  
+- Flip Turn  
 
-Sharpedo
-Level: 43
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Golisopod @ Focus Sash  
+Ability: Emergency Exit  
+Level: 82  
+- Aqua Jet  
+- Liquidation  
+- First Impression  
+- Leech Life  
+
+Urshifu @ Punching Glove  
+Ability: Unseen Fist  
+Level: 82  
+- Wicked Blow  
+- Drain Punch  
+- Thunder Punch  
+- Ice Punch  
+
+Ogerpon-Wellspring @ Wellspring Mask  
+Ability: Water Absorb  
+Level: 82  
+- Horn Leech  
+- Ivy Cudgel  
+- Spiky Shield  
+- U-turn  
+
+Swampert @ Swampertite  
+Ability: Torrent  
+Level: 83  
+- Power-Up Punch  
+- Earthquake  
+- Liquidation  
+- Knock Off  
 
 === TRAINER_LEAH ===
 Name: LEAH
@@ -2861,23 +3026,24 @@ Pic: Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Luvdisc @ Nugget
-Level: 39
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Attract
-- Sweet Kiss
-- Flail
-- Water Pulse
+Mr. Rime @ Light Clay  
+Ability: Ice Body  
+Level: 82  
+IVs: 0 Atk  
+- Reflect  
+- Light Screen  
+- Blizzard  
+- Psyshock  
 
-Luvdisc @ Nugget
-Level: 39
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Attract
-- Safeguard
-- Take Down
-- Water Pulse
+Darmanitan-Galar @ Focus Sash  
+Ability: Zen Mode  
+Level: 82  
+- Substitute  
+- Belly Drum  
+- Flare Blitz  
+- Ice Punch  
 
 === TRAINER_GRUNT_SPACE_CENTER_2 ===
 Name: COURTNEY
@@ -3115,11 +3281,55 @@ Pic: Beauty
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Goldeen
-Level: 40
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Arctozolt @ Choice Scarf  
+Ability: Slush Rush  
+Level: 82  
+- Bolt Beak  
+- Icicle Crash  
+- Stomping Tantrum  
+- Stone Edge  
+
+Weavile @ Life Orb  
+Ability: Dazzling  
+Level: 82  
+- Fake Out  
+- Triple Axel  
+- Throat Chop  
+- Knock Off  
+
+Cetitan @ Choice Band  
+Ability: Slush Rush  
+Level: 82  
+- Ice Spinner  
+- Play Rough  
+- Earthquake  
+- Heavy Slam  
+
+Crabominable @ Leftovers  
+Ability: Iron Fist  
+Level: 82  
+- Jet Punch  
+- Drain Punch  
+- Ice Punch  
+- Thunder Punch  
+
+Eiscue @ Assault Vest  
+Ability: Ice Face  
+Level: 82  
+- Flip Turn  
+- Ice Spinner  
+- Liquidation  
+- Head Smash  
+
+Delibird @ Salac Berry  
+Ability: Huge Power  
+Level: 83  
+- Flip Turn  
+- Present  
+- Drill Peck  
+- Ice Shard  
 
 === TRAINER_BRIDGET ===
 Name: BRIDGET
@@ -8741,13 +8951,23 @@ Music: Swimmer
 Double Battle: No
 AI: Smart Switching / Check Bad Move
 
-Staryu
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Clamperl @ Deep Sea Tooth  
+Ability: Shell Armor  
+Level: 80  
+IVs: 0 Atk  
+- Rain Dance  
+- Shell Smash  
+- Chilling Water  
+- Icy Wind  
 
-Staryu
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Huntail @ Rindo Berry  
+Ability: Swift Swim  
+Level: 80  
+EVs: 188 HP / 108 Def / 212 SpD  
+- Close Combat  
+- Storm Throw  
+- Liquidation  
+- Ice Fang
 
 === TRAINER_DEMETRIUS ===
 Name: DEMETRIUS
@@ -8886,21 +9106,33 @@ Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DONNY ===
-Name: DONNY
+Name: DONNA
 Class: Triathlete
 Pic: Swimming Triathlete F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Wingull
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Clamperl @ Deep Sea Scale  
+Ability: Shell Armor  
+Level: 80  
+IVs: 0 Atk  
+EVs: 248 HP / 116 Def / 144 SpD    
+- Toxic  
+- Substitute  
+- Protect  
+- Rain Dance  
 
-Staryu
-Level: 34
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+Gorebyss @ Assault Vest  
+Ability: Rain Dish  
+Level: 80  
+IVs: 0 Atk 
+EVs: 248 HP / 116 Def / 144 SpD   
+- Surf  
+- Psychic  
+- Alluring Voice  
+- Draining Kiss  
 
 === TRAINER_TALIA ===
 Name: TALIA
@@ -11358,23 +11590,24 @@ Pic: Pokefan F
 Gender: Female
 Music: Twins
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Feebas @ Oran Berry
-Level: 39
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Flail
-- Water Pulse
-- Return
-- Attract
+Aurorus @ Light Clay  
+Ability: Refrigerate  
+Level: 82  
+IVs: 0 Atk  
+- Aurora Veil  
+- Hyper Voice  
+- Meteor Beam  
+- Freeze-Dry  
 
-Feebas @ Oran Berry
-Level: 39
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Flail
-- Water Pulse
-- Return
-- Attract
+Abomasnow @ Abomasite  
+Ability: Snow Warning  
+Level: 82  
+- Blizzard  
+- Leaf Storm  
+- Giga Drain  
+- Wood Hammer  
 
 === TRAINER_JAZMYN ===
 Name: JAZMYN
@@ -13278,21 +13511,67 @@ Level: 52
 - Drill Run
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_5 ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
+Name: MATT
+Class: Aqua Admin
+Pic: Aqua Admin M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer / Ace Pokemon
 
-Mightyena
-Level: 35
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Samurott-Hisui @ Focus Sash  
+Ability: Sharpness  
+Level: 81  
+- Ceaseless Edge  
+- Aqua Jet  
+- Sacred Sword  
+- Swords Dance  
 
-Golbat
-Level: 35
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Ting-Lu @ Leftovers  
+Ability: Vessel of Ruin  
+Level: 81  
+- Ruination  
+- Stealth Rock  
+- Whirlwind  
+- Earthquake  
+
+Blastoise @ Blastoisinite  
+Ability: Mega Launcher  
+Level: 81  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Water Pulse  
+- Dragon Pulse  
+- Dark Pulse  
+- Flash Cannon  
+
+Barbaracle @ Assault Vest  
+Ability: Tough Claws  
+Level: 81  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+Adamant Nature  
+- Liquidation  
+- Stone Edge  
+- Cross Chop  
+- Dual Chop  
+
+Baxcalibur @ Loaded Dice  
+Ability: Thermal Exchange  
+Level: 81 
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Icicle Spear  
+- Glaive Rush  
+- Dragon Dance  
+- Scale Shot
+
+Crawdaunt @ Life Orb  
+Ability: Adaptability  
+Level: 82  
+EVs: 252 HP   
+Impish Nature  
+- Swords Dance  
+- Aqua Jet  
+- Crabhammer  
+- Knock Off  
 
 === TRAINER_GRUNT_UNUSED ===
 Name: GRUNT
@@ -13530,18 +13809,40 @@ Music: Cool
 Double Battle: No
 AI: Smart Trainer
 
-Infernape @ Punching Glove  
-Ability: Iron Fist  
+Garchomp @ Rocky Helmet  
+Ability: Rough Skin  
 Level: 77  
-- Power-Up Punch  
-- Fire Punch  
+IVs: 0 Atk / 0 Def / 0 SpA / 0 SpD 
+- Stealth Rock  
+- Spikes  
+- Scale Shot  
+- Earthquake  
 
-Bewear @ Assault Vest  
-Ability: Fluffy  
+Mienshao @ Assault Vest  
+Ability: Regenerator  
 Level: 77  
-- Facade  
+EVs: 252 HP / 120 Def / 136 SpD  
+Impish Nature  
+- Fake Out  
+- U-turn  
+- Close Combat  
 - Drain Punch  
-- Darkest Lariat  
+
+Hatterene @ Shell Bell  
+Ability: Magic Bounce  
+Level: 77  
+IVs: 0 Atk / 0 Def / 0 SpA / 0 SpD 
+- Draining Kiss  
+- Calm Mind  
+- Nuzzle  
+- Psyshock  
+
+Sceptile @ Sceptilite  
+Ability: Overgrow  
+Level: 77  
+IVs: 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Dragon Pulse  
+- Energy Ball  
 
 === TRAINER_HARRISON ===
 Name: HARRISON
@@ -14510,11 +14811,33 @@ Pic: Lass
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Luvdisc
-Level: 40
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Jynx @ Life Orb  
+Ability: Oblivious  
+Level: 82  
+- Blizzard  
+- Fake Out  
+- Psychic  
+- Draining Kiss  
+
+Vanilluxe @ Assault Vest  
+Ability: Ice Body  
+Level: 82  
+EVs: 188 HP / 148 Def / 4 SpA / 168 SpD  
+Relaxed Nature  
+- Flash Cannon  
+- Freeze-Dry  
+- Blizzard  
+- Ice Shard  
+
+Calyrex-Ice @ Leftovers  
+Ability: ABILITY_AS_ONE_ICE_RIDER 
+Level: 83  
+- Glacial Lance  
+- Trailblaze  
+- Zen Headbutt  
+- High Horsepower  
 
 === TRAINER_CRISSY ===
 Name: CRISSY
@@ -16062,19 +16385,27 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Wailmer
-Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Dondozo @ Leftovers  
+Ability: Unaware  
+Level: 77  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe   
+- Liquidation  
+- Order Up  
+- Wave Crash  
+- Earthquake  
 
-Tentacool
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Sharpedo
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Wailord @ Rocky Helmet  
+Ability: Bulletproof  
+Level: 77  
+EVs: 252 Def / 252 SpD  
+IVs: 0 HP / 0 Atk / 0 SpA / 0 Spe   
+Impish Nature  
+- Body Slam  
+- Rest  
+- Snore  
+- Waterfall  
 
 === TRAINER_HENRY ===
 Name: HENRY
@@ -16085,13 +16416,40 @@ Music: Hiker
 Double Battle: No
 AI: Smart Trainer
 
-Carvanha
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gyarados @ Light Clay  
+Ability: Intimidate  
+Level: 76  
+- Thunder Wave  
+- Reflect  
+- Waterfall  
+- Dragon Tail  
 
-Tentacruel
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gyarados @ Choice Band  
+Ability: Intimidate  
+Level: 76  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe   
+- Waterfall  
+- Bounce  
+- Crunch  
+- Outrage  
+
+Gyarados @ Choice Scarf  
+Ability: Moxie  
+Level: 76  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe   
+- Earthquake  
+- Ice Fang  
+- Crunch  
+- Liquidation  
+
+Gyarados @ Life Orb  
+Ability: Intimidate  
+Level: 76  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe   
+- Dragon Dance  
+- Waterfall  
+- Bounce  
+- Earthquake  
 
 === TRAINER_ROGER ===
 Name: ROGER
@@ -16100,19 +16458,25 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Magikarp
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tatsugiri-Stretchy @ Lum Berry
+Ability: Commander  
+Level: 77  
+- Chilling Water  
+- Dragon Pulse  
+- Rapid Spin  
+- Draco Meteor  
 
-Magikarp
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Gyarados
-Level: 35
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Starmie @ Choice Specs  
+Ability: Analytic  
+Level: 77  
+Quiet Nature  
+IVs: 0 Atk / 0 SpA / 0 Spe
+- Psychic  
+- Scald  
+- Surf  
+- Dazzling Gleam  
 
 === TRAINER_ALEXA ===
 Name: ALEXA
@@ -16121,15 +16485,29 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer / AI_FLAG_FORCE_SETUP_FIRST_TURN / AI_FLAG_PREDICT_SWITCH / AI_FLAG_PREDICT_INCOMING_MON
 
-Gloom
-Level: 34
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Slowking-Galar @ Lum Berry  
+Ability: Curious Medicine  
+Level: 80  
+IVs: 0 Atk  
+- Chilly Reception  
+- Sludge Bomb  
+- Psyshock  
 
-Azumarill
-Level: 34
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Beartic @ Choice Band  
+Level: 79  
+- Aqua Jet  
+- Earthquake  
+- Ice Punch  
+- Play Rough  
+
+Enamorus @ Leftovers  
+Level: 79  
+- Moonblast  
+- Mystical Fire  
+- Superpower  
+- Springtide Storm  
 
 === TRAINER_RUBEN ===
 Name: RUBEN
@@ -16138,15 +16516,37 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer / AI_FLAG_ACE_POKEMON
 
-Shiftry
-Level: 34
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Gigalith @ Focus Sash 
+Ability: Sand Stream  
+Level: 69  
+- Explosion  
 
-Nosepass
-Level: 34
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Ferroseed @ Rocky Helmet  
+Ability: Iron Barbs  
+Level: 80  
+- Explosion  
+
+Trubbish @ Air Balloon  
+Ability: Aftermath  
+Level: 80  
+- Explosion  
+
+Pumpkaboo-Super @ Assault Vest  
+Ability: Cursed Body  
+Level: 80  
+- Explosion  
+
+Houndstone @ Sticky Barb  
+Ability: Sand Rush  
+Level: 80  
+Modest Nature  
+IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Last Respects  
+- Shadow Sneak  
+- Body Press  
+- Facade
 
 === TRAINER_KOJI_1 ===
 Name: KOJI
@@ -16155,11 +16555,20 @@ Pic: Black Belt
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Smart Switching / Check Bad Move
+AI: Smart Trainer
 
-Machoke
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Infernape @ Punching Glove  
+Ability: Iron Fist  
+Level: 77  
+- Power-Up Punch  
+- Fire Punch  
+
+Bewear @ Assault Vest  
+Ability: Fluffy  
+Level: 77  
+- Facade  
+- Drain Punch  
+- Darkest Lariat  
 
 === TRAINER_WAYNE ===
 Name: WAYNE

@@ -5325,12 +5325,12 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
 
     [SPECIES_CRUSTLE] =
     {
-        .baseHP        = 70,
+        .baseHP        = 130,
         .baseAttack    = P_UPDATED_STATS >= GEN_7 ? 105 : 95,
-        .baseDefense   = 125,
+        .baseDefense   = 145,
         .baseSpeed     = 45,
         .baseSpAttack  = 65,
-        .baseSpDefense = 75,
+        .baseSpDefense = 95,
         .types = MON_TYPES(TYPE_BUG, TYPE_ROCK),
         .catchRate = 75,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 226 : 220,
@@ -5953,7 +5953,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
 
     [SPECIES_CARRACOSTA] =
     {
-        .baseHP        = 104,
+        .baseHP        = 114,
         .baseAttack    = 108,
         .baseDefense   = 133,
         .baseSpeed     = 32,
@@ -10049,7 +10049,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseHP        = 105,
         .baseAttack    = P_UPDATED_STATS >= GEN_7 ? 130 : 130,
         .baseDefense   = 90,
-        .baseSpeed     = 60,
+        .baseSpeed     = 65,
         .baseSpAttack  = 70,
         .baseSpDefense = 90,
         .types = MON_TYPES(TYPE_ICE),
