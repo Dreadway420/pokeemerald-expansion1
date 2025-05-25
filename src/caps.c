@@ -19,7 +19,7 @@ u32 GetCurrentLevelCap(void)
         {FLAG_BADGE05_GET, 52},
         {FLAG_BADGE06_GET, 62},
         {FLAG_BADGE07_GET, 76},
-        {FLAG_BADGE08_GET, 95},
+        {FLAG_BADGE08_GET, 83},
         {FLAG_IS_CHAMPION, 100},
     };
 

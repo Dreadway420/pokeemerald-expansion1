@@ -116,7 +116,9 @@ SootopolisCity_Gym_1F_EventScript_JuanDefeated::
 	end
 
 SootopolisCity_Gym_1F_EventScript_GiveWaterPulse::
-	giveitem ITEM_TM_WATER_PULSE
+	giveitem ITEM_TM_ICE_SPINNER
+	giveitem ITEM_TM_ICICLE_SPEAR
+	setflag FLAG_UNUSED_0x279
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	msgbox SootopolisCity_Gym_1F_Text_ExplainWaterPulse, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_WATER_PULSE
@@ -149,6 +151,7 @@ SootopolisCity_Gym_1F_EventScript_GymGuide::
 	end
 
 SootopolisCity_Gym_1F_EventScript_GymGuidePostVictory::
+	setflag FLAG_UNUSED_0x279
 	msgbox SootopolisCity_Gym_1F_Text_GymGuidePostVictory, MSGBOX_DEFAULT
 	release
 	end
@@ -192,7 +195,13 @@ SootopolisCity_Gym_1F_Text_GymGuidePostVictory:
 	.string "was supposedly the best in all HOENN!\p"
 	.string "Okay! Check out your TRAINER CARD.\p"
 	.string "If you've gotten all the BADGES, you're\n"
-	.string "set for the POKéMON LEAGUE challenge!$"
+	.string "set for the POKéMON LEAGUE challenge!"
+	.string "Head EAST from SLATEPORT CITY\n"
+	.string "to reach EVER GRANDE CITY.\p"
+	.string "There, you shall find the POKéMON\n"
+	.string "LEAGUE.\p"
+	.string "The journey will be difficult.\n"
+	.string "Good luck.$"
 
 SootopolisCity_Gym_1F_Text_JuanIntro:
 	.string "Let me ask you.\n"
@@ -244,13 +253,11 @@ SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis:
 	.string "of the HM move WATERFALL to scale\l"
 	.string "walls of cascading water.\p"
 	.string "And, so that you never forget the\n"
-	.string "battle we shared, take this…$"
+	.string "battle we shared, take these…$"
 
 SootopolisCity_Gym_1F_Text_ExplainWaterPulse:
-	.string "The TECHNICAL MACHINE I handed you\n"
-	.string "contains WATER PULSE.\p"
-	.string "In use, it will occasionally confuse\n"
-	.string "the target with ultrasonic waves.\p"
+	.string "The TECHNICAL MACHINES I handed you\n"
+	.string "contain ICE SPINNER and ICICLE SPEAR.\p"
 	.string "… … … … … …$"
 
 SootopolisCity_Gym_1F_Text_RegisteredJuan:
@@ -262,10 +269,12 @@ SootopolisCity_Gym_1F_Text_JuanPostBattle:
 	.string "the GYM BADGES of HOENN should make\l"
 	.string "way to the ultimate destination.\p"
 	.string "The POKéMON LEAGUE.\p"
-	.string "Travel to the easternmost reaches\n"
-	.string "of HOENN, to the island EVER GRANDE.\p"
+	.string "Head EAST from SLATEPORT CITY\n"
+	.string "to reach EVER GRANDE CITY.\p"
 	.string "There, you shall find the POKéMON\n"
-	.string "LEAGUE.$"
+	.string "LEAGUE.\p"
+	.string "The journey will be difficult.\n"
+	.string "Good luck.$"
 
 SootopolisCity_Gym_1F_Text_GoGetFortreeBadge:
 	.string "There remains but one BADGE to\n"
@@ -296,14 +305,12 @@ SootopolisCity_Gym_1F_Text_JuanRematchDefeat:
 	.string "You have defeated me again!$"
 
 SootopolisCity_Gym_1F_Text_JuanPostRematch:
-	.string "GLACIA: If I told you to become my\n"
-	.string "apprentice, you will refuse, I am sure.\p"
-	.string "I would like to make a gift of my coat\n"
-	.string "to you.\p"
-	.string "But again, you will refuse.\n"
-	.string "I imagine that to be so.\p"
-	.string "And that, my friend, is a certain sign\n"
-	.string "of nobility!$"
+	.string "Head EAST from SLATEPORT CITY\n"
+	.string "to reach EVER GRANDE CITY.\p"
+	.string "There, you shall find the POKéMON\n"
+	.string "LEAGUE.\p"
+	.string "The journey will be difficult.\n"
+	.string "Good luck.$"
 
 SootopolisCity_Gym_1F_Text_JuanRematchNeedTwoMons:
 	.string "GLACIA: Ah, this GYM had returned to its\n"

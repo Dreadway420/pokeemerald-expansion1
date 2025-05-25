@@ -51,3 +51,13 @@ Route134_EventScript_Kelvin::
 	msgbox Route134_Text_KelvinPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+SlateportCity_EventScript_SwimmerBlocker::
+	lock
+	faceplayer
+	msgbox SlateportCity_Text_Blocker, MSGBOX_DEFAULT
+	release
+	end
+
+SlateportCity_Text_Blocker:
+	.string "Sorry! I'm in the way.$"
+

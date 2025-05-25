@@ -4528,17 +4528,23 @@ Route132_Text_DanaPostBattle:
 	.string "sense of place…$"
 
 Route132_Text_RonaldIntro:
-	.string "Win or lose, you'll never know until\n"
-	.string "you try!$"
+	.string "LUCY: …I'm not one for idle chatter.\n"
+	.string "Hurry. Come on…$"
 
 Route132_Text_RonaldDefeat:
-	.string "Waah!\n"
-	.string "I sank in defeat!$"
+	.string "LUCY: Your luck…\n"
+	.string "I hope you didn't use it all up here…$"
 
 Route132_Text_RonaldPostBattle:
-	.string "I never battle when I know I'll win.\n"
-	.string "I like to battle at the razor's edge of\l"
-	.string "victory and defeat!$"
+	.string "LUCY: …You again…\p"
+	.string "… … … … … …\p"
+	.string "…I've trampled flowers and braved\n"
+	.string "storms to get to where I am…\p"
+	.string "I don't feel any compulsion to keep\n"
+	.string "losing to the same opponent…\p"
+	.string "… … … … … …\n"
+	.string "…That's all there is…\n"
+	.string "Disappear already…$"
 
 Route132_Text_KiyoIntro:
 	.string "I contemplate POKéMON 24 hours a day.\n"
@@ -4788,7 +4794,7 @@ Route134_Text_ReynaPostBattle:
 	.string "TRAINERS I happen to meet!$"
 
 Route134_Text_HudsonIntro:
-	.string "Listen, have you seen another SAILOR\n"
+	.string "Listen, have you seen a SAILOR\n"
 	.string "around here?$"
 
 Route134_Text_HudsonDefeat:
