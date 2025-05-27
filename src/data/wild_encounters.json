@@ -238,7 +238,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_SEEDOT"
+                "species": "SPECIES_POLTCHAGEIST_ARTISAN"
               },
               {
                 "min_level": 2,
@@ -248,16 +248,6 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_CHIKORITA"
-              },
-              {
-                "min_level": 3,
-                "max_level": 3,
-                "species": "SPECIES_SEEDOT"
-              },
-              {
-                "min_level": 4,
-                "max_level": 4,
                 "species": "SPECIES_DEERLING_AUTUMN"
               },
               {
@@ -266,9 +256,19 @@
                 "species": "SPECIES_CHIKORITA"
               },
               {
+                "min_level": 4,
+                "max_level": 4,
+                "species": "SPECIES_CHIKORITA"
+              },
+              {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_POLTCHAGEIST_ARTISAN"
+                "species": "SPECIES_CHIKORITA"
+              },
+              {
+                "min_level": 3,
+                "max_level": 3,
+                "species": "SPECIES_CHIKORITA"
               },
               {
                 "min_level": 2,
@@ -278,7 +278,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_POLTCHAGEIST_ARTISAN"
+                "species": "SPECIES_CHIKORITA"
               }
             ]
           }

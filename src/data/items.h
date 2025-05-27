@@ -2025,6 +2025,25 @@ const struct Item gItemsInfo[] =
         .iconPalette = gItemIconPalette_ExpCandies,
     },
 
+    [ITEM_SUPER_CANDY] =
+    {
+        .name = _("Super Candy"),
+        .pluralName = _("Super Candies"),
+        .price = 0,
+        .holdEffectParam = LEVEL_CAP,
+        .description = COMPOUND_STRING(
+            "Raises level to\n"
+            "the level cap."),
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_RarestCandy,
+        .effect = gItemEffect_RareCandy,
+        .flingPower = 30,
+        .iconPic = gItemIcon_RareCandy,
+        .iconPalette = gItemIconPalette_RareCandy,
+    },
+    
     [ITEM_DYNAMAX_CANDY] =
     {
         .name = _("Dynamax Candy"),
@@ -14790,9 +14809,9 @@ const struct Item gItemsInfo[] =
         .pluralName = _("Rarest Candies"),
         .price = 0,
         .description = COMPOUND_STRING(
-            "Use this to catch\n"
-            "your Pokémon's lvl\n"
-            "up to your highest."),
+            "Use this to lvl up\n"
+            "your Pokémon to your\n"
+            "party's average lvl."),
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_PARTY_MENU,

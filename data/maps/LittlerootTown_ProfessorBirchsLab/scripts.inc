@@ -534,6 +534,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_MayGivePokeBalls::
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese, MSGBOX_DEFAULT
 	giveitem ITEM_POKE_BALL, 50
 	giveitem ITEM_RAREST_CANDY, 1
+	giveitem ITEM_SUPER_CANDY, 1
 	giveitem ITEM_POKEMON_BOX_LINK
 	call_if_eq VAR_RESULT, FALSE, LittlerootTown_ProfessorBirchsLab_EventScript_MayNoRoomForPokeBalls
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls, MSGBOX_DEFAULT
@@ -544,6 +545,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_BrendanGivePokeBalls::
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese, MSGBOX_DEFAULT
 	giveitem ITEM_POKE_BALL, 50
 	giveitem ITEM_RAREST_CANDY, 1
+	giveitem ITEM_SUPER_CANDY, 1
 	giveitem ITEM_POKEMON_BOX_LINK
 	call_if_eq VAR_RESULT, FALSE, LittlerootTown_ProfessorBirchsLab_EventScript_BrendanNoRoomForPokeBalls
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls, MSGBOX_DEFAULT
@@ -766,12 +768,16 @@ LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese:
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls:
 	.string "MAY: THIS IS IMPORTANT!\p"
-	.string "That candy can be used to\n"
-	.string "level up your POKéMON!\p"
+	.string "The RAREST CANDY can be used\n"
+	.string "to level up your POKéMON!\p"
 	.string "Only use it to level up a new POKéMON\n"
-	.string "to your party's average level,\p"
+	.string "to the highest level in your party,\p"
 	.string "or to reach the levelcap before\n"
 	.string "challenging a GYM LEADER!\p"
+	.string "Use the SUPER CANDY to go the\n"
+	.string "levelcap. Only use this once\p"
+	.string "you have a POKéMON that has\n"
+	.string "already reached the cap.\p"
 	.string "You can use the BOX LINK in the\n"
 	.string "KEY ITEMS bag to use the PC.\p"
 	.string "Press R in battle to throw POKéBALLS,\n"
@@ -792,12 +798,16 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese:
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls:
 	.string "BRENDAN: THIS IS IMPORTANT!\p"
-	.string "That candy can be used to\n"
-	.string "level up your POKéMON!\p"
+	.string "The RAREST CANDY can be used\n"
+	.string "to level up your POKéMON!\p"
 	.string "Only use it to level up a new POKéMON\n"
-	.string "to your party's average level,\p"
+	.string "to the highest level in your party,\p"
 	.string "or to reach the levelcap before\n"
 	.string "challenging a GYM LEADER!\p"
+	.string "Use the SUPER CANDY to go the\n"
+	.string "levelcap. Only use this once\p"
+	.string "you have a POKéMON that has\n"
+	.string "already reached the cap.\p"
 	.string "You can use the BOX LINK in the\n"
 	.string "KEY ITEMS bag to use the PC.\p"
 	.string "Press R in battle to throw POKéBALLS,\n"

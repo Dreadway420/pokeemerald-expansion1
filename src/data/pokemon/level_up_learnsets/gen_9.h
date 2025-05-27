@@ -3350,6 +3350,7 @@ static const struct LevelUpMove sKangaskhanLevelUpLearnset[] = {
     LEVEL_UP_MOVE(44, MOVE_REVERSAL),
     LEVEL_UP_MOVE(48, MOVE_OUTRAGE),
     LEVEL_UP_MOVE(52, MOVE_LAST_RESORT),
+    LEVEL_UP_MOVE(62, MOVE_POWER_UP_PUNCH),
     LEVEL_UP_END
 };
 #endif //P_FAMILY_KANGASKHAN

@@ -6,7 +6,7 @@ PetalburgCity_Gym_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, PetalburgCity_Gym_OnLoad
 	map_script MAP_SCRIPT_ON_TRANSITION, PetalburgCity_Gym_OnTransition
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, PetalburgCity_Gym_OnWarp
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, PetalburgCity_Gym_OnFrame
+	@map_script MAP_SCRIPT_ON_FRAME_TABLE, PetalburgCity_Gym_OnFrame
 	.byte 0
 
 PetalburgCity_Gym_OnLoad:
@@ -73,9 +73,9 @@ PetalburgCity_Gym_EventScript_TurnPlayerNorth::
 	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
 	end
 
-PetalburgCity_Gym_OnFrame:
-	map_script_2 VAR_PETALBURG_GYM_STATE, 1, PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial
-	.2byte 0
+@PetalburgCity_Gym_OnFrame:
+@	map_script_2 VAR_PETALBURG_GYM_STATE, 1, PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial
+@	.2byte 0
 
 PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial::
 	lockall
@@ -88,6 +88,7 @@ PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial::
 	playse SE_EXIT
 	removeobject LOCALID_WALLY
 	setflag FLAG_HIDE_PETALBURG_CITY_WALLY
+	setflag FLAG_UNUSED_0x020
 	delay 30
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
@@ -176,8 +177,6 @@ PetalburgCity_Gym_EventScript_BeginWallyTutorial::
 	call_if_eq VAR_0x8008, 3, PetalburgCity_Gym_EventScript_WallyFacePlayer
 	msgbox PetalburgCity_Gym_Text_WouldYouReallyComeWithMe, MSGBOX_DEFAULT
 	closemessage
-	setflag FLAG_DONT_TRANSITION_MUSIC
-	playbgm MUS_FOLLOW_ME, FALSE
 	call_if_eq VAR_0x8008, 0, PetalburgCity_Gym_EventScript_ExitGymWithWallySouth
 	call_if_eq VAR_0x8008, 1, PetalburgCity_Gym_EventScript_ExitGymWithWallyNorth
 	call_if_eq VAR_0x8008, 2, PetalburgCity_Gym_EventScript_ExitGymWithWallyWest
@@ -190,9 +189,21 @@ PetalburgCity_Gym_EventScript_BeginWallyTutorial::
 	clearflag FLAG_HIDE_PETALBURG_GYM_WALLY
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_RIVAL
 	special InitBirchState
-	warp MAP_PETALBURG_CITY, 15, 8
-	waitstate
-	release
+	setvar VAR_PETALBURG_GYM_STATE, 1
+	setflag FLAG_HIDE_PETALBURG_CITY_WALLY
+	delay 30
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	msgbox PetalburgCity_Gym_Text_DadGoCollectBadges, MSGBOX_DEFAULT
+	removeobject LOCALID_WALLY
+	removeobject LOCALID_WALLY
+	setvar VAR_PETALBURG_CITY_STATE, 3
+	clearflag FLAG_DONT_TRANSITION_MUSIC
+	special LoadPlayerParty
+	setvar VAR_PETALBURG_GYM_STATE, 2
+	removeobject LOCALID_WALLY
+	setflag FLAG_HIDE_PETALBURG_GYM_WALLY
+	releaseall
 	end
 
 PetalburgCity_Gym_EventScript_WallyArriveSouth::
@@ -219,25 +230,21 @@ PetalburgCity_Gym_EventScript_WallyArriveWestEast::
 PetalburgCity_Gym_EventScript_ExitGymWithWallySouth::
 	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterDown
 	applymovement LOCALID_WALLY, PetalburgCity_Gym_Movement_WallyExitSouthWest
-	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Gym_Movement_PlayerExitWithWallySouth
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_ExitGymWithWallyNorth::
 	applymovement LOCALID_WALLY, PetalburgCity_Gym_Movement_WallyExitNorth
-	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Gym_Movement_PlayerExitWithWallyNorth
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_ExitGymWithWallyWest::
 	applymovement LOCALID_WALLY, PetalburgCity_Gym_Movement_WallyExitSouthWest
-	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Gym_Movement_PlayerExitWithWallyWest
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_ExitGymWithWallyEast::
 	applymovement LOCALID_WALLY, PetalburgCity_Gym_Movement_WallyExitEast
-	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Gym_Movement_PlayerExitWithWallyEast
 	waitmovement 0
 	return
 
@@ -1184,10 +1191,8 @@ PetalburgCity_Gym_Text_DadHmISee:
 	.string "DAD: Hm. I see.$"
 
 PetalburgCity_Gym_Text_DadPlayerGoWithWally:
-	.string "DAD: {PLAYER}, you heard that,\n"
-	.string "right?\p"
-	.string "Go with WALLY and make sure that he\n"
-	.string "safely catches a POKéMON.$"
+	.string "DAD: You should go\n"
+	.string "learn to catch one.$"
 
 PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon:
 	.string "WALLY, here, I'll loan you my POKéMON.\p"
@@ -1205,8 +1210,7 @@ PetalburgCity_Gym_Text_WallyOhWowThankYou:
 	.string "Thank you!$"
 
 PetalburgCity_Gym_Text_WouldYouReallyComeWithMe:
-	.string "{PLAYER}… Would you really come\n"
-	.string "with me?$"
+	.string "I hope I catch a RALTS!$"
 
 PetalburgCity_Gym_Text_DadSoDidItWorkOut:
 	.string "DAD: So, did it work out?$"

@@ -39,6 +39,7 @@ EverGrandeCity_GlaciasRoom_EventScript_CloseDoor::
 EverGrandeCity_GlaciasRoom_EventScript_Glacia::
 	lock
 	faceplayer
+	Special HealPlayerParty
 	goto_if_set FLAG_DEFEATED_ELITE_4_GLACIA, EverGrandeCity_GlaciasRoom_EventScript_PostBattleSpeech
 	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
 	msgbox EverGrandeCity_GlaciasRoom_Text_IntroSpeech, MSGBOX_DEFAULT
@@ -59,25 +60,44 @@ EverGrandeCity_GlaciasRoom_EventScript_Defeated::
 	end
 
 EverGrandeCity_GlaciasRoom_Text_IntroSpeech:
-	.string "Welcome, my name is GLACIA\n"
-	.string "of the ELITE FOUR.\p"
-	.string "I've traveled from afar to HOENN\n"
-	.string "so that I may hone my ice skills.\p"
-	.string "But all I have seen are challenges by\n"
-	.string "weak TRAINERS and their POKéMON.\p"
-	.string "What about you?\p"
-	.string "It would please me to no end if I could\n"
-	.string "go all out against you!$"
+	.string "WALLACE: Welcome, {PLAYER}{KUN}.\p"
+	.string "That incident in SOOTOPOLIS CITY…\n"
+	.string "That was superb work, putting an end\l"
+	.string "to that crisis all by yourself.\p"
+	.string "Oops!\p"
+	.string "It wouldn't be fair to say that you\n"
+	.string "alone ended the crisis.\p"
+	.string "You overcame that difficult situation\n"
+	.string "by working as one with your POKéMON.\p"
+	.string "We TRAINERS raise POKéMON by giving\n"
+	.string "them items and by teaching them new\l"
+	.string "techniques for battle.\p"
+	.string "But we ourselves also learn many\n"
+	.string "things from POKéMON.\p"
+	.string "And this is where your achievements\n"
+	.string "are put to the test against what\l"
+	.string "others like you have achieved.\p"
+	.string "Now!\p"
+	.string "Who can most elegantly dance with\n"
+	.string "their POKéMON in HOENN?\p"
+	.string "Show me right here and now!$"
 
 EverGrandeCity_GlaciasRoom_Text_Defeat:
-	.string "You and your POKéMON…\n"
-	.string "How hot your spirits burn!\p"
-	.string "The all-consuming heat overwhelms.\p"
-	.string "It's no surprise that my icy skills\n"
-	.string "failed to harm you.$"
+	.string "I, the CHAMPION, fall in defeat…\p"
+	.string "That was wonderful work.\n"
+	.string "You were elegant, infuriatingly so.\l"
+	.string "And yet it was utterly glorious!\p"
+	.string "Kudos to you, {PLAYER}{KUN}!\p"
+	.string "You are a truly noble POKéMON\n"
+	.string "TRAINER!$"
 
 EverGrandeCity_GlaciasRoom_Text_PostBattleSpeech:
-	.string "Advance to the next room.\p"
-	.string "And there, confirm the truly fearsome\n"
-	.string "side of the POKéMON LEAGUE.$"
-
+	.string "WALLACE: The POKéMON you sent into\n"
+	.string "battle…\p"
+	.string "At times they danced like a spring\n"
+	.string "breeze, and at times they struck\l"
+	.string "like lightning.\p"
+	.string "It was with light, yet surefooted,\n"
+	.string "elegance that you led your POKéMON.\p"
+	.string "Even I felt bedazzled by your\n"
+	.string "masterful performance!\p"

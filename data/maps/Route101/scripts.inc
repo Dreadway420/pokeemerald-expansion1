@@ -1,6 +1,6 @@
 .set LOCALID_BIRCH, 2
 .set LOCALID_ZIGZAGOON, 4
-.set LOCALID_RIVAL, 7
+.set LOCALID_RIVAL, 6
 
 Route101_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, Route101_OnTransition
@@ -9,6 +9,7 @@ Route101_MapScripts::
 
 Route101_OnTransition:
 	call ProfBirch_EventScript_UpdateLocation
+	call Common_EventScript_SetupRivalGfxId
 	end
 
 Route101_OnFrame:
@@ -297,3 +298,77 @@ Route101_Text_RouteSign:
 	.string "ROUTE 101\n"
 	.string "{UP_ARROW} OLDALE TOWN$"
 
+Route103_EventScript_RivalMay::
+	msgbox Route103_Text_MayRoute103Pokemon, MSGBOX_DEFAULT
+	closemessage
+	playbgm MUS_ENCOUNTER_MAY, TRUE
+	applymovement LOCALID_RIVAL, Common_Movement_FacePlayer
+	waitmovement 0
+	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_RIVAL, Common_Movement_Delay48
+	waitmovement 0
+	msgbox Route103_Text_MayLetsBattle, MSGBOX_DEFAULT
+	switch VAR_STARTER_MON
+	case 0, Route103_EventScript_StartMayBattleTreecko
+	case 1, Route103_EventScript_StartMayBattleTorchic
+	case 2, Route103_EventScript_StartMayBattleMudkip
+	end
+
+Route103_EventScript_RivalBrendan::
+	msgbox Route103_Text_BrendanRoute103Pokemon, MSGBOX_DEFAULT
+	closemessage
+	playbgm MUS_ENCOUNTER_BRENDAN, TRUE
+	applymovement LOCALID_RIVAL, Common_Movement_FacePlayer
+	waitmovement 0
+	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_RIVAL, Common_Movement_Delay48
+	waitmovement 0
+	msgbox Route103_Text_BrendanLetsBattle, MSGBOX_DEFAULT
+	switch VAR_STARTER_MON
+	case 0, Route103_EventScript_StartBrendanBattleTreecko
+	case 1, Route103_EventScript_StartBrendanBattleTorchic
+	case 2, Route103_EventScript_StartBrendanBattleMudkip
+	end
+
+Route103_EventScript_RivalExitFacingNorth::
+	applymovement OBJ_EVENT_ID_PLAYER, Route103_Movement_WatchRivalExitFacingNorth
+	applymovement LOCALID_RIVAL, Route103_Movement_RivalExitFacingNorth1
+	waitmovement 0
+	playse SE_LEDGE
+	applymovement LOCALID_RIVAL, Route103_Movement_RivalExitFacingNorth2
+	waitmovement 0
+	goto Route103_EventScript_RivalEnd
+	end
+
+Route103_EventScript_RivalExitFacingEastOrWest::
+	applymovement OBJ_EVENT_ID_PLAYER, Route103_Movement_WatchRivalExitFacingEastOrWest
+	applymovement LOCALID_RIVAL, Route103_Movement_RivalExit1
+	waitmovement 0
+	playse SE_LEDGE
+	applymovement LOCALID_RIVAL, Route103_Movement_RivalExit2
+	waitmovement 0
+	goto Route103_EventScript_RivalEnd
+	end
+
+Route103_EventScript_RivalExitFacingSouth::
+	applymovement LOCALID_RIVAL, Route103_Movement_RivalExit1
+	waitmovement 0
+	playse SE_LEDGE
+	applymovement LOCALID_RIVAL, Route103_Movement_RivalExit2
+	waitmovement 0
+	goto Route103_EventScript_RivalEnd
+	end
+
+Route103_EventScript_RivalEnd::
+	removeobject LOCALID_RIVAL
+	setvar VAR_BIRCH_LAB_STATE, 4
+	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_RIVAL
+	setflag FLAG_DEFEATED_RIVAL_ROUTE103
+	setvar VAR_OLDALE_RIVAL_STATE, 1
+	clearflag FLAG_HIDE_OLDALE_TOWN_RIVAL
+	savebgm MUS_DUMMY
+	fadedefaultbgm
+	releaseall
+	end

@@ -27,39 +27,6 @@ Route103_EventScript_Rival::
 	goto_if_eq VAR_RESULT, FEMALE, Route103_EventScript_RivalBrendan
 	end
 
-Route103_EventScript_RivalMay::
-	msgbox Route103_Text_MayRoute103Pokemon, MSGBOX_DEFAULT
-	closemessage
-	playbgm MUS_ENCOUNTER_MAY, TRUE
-	applymovement LOCALID_RIVAL, Common_Movement_FacePlayer
-	waitmovement 0
-	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
-	waitmovement 0
-	applymovement LOCALID_RIVAL, Common_Movement_Delay48
-	waitmovement 0
-	msgbox Route103_Text_MayLetsBattle, MSGBOX_DEFAULT
-	switch VAR_STARTER_MON
-	case 0, Route103_EventScript_StartMayBattleTreecko
-	case 1, Route103_EventScript_StartMayBattleTorchic
-	case 2, Route103_EventScript_StartMayBattleMudkip
-	end
-
-Route103_EventScript_RivalBrendan::
-	msgbox Route103_Text_BrendanRoute103Pokemon, MSGBOX_DEFAULT
-	closemessage
-	playbgm MUS_ENCOUNTER_BRENDAN, TRUE
-	applymovement LOCALID_RIVAL, Common_Movement_FacePlayer
-	waitmovement 0
-	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
-	waitmovement 0
-	applymovement LOCALID_RIVAL, Common_Movement_Delay48
-	waitmovement 0
-	msgbox Route103_Text_BrendanLetsBattle, MSGBOX_DEFAULT
-	switch VAR_STARTER_MON
-	case 0, Route103_EventScript_StartBrendanBattleTreecko
-	case 1, Route103_EventScript_StartBrendanBattleTorchic
-	case 2, Route103_EventScript_StartBrendanBattleMudkip
-	end
 
 Route103_EventScript_StartMayBattleTreecko::
 	trainerbattle_no_intro TRAINER_MAY_ROUTE_103_TREECKO, Route103_Text_MayDefeated
@@ -93,7 +60,6 @@ Route103_EventScript_StartBrendanBattleMudkip::
 
 Route103_EventScript_AfterMayBattle::
 	msgbox Route103_Text_MayTimeToHeadBack, MSGBOX_DEFAULT
-	
 	goto Route103_EventScript_RivalExit
 	end
 
@@ -111,49 +77,9 @@ Route103_EventScript_RivalExit::
 	case DIR_EAST, Route103_EventScript_RivalExitFacingEastOrWest
 	end
 
-Route103_EventScript_RivalExitFacingNorth::
-	applymovement OBJ_EVENT_ID_PLAYER, Route103_Movement_WatchRivalExitFacingNorth
-	applymovement LOCALID_RIVAL, Route103_Movement_RivalExitFacingNorth1
-	waitmovement 0
-	playse SE_LEDGE
-	applymovement LOCALID_RIVAL, Route103_Movement_RivalExitFacingNorth2
-	waitmovement 0
-	goto Route103_EventScript_RivalEnd
-	end
-
-Route103_EventScript_RivalExitFacingEastOrWest::
-	applymovement OBJ_EVENT_ID_PLAYER, Route103_Movement_WatchRivalExitFacingEastOrWest
-	applymovement LOCALID_RIVAL, Route103_Movement_RivalExit1
-	waitmovement 0
-	playse SE_LEDGE
-	applymovement LOCALID_RIVAL, Route103_Movement_RivalExit2
-	waitmovement 0
-	goto Route103_EventScript_RivalEnd
-	end
-
-Route103_EventScript_RivalExitFacingSouth::
-	applymovement LOCALID_RIVAL, Route103_Movement_RivalExit1
-	waitmovement 0
-	playse SE_LEDGE
-	applymovement LOCALID_RIVAL, Route103_Movement_RivalExit2
-	waitmovement 0
-	goto Route103_EventScript_RivalEnd
-	end
-
-Route103_EventScript_RivalEnd::
-	removeobject LOCALID_RIVAL
-	setvar VAR_BIRCH_LAB_STATE, 4
-	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_RIVAL
-	setflag FLAG_DEFEATED_RIVAL_ROUTE103
-	setvar VAR_OLDALE_RIVAL_STATE, 1
-	clearflag FLAG_HIDE_OLDALE_TOWN_RIVAL
-	savebgm MUS_DUMMY
-	fadedefaultbgm
-	releaseall
-	end
-
 Route103_Movement_RivalExitFacingNorth1:
 	walk_left
+	walk_down
 	walk_down
 	step_end
 
@@ -175,6 +101,7 @@ Route103_Movement_WatchRivalExitFacingNorth:
 	step_end
 
 Route103_Movement_RivalExit1:
+	walk_down
 	walk_down
 	step_end
 
@@ -292,7 +219,7 @@ Route103_EventScript_Isabelle::
 
 Route103_Text_MayRoute103Pokemon:
 	.string "MAY: Let's see… The POKéMON found\n"
-	.string "on ROUTE 103 include…$"
+	.string "on ROUTE 101 include…$"
 
 Route103_Text_MayLetsBattle:
 	.string "Oh, hi, {PLAYER}{KUN}!\p"
@@ -319,7 +246,7 @@ Route103_Text_MayTimeToHeadBack:
 
 Route103_Text_BrendanRoute103Pokemon:
 	.string "BRENDAN: Okay, so it's this one and\n"
-	.string "that one that live on ROUTE 103…$"
+	.string "that one that live on ROUTE 101…$"
 
 Route103_Text_BrendanLetsBattle:
 	.string "Hey, it's {PLAYER}!\p"
@@ -354,4 +281,3 @@ Route103_Text_ShortcutToOldale:
 Route103_Text_RouteSign:
 	.string "ROUTE 103\n"
 	.string "{DOWN_ARROW} OLDALE TOWN$"
-
