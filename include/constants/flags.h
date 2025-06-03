@@ -1251,7 +1251,7 @@
 #define FLAG_SPENSER_SASH                                           0x4AD // Unused Flag
 #define FLAG_SPENSER_EARTH_GEM                                           0x4AE // Unused Flag
 #define FLAG_BUG_GEM                                           0x4AF // Unused Flag
-#define FLAG_UNUSED_0x4B0                                           0x4B0 // Unused Flag
+#define FLAG_FORCE_RUSTURF_TUNNEL2                                           0x4B0 // Unused Flag
 #define FLAG_UNUSED_0x4B1                                           0x4B1 // Unused Flag
 #define FLAG_UNUSED_0x4B2                                           0x4B2 // Unused Flag
 #define FLAG_UNUSED_0x4B3                                           0x4B3 // Unused Flag

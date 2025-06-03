@@ -1197,5 +1197,5 @@ Route104_Text_GiveSurf:
 
 Route104_Text_GoToShip:
 	.string "Before challenging NORMAN, you should\n"
-	.string "travel to ROUTE105, ROUTE108, and\p"
+	.string "travel to ROUTE105, ROUTE108, and\l"
 	.string "explore the ABANDONED SHIP.$"

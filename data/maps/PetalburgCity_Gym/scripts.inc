@@ -74,8 +74,7 @@ PetalburgCity_Gym_EventScript_TurnPlayerNorth::
 	end
 
 @PetalburgCity_Gym_OnFrame:
-@	map_script_2 VAR_PETALBURG_GYM_STATE, 1, PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial
-@	.2byte 0
+	.2byte 0
 
 PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial::
 	lockall
@@ -88,7 +87,6 @@ PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial::
 	playse SE_EXIT
 	removeobject LOCALID_WALLY
 	setflag FLAG_HIDE_PETALBURG_CITY_WALLY
-	setflag FLAG_UNUSED_0x020
 	delay 30
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
@@ -196,11 +194,9 @@ PetalburgCity_Gym_EventScript_BeginWallyTutorial::
 	waitmovement 0
 	msgbox PetalburgCity_Gym_Text_DadGoCollectBadges, MSGBOX_DEFAULT
 	removeobject LOCALID_WALLY
-	removeobject LOCALID_WALLY
-	setvar VAR_PETALBURG_CITY_STATE, 3
 	clearflag FLAG_DONT_TRANSITION_MUSIC
-	special LoadPlayerParty
 	setvar VAR_PETALBURG_GYM_STATE, 2
+	setflag FLAG_UNUSED_0x020
 	removeobject LOCALID_WALLY
 	setflag FLAG_HIDE_PETALBURG_GYM_WALLY
 	releaseall

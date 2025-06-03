@@ -26,6 +26,7 @@ PetalburgCity_WallysHouse_EventScript_GiveHMSurf::
 	msgbox PetalburgCity_WallysHouse_Text_SurfGoAllSortsOfPlaces, MSGBOX_DEFAULT
 	setvar VAR_PETALBURG_CITY_STATE, 5
 	releaseall
+	warp MAP_ROUTE116, 49, 12
 	end
 
 PetalburgCity_WallysHouse_EventScript_WallysDad::

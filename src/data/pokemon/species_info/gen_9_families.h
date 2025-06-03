@@ -1474,7 +1474,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
 
     [SPECIES_DACHSBUN] =
     {
-        .baseHP        = 77,
+        .baseHP        = 87,
         .baseAttack    = 95,
         .baseDefense   = 130,
         .baseSpeed     = 95,

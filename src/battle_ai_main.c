@@ -4979,6 +4979,7 @@ static s32 AI_ForceSetupFirstTurn(u32 battlerAtk, u32 battlerDef, u32 move, s32 
     case EFFECT_SNOWSCAPE:
     case EFFECT_CHILLY_RECEPTION:
     case EFFECT_GEOMANCY:
+    case EFFECT_PROTECT:
     case EFFECT_VICTORY_DANCE:
         ADJUST_SCORE(DECENT_EFFECT);
         break;

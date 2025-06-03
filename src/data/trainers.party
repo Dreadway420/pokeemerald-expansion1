@@ -546,7 +546,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Croconaw  
 Ability: Sheer Force  
-Level: 18  
+Level: 17  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Aqua Jet  
 - Bite  
@@ -555,14 +555,14 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Corphish  
 Ability: Adaptability  
-Level: 18  
+Level: 17  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Aqua Jet  
 - Knock Off  
 
 Mightyena @ Covert Cloak  
 Ability: Intimidate  
-Level: 19  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Modest Nature
 - Crunch  
@@ -653,9 +653,9 @@ Music: Aqua
 Double Battle: No
 AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
-Dewott @ Maranga Berry  
+Dewott @ Rindo Berry  
 Ability: Sharpness  
-Level: 26  
+Level: 24  
 Modest Nature  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Aqua Cutter  
@@ -672,7 +672,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Corphish @ Eviolite  
 Ability: Adaptability  
-Level: 27  
+Level: 26  
 - Dragon Dance  
 - Aqua Jet  
 - Knock Off  
@@ -687,9 +687,9 @@ Music: Aqua
 Double Battle: No
 AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
-Frogadier @ Covert Cloak  
+Frogadier @ Rindo Berry 
 Ability: Protean  
-Level: 26  
+Level: 24  
 Adamant Nature  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 - Icy Wind  
@@ -708,7 +708,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Carvanha @ Eviolite  
 Ability: Speed Boost  
-Level: 27  
+Level: 26  
 - Dive  
 - Protect  
 - Bite  
@@ -1523,22 +1523,23 @@ Ability: Sand Stream
 Level: 36  
 EVs: 76 HP / 252 Atk / 76 Def / 96 SpD  
 Adamant Nature  
-IVs: 0 HP / 0 Def / 0 SpD / 0 Spe  
 - Stealth Rock  
 - Stomping Tantrum  
 - Rock Slide  
 
 Dracozolt @ Safety Goggles  
 Ability: Sand Rush  
-Level: 36  
+Level: 33  
 Modest Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpD / 0 Spe  
 - Bolt Beak  
 - Dragon Claw  
 
 Dracovish @ Safety Goggles  
 Ability: Sand Rush  
-Level: 36  
+Level: 31  
 Modest Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpD / 0 Spe  
 - Fishious Rend  
 
 === TRAINER_DUSTY_2 ===
@@ -1620,6 +1621,29 @@ AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mo
 
 Magnezone  @ Air Balloon
 Ability: Magnet Pull  
+Level: 43  
+IVs: 0 Atk  
+- Flash Cannon  
+- Discharge
+
+Exploud @ Throat Spray  
+Ability: Punk Rock  
+Level: 43  
+Adamant Nature  
+IVs: 0 Atk / 0 SpA  
+- Hyper Voice
+
+=== TRAINER_GABBY_AND_TY_2 ===
+Name: GABBY & TY
+Class: Interviewer
+Pic: Interviewer
+Gender: Male
+Music: Interviewer
+Double Battle: Yes
+AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+
+Magnezone  @ Air Balloon
+Ability: Magnet Pull  
 Level: 51  
 IVs: 0 Atk  
 - Flash Cannon  
@@ -1633,29 +1657,6 @@ Adamant Nature
 IVs: 0 Atk / 0 SpA  
 - Hyper Voice
 - Boomburst
-
-=== TRAINER_GABBY_AND_TY_2 ===
-Name: GABBY & TY
-Class: Interviewer
-Pic: Interviewer
-Gender: Male
-Music: Interviewer
-Double Battle: Yes
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
-
-Magnezone  @ Air Balloon
-Ability: Magnet Pull  
-Level: 43  
-IVs: 0 Atk  
-- Flash Cannon  
-- Discharge
-
-Exploud @ Throat Spray  
-Ability: Punk Rock  
-Level: 43  
-Adamant Nature  
-IVs: 0 Atk / 0 SpA  
-- Hyper Voice
 
 === TRAINER_GABBY_AND_TY_3 ===
 Name: GABBY & TY
@@ -1750,7 +1751,7 @@ AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Po
 
 Marshtomp @ Clear Amulet  
 Ability: Damp  
-Level: 22  
+Level: 21  
 Adamant Nature  
 IVs: 0 Atk / 0 SpA  
 - Surf
@@ -1774,7 +1775,7 @@ IVs: 0 Atk
 
 Cramorant @ Lum Berry  
 Ability: Gulp Missile  
-Level: 23  
+Level: 22  
 - Dive  
 - Pluck  
 
@@ -1789,14 +1790,14 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Piloswine @ Assault Vest  
 Ability: Thick Fat  
-Level: 23  
+Level: 21  
 IVs: 0 Atk 
 - Ice Fang  
 - Bulldoze  
 
 Diggersby @ Silk Scarf  
 Ability: Huge Power  
-Level: 23  
+Level: 22  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Quick Attack  
 - Bulldoze  
@@ -1880,7 +1881,7 @@ AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Po
 
 Clamperl @ Deep Sea Scale  
 Ability: Shell Armor  
-Level: 24  
+Level: 23  
 - Clamp  
 - Icy Wind
 
@@ -1895,7 +1896,7 @@ AI: Check Viability / Check Bad Move / Try To Faint / AI_FLAG_SEQUENCE_SWITCHING
 
 Umbreon @ Leftovers  
 Ability: Synchronize  
-Level: 24  
+Level: 23  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Foul Play  
 - Wish  
@@ -1904,7 +1905,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gengar @ Black Sludge  
 Ability: Cursed Body  
-Level: 25  
+Level: 24  
 Adamant Nature  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Venoshock  
@@ -1932,7 +1933,7 @@ IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Shedinja @ Focus Sash  
 Ability: Wonder Guard  
-Level: 24  
+Level: 23  
 Modest Nature
 IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 - Leech Life  
@@ -2124,6 +2125,14 @@ Level: 41
 IVs: 0 Atk  
 - Fissure  
 
+Kecleon @ Focus Sash  
+Ability: Color Change 
+Level: 41 
+EVs: 252 SpA  
+Quiet Nature  
+IVs: 0 Atk / 0 Spe  
+- Synchronoise
+
 === TRAINER_BRAXTON ===
 Name: BRAXTON
 Class: Cooltrainer
@@ -2219,7 +2228,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Ace Pokemon
 
 Aggron @ Rocky Helmet  
 Ability: Solid Rock  
@@ -2231,7 +2240,8 @@ Level: 48
 Slurpuff @ Sitrus Berry 
 Ability: Unburden  
 Level: 47  
-IVs: 29 HP  
+IVs: 27 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Modest Nature
 - Belly Drum  
 - Play Rough  
 - Drain Punch  
@@ -2314,7 +2324,7 @@ Chandelure @ Focus Sash
 Ability: Flash Fire  
 Level: 90  
 IVs: 0 Atk  
-- Flamethrower  
+- Inferno 
 - Shadow Ball  
 - Hex  
 - Will-O-Wisp  
@@ -2938,7 +2948,7 @@ Charizard @ Charizardite Y
 Ability: Drought  
 Level: 88  
 IVs: 1 HP / 0 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe 
-- Heat Wave  
+- Inferno  
 - Scorching Sands  
 - Air Slash  
 - Dragon Pulse  
@@ -3999,7 +4009,7 @@ Pic: Beauty
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices
 
 Ninetales-Alola @ Light Clay  
 Ability: Snow Warning  
@@ -4193,8 +4203,7 @@ Jolly Nature
 
 Gyarados @ Wacan Berry  
 Ability: Intimidate  
-Level: 38  
-EVs: 244 HP / 160 Def / 104 Spe  
+Level: 37  
 - Waterfall  
 - Bounce  
 - Bulldoze  
@@ -4335,19 +4344,22 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Samurott-Hisui @ Salac Berry  
 Ability: Sharpness  
-Level: 39  
+Level: 38 
+Modest Nature 
 - Ceaseless Edge  
 - Aqua Cutter  
 
 Relicanth @ Berry Juice  
 Ability: Rock Head  
-Level: 39  
+Level: 38  
+Modest Nature 
 - Head Smash  
 - Aqua Tail  
 
 Feraligatr @ Protective Pads  
 Ability: Sheer Force  
 Level: 39  
+Modest Nature 
 - Liquidation  
 - Ice Fang  
 - Crunch  
@@ -4363,7 +4375,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Toedscool @ Big Root  
 Ability: Mycelium Might  
-Level: 20  
+Level: 19  
 IVs: 0 Atk  
 - Spore  
 - Mega Drain  
@@ -5061,18 +5073,27 @@ Music: Intense
 Double Battle: No
 AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
-Kilowattrel @ Focus Sash  
-Ability: Wind Power  
+Togedemaru @ Rocky Helmet  
+Ability: Iron Barbs  
+Level: 28   
+IVs: 30 SpD  
+- Spiky Shield  
+- Zing Zap  
+- Parabolic Charge
+- Hidden Power  
+
+Raichu @ Air Balloon  
+Ability: Static  
+Level: 29 
+- Discharge  
+- Knock Off  
+
+Kilowattrel @ Wise Glasses  
+Ability: Competitive  
 Level: 30  
 IVs: 0 Atk  
 - Discharge  
 - Air Cutter  
-
-Raichu @ Air Balloon  
-Ability: Static  
-Level: 30  
-- Discharge  
-- Knock Off  
 
 === TRAINER_FERNANDO_1 ===
 Name: FERNANDO
@@ -5419,7 +5440,7 @@ Zarude @ Tanga Berry
 Ability: Leaf Guard  
 Level: 46  
 - Seed Bomb  
-- Crunch
+- Crunch 
 
 === TRAINER_SHANE ===
 Name: SHANE
@@ -6476,7 +6497,7 @@ Ability: Flash Fire
 Level: 90 
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpD / 0 Spe   
 - Dark Pulse  
-- Flamethrower  
+- Inferno  
 - Overheat  
 - Crunch  
 
@@ -6808,8 +6829,7 @@ IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Scrafty @ Assault Vest  
 Ability: Intimidate  
 Level: 35  
-EVs: 228 HP / 180 Def / 100 SpD  
-Adamant Nature  
+EVs: 180 Def    
 - Knock Off  
 - Crunch  
 - Power-Up Punch  
@@ -6835,7 +6855,7 @@ AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mo
 
 Galvantula @ Occa Berry  
 Ability: Unnerve  
-Level: 30  
+Level: 29  
 IVs: 0 Atk  
 - Sticky Web  
 - Signal Beam  
@@ -6845,14 +6865,15 @@ IVs: 0 Atk
 Electrode @ Focus Sash  
 Ability: Aftermath  
 Level: 30  
+EVs: 164 HP / 248 Def / 96 SpD 
 IVs: 0 Atk  
 - Magnet Rise  
 - Baton Pass  
 
 Magnezone @ Assault Vest  
 Ability: Sturdy  
-Level: 30  
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA  
+Level: 29  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpA
 - Discharge  
 - Volt Switch  
 - Flash Cannon  
@@ -6861,7 +6882,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA
 Pawmot @ Salac Berry  
 Ability: Iron Fist  
 Level: 30  
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Double Shock  
 - Mach Punch  
 - Brick Break  
@@ -6869,7 +6890,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA
 
 Rotom-Frost @ Heavy-Duty Boots  
 Ability: Levitate  
-Level: 30  
+Level: 29  
 IVs: 0 Atk / 10 Def / 3 SpD  
 - Hidden Power
 - Volt Switch  
@@ -6879,11 +6900,10 @@ IVs: 0 Atk / 10 Def / 3 SpD
 Manectric @ Manectite  
 Ability: Intimidate  
 Level: 30  
-Jolly Nature  
+Timid Nature  
 IVs: 0 HP / 0 Def / 0 SpA / 0 SpD  
 - Thunder Fang  
-- Fire Fang  
-- Psychic Fangs  
+- Fire Fang   
 - Poison Fang  
 
 === TRAINER_FLANNERY_1 ===
@@ -6942,7 +6962,7 @@ Ability: Drought
 Level: 52  
 IVs: 0 Atk  
 - Air Slash  
-- Flamethrower  
+- Inferno  
 - Solar Beam  
 - Weather Ball  
 
@@ -6953,7 +6973,7 @@ Pic: Leader Norman
 Gender: Male
 Music: Male
 Double Battle: Yes
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / AI_FLAG_SEQUENCE_SWITCHING
+AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / AI_FLAG_SEQUENCE_SWITCHING / AI_FLAG_FORCE_SETUP_FIRST_TURN
 
 Grafaiai @ Covert Cloak  
 Ability: Prankster  
@@ -6962,18 +6982,18 @@ IVs: 0 Atk
 - Doodle  
 - Memento  
 
-Slaking @ Chesto Berry  
+Slaking @ Sitrus Berry 
 Ability: Truant  
+EVs: 252 HP / 124 Def / 124 SpD
 Level: 41  
 IVs: 0 Atk / 0 Spe
-- Facade  
-- Yawn  
+- Facade   
 - Feint Attack  
-- Rest  
+- Protect
 
 Farigiraf @ Psychic Seed  
 Ability: Psychic Surge  
-Level: 41  
+Level: 40  
 Adamant Nature 
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Twin Beam
@@ -6981,7 +7001,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Zoroark-Hisui @ Focus Sash  
 Ability: Illusion  
-Level: 41  
+Level: 40  
 Adamant Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Swift 
@@ -6989,7 +7009,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Porygon-Z @ Lum Berry 
 Ability: Adaptability  
-Level: 41  
+Level: 40  
 Adamant Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tri Attack  
@@ -7200,13 +7220,13 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Kadabra  
 Ability: Synchronize  
-Level: 17  
+Level: 16  
 IVs: 0 Atk  
 - Confusion  
 
 Natu  
 Ability: Magic Bounce  
-Level: 17  
+Level: 16  
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Calm Mind  
 - Stored Power  
@@ -7326,12 +7346,10 @@ Music: Girl
 Double Battle: No
 AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
-Clefairy @ Eviolite
-Ability: Friend Guard  
-Level: 16  
-IVs: 0 Atk    
-- Life Dew 
-- Follow Me
+Gossifleur  
+Ability: Cotton Down  
+Level: 15  
+- Rage Powder 
 
 === TRAINER_GEORGIA ===
 Name: GEORGIA
@@ -8160,7 +8178,7 @@ Modest Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Hone Claws  
 - Metal Claw  
-- Payback  
+- Thief  
 
 === TRAINER_JOSH ===
 Name: JOSH
@@ -8182,6 +8200,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Growlithe-Hisui  
 Ability: Intimidate  
 Level: 15  
+Modest Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Flame Wheel  
 - Rock Tomb
@@ -8419,19 +8438,19 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Mabosstiff @ Salac Berry  
 Ability: Guard Dog  
-Level: 46  
+Level: 48  
 - Trailblaze  
 - Crunch  
 - Fire Fang  
 
 Stoutland @ Silk Scarf  
 Ability: Intimidate  
-Level: 46  
+Level: 48  
 - Retaliate  
 
 Granbull @ Lum Berry  
 Ability: Intimidate  
-Level: 46  
+Level: 48  
 - Play Rough  
 - Ice Fang  
 
@@ -8446,7 +8465,7 @@ AI: AI_FLAG_SEQUENCE_SWITCHING / Check Viability / Check Bad Move / Try To Faint
 
 Altaria @ Lum Berry  
 Ability: Pixilate  
-Level: 46  
+Level: 48  
 IVs: 0 Atk  
 - Hyper Voice  
 - Dragon Pulse  
@@ -8454,13 +8473,13 @@ IVs: 0 Atk
 
 Gabite @ Blunder Policy  
 Ability: Rough Skin  
-Level: 46  
+Level: 48  
 - Dig  
 - Scale Shot  
 
 Magneton @ Terrain Extender  
 Ability: Sturdy  
-Level: 46  
+Level: 48  
 EVs: 236 HP / 196 Def / 76 SpD  
 Bold Nature  
 - Electric Terrain  
@@ -8468,13 +8487,13 @@ Bold Nature
 
 Klang @ Lum Berry  
 Ability: Clear Body  
-Level: 46  
+Level: 48  
 - Rising Voltage  
 - Gear Grind  
 
 Gallade @ Expert Belt  
 Ability: Sharpness  
-Level: 46  
+Level: 48  
 Modest Nature  
 IVs: 0 Spe  
 - Psyblade  
@@ -8791,29 +8810,30 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Wingull @ Damp Rock  
 Ability: Drizzle  
-Level: 19  
-Bold Nature  
+Level: 18  
+Bold Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - U-turn  
 
 Morelull  
 Ability: Rain Dish  
-Level: 19  
-IVs: 0 Atk    
+Level: 18  
+IVs: 20 HP / 0 Atk / 20 Def / 0 SpA / 20 SpD / 0 Spe  
 - Poison Powder  
 - Mega Drain  
 - Rain Dance  
 
 Horsea  
 Ability: Swift Swim  
-Level: 20  
+Level: 19  
 IVs: 0 Atk  
 - Twister  
 - Water Gun  
 
 Finneon  
 Ability: Swift Swim  
-Level: 21  
-IVs: 0 Atk  
+Level: 20  
+IVs: 0 Atk / 10 SpA 
 - Attract  
 - Water Pulse  
 - Gust  
@@ -8965,23 +8985,23 @@ AI: Check Viability / Check Bad Move / Try To Faint / AI_FLAG_SEQUENCE_SWITCHING
 
 Quagsire @ Toxic Orb  
 Ability: Water Absorb  
-Level: 25  
+Level: 23  
 Impish Nature  
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Stealth Rock  
 - Toxic Spikes  
 - Spikes  
 
 Wailmer @ Sitrus Berry  
 Ability: Bulletproof  
-Level: 22    
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe 
+Level: 21    
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 - Roar  
 
 Lapras @ Sitrus Berry  
 Ability: Water Absorb  
-Level: 22    
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Level: 21    
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Roar  
 
 === TRAINER_ELLIOT_2 ===
@@ -9562,7 +9582,7 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices 
 
 Avalugg @ Assault Vest  
 Ability: Ice Body  
@@ -9574,7 +9594,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Sandslash-Alola @ Chople Berry  
 Ability: Slush Rush  
-Level: 37  
+Level: 36  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Ice Spinner  
 - Metal Claw  
@@ -10430,7 +10450,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Greninja @ Sitrus Berry  
 Ability: Protean  
-Level: 47  
+Level: 49  
 - U-turn  
 - Surf  
 - Dark Pulse 
@@ -10438,7 +10458,7 @@ Level: 47
 
 Slowbro-Galar @ Quick Claw  
 Ability: Quick Draw  
-Level: 47  
+Level: 49  
 - Shell Side Arm  
 - Psyshock  
 
@@ -10454,13 +10474,13 @@ AI: AI_FLAG_SEQUENCE_SWITCHING / Check Viability / Check Bad Move / Try To Faint
 
 Muk-Alola @ Assault Vest  
 Ability: Power of Alchemy  
-Level: 46  
+Level: 48  
 - Poison Jab  
 - Knock Off  
 
 Weezing-Galar @ Leftovers  
 Ability: Neutralizing Gas  
-Level: 46  
+Level: 48  
 IVs: 0 Atk  
 - Strange Steam  
 - Sludge Wave  
@@ -10796,7 +10816,7 @@ AI: AI_FLAG_SEQUENCE_SWITCHING / Check Viability / Check Bad Move / Try To Faint
 
 Ninetales @ Heat Rock  
 Ability: Drought  
-Level: 45  
+Level: 48  
 IVs: 0 Atk  
 - Burning Jealousy  
 - Dazzling Gleam  
@@ -10804,35 +10824,35 @@ IVs: 0 Atk
 
 Castform @ Shuca Berry  
 Ability: Forecast  
-Level: 46  
+Level: 48  
 IVs: 1 Atk / 30 SpA / 30 SpD  
 - Weather Ball  
 - Hidden Power 
 
 Abomasnow @ Icy Rock  
 Ability: Snow Warning  
-Level: 45  
+Level: 48  
 IVs: 0 Atk  
 - Blizzard  
 - Energy Ball  
 
 Castform @ Occa Berry  
 Ability: Forecast  
-Level: 46  
+Level: 48  
 IVs: 31 HP / 31 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
 - Weather Ball  
 - Hidden Power    
 
 Politoed @ Damp Rock  
 Ability: Water Absorb  
-Level: 45  
+Level: 48  
 IVs: 0 Atk  
 - Scald  
 - Toxic  
 
 Castform @ Rindo Berry  
 Ability: Forecast  
-Level: 46  
+Level: 48  
 IVs: 0 Atk  
 - Weather Ball  
 - Thunder 
@@ -10981,20 +11001,23 @@ AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / AI_FLA
 
 Politoed @ Damp Rock  
 Ability: Drizzle  
-Level: 36  
-- Flip Turn  
+Level: 34  
+- Flip Turn 
+- Weather Ball 
 
 Alomomola @ Leftovers  
 Ability: Regenerator  
-Level: 35  
+Level: 34  
 EVs: 36 HP / 216 Def / 252 SpD  
 Sassy Nature  
 - Toxic  
-- Flip Turn  
+- Wish
+- Protect  
+- Flip Turn
 
 Blastoise @ Leftovers  
 Ability: Rain Dish  
-Level: 36  
+Level: 35  
 - Flash Cannon  
 - Waterfall  
 - Protect  
@@ -11006,32 +11029,32 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
-
-Alomomola @ Leftovers  
-Ability: Regenerator  
-Level: 35  
-EVs: 36 HP / 216 Def / 252 SpD  
-Sassy Nature  
-- Toxic  
-- Flip Turn  
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices 
 
 Mareanie @ Eviolite  
 Ability: Corrosion  
-Level: 35  
+Level: 34  
 EVs: 244 HP / 104 Def / 160 SpD  
 Impish Nature    
 - Toxic  
 - Flip Turn  
+
+Bruxish @ Twisted Spoon  
+Ability: Strong Jaw  
+Level: 35  
+- Psychic Fangs  
+- Ice Fang  
+- Poison Fang  
+- Aqua Jet
 
 Milotic @ Flame Orb  
 Ability: Marvel Scale  
 Level: 35  
 IVs: 0 Atk  
 - Recover  
-- Toxic  
+- Scald  
 - Chilling Water  
-- Protect
+- Draining Kiss
 
 === TRAINER_KYLA ===
 Name: KYLA
@@ -11040,12 +11063,13 @@ Pic: Battle Girl
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices 
 
 Crabrawler @ Punching Glove  
-Ability: Iron Fist  
-Level: 20  
-Modest Nature  
+Ability: Iron Fist 
+Level: 19  
+Modest Nature 
+IVs: 4 HP / 0 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe 
 - Mach Punch  
 - Jet Punch
 
@@ -11060,7 +11084,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Timburr @ Flame Orb  
 Ability: Guts  
-Level: 19  
+Level: 18  
 - Rock Throw  
 - Low Kick  
 
@@ -11082,14 +11106,14 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Bastiodon @ Focus Sash  
 Ability: Stamina  
-Level: 46  
+Level: 47  
 - Stealth Rock  
 - Body Press  
 - Heavy Slam  
 
 Archeops @ Sitrus Berry  
 Ability: Defeatist  
-Level: 46  
+Level: 47  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Acrobatics  
 - Rock Slide  
@@ -11103,15 +11127,14 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Aurorus @ Chople Berry  
 Ability: Refrigerate  
-Level: 46  
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 47  
 - Hyper Voice  
 - Ancient Power  
 - Freeze-Dry  
 
 Carracosta @ Rindo Berry  
 Ability: Solid Rock  
-Level: 46  
+Level: 47  
 - Shell Smash  
 - Liquidation  
 - Stone Edge  
@@ -11160,7 +11183,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Primarina @ Assault Vest  
 Ability: Liquid Voice  
-Level: 39  
+Level: 38  
 IVs: 0 Atk  
 - Hyper Voice  
 - Draining Kiss
@@ -11176,7 +11199,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Araquanid @ Coba Berry  
 Ability: Water Bubble  
-Level: 21  
+Level: 20  
 - Pounce  
 - Water Gun  
 
@@ -11556,6 +11579,8 @@ Level: 46
 IVs: 0 Atk  
 - Hex  
 - Malignant Chain
+- Toxic
+- Baneful Bunker
 
 === TRAINER_NANCY ===
 Name: NANCY
@@ -11810,18 +11835,20 @@ AI: Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Po
 
 Snivy @ Oran Berry  
 Ability: Contrary  
-Level: 14  
+Level: 13  
 - Vine Whip  
 - Tackle  
 
-Gossifleur  
-Ability: Cotton Down  
-Level: 13  
-- Rage Powder 
+Clefairy   
+Ability: Friend Guard  
+Level: 15  
+IVs: 0 Atk  
+- Ally Switch  
+- Life Dew
 
 Litten  
 Ability: Intimidate  
-Level: 14  
+Level: 13  
 - Ember  
 - Scratch  
 - Growl  
@@ -11830,7 +11857,7 @@ Level: 14
 Mudkip  
 Ability: Torrent  
 Level: 13  
-- Rock Throw  
+- Mud Slap  
 - Water Gun  
 - Protect  
 - Growl  
@@ -11978,7 +12005,7 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices 
 
 Wingull @ Damp Rock  
 Ability: Drizzle  
@@ -11996,15 +12023,15 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 Shiinotic @ Big Root  
 Ability: Rain Dish  
-Level: 21  
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe 
+Level: 20  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 - Mega Drain  
 - Draining Kiss  
 - Rain Dance  
 
 Poliwhirl @ Clear Amulet  
 Ability: Swift Swim  
-Level: 22  
+Level: 21  
 Modest Nature  
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe 
 - Brick Break  
@@ -12027,7 +12054,7 @@ Serious Nature
 
 Croagunk @ Leftovers  
 Ability: Dry Skin  
-Level: 22  
+Level: 21  
 - Brick Break  
 - Poison Jab  
 - Fake Out  
@@ -12061,21 +12088,21 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Pelipper @ Damp Rock  
 Ability: Keen Eye  
-Level: 25  
+Level: 24  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - U-turn  
 - Water Gun
 
 Helioptile @ Chople Berry  
 Ability: Dry Skin  
-Level: 24  
+Level: 23  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Thunder  
 - Swift  
 
 Croagunk @ Toxic Orb  
 Ability: Merciless  
-Level: 24  
+Level: 23  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Poison Jab  
 - Brick Break  
@@ -12083,7 +12110,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Mareanie @ Eviolite  
 Ability: Corrosion  
-Level: 24  
+Level: 23  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Toxic  
 - Toxic Spikes  
@@ -12092,7 +12119,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Qwilfish-Hisui @ Shuca Berry  
 Ability: Swift Swim  
-Level: 25  
+Level: 23  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Barb Barrage  
 - Toxic  
@@ -12870,7 +12897,7 @@ Chandelure @ Life Orb
 Ability: Flash Fire  
 Level: 61  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe   
-- Flamethrower  
+- Inferno  
 - Shadow Ball  
 - Will-O-Wisp  
 - Hex  
@@ -13254,7 +13281,7 @@ Chandelure @ Life Orb
 Ability: Flash Fire  
 Level: 61  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe   
-- Flamethrower  
+- Inferno 
 - Shadow Ball  
 - Will-O-Wisp  
 - Hex  
@@ -14481,14 +14508,14 @@ Cranidos @ Assault Vest
 Ability: Mold Breaker  
 Level: 15  
 Modest Nature  
-IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Headbutt  
 
 Klawf  
 Ability: Anger Shell  
 Level: 15  
 Modest Nature  
-IVs: 0 HP / 0 Atk / 0 Def / 0 Spe  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpD / 0 Spe  
 - Crabhammer  
 - Smack Down  
 
@@ -14514,7 +14541,7 @@ Level: 34
 - Rage Fist  
 - Brick Break  
 
-Hakamo-o @ Focus Sash  
+Hakamo-o @ Leftovers
 Ability: Soundproof  
 Level: 35  
 EVs: 216 HP / 4 Def / 36 SpD / 248 Spe  
@@ -15405,7 +15432,7 @@ Houndoom @ Houndoominite
 Ability: Flash Fire  
 Level: 72  
 IVs: 0 Atk  
-- Flamethrower  
+- Inferno  
 - Dark Pulse  
 - Nasty Plot  
 - Solar Beam  
@@ -15502,13 +15529,13 @@ Level: 10
 Bold Nature  
 IVs: 0 Atk  
 - Leech Seed  
-- Mega Drain  
-- Strength Sap  
+- Mega Drain   
 - Synthesis  
 
 Yanma @ Big Root  
 Ability: Speed Boost  
 Level: 10  
+IVs: 0 Atk  
 - Leech Life  
 - U-turn  
 - Aerial Ace  
@@ -15516,7 +15543,7 @@ Level: 10
 Ralts @ Big Root  
 Ability: Synchronize  
 Level: 11  
-IVs: 0 Atk  
+IVs: 0 Atk / 0 SpA 
 - Draining Kiss  
 
 === TRAINER_JANICE ===
@@ -15530,7 +15557,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Dedenne @ Sitrus Berry  
 Ability: Cheek Pouch  
-Level: 18  
+Level: 17  
 - Nuzzle  
 - Thunder Shock  
 - Charm 
@@ -15791,19 +15818,19 @@ Music: Male
 Double Battle: No
 AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
-Kricketune  
-Ability: Technician  
-Level: 15  
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpD  / 0 Spe
+Ariados @ Salac Berry  
+Ability: Swarm  
+Level: 14  
+- Toxic Thread  
+- Shadow Sneak  
 - Pounce  
-- Fell Stinger  
+- Poison Sting  
 
-Durant @ Assault Vest  
-Ability: Truant  
-Level: 15  
-Serious Nature  
-- Bug Bite  
-- Metal Claw  
+Larvesta @ Passho Berry  
+Ability: Flame Body  
+Level: 14  
+- Flame Charge  
+- Pounce  
 
 === TRAINER_DOUG ===
 Name: DOUG
@@ -16095,7 +16122,8 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Geodude  
 Ability: Sturdy  
-Level: 15  
+Level: 15 
+IVs: 0 Atk
 - Bulldoze  
 - Rock Tomb  
 
@@ -16111,7 +16139,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpD / 0 Spe
 
 Jangmo-o (M) @ Expert Belt  
 Ability: Bulletproof  
-Level: 15  
+Level: 15 
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpD / 0 Spe
 - Low Kick  
 - Dragon Tail
 
@@ -16166,8 +16195,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Great Tusk @ Booster Energy  
 Ability: Protosynthesis  
-Level: 41  
-EVs: 248 HP / 8 Def / 252 SpD  
+Level: 41   
 Careful Nature  
 - Close Combat  
 - Headlong Rush  
@@ -16437,7 +16465,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Vulpix-Alola @ Eject Button 
 Ability: Snow Warning  
-Level: 25  
+Level: 23  
 IVs: 0 Atk  
 EVs: 252 Spe
 - Aurora Veil  
@@ -16461,7 +16489,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Slowpoke-Galar @ Icy Rock  
 Ability: Gluttony  
-Level: 25  
+Level: 24  
 EVs: 252 HP / 172 Def / 80 SpD  
 Careful Nature  
 IVs: 0 Atk / 0 SpA  
@@ -16470,7 +16498,7 @@ IVs: 0 Atk / 0 SpA
 
 Sandslash-Alola @ Loaded Dice  
 Ability: Slush Rush  
-Level: 24  
+Level: 23  
 Modest Nature  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Metal Claw  
@@ -16509,14 +16537,12 @@ Level: 29
 - Nuzzle  
 - Thunder Punch  
 
-Hitmonchan @ Punching Glove  
-Ability: Iron Fist  
+Electivire @ Shuca Berry  
+Ability: Motor Drive  
 Level: 30  
-Modest Nature  
-- Thunder Punch  
-- Mach Punch  
-- Power-Up Punch  
-- Ice Punch  
+IVs: 0 SpA  
+- Brick Break  
+- Thunder Punch
 
 === TRAINER_DANIELLE ===
 Name: DANIELLE
@@ -16928,7 +16954,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Chandelure @ Life Orb  
 Ability: Flash Fire  
 Level: 75  
-- Flamethrower  
+- Inferno  
 - Shadow Ball  
 - Will-O-Wisp  
 - Hex  
@@ -17114,7 +17140,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Chandelure @ Life Orb  
 Ability: Flash Fire  
 Level: 75  
-- Flamethrower  
+- Inferno  
 - Shadow Ball  
 - Will-O-Wisp  
 - Hex  
@@ -17533,13 +17559,13 @@ AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Po
 
 Brute Bonnet @ Rocky Helmet  
 Ability: Protosynthesis  
-Level: 47  
+Level: 48  
 IVs: 0 Atk  
 - Rage Powder  
 
 Braviary-Hisui @ Wacan Berry  
 Ability: Tinted Lens  
-Level: 47  
+Level: 48  
 IVs: 0 Atk  
 - Esper Wing  
 - Air Cutter  
@@ -17627,7 +17653,7 @@ AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Po
 
 Dustox @ Coba Berry  
 Ability: Shield Dust  
-Level: 22  
+Level: 21  
 IVs: 0 Atk  
 - Struggle Bug  
 - Toxic  
@@ -17636,7 +17662,7 @@ IVs: 0 Atk
 
 Beautifly @ Focus Sash  
 Ability: Swarm  
-Level: 22  
+Level: 21  
 IVs: 0 Atk  
 - Quiver Dance  
 - Gust  
@@ -17978,8 +18004,9 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Marill @ Rindo Berry  
 Ability: Huge Power  
-Level: 10  
-Tera Type: Water  
+Level: 10   
+Modest Nature
+IVs: 0 Atk 
 - Aqua Jet  
 - Covet  
 
@@ -17994,7 +18021,7 @@ AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Po
 
 Clamperl @ Deep Sea Tooth  
 Ability: Rattled  
-Level: 23  
+Level: 22  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Shell Smash  
 - Water Gun
@@ -18010,7 +18037,7 @@ AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Po
 
 Clodsire @ Luminous Moss  
 Ability: Water Absorb  
-Level: 22  
+Level: 21  
 - Poison Tail  
 - Mud Shot  
 - Yawn
@@ -18262,21 +18289,21 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_SEQUENCE_SWITCHING / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
-Orthworm  
+Orthworm @ Focus Sash
 Ability: Earth Eater  
-Level: 1  
+Level: 48  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Memento  
 
 Excadrill @ Clear Amulet  
 Ability: Sand Rush  
-Level: 46  
+Level: 48  
 - Earthquake  
 - Metal Claw  
 
 Perrserker @ Metal Coat  
 Ability: Tough Claws  
-Level: 46  
+Level: 48  
 - Fake Out  
 - Iron Head  
 
@@ -19005,7 +19032,7 @@ Ability: Flash Fire
 Level: 78    
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 Adamant Nature
-- Flamethrower  
+- Inferno  
 - Dark Pulse  
 - Nasty Plot  
 - Solar Beam  
@@ -19093,16 +19120,16 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Pokemon
 
-Rampardos @ Lum Berry  
+Rampardos  
 Ability: Mold Breaker  
-Level: 36
+Level: 33
 Modest Nature  
 IVs: 0 Atk / 0 Spe  
 - Head Smash  
 
 Armaldo @ Assault Vest  
 Ability: Battle Armor  
-Level: 36  
+Level: 35  
 Modest Nature  
 IVs: 0 Atk / 0 Spe 
 - X-Scissor  
@@ -19119,8 +19146,8 @@ AI: Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / Ace Po
 
 Bombirdier @ Lum Berry  
 Ability: Rocky Payload  
-Level: 36  
-Quiet Nature  
+Level: 34  
+Modest Nature  
 IVs: 0 Atk / 0 Spe  
 - Rock Slide  
 - Knock Off  
@@ -19128,7 +19155,7 @@ IVs: 0 Atk / 0 Spe
 
 Honchkrow @ Scope Lens  
 Ability: Super Luck  
-Level: 36  
+Level: 35  
 Modest Nature  
 IVs: 0 Atk / 0 Spe 
 - Night Slash  
@@ -19207,7 +19234,7 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices 
 
 Pelipper @ Damp Rock  
 Ability: Drizzle  
@@ -19229,7 +19256,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Double Battle: No
-AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
+AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices 
 
 Ferrothorn @ Rocky Helmet  
 Ability: Iron Barbs  
@@ -19255,8 +19282,8 @@ AI: Check Viability / Check Bad Move / Try To Faint / AI_FLAG_SEQUENCE_SWITCHING
 
 Gligar @ Toxic Orb  
 Ability: Hyper Cutter  
-Level: 25  
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
+Level: 23  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 EVs: 180 HP / 244 Def / 76 SpD  
 - Toxic Spikes  
 - Spikes  
@@ -19264,16 +19291,15 @@ EVs: 180 HP / 244 Def / 76 SpD
 
 Skarmory @ Occa Berry  
 Ability: Sturdy  
-Level: 22    
-Calm Nature  
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe 
+Level: 21      
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 - Whirlwind  
 
 Tropius @ Sitrus Berry  
 Ability: Harvest  
-Level: 22    
+Level: 21    
 Bold Nature  
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Whirlwind  
 
 === TRAINER_CELIA ===
@@ -19502,7 +19528,7 @@ AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Po
 
 Passimian @ Wiki Berry  
 Ability: Receiver  
-Level: 18  
+Level: 16  
 Bold Nature  
 IVs: 0 Atk / 0 SpA / 0 Spe  
 - Low Sweep  
@@ -21546,19 +21572,29 @@ Music: Suspicious
 Double Battle: No
 AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices / Ace Pokemon
 
+Charjabug @ Focus Sash  
+Ability: Battery  
+Level: 28  
+IVs: 0 Atk  
+- Thunderbolt  
+- Thunder Wave  
+- Sticky Web  
+
 Volbeat @ Focus Sash  
 Ability: Prankster  
-Level: 30  
+Level: 29  
 IVs: 0 Atk  
 - Tailwind  
+- Struggle Bug  
+
+Volbeat @ Focus Sash  
+Ability: Swarm  
+Level: 30  
+IVs: 0 Atk  
+- Bug Buzz  
+- Parabolic Charge  
 - Tail Glow  
 - Shock Wave  
-
-Charjabug @ Cell Battery  
-Ability: Battery  
-Level: 30  
-- Thunder Wave  
-- Lunge  
 
 === TRAINER_DARIUS ===
 Name: DARIUS
