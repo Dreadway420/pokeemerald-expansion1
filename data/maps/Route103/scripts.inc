@@ -1,5 +1,3 @@
-.set LOCALID_RIVAL, 2
-
 Route103_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, Route103_OnTransition
 	map_script MAP_SCRIPT_ON_LOAD, Route103_OnLoad

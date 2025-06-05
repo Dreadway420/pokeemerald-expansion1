@@ -1,5 +1,3 @@
-.set LOCALID_WALLACE, 1
-
 SkyPillar_Outside_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, SkyPillar_Outside_OnTransition
 	map_script MAP_SCRIPT_ON_LOAD, SkyPillar_Outside_OnLoad
@@ -48,7 +46,7 @@ SkyPillar_Outside_EventScript_WallaceScene::
 	fadescreenswapbuffers FADE_TO_BLACK
 	clearflag FLAG_HIDE_MAP_NAME_POPUP
 	setvar VAR_SOOTOPOLIS_CITY_STATE, 4
-	removeobject LOCALID_WALLACE
+	removeobject LOCALID_SKY_PILLAR_WALLACE
 	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_WALLACE
 	fadescreenswapbuffers FADE_FROM_BLACK
 	releaseall
