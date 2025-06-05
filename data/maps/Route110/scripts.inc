@@ -306,13 +306,13 @@ Route110_EventScript_Alyssa::
 	msgbox Route110_Text_AlyssaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route110_EventScript_CyclingChallengeEnd::
-	lockall
-	applymovement LOCALID_CHALLENGE_BIKER, Common_Movement_WalkInPlaceFasterRight
-	waitmovement 0
-	call Route110_EventScript_CyclingChallengeResults
-	releaseall
-	end
+@Route110_EventScript_CyclingChallengeEnd::
+@	lockall
+@	applymovement LOCALID_CHALLENGE_BIKER, Common_Movement_WalkInPlaceFasterRight
+@	waitmovement 0
+@	call Route110_EventScript_CyclingChallengeResults
+@	releaseall
+@	end
 
 Route110_EventScript_CyclingChallengeResults::
 	special FinishCyclingRoadChallenge

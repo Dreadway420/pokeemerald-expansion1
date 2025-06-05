@@ -1,29 +1,29 @@
 @ LOCALID_BRIDGE_KECLEON_SHADOW is a second object which is identical to LOCALID_BRIDGE_KECLEON but has a reflection palette tag for the bridge shadow
 Route120_MapScripts::
-	map_script MAP_SCRIPT_ON_RESUME, Route120_OnResume
+@	map_script MAP_SCRIPT_ON_RESUME, Route120_OnResume
 	map_script MAP_SCRIPT_ON_TRANSITION, Route120_OnTransition
 	map_script MAP_SCRIPT_ON_LOAD, Route120_OnLoad
 	.byte 0
 
-Route120_OnResume:
-	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, Route120_EventScript_RemoveKecleonObject
-	end
+@Route120_OnResume:
+@	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, Route120_EventScript_RemoveKecleonObject
+@	end
 
-Route120_EventScript_RemoveKecleonObject::
-	call_if_eq VAR_0x8009, 0, Route120_EventScript_RemoveBridgeKecleon
-	call_if_eq VAR_0x8009, 1, Route120_EventScript_RemoveKecleon
-	call_if_eq VAR_0x8009, 2, Route120_EventScript_RemoveKecleon
-	call_if_eq VAR_0x8009, 3, Route120_EventScript_RemoveKecleon
-	call_if_eq VAR_0x8009, 4, Route120_EventScript_RemoveKecleon
-	call_if_eq VAR_0x8009, 5, Route120_EventScript_RemoveKecleon
-	return
+@Route120_EventScript_RemoveKecleonObject::
+@	call_if_eq VAR_0x8009, 0, Route120_EventScript_RemoveBridgeKecleon
+@	call_if_eq VAR_0x8009, 1, Route120_EventScript_RemoveKecleon
+@	call_if_eq VAR_0x8009, 2, Route120_EventScript_RemoveKecleon
+@	call_if_eq VAR_0x8009, 3, Route120_EventScript_RemoveKecleon
+@	call_if_eq VAR_0x8009, 4, Route120_EventScript_RemoveKecleon
+@	call_if_eq VAR_0x8009, 5, Route120_EventScript_RemoveKecleon
+@	return
 
-Route120_EventScript_RemoveBridgeKecleon::
-	specialvar VAR_RESULT, GetBattleOutcome
-	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, Common_EventScript_NopReturn
-	removeobject LOCALID_BRIDGE_KECLEON
-	removeobject LOCALID_BRIDGE_KECLEON_SHADOW
-	return
+@Route120_EventScript_RemoveBridgeKecleon::
+@	specialvar VAR_RESULT, GetBattleOutcome
+@	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, Common_EventScript_NopReturn
+@	removeobject LOCALID_BRIDGE_KECLEON
+@	removeobject LOCALID_BRIDGE_KECLEON_SHADOW
+@	return
 
 Route120_EventScript_RemoveKecleon::
 	specialvar VAR_RESULT, GetBattleOutcome
@@ -34,7 +34,7 @@ Route120_EventScript_RemoveKecleon::
 Route120_OnLoad:
 	call_if_unset FLAG_REGI_DOORS_OPENED, Route120_EventScript_CloseAncientTomb
 	call_if_set FLAG_RECEIVED_DEVON_SCOPE, Route120_EventScript_SetBridgeClearMetatiles
-	call_if_unset FLAG_RECEIVED_DEVON_SCOPE, Route120_EventScript_SetBridgeKecleonMovement
+@	call_if_unset FLAG_RECEIVED_DEVON_SCOPE, Route120_EventScript_SetBridgeKecleonMovement
 	end
 
 Route120_EventScript_CloseAncientTomb::
@@ -49,9 +49,9 @@ Route120_EventScript_SetBridgeClearMetatiles::
 	setmetatile 13, 17, METATILE_General_ReflectiveWater, FALSE
 	return
 
-Route120_EventScript_SetBridgeKecleonMovement::
-	setobjectmovementtype LOCALID_BRIDGE_KECLEON_SHADOW, MOVEMENT_TYPE_FACE_RIGHT
-	return
+@Route120_EventScript_SetBridgeKecleonMovement::
+@	setobjectmovementtype LOCALID_BRIDGE_KECLEON_SHADOW, MOVEMENT_TYPE_FACE_RIGHT
+@	return
 
 Route120_OnTransition:
 	call GabbyAndTy_EventScript_UpdateLocation
@@ -183,15 +183,15 @@ Route120_EventScript_StevenBattleKecleon::
 	setvar VAR_0x8009, 0
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
-	goto Route120_EventScript_RemoveBridgeKecleonPostBattle
+@	goto Route120_EventScript_RemoveBridgeKecleonPostBattle
 	end
 
-Route120_EventScript_RemoveBridgeKecleonPostBattle::
-	fadescreenswapbuffers FADE_TO_BLACK
-	removeobject LOCALID_BRIDGE_KECLEON
-	fadescreenswapbuffers FADE_FROM_BLACK
-	goto Route120_EventScript_StevenGiveDeconScope
-	end
+@Route120_EventScript_RemoveBridgeKecleonPostBattle::
+@	fadescreenswapbuffers FADE_TO_BLACK
+@	removeobject LOCALID_BRIDGE_KECLEON
+@	fadescreenswapbuffers FADE_FROM_BLACK
+@	goto Route120_EventScript_StevenGiveDeconScope
+@	end
 
 Route120_EventScript_StevenGiveDeconScope::
 	applymovement LOCALID_ROUTE120_STEVEN, Common_Movement_WalkInPlaceFasterDown

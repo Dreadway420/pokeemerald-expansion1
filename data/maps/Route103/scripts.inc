@@ -1,3 +1,5 @@
+.set LOCALID_RIVAL, 2
+
 Route103_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, Route103_OnTransition
 	map_script MAP_SCRIPT_ON_LOAD, Route103_OnLoad
@@ -17,13 +19,13 @@ Route103_EventScript_OpenAlteringCave::
 	setmetatile 45, 6, METATILE_General_CaveEntrance_Bottom, FALSE
 	return
 
-Route103_EventScript_Rival::
-	lockall
-	special HealPlayerParty
-	checkplayergender
-	goto_if_eq VAR_RESULT, MALE, Route103_EventScript_RivalMay
-	goto_if_eq VAR_RESULT, FEMALE, Route103_EventScript_RivalBrendan
-	end
+@Route103_EventScript_Rival::
+@	lockall
+@	special HealPlayerParty
+@	checkplayergender
+@	goto_if_eq VAR_RESULT, MALE, Route103_EventScript_RivalMay
+@	goto_if_eq VAR_RESULT, FEMALE, Route103_EventScript_RivalBrendan
+@	end
 
 
 Route103_EventScript_StartMayBattleTreecko::

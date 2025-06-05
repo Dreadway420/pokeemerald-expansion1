@@ -169,12 +169,8 @@
       "flag": "FLAG_FORCE_RUSTURF_TUNNEL"
     }
   ],
-  "warp_events": [
-
-  ],
-  "coord_events": [
-
-  ],
+  "warp_events": [],
+  "coord_events": [],
   "bg_events": [
     {
       "type": "sign",

@@ -276,7 +276,7 @@
       "trainer_sight_or_berry_tree_id": "ITEM_TM_BREAKING_SWIPE",
       "script": "Common_EventScript_FindItem",
       "flag": "FLAG_ITEM_ROUTE_110_DIRE_HIT"
-    }
+    },
     {
       "graphics_id": "OBJ_EVENT_GFX_CYCLING_TRIATHLETE_M",
       "x": 27,
@@ -625,24 +625,6 @@
     }
   ],
   "coord_events": [
-    {
-      "type": "trigger",
-      "x": 28,
-      "y": 92,
-      "elevation": 3,
-      "var": "VAR_CYCLING_CHALLENGE_STATE",
-      "var_value": "2",
-      "script": "Route110_EventScript_CyclingChallengeEnd"
-    },
-    {
-      "type": "trigger",
-      "x": 29,
-      "y": 92,
-      "elevation": 3,
-      "var": "VAR_CYCLING_CHALLENGE_STATE",
-      "var_value": "2",
-      "script": "Route110_EventScript_CyclingChallengeEnd"
-    },
     {
       "type": "trigger",
       "x": 33,

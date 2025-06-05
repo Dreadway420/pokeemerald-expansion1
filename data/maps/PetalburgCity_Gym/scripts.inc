@@ -189,11 +189,11 @@ PetalburgCity_Gym_EventScript_BeginWallyTutorial::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	msgbox PetalburgCity_Gym_Text_DadGoCollectBadges, MSGBOX_DEFAULT
-	removeobject LOCALID_WALLY
+	removeobject LOCALID_PETALBURG_GYM_WALLY
 	clearflag FLAG_DONT_TRANSITION_MUSIC
 	setvar VAR_PETALBURG_GYM_STATE, 2
 	setflag FLAG_UNUSED_0x020
-	removeobject LOCALID_WALLY
+	removeobject LOCALID_PETALBURG_GYM_WALLY
 	setflag FLAG_HIDE_PETALBURG_GYM_WALLY
 	releaseall
 	end

@@ -92,6 +92,7 @@
       "flag": "FLAG_HIDE_ROUTE_101_BOY"
     },
     {
+      "local_id": "LOCALID_ROUTE103_RIVAL",
       "graphics_id": "OBJ_EVENT_GFX_VAR_0",
       "x": 10,
       "y": 10,
@@ -105,28 +106,8 @@
       "flag": "FLAG_RECEIVED_POKEDEX_FROM_BIRCH"
     }
   ],
-  "warp_events": [
-
-  ],
+  "warp_events": [],
   "coord_events": [
-    {
-      "type": "trigger",
-      "x": 10,
-      "y": 19,
-      "elevation": 3,
-      "var": "VAR_ROUTE101_STATE",
-      "var_value": "1",
-      "script": "Route101_EventScript_StartBirchRescue"
-    },
-    {
-      "type": "trigger",
-      "x": 11,
-      "y": 19,
-      "elevation": 3,
-      "var": "VAR_ROUTE101_STATE",
-      "var_value": "1",
-      "script": "Route101_EventScript_StartBirchRescue"
-    },
     {
       "type": "trigger",
       "x": 10,

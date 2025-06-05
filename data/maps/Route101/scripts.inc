@@ -1,3 +1,7 @@
+.set LOCALID_BIRCH, 2
+.set LOCALID_ZIGZAGOON, 4
+.set LOCALID_RIVAL, 6
+
 Route101_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, Route101_OnTransition
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route101_OnFrame
@@ -17,29 +21,37 @@ Route101_EventScript_HideMapNamePopup::
 	setvar VAR_ROUTE101_STATE, 1
 	end
 
-Route101_EventScript_StartBirchRescue::
+@Route101_EventScript_StartBirchRescue::
+@	lockall
+@	playbgm MUS_HELP, TRUE
+@	msgbox Route101_Text_HelpMe, MSGBOX_DEFAULT
+@	closemessage
+@	setobjectxy LOCALID_ROUTE101_BIRCH, 0, 15
+@	setobjectxy LOCALID_ROUTE101_ZIGZAGOON, 0, 16
+@	applymovement LOCALID_PLAYER, Route101_Movement_EnterScene
+@	applymovement LOCALID_ROUTE101_BIRCH, Route101_Movement_BirchRunAway1
+@	applymovement LOCALID_ROUTE101_ZIGZAGOON, Route101_Movement_ZigzagoonChase1
+@	waitmovement 0
+@	applymovement LOCALID_ROUTE101_ZIGZAGOON, Route101_Movement_ZigzagoonChaseInCircles
+@	applymovement LOCALID_ROUTE101_BIRCH, Route101_Movement_BirchRunInCircles
+@	waitmovement 0
+@	applymovement LOCALID_ROUTE101_BIRCH, Common_Movement_WalkInPlaceFasterRight
+@	waitmovement 0
+@	applymovement LOCALID_ROUTE101_ZIGZAGOON, Route101_Movement_ZigzagoonFaceBirch
+@	applymovement LOCALID_ROUTE101_BIRCH, Route101_Movement_BirchFaceZigzagoon
+@	waitmovement 0
+@	msgbox Route101_Text_PleaseHelp, MSGBOX_DEFAULT
+@	closemessage
+@	setvar VAR_ROUTE101_STATE, 2
+@	releaseall
+@	end
+
+Route103_EventScript_Rival::
 	lockall
-	playbgm MUS_HELP, TRUE
-	msgbox Route101_Text_HelpMe, MSGBOX_DEFAULT
-	closemessage
-	setobjectxy LOCALID_ROUTE101_BIRCH, 0, 15
-	setobjectxy LOCALID_ROUTE101_ZIGZAGOON, 0, 16
-	applymovement LOCALID_PLAYER, Route101_Movement_EnterScene
-	applymovement LOCALID_ROUTE101_BIRCH, Route101_Movement_BirchRunAway1
-	applymovement LOCALID_ROUTE101_ZIGZAGOON, Route101_Movement_ZigzagoonChase1
-	waitmovement 0
-	applymovement LOCALID_ROUTE101_ZIGZAGOON, Route101_Movement_ZigzagoonChaseInCircles
-	applymovement LOCALID_ROUTE101_BIRCH, Route101_Movement_BirchRunInCircles
-	waitmovement 0
-	applymovement LOCALID_ROUTE101_BIRCH, Common_Movement_WalkInPlaceFasterRight
-	waitmovement 0
-	applymovement LOCALID_ROUTE101_ZIGZAGOON, Route101_Movement_ZigzagoonFaceBirch
-	applymovement LOCALID_ROUTE101_BIRCH, Route101_Movement_BirchFaceZigzagoon
-	waitmovement 0
-	msgbox Route101_Text_PleaseHelp, MSGBOX_DEFAULT
-	closemessage
-	setvar VAR_ROUTE101_STATE, 2
-	releaseall
+	special HealPlayerParty
+	checkplayergender
+	goto_if_eq VAR_RESULT, MALE, Route103_EventScript_RivalMay
+	goto_if_eq VAR_RESULT, FEMALE, Route103_EventScript_RivalBrendan
 	end
 
 Route101_EventScript_PreventExitSouth::
@@ -298,11 +310,11 @@ Route103_EventScript_RivalMay::
 	msgbox Route103_Text_MayRoute103Pokemon, MSGBOX_DEFAULT
 	closemessage
 	playbgm MUS_ENCOUNTER_MAY, TRUE
-	applymovement LOCALID_RIVAL, Common_Movement_FacePlayer
+	applymovement LOCALID_ROUTE103_RIVAL, Common_Movement_FacePlayer
 	waitmovement 0
-	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
+	applymovement LOCALID_ROUTE103_RIVAL, Common_Movement_ExclamationMark
 	waitmovement 0
-	applymovement LOCALID_RIVAL, Common_Movement_Delay48
+	applymovement LOCALID_ROUTE103_RIVAL, Common_Movement_Delay48
 	waitmovement 0
 	msgbox Route103_Text_MayLetsBattle, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
@@ -315,11 +327,11 @@ Route103_EventScript_RivalBrendan::
 	msgbox Route103_Text_BrendanRoute103Pokemon, MSGBOX_DEFAULT
 	closemessage
 	playbgm MUS_ENCOUNTER_BRENDAN, TRUE
-	applymovement LOCALID_RIVAL, Common_Movement_FacePlayer
+	applymovement LOCALID_ROUTE103_RIVAL, Common_Movement_FacePlayer
 	waitmovement 0
-	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
+	applymovement LOCALID_ROUTE103_RIVAL, Common_Movement_ExclamationMark
 	waitmovement 0
-	applymovement LOCALID_RIVAL, Common_Movement_Delay48
+	applymovement LOCALID_ROUTE103_RIVAL, Common_Movement_Delay48
 	waitmovement 0
 	msgbox Route103_Text_BrendanLetsBattle, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
@@ -330,35 +342,35 @@ Route103_EventScript_RivalBrendan::
 
 Route103_EventScript_RivalExitFacingNorth::
 	applymovement OBJ_EVENT_ID_PLAYER, Route103_Movement_WatchRivalExitFacingNorth
-	applymovement LOCALID_RIVAL, Route103_Movement_RivalExitFacingNorth1
+	applymovement LOCALID_ROUTE103_RIVAL, Route103_Movement_RivalExitFacingNorth1
 	waitmovement 0
 	playse SE_LEDGE
-	applymovement LOCALID_RIVAL, Route103_Movement_RivalExitFacingNorth2
+	applymovement LOCALID_ROUTE103_RIVAL, Route103_Movement_RivalExitFacingNorth2
 	waitmovement 0
 	goto Route103_EventScript_RivalEnd
 	end
 
 Route103_EventScript_RivalExitFacingEastOrWest::
 	applymovement OBJ_EVENT_ID_PLAYER, Route103_Movement_WatchRivalExitFacingEastOrWest
-	applymovement LOCALID_RIVAL, Route103_Movement_RivalExit1
+	applymovement LOCALID_ROUTE103_RIVAL, Route103_Movement_RivalExit1
 	waitmovement 0
 	playse SE_LEDGE
-	applymovement LOCALID_RIVAL, Route103_Movement_RivalExit2
+	applymovement LOCALID_ROUTE103_RIVAL, Route103_Movement_RivalExit2
 	waitmovement 0
 	goto Route103_EventScript_RivalEnd
 	end
 
 Route103_EventScript_RivalExitFacingSouth::
-	applymovement LOCALID_RIVAL, Route103_Movement_RivalExit1
+	applymovement LOCALID_ROUTE103_RIVAL, Route103_Movement_RivalExit1
 	waitmovement 0
 	playse SE_LEDGE
-	applymovement LOCALID_RIVAL, Route103_Movement_RivalExit2
+	applymovement LOCALID_ROUTE103_RIVAL, Route103_Movement_RivalExit2
 	waitmovement 0
 	goto Route103_EventScript_RivalEnd
 	end
 
 Route103_EventScript_RivalEnd::
-	removeobject LOCALID_RIVAL
+	removeobject LOCALID_ROUTE103_RIVAL
 	setvar VAR_BIRCH_LAB_STATE, 4
 	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_RIVAL
 	setflag FLAG_DEFEATED_RIVAL_ROUTE103
