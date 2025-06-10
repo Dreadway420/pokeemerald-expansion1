@@ -5895,8 +5895,8 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         )
         .levelUpLearnset = sUrsaringLevelUpLearnset,
         .teachableLearnset = sUrsaringTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL_NATURE_AMPED, 40, SPECIES_URSALUNA},
-                                {EVO_LEVEL_NATURE_LOW_KEY, 40, SPECIES_URSALUNA_BLOODMOON}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_URSALUNA, CONDITIONS({IF_AMPED_NATURE})},
+                                {EVO_LEVEL, 40, SPECIES_URSALUNA_BLOODMOON, CONDITIONS({IF_LOW_KEY_NATURE})}),
     },
 
 #if P_GEN_8_CROSS_EVOS
@@ -7320,7 +7320,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 58 : 109,
         .evYield_HP = 0,
         .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 20,
+        .eggCycles = 1,
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
@@ -7459,6 +7459,8 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         )
         .levelUpLearnset = sDonphanLevelUpLearnset,
         .teachableLearnset = sDonphanTeachableLearnset,
+        .evolutions = EVOLUTION({EVO_LEVEL, 27, SPECIES_GREAT_TUSK, CONDITIONS({IF_AMPED_NATURE})},
+                                {EVO_LEVEL, 27, SPECIES_IRON_TREADS, CONDITIONS({IF_LOW_KEY_NATURE})}),
     },
 #endif //P_FAMILY_PHANPY
 
@@ -7532,8 +7534,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .levelUpLearnset = sStantlerLevelUpLearnset,
         .teachableLearnset = sStantlerTeachableLearnset,
         .eggMoveLearnset = sStantlerEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_USE_MOVE_TWENTY_TIMES, MOVE_PSYSHIELD_BASH, SPECIES_WYRDEER},
-                                {EVO_LEVEL, 30, SPECIES_WYRDEER},
+        .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_WYRDEER},
                                 {EVO_ITEM, ITEM_DUSK_STONE, SPECIES_WYRDEER}),
     },
 

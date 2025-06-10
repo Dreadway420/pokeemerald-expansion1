@@ -2801,8 +2801,8 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         )
         .levelUpLearnset = sKirliaLevelUpLearnset,
         .teachableLearnset = sKirliaTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL_FEMALE, 30, SPECIES_GARDEVOIR},
-                                {EVO_LEVEL_MALE, 30, SPECIES_GALLADE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_GARDEVOIR, CONDITIONS({IF_GENDER, MON_FEMALE})},
+                                {EVO_LEVEL, 30, SPECIES_GALLADE, CONDITIONS({IF_GENDER, MON_MALE})}),
     },
 
     [SPECIES_GARDEVOIR] =

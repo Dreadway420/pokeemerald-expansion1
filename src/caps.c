@@ -23,10 +23,15 @@ u32 GetCurrentLevelCap(void)
         {FLAG_BADGE03_GET, 35},
         {FLAG_BADGE04_GET, 41},
         {FLAG_BADGE05_GET, 52},
-        {FLAG_BADGE06_GET, 62},
-        {FLAG_BADGE07_GET, 76},
-        {FLAG_BADGE08_GET, 83},
-        {FLAG_IS_CHAMPION, 90},
+        {FLAG_HIDE_ROUTE_119_TEAM_AQUA, 62},
+        {FLAG_BADGE06_GET, 65},
+        {FLAG_RECEIVED_RED_OR_BLUE_ORB, 72},
+        {FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT, 75},
+        {FLAG_MET_RIVAL_LILYCOVE, 77},
+        {FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, 80},
+        {FLAG_BADGE07_GET, 83},
+        {FLAG_BADGE08_GET, 90},
+        {FLAG_IS_CHAMPION, 100},
     };
 
     u32 i;

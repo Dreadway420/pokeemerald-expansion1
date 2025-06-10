@@ -1530,7 +1530,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
-        .abilities = { ABILITY_GRIM_NEIGH },
+        .abilities = { ABILITY_GRIM_NEIGH, ABILITY_GRIM_NEIGH, ABILITY_GRIM_NEIGH },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Litleo"),
         .cryId = CRY_LITLEO,
@@ -1599,7 +1599,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
-        .abilities = { ABILITY_GRIM_NEIGH },
+        .abilities = { ABILITY_GRIM_NEIGH, ABILITY_GRIM_NEIGH, ABILITY_GRIM_NEIGH },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Pyroar"),
         .cryId = CRY_PYROAR,
@@ -4431,8 +4431,8 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .levelUpLearnset = sGoomyLevelUpLearnset,
         .teachableLearnset = sGoomyTeachableLearnset,
         .eggMoveLearnset = sGoomyEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL_FEMALE, 26, SPECIES_SLIGGOO},
-                                {EVO_LEVEL_MALE, 26, SPECIES_SLIGGOO_HISUI}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 26, SPECIES_SLIGGOO, CONDITIONS({IF_GENDER, MON_FEMALE})},
+                                {EVO_LEVEL, 26, SPECIES_SLIGGOO_HISUI, CONDITIONS({IF_GENDER, MON_MALE})}),
     },
 
     [SPECIES_SLIGGOO] =
@@ -5536,8 +5536,8 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .levelUpLearnset = sBergmiteLevelUpLearnset,
         .teachableLearnset = sBergmiteTeachableLearnset,
         .eggMoveLearnset = sBergmiteEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL_NATURE_LOW_KEY, 37, SPECIES_AVALUGG},
-                                {EVO_LEVEL_NATURE_AMPED, 37, SPECIES_AVALUGG_HISUI}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 37, SPECIES_AVALUGG, CONDITIONS({IF_LOW_KEY_NATURE})},
+                                {EVO_LEVEL, 37, SPECIES_AVALUGG_HISUI, CONDITIONS({IF_AMPED_NATURE})}),
     },
 
     [SPECIES_AVALUGG] =

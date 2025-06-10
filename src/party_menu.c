@@ -5816,8 +5816,9 @@ void ItemUseCB_RarestCandy(u8 taskId, TaskFunc task)
         // Resets values to 0 so other means of teaching moves doesn't overwrite levels
         sInitialLevel = 0;
         sFinalLevel = 0;
+        bool32 canStopEvo = TRUE;
         if (holdEffectParam == 0)
-            targetSpecies = GetEvolutionTargetSpecies(mon, EVO_MODE_NORMAL, ITEM_NONE, NULL);
+            targetSpecies = GetEvolutionTargetSpecies(mon, EVO_MODE_NORMAL, ITEM_NONE, NULL, &canStopEvo, CHECK_EVO);
         if (targetSpecies != SPECIES_NONE)
         {
             // RemoveBagItem(gSpecialVar_ItemId, 1);

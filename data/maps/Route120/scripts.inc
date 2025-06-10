@@ -152,6 +152,7 @@ Route120_EventScript_BerryNotLove::
 
 Route120_EventScript_Steven::
 	trainerbattle_single TRAINER_CAMRON, Steven_Text_Intro_120, Steven_120_Text_StevenDefeat
+	setflag FLAG_RECEIVED_DEVON_SCOPE
 	msgbox Route120_StevenPostBattle, MSGBOX_AUTOCLOSE
 	end
 
