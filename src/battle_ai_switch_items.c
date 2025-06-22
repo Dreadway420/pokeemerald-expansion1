@@ -1595,7 +1595,7 @@ static s32 GetSwitchinWeatherImpact(void)
              && (gAiLogicData->switchinCandidate.battleMon.types[0] != TYPE_ICE || gAiLogicData->switchinCandidate.battleMon.types[1] != TYPE_ICE)
              && ability != ABILITY_SNOW_CLOAK && ability != ABILITY_ICE_BODY)
             {
-                weatherImpact = maxHP / 8;
+                weatherImpact = maxHP / 16;
                 if (weatherImpact == 0)
                     weatherImpact = 1;
             }
@@ -1629,14 +1629,14 @@ static s32 GetSwitchinWeatherImpact(void)
             }
             else if (ability == ABILITY_RAIN_DISH)
             {
-                weatherImpact = -(maxHP / 8);
+                weatherImpact = -(maxHP / 16);
                 if (weatherImpact == 0)
                     weatherImpact = -1;
             }
         }
         if (((gBattleWeather & B_WEATHER_HAIL) || (gBattleWeather & B_WEATHER_SNOW)) && ability == ABILITY_ICE_BODY)
         {
-            weatherImpact = -(maxHP / 8);
+            weatherImpact = -(maxHP / 16);
             if (weatherImpact == 0)
                 weatherImpact = -1;
         }

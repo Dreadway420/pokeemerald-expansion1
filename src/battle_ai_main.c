@@ -3534,8 +3534,8 @@ static s32 AI_DoubleBattle(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
                 break;
             case EFFECT_INSTRUCT:
                 {
-                    if (IS_TARGETING_PARTNER(battlerAtk, battlerDef))
-                        RETURN_SCORE_PLUS(BEST_EFFECT);
+                    //if (IS_TARGETING_PARTNER(battlerAtk, battlerDef))
+                    //    RETURN_SCORE_PLUS(BEST_EFFECT);
                     u16 instructedMove;
                     if (AI_IsFaster(battlerAtk, battlerAtkPartner, move))
                         instructedMove = aiData->partnerMove;
@@ -3546,7 +3546,7 @@ static s32 AI_DoubleBattle(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
                       && !IsBattleMoveStatus(instructedMove)
                       && (GetBattlerMoveTargetType(battlerAtkPartner, instructedMove) & (MOVE_TARGET_BOTH | MOVE_TARGET_FOES_AND_ALLY))) // Use instruct on multi-target moves
                     {
-                        RETURN_SCORE_PLUS(BEST_EFFECT);
+                        RETURN_SCORE_PLUS(WEAK_EFFECT);
                     }
                 }
                 break;
@@ -5441,7 +5441,7 @@ static s32 AI_ForceSetupFirstTurn(u32 battlerAtk, u32 battlerDef, u32 move, s32 
     case EFFECT_SNOWSCAPE:
     case EFFECT_CHILLY_RECEPTION:
     case EFFECT_GEOMANCY:
-    case EFFECT_PROTECT:
+    //case EFFECT_PROTECT:
     case EFFECT_VICTORY_DANCE:
         ADJUST_SCORE(DECENT_EFFECT);
         break;
