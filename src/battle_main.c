@@ -4217,6 +4217,7 @@ static void HandleTurnActionSelectionState(void)
 {
     s32 i, battler;
 
+
     gBattleCommunication[ACTIONS_CONFIRMED_COUNT] = 0;
     for (battler = 0; battler < gBattlersCount; battler++)
     {
@@ -4360,6 +4361,7 @@ static void HandleTurnActionSelectionState(void)
                     }
                     break;
                 case B_ACTION_SWITCH:
+                    MgbaPrintf(MGBA_LOG_WARN, "HandleTurnActionSelectionState ");
                     gBattleStruct->battlerPartyIndexes[battler] = gBattlerPartyIndexes[battler];
                     if (gBattleTypeFlags & BATTLE_TYPE_ARENA
                         || !CanBattlerEscape(battler))
