@@ -2072,6 +2072,8 @@ s32 MoveBattleBar(u8 battler, u8 healthboxSpriteId, u8 whichBar, u8 unused)
     u32 speedScale = Rogue_GetBattleSpeedScale(TRUE);
     s32 currentBarValue = 0;
 
+    for(s = 0; s < speedScale; ++s)
+
     if (whichBar == HEALTH_BAR) // health bar
     {
         u16 hpFraction = B_FAST_HP_DRAIN == FALSE ? 1 : max(gBattleSpritesDataPtr->battleBars[battler].maxValue / (B_HEALTHBAR_PIXELS / 2), 1);
