@@ -116,8 +116,8 @@ void CustomTrainerPartyAssignMoves(struct Pokemon *mon, const struct TrainerMon 
 bool32 CanPlayerForfeitNormalTrainerBattle(void);
 bool32 DidPlayerForfeitNormalTrainerBattle(void);
 
-bool32 InBattleChoosingMoves();
-bool32 InBattleRunningActions();
+//bool32 InBattleChoosingMoves();
+//bool32 InBattleRunningActions();
 
 extern struct MultiPartnerMenuPokemon gMultiPartnerParty[MULTI_PARTY_SIZE];
 
