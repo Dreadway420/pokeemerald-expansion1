@@ -105,7 +105,7 @@ AI: Smart Trainer
 
 Rotom-Wash @ Eject Button  
 Ability: Levitate  
-Level: 74  
+Level: 75  
 IVs: 0 Atk  
 - Will-O-Wisp  
 - Thunder Wave  
@@ -114,7 +114,7 @@ IVs: 0 Atk
 
 Avalugg-Hisui @ Assault Vest  
 Ability: Strong Jaw  
-Level: 74  
+Level: 75  
 - Mountain Gale  
 - Ice Fang  
 - Crunch  
@@ -122,7 +122,7 @@ Level: 74
 
 Muk-Alola @ Leftovers  
 Ability: Toxic Chain  
-Level: 74  
+Level: 76  
 - Poison Jab  
 - Knock Off  
 - Power-Up Punch  
@@ -139,7 +139,7 @@ AI: Smart Trainer
 
 Araquanid @ Focus Sash  
 Ability: Water Bubble  
-Level: 74  
+Level: 76  
 - Sticky Web  
 - Liquidation  
 - Lunge  
@@ -147,7 +147,7 @@ Level: 74
 
 Clawitzer @ Life Orb  
 Ability: Mega Launcher  
-Level: 74  
+Level: 76  
 IVs: 0 Atk  
 - Aura Sphere  
 - Water Pulse  
@@ -156,7 +156,7 @@ IVs: 0 Atk
 
 Cetitan @ Sitrus Berry  
 Ability: Thick Fat  
-Level: 74  
+Level: 77  
 - Belly Drum  
 - Ice Spinner  
 - Play Rough  
@@ -173,7 +173,7 @@ AI: Smart Trainer
 
 Politoed @ Eject Button  
 Ability: Drizzle  
-Level: 74  
+Level: 77  
 - Flip Turn  
 - Scald  
 - Perish Song  
@@ -181,7 +181,7 @@ Level: 74
 
 Tentacruel @ Leftovers  
 Ability: Rain Dish  
-Level: 75  
+Level: 77  
 - Flip Turn  
 - Sludge Bomb  
 - Toxic Spikes  
@@ -189,7 +189,7 @@ Level: 75
 
 Blastoise @ Leftovers  
 Ability: Rain Dish  
-Level: 75  
+Level: 77  
 - Flash Cannon  
 - Surf  
 - Rapid Spin  
@@ -197,7 +197,7 @@ Level: 75
 
 Ludicolo @ Sitrus Berry  
 Ability: Rain Dish  
-Level: 75  
+Level: 78  
 - Fake Out  
 - Protect  
 - Giga Drain  
@@ -214,7 +214,7 @@ AI: Smart Trainer
 
 Slowbro @ Slowbronite  
 Ability: Oblivious  
-Level: 76  
+Level: 80  
 EVs: 252 HP / 4 Def / 252 SpD  
 Sassy Nature  
 IVs: 0 Atk  
@@ -883,7 +883,7 @@ AI: Smart Trainer
 
 Avalugg @ Icy Rock  
 Ability: Snow Warning  
-Level: 74  
+Level: 77  
 IVs: 0 Spe  
 - Aurora Veil  
 - Body Press  
@@ -892,7 +892,7 @@ IVs: 0 Spe
 
 Beartic @ Covert Cloak  
 Ability: Slush Rush  
-Level: 75  
+Level: 77  
 - Aqua Jet  
 - Icicle Crash  
 - Play Rough  
@@ -900,9 +900,9 @@ Level: 75
 
 Mamoswine @ Leftovers  
 Ability: Snow Cloak  
-Level: 74  
+Level: 77  
 Modest Nature  
-IVs: 0 Atk  
+IVs:  0 Atk / 0 Spe
 - Icicle Crash  
 - Earthquake  
 - Ice Shard  
@@ -919,7 +919,7 @@ AI: Basic Trainer
 
 Tatsugiri @ White Herb  
 Ability: Commander  
-Level: 75  
+Level: 79  
 IVs: 0 Atk  
 - Draco Meteor  
 - Chilling Water  
@@ -960,7 +960,7 @@ AI: Smart Trainer
 
 Samurott-Hisui @ Focus Sash  
 Ability: Sharpness  
-Level: 75  
+Level: 79  
 - Ceaseless Edge  
 - Aqua Jet  
 - Sacred Sword  
@@ -968,7 +968,7 @@ Level: 75
 
 Seismitoad @ Rindo Berry  
 Ability: Swift Swim  
-Level: 75  
+Level: 79  
 - Earthquake  
 - Liquidation  
 - Knock Off  
@@ -976,7 +976,7 @@ Level: 75
 
 Blastoise @ Blastoisinite  
 Ability: Mega Launcher  
-Level: 75  
+Level: 79  
 IVs: 0 Atk  
 - Water Pulse  
 - Dragon Pulse  
@@ -985,7 +985,7 @@ IVs: 0 Atk
 
 Barbaracle @ Assault Vest  
 Ability: Tough Claws  
-Level: 75  
+Level: 79  
 - Liquidation  
 - Stone Edge  
 - Cross Chop  
@@ -993,7 +993,7 @@ Level: 75
 
 Crabominable @ Sitrus Berry  
 Ability: Iron Fist  
-Level: 75  
+Level: 79  
 - Ice Punch  
 - Jet Punch  
 - Power-Up Punch  
@@ -1001,7 +1001,7 @@ Level: 75
 
 Crawdaunt @ Life Orb  
 Ability: Adaptability  
-Level: 76  
+Level: 80  
 - Swords Dance  
 - Aqua Jet  
 - Crabhammer  
@@ -5028,7 +5028,7 @@ AI: Smart Trainer
 
 Bombirdier @ Focus Sash  
 Ability: Rocky Payload  
-Level: 74  
+Level: 76  
 - U-turn  
 - Knock Off  
 - Rock Blast  
@@ -5036,7 +5036,9 @@ Level: 74
 
 Lokix @ Mago Berry  
 Ability: Tinted Lens  
-Level: 74  
+Level: 76 
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
+Modest Nature
 - U-turn  
 - First Impression  
 - Knock Off  
@@ -5044,7 +5046,9 @@ Level: 74
 
 Honchkrow @ Scope Lens  
 Ability: Super Luck  
-Level: 75  
+Level: 76 
+Modest Nature 
+IVs:  0 Atk / 0 Spe
 - U-turn  
 - Night Slash  
 - Air Cutter  
@@ -5061,11 +5065,10 @@ AI: Basic Trainer
 
 Dondozo @ Leftovers  
 Ability: Water Veil  
-Level: 75  
+Level: 79  
 - Order Up  
 - Aqua Tail  
 - Heavy Slam  
-- Body Press  
 
 === TRAINER_SHAWN ===
 Name: SHAWN
@@ -6775,7 +6778,7 @@ Probopass @ Lum Berry
 Ability: Sturdy  
 Level: 15  
 Hasty Nature  
-IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Block  
 - Thunder Wave  
 - Rock Tomb  
@@ -15157,21 +15160,34 @@ Music: Intense
 Double Battle: No
 AI: Smart Trainer
 
-Cursola @ Rocky Helmet  
-Ability: Perish Body  
-Level: 84  
+Magikarp  
+Ability: Swift Swim  
+Level: 5  
 IVs: 0 Atk  
-- Perish Song  
-- Protect   
-- Destiny Bond  
+- Splash  
 
-Scream Tail @ Air Balloon  
-Ability: Protosynthesis  
-Level: 84  
+Binacle  
+Ability: Tough Claws  
+Level: 5  
+- Aerial Ace  
+
+Geodude  
+Ability: Rock Head  
+Level: 5  
 IVs: 0 Atk  
-- Perish Song  
-- Protect  
-- Wish  
+- Ancient Power  
+
+Tympole  
+Ability: Swift Swim  
+Level: 5  
+IVs: 0 Atk  
+- Earth Power  
+
+Togekiss  
+Ability: Hustle  
+Level: 5  
+IVs: 0 Atk  
+- Air Slash
 
 === TRAINER_ISABELLA ===
 Name: ISABELLA
@@ -15941,7 +15957,7 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Smart Mon Choices  / Stall / AI_FLAG_FORCE_SETUP_FIRST_TURN
+AI: Smart Switching / Check Bad Move / Try To Faint / Smart Mon Choices  / Stall / AI_FLAG_FORCE_SETUP_FIRST_TURN / AI_FLAG_SEQUENCE_SWITCHING
 
 Dwebble @ Sitrus Berry  
 Ability: Sturdy  

@@ -325,6 +325,16 @@ LilycoveCity_EventScript_BattleBrendanMudkip::
 LilycoveCity_EventScript_DefeatedMay::
 	msgbox LilycoveCity_Text_MayGoingBackToLittleroot, MSGBOX_DEFAULT
 	setvar VAR_RESULT, FALSE
+	setflag FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_1_BLOCKING_ENTRANCE
+	setflag FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_2_BLOCKING_ENTRANCE
+	setflag FLAG_EVIL_TEAM_ESCAPED_STERN_SPOKE
+	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_CAPTAIN_STERN
+	setvar VAR_SLATEPORT_CITY_STATE, 2
+	setvar VAR_SLATEPORT_HARBOR_STATE, 2
+	setflag FLAG_MET_TEAM_AQUA_HARBOR
+	setflag FLAG_HIDE_LILYCOVE_MOTEL_SCOTT
+	setflag FLAG_HIDE_SLATEPORT_CITY_CAPTAIN_STERN
+	setflag FLAG_HIDE_SLATEPORT_CITY_GABBY_AND_TY
 	call_if_set FLAG_BADGE06_GET, LilycoveCity_EventScript_CheckFinalBadge
 	call_if_eq VAR_RESULT, FALSE, LilycoveCity_EventScript_MayCollectBadges
 	call_if_eq VAR_RESULT, TRUE, LilycoveCity_EventScript_MayPokemonLeague
@@ -357,6 +367,16 @@ LilycoveCity_EventScript_MayBattleFrontier::
 LilycoveCity_EventScript_DefeatedBrendan::
 	msgbox LilycoveCity_Text_BrendanGoingBackToLittleroot, MSGBOX_DEFAULT
 	setvar VAR_RESULT, FALSE
+	setflag FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_1_BLOCKING_ENTRANCE
+	setflag FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_2_BLOCKING_ENTRANCE
+	setflag FLAG_EVIL_TEAM_ESCAPED_STERN_SPOKE
+	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_CAPTAIN_STERN
+	setvar VAR_SLATEPORT_CITY_STATE, 2
+	setvar VAR_SLATEPORT_HARBOR_STATE, 2
+	setflag FLAG_MET_TEAM_AQUA_HARBOR
+	setflag FLAG_HIDE_LILYCOVE_MOTEL_SCOTT
+	setflag FLAG_HIDE_SLATEPORT_CITY_CAPTAIN_STERN
+	setflag FLAG_HIDE_SLATEPORT_CITY_GABBY_AND_TY
 	call_if_set FLAG_BADGE06_GET, LilycoveCity_EventScript_CheckFinalBadge
 	call_if_eq VAR_RESULT, FALSE, LilycoveCity_EventScript_BrendanCollectBadges
 	call_if_eq VAR_RESULT, TRUE, LilycoveCity_EventScript_BrendanPokemonLeague
