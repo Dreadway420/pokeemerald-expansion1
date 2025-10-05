@@ -78,7 +78,7 @@
     F(REFLECT) \
     F(LIGHT_SCREEN) \
     F(ROCK_BLAST) \
-    F(WATERFALL) \
+    F(DOUBLE_IRON_BASH) \
     F(DRAGON_CLAW) \
     F(DAZZLING_GLEAM) \
     F(METRONOME) \
@@ -98,7 +98,7 @@
     F(DARK_PULSE) \
     F(LEECH_LIFE) \
     F(EERIE_IMPULSE) \
-    F(FLY) \
+    F(V_CREATE) \
     F(SKILL_SWAP) \
     F(IRON_HEAD) \
     F(DRAGON_DANCE) \
@@ -124,7 +124,7 @@
     F(PSYCHIC) \
     F(HEAVY_SLAM) \
     F(ENCORE) \
-    F(SURF) \
+    F(DRAGON_ASCENT) \
     F(ICE_SPINNER) \
     F(FLAMETHROWER) \
     F(THUNDERBOLT) \

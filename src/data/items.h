@@ -2114,7 +2114,7 @@ const struct Item gItemsInfo[] =
     [ITEM_SUPER_CANDY] =
     {
         .name = ITEM_NAME("Super Candy"),
-        .pluralName = _("Super Candies"),
+        .pluralName = ITEM_PLURAL_NAME("Super Candies"),
         .price = 0,
         .holdEffectParam = LEVEL_CAP,
         .description = COMPOUND_STRING(
@@ -10952,7 +10952,7 @@ const struct Item gItemsInfo[] =
 
 // TMs/HMs. They don't have a set flingPower, as that's handled by GetFlingPowerFromItemId.
 
-    [ITEM_TM_FOCUS_PUNCH] =
+    [ITEM_TM_TAKE_DOWN] =
     {
         .name = ITEM_NAME("TM01"),
         .price = 3000,
@@ -12028,7 +12028,7 @@ const struct Item gItemsInfo[] =
     },
 
 
-    [ITEM_TM_WATERFALL] =
+    [ITEM_TM_DOUBLE_IRON_BASH] =
     {
         .name = ITEM_NAME("TM77"),
         .price = 5000,
@@ -12314,7 +12314,7 @@ const struct Item gItemsInfo[] =
     },
 
 
-    [ITEM_TM_FLY] =
+    [ITEM_TM_V_CREATE] =
     {
         .name = ITEM_NAME("TM97"),
         .price = 5000,
@@ -12686,7 +12686,7 @@ const struct Item gItemsInfo[] =
             },
 
 
-    [ITEM_TM_SURF] =
+    [ITEM_TM_DRAGON_ASCENT] =
     {
         .name = ITEM_NAME("TM123"),
         .price = 8000,
@@ -15081,7 +15081,7 @@ const struct Item gItemsInfo[] =
     [ITEM_RAREST_CANDY] =
     {
         .name = ITEM_NAME("Rarest Candy"),
-        .pluralName = _("Rarest Candies"),
+        .pluralName = ITEM_PLURAL_NAME("Rarest Candies"),
         .price = 0,
         .description = COMPOUND_STRING(
             "Use this to lvl up\n"

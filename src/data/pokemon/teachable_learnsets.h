@@ -80,7 +80,7 @@
 // - MOVE_REFLECT                                      //
 // - MOVE_LIGHT_SCREEN                                 //
 // - MOVE_ROCK_BLAST                                   //
-// - MOVE_WATERFALL                                    //
+// - MOVE_DOUBLE_IRON_BASH                             //
 // - MOVE_DRAGON_CLAW                                  //
 // - MOVE_DAZZLING_GLEAM                               //
 // - MOVE_METRONOME                                    //
@@ -100,7 +100,7 @@
 // - MOVE_DARK_PULSE                                   //
 // - MOVE_LEECH_LIFE                                   //
 // - MOVE_EERIE_IMPULSE                                //
-// - MOVE_FLY                                          //
+// - MOVE_V_CREATE                                     //
 // - MOVE_SKILL_SWAP                                   //
 // - MOVE_IRON_HEAD                                    //
 // - MOVE_DRAGON_DANCE                                 //
@@ -126,7 +126,7 @@
 // - MOVE_PSYCHIC                                      //
 // - MOVE_HEAVY_SLAM                                   //
 // - MOVE_ENCORE                                       //
-// - MOVE_SURF                                         //
+// - MOVE_DRAGON_ASCENT                                //
 // - MOVE_ICE_SPINNER                                  //
 // - MOVE_FLAMETHROWER                                 //
 // - MOVE_THUNDERBOLT                                  //
@@ -29040,6 +29040,7 @@ static const u16 sRayquazaTeachableLearnset[] = {
     MOVE_DOUBLE_EDGE,
     MOVE_DOUBLE_TEAM,
     MOVE_DRACO_METEOR,
+    MOVE_DRAGON_ASCENT,
     MOVE_DRAGON_CHEER,
     MOVE_DRAGON_CLAW,
     MOVE_DRAGON_DANCE,
@@ -34405,6 +34406,7 @@ static const u16 sVictiniTeachableLearnset[] = {
     MOVE_TRICK_ROOM,
     MOVE_UPROAR,
     MOVE_U_TURN,
+    MOVE_V_CREATE,
     MOVE_WILD_CHARGE,
     MOVE_WILL_O_WISP,
     MOVE_ZEN_HEADBUTT,
@@ -52157,6 +52159,7 @@ static const u16 sMelmetalTeachableLearnset[] = {
     MOVE_BODY_PRESS,
     MOVE_BODY_SLAM,
     MOVE_BRICK_BREAK,
+    MOVE_DOUBLE_IRON_BASH,
     MOVE_DYNAMIC_PUNCH,
     MOVE_EARTHQUAKE,
     MOVE_ELECTRIC_TERRAIN,
