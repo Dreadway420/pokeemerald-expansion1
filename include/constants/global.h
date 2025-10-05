@@ -63,11 +63,6 @@
 #define SECRET_BASES_COUNT 1
 #define POKE_NEWS_COUNT 16
 #define PC_ITEMS_COUNT 50
-#define BAG_ITEMS_COUNT 150
-#define BAG_KEYITEMS_COUNT 35
-#define BAG_POKEBALLS_COUNT 16
-#define BAG_TMHM_COUNT 254
-#define BAG_BERRIES_COUNT 45
 #define OBJECT_EVENT_TEMPLATES_COUNT 64
 #define DECOR_MAX_SECRET_BASE 1
 #define DECOR_MAX_PLAYERS_HOUSE 1
@@ -80,6 +75,13 @@
 #define SAVED_TRENDS_COUNT 5
 #define PYRAMID_BAG_ITEMS_COUNT 10
 #define ROAMER_COUNT 1 // Number of maximum concurrent active roamers
+
+// Bag constants
+#define BAG_ITEMS_COUNT 150
+#define BAG_KEYITEMS_COUNT 35
+#define BAG_POKEBALLS_COUNT 16
+#define BAG_TMHM_COUNT 254
+#define BAG_BERRIES_COUNT 45
 
 // Number of facilities for Ranking Hall.
 // 7 facilities for single mode + tower double mode + tower multi mode.
