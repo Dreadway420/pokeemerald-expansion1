@@ -342,6 +342,8 @@ static const u16 sBulbasaurTeachableLearnset[] = {
     MOVE_SAFEGUARD,
     MOVE_SEED_BOMB,
     MOVE_SLEEP_TALK,
+    MOVE_SLUDGE_BOMB,
+    MOVE_SLUDGE_WAVE,
     MOVE_SNORE,
     MOVE_SOLAR_BEAM,
     MOVE_STRENGTH,
