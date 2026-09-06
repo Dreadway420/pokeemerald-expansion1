@@ -1407,3 +1407,5 @@ const u8 gText_CannotSendMonToBoxHM[] = _("Cannot send that mon to the box,\nbec
 
 const u8 gText_Pokenav_Access_PC[] = _("Access your PC.");
 const u8 gText_Pokenav_Cannot_Access_PC[] = _("Can't access PC. Go outside.");
+const u8 gText_CannotSendMonToBoxActive[] = _("Cannot send an active battler\nto the box.{PAUSE_UNTIL_PRESS}");
+const u8 gText_CannotSendMonToBoxPartner[] = _("Cannot send a mon that doesn't,\nbelong to you to the box.{PAUSE_UNTIL_PRESS}");
