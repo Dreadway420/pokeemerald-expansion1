@@ -2369,10 +2369,10 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
     [SPECIES_VESPIQUEN] =
     {
         .baseHP        = 102,
-        .baseAttack    = 85,
+        .baseAttack    = 80,
         .baseDefense   = 102,
         .baseSpeed     = 40,
-        .baseSpAttack  = 85,
+        .baseSpAttack  = 80,
         .baseSpDefense = 102,
         .types = MON_TYPES(TYPE_BUG, TYPE_FLYING),
         .catchRate = 70,
@@ -3386,7 +3386,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
     {
         .baseHP        = 65,
         .baseAttack    = 91,
-        .baseDefense   = 89,
+        .baseDefense   = 84,
         .baseSpeed     = 105,
         .baseSpAttack  = 34,
         .baseSpDefense = 89,

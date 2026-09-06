@@ -59,7 +59,6 @@ DewfordTown_EventScript_Woman::
 	end
 
 DewfordTown_EventScript_Brawly::
-	setflag FLAG_RECEIVED_OLD_ROD
 	msgbox DewfordTown_Text_DeliverLetter, MSGBOX_NPC
 	end
 

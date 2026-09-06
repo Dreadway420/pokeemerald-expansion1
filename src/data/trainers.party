@@ -389,24 +389,22 @@ AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mo
 
 Totodile  
 Ability: Sheer Force  
-Level: 9  
+Level: 11  
 - Aqua Jet  
-- Bite  
-- Ice Fang  
+- Bite   
 - Flip Turn  
 
 Corphish  
 Ability: Adaptability  
-Level: 9  
+Level: 11  
 - Aqua Jet  
 - Thief  
 
 Poochyena @ Covert Cloak  
 Ability: Quick Feet  
-Level: 10  
+Level: 12  
 - Bite  
 - Sucker Punch  
-- Swagger  
 
 === TRAINER_MARCEL ===
 Name: MARCEL
@@ -546,23 +544,22 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Croconaw  
 Ability: Sheer Force  
-Level: 17  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Aqua Jet  
 - Bite  
-- Ice Fang  
 - Flip Turn  
 
 Corphish  
 Ability: Adaptability  
-Level: 17  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Aqua Jet  
 - Knock Off  
 
 Mightyena @ Covert Cloak  
 Ability: Intimidate  
-Level: 18  
+Level: 19  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Modest Nature
 - Crunch  
@@ -655,8 +652,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Dewott @ Rindo Berry  
 Ability: Sharpness  
-Level: 24  
-Modest Nature  
+Level: 25   
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Aqua Cutter  
 - Fury Cutter
@@ -665,7 +661,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Tauros-Paldea-Aqua @ Sitrus Berry  
 Ability: Cud Chew  
 Level: 25  
-Modest Nature  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Raging Bull  
 - Double Kick  
@@ -689,8 +684,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Frogadier @ Rindo Berry 
 Ability: Protean  
-Level: 24  
-Adamant Nature  
+Level: 25  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 - Icy Wind  
 - Substitute  
@@ -699,8 +693,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Veluza @ Lansat Berry  
 Ability: Sharpness  
-Level: 25 
-Modest Nature  
+Level: 25  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Aqua Cutter  
 - Aqua Jet  
@@ -1271,7 +1264,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Breloom @ Toxic Orb
 Ability: Poison Heal  
-Level: 26  
+Level: 29  
 Modest Nature  
 IVs: 0 Atk  
 - Spore  
@@ -1281,7 +1274,7 @@ IVs: 0 Atk
 
 Roserade @ Coba Berry  
 Ability: Technician  
-Level: 27  
+Level: 30  
 Adamant Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Venoshock  
@@ -1753,7 +1746,7 @@ AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices
 
 Marshtomp @ Clear Amulet  
 Ability: Damp  
-Level: 21  
+Level: 24  
 Adamant Nature  
 IVs: 0 Atk / 0 SpA  
 - Surf
@@ -1769,7 +1762,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Bibarel @ Lum Berry  
 Ability: Moody  
-Level: 22  
+Level: 25  
 IVs: 0 Atk  
 - Water Pulse  
 - Round  
@@ -1777,7 +1770,7 @@ IVs: 0 Atk
 
 Cramorant @ Lum Berry  
 Ability: Gulp Missile  
-Level: 22  
+Level: 25  
 - Dive  
 - Pluck  
 
@@ -1792,14 +1785,14 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Piloswine @ Assault Vest  
 Ability: Thick Fat  
-Level: 21  
+Level: 25  
 IVs: 0 Atk 
 - Ice Fang  
 - Bulldoze  
 
 Diggersby @ Silk Scarf  
 Ability: Huge Power  
-Level: 22  
+Level: 25  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Quick Attack  
 - Bulldoze  
@@ -1883,7 +1876,7 @@ AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices
 
 Clamperl @ Deep Sea Scale  
 Ability: Shell Armor  
-Level: 23  
+Level: 26 
 - Clamp  
 - Icy Wind
 
@@ -1898,7 +1891,7 @@ AI: Check Viability / Check Bad Move / Try To Faint / AI_FLAG_SEQUENCE_SWITCHING
 
 Umbreon @ Leftovers  
 Ability: Synchronize  
-Level: 23  
+Level: 25  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Foul Play  
 - Wish  
@@ -1907,7 +1900,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gengar @ Black Sludge  
 Ability: Cursed Body  
-Level: 24  
+Level: 25  
 Adamant Nature  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Venoshock  
@@ -1917,7 +1910,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Breloom @ Toxic Orb  
 Ability: Poison Heal  
-Level: 24  
+Level: 25  
 Quiet Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Spore  
@@ -1926,7 +1919,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Heracross @ Heracronite  
 Ability: Swarm  
-Level: 24  
+Level: 25  
 Modest Nature  
 IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Arm Thrust  
@@ -1935,7 +1928,7 @@ IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Shedinja @ Focus Sash  
 Ability: Wonder Guard  
-Level: 23  
+Level: 26  
 Modest Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 - Leech Life  
@@ -3375,9 +3368,9 @@ AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mo
 
 Furfrou @ Nugget  
 Ability: Fur Coat  
-Level: 8
+Level: 10
 Modest Nature
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+IVs: 4 HP / 0 Atk / 4 Def / 4 SpA / 4 SpD / 0 Spe
 - Headbutt
 
 === TRAINER_DAPHNE ===
@@ -4260,7 +4253,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Throh @ Macho Brace  
 Ability: Inner Focus  
-Level: 20  
+Level: 21  
 Modest Nature  
 IVs: 0 Atk  
 - Circle Throw  
@@ -4378,7 +4371,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Toedscool @ Big Root  
 Ability: Mycelium Might  
-Level: 19  
+Level: 22  
 IVs: 0 Atk  
 - Spore  
 - Mega Drain  
@@ -4386,7 +4379,7 @@ IVs: 0 Atk
 
 Clamperl @ Deep Sea Tooth  
 Ability: Rattled  
-Level: 20  
+Level: 23  
 IVs: 0 Atk  
 - Water Gun  
 - Icy Wind  
@@ -6727,13 +6720,13 @@ Pic: Leader Roxanne
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices  
+AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mon Choices / AI_FLAG_ACE_POKEMON
 
 Glimmet @ Focus Sash  
 Ability: Toxic Debris  
 Level: 15  
 Bold Nature  
-IVs: 0 Atk  
+IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 - Stealth Rock  
 - Spikes  
 - Ancient Power  
@@ -6753,7 +6746,7 @@ Binacle @ Rindo Berry
 Ability: Pickpocket  
 Level: 15  
 Mild Nature  
-IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Razor Shell  
 - Aqua Jet  
 - Rock Tomb
@@ -6761,7 +6754,8 @@ IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Geodude-Alola @ Shuca Berry
 Ability: Galvanize  
 Level: 15  
-Gentle Nature  
+Gentle Nature
+IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe    
 - Tackle  
 - Defense Curl  
 - Charge  
@@ -6771,6 +6765,7 @@ Rolycoly @ Passho Berry
 Ability: Steam Engine  
 Level: 15  
 Sassy Nature  
+IVs: 0 HP / 15 Def / 0 SpA / 15 SpD / 0 Spe  
 - Heat Crash  
 - Smack Down
 
@@ -7229,13 +7224,13 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Kadabra  
 Ability: Synchronize  
-Level: 16  
+Level: 17  
 IVs: 0 Atk  
 - Confusion  
 
 Natu  
 Ability: Magic Bounce  
-Level: 16  
+Level: 18  
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Calm Mind  
 - Stored Power  
@@ -7357,7 +7352,7 @@ AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices
 
 Gossifleur  
 Ability: Cotton Down  
-Level: 15  
+Level: 16  
 - Rage Powder 
 
 === TRAINER_GEORGIA ===
@@ -7632,7 +7627,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Delcatty
 Ability: Pixilate 
-Level: 29 
+Level: 30 
 Happiness: 180  
 EVs: 252 HP / 252 Atk
 Adamant Nature  
@@ -7852,7 +7847,7 @@ AI: AI_FLAG_DOUBLE_BATTLE / Check Viability / Check Bad Move / Try To Faint / Sm
 
 Plusle @ Choice Scarf  
 Ability: Plus  
-Level: 26  
+Level: 28  
 IVs: 0 Atk  
 EVs: 252 Spe 
 - Electroweb  
@@ -7860,7 +7855,7 @@ EVs: 252 Spe
 
 Plusle @ Lum Berry  
 Ability: Plus  
-Level: 26  
+Level: 28  
 IVs: 0 Atk / 31 Spe
 EVs: 252 Spe 
 - Helping Hand  
@@ -8141,7 +8136,7 @@ AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mo
 
 Shinx  
 Ability: Intimidate  
-Level: 6  
+Level: 7  
 - Thunder Shock  
 - Tackle  
 
@@ -8170,19 +8165,19 @@ AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mo
 
 Fletchling @ Choice Band  
 Ability: Big Pecks  
-Level: 7  
+Level: 9  
 - U-turn  
 - Flame Charge  
 
 Rockruff @ Expert Belt  
 Ability: Solid Rock  
-Level: 7  
+Level: 9  
 - Rock Throw  
 - Roar  
 
 Pawniard @ Leftovers  
 Ability: Defiant  
-Level: 8  
+Level: 9  
 Modest Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Hone Claws  
@@ -8637,20 +8632,20 @@ AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mo
 
 Aron @ Eviolite  
 Ability: Sturdy  
-Level: 27  
+Level: 29  
 - Metal Claw  
 - Stealth Rock  
 - Rock Tomb  
 
 Loudred @ Ability Shield  
 Ability: Punk Rock  
-Level: 27  
+Level: 29  
 - Hyper Voice  
 - Bite  
 
 Manectric @ Protective Pads  
 Ability: Intimidate  
-Level: 27  
+Level: 30  
 Timid Nature  
 - Thunder Fang  
 - Fire Fang  
@@ -8765,7 +8760,7 @@ AI: Smart Switching / AI_FLAG_FORCE_SETUP_FIRST_TURN / Check Bad Move / Try To F
 
 Surskit  
 Ability: Rain Dish  
-Level: 11  
+Level: 13  
 - Sticky Web  
 - Water Gun  
 - Fell Stinger  
@@ -8773,7 +8768,7 @@ Level: 11
 
 Wooper  
 Ability: Unaware  
-Level: 11  
+Level: 13  
 EVs: 252 SpA  
 Quiet Nature  
 IVs: 0 Atk  
@@ -8782,7 +8777,7 @@ IVs: 0 Atk
 
 Clauncher  
 Ability: Mega Launcher  
-Level: 12
+Level: 14
 Adamant Nature  
 IVs: 0 Atk 
 - Water Gun  
@@ -8819,14 +8814,14 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Wingull @ Damp Rock  
 Ability: Drizzle  
-Level: 18  
+Level: 19  
 Bold Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - U-turn  
 
 Morelull  
 Ability: Rain Dish  
-Level: 18  
+Level: 19  
 IVs: 20 HP / 0 Atk / 20 Def / 0 SpA / 20 SpD / 0 Spe  
 - Poison Powder  
 - Mega Drain  
@@ -8858,14 +8853,14 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Skrelp  
 Ability: Adaptability  
-Level: 18  
+Level: 20  
 - Acid Spray  
 - Water Gun  
 - Dragon Tail  
 
 Finizen  
 Ability: Water Veil  
-Level: 18  
+Level: 21  
 - Dive  
 - Haze  
 
@@ -8994,7 +8989,7 @@ AI: Check Viability / Check Bad Move / Try To Faint / AI_FLAG_SEQUENCE_SWITCHING
 
 Quagsire @ Toxic Orb  
 Ability: Water Absorb  
-Level: 23  
+Level: 26  
 Impish Nature  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Stealth Rock  
@@ -9003,13 +8998,13 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Wailmer @ Sitrus Berry  
 Ability: Bulletproof  
-Level: 21    
+Level: 23    
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 - Roar  
 
 Lapras @ Sitrus Berry  
 Ability: Water Absorb  
-Level: 21    
+Level: 23    
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Roar  
 
@@ -11093,7 +11088,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Crabrawler @ Punching Glove  
 Ability: Iron Fist 
-Level: 19  
+Level: 20  
 Modest Nature 
 IVs: 4 HP / 0 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe 
 - Mach Punch  
@@ -11110,13 +11105,13 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Timburr @ Flame Orb  
 Ability: Guts  
-Level: 18  
+Level: 19  
 - Rock Throw  
 - Low Kick  
 
 Scraggy  
 Ability: Intimidate  
-Level: 19  
+Level: 20  
 - Fake Out  
 - Payback  
 - Low Sweep  
@@ -11225,13 +11220,13 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Araquanid @ Coba Berry  
 Ability: Water Bubble  
-Level: 20  
+Level: 22  
 - Pounce  
 - Water Gun  
 
 Brionne @ Throat Spray  
 Ability: Liquid Voice  
-Level: 21  
+Level: 23  
 IVs: 0 Atk  
 - Disarming Voice  
 
@@ -11819,14 +11814,14 @@ EVs: 252 HP / 252 Def / 8 SpD
 
 Alcremie @ Full Incense  
 Ability: Aroma Veil  
-Level: 26  
+Level: 29  
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Alluring Voice  
 - Tri Attack  
 
 Ambipom @ Assault Vest  
 Ability: Technician  
-Level: 26  
+Level: 29  
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Double Hit  
 - Fake Out  
@@ -12035,21 +12030,21 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Wingull @ Damp Rock  
 Ability: Drizzle  
-Level: 17  
+Level: 24  
 Brave Nature  
 IVs: 0 Spe  
 - U-turn  
 
 Wartortle @ Oran Berry  
 Ability: Rain Dish  
-Level: 21  
+Level: 25  
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Water Pulse  
 - Cut  
 
 Shiinotic @ Big Root  
 Ability: Rain Dish  
-Level: 20  
+Level: 25  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 - Mega Drain  
 - Draining Kiss  
@@ -12074,13 +12069,13 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Wingull @ Damp Rock  
 Ability: Drizzle  
-Level: 19  
+Level: 24  
 Serious Nature  
 - U-turn  
 
 Croagunk @ Leftovers  
 Ability: Dry Skin  
-Level: 21  
+Level: 25  
 - Brick Break  
 - Poison Jab  
 - Fake Out  
@@ -12121,14 +12116,14 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Helioptile @ Chople Berry  
 Ability: Dry Skin  
-Level: 23  
+Level: 24  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Thunder  
 - Swift  
 
 Croagunk @ Toxic Orb  
 Ability: Merciless  
-Level: 23  
+Level: 24  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Poison Jab  
 - Brick Break  
@@ -12136,7 +12131,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Mareanie @ Eviolite  
 Ability: Corrosion  
-Level: 23  
+Level: 24  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Toxic  
 - Toxic Spikes  
@@ -12824,7 +12819,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Dipplin @ Zoom Lens  
 Ability: Supersweet Syrup  
-Level: 28  
+Level: 29  
 Adamant Nature  
 IVs: 0 Atk / 0 SpA  
 - Syrup Bomb  
@@ -13080,7 +13075,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Dipplin @ Zoom Lens  
 Ability: Supersweet Syrup  
-Level: 28  
+Level: 29  
 Adamant Nature  
 IVs: 0 Atk / 0 SpA  
 - Syrup Bomb  
@@ -13208,7 +13203,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Dipplin @ Zoom Lens  
 Ability: Supersweet Syrup  
-Level: 28  
+Level: 29  
 Adamant Nature  
 IVs: 0 Atk / 0 SpA  
 - Syrup Bomb  
@@ -13464,7 +13459,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Dipplin @ Zoom Lens  
 Ability: Supersweet Syrup  
-Level: 28  
+Level: 29  
 Adamant Nature  
 IVs: 0 Atk / 0 SpA  
 - Syrup Bomb  
@@ -15056,13 +15051,13 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Wailmer @ Leftovers  
 Ability: Bulletproof  
-Level: 17  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Flip Turn  
 
 Fletchinder @ Heavy-Duty Boots  
 Ability: Gale Wings  
-Level: 17  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Flame Charge  
 - Aerial Ace  
@@ -15070,14 +15065,14 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Darumaka-Galar @ Expert Belt  
 Ability: Hustle  
-Level: 17  
+Level: 18  
 Modest Nature  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 - Ice Fang  
 
 Rockruff @ Muscle Band  
 Ability: Steadfast  
-Level: 17 
+Level: 18 
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 - Rock Throw  
 - Bite  
@@ -15085,14 +15080,14 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Spoink @ Kasib Berry  
 Ability: Neuroforce  
-Level: 17  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Psybeam  
 - Simple Beam  
 
 Tinkatink @ Leftovers  
 Ability: Mold Breaker  
-Level: 18  
+Level: 19  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Metal Claw  
 - Rock Smash  
@@ -15110,21 +15105,21 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Applin @ Sitrus Berry  
 Ability: Ripen  
-Level: 17  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Dragon Breath  
 - Bullet Seed
 
 Darumaka-Galar @ Expert Belt  
 Ability: Hustle  
-Level: 17  
+Level: 18  
 Modest Nature 
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe   
 - Ice Fang  
 
 Rockruff @ Muscle Band  
 Ability: Steadfast  
-Level: 17  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Rock Throw  
 - Bite  
@@ -15132,20 +15127,20 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Wailmer @ Leftovers  
 Ability: Bulletproof  
-Level: 17  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Flip Turn  
 
 Spoink @ Kasib Berry  
 Ability: Neuroforce  
-Level: 17  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Psybeam  
 - Simple Beam  
 
 Litwick @ Wise Glasses  
 Ability: Flash Fire  
-Level: 18  
+Level: 19  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 - Hex  
 - Ember  
@@ -15316,21 +15311,21 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Applin @ Sitrus Berry  
 Ability: Ripen  
-Level: 17  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Dragon Breath  
 - Bullet Seed
 
 Darumaka-Galar @ Expert Belt  
 Ability: Hustle  
-Level: 17  
+Level: 18  
 Modest Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe   
 - Ice Fang  
 
 Fletchinder @ Heavy-Duty Boots  
 Ability: Gale Wings  
-Level: 17  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Flame Charge  
 - Aerial Ace  
@@ -15338,20 +15333,20 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Wailmer @ Leftovers  
 Ability: Bulletproof  
-Level: 17  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Flip Turn  
 
 Spoink @ Kasib Berry  
 Ability: Neuroforce  
-Level: 17  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 - Psybeam  
 - Simple Beam  
 
 Nacli @ Passho Berry  
 Ability: Purifying Salt  
-Level: 18  
+Level: 19  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Iron Defense  
 - Smack Down  
@@ -15369,21 +15364,21 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Applin @ Sitrus Berry  
 Ability: Ripen  
-Level: 17  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Dragon Breath  
 - Bullet Seed
 
 Darumaka-Galar @ Expert Belt  
 Ability: Hustle  
-Level: 17  
+Level: 18  
 Modest Nature  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Ice Fang  
 
 Rockruff @ Muscle Band  
 Ability: Steadfast  
-Level: 17  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Rock Throw  
 - Bite  
@@ -15391,20 +15386,20 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Wailmer @ Leftovers  
 Ability: Bulletproof  
-Level: 17  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Flip Turn  
 
 Spoink @ Kasib Berry  
 Ability: Neuroforce  
-Level: 17  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Psybeam  
 - Simple Beam  
 
 Litwick @ Wise Glasses  
 Ability: Flash Fire  
-Level: 18  
+Level: 19  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Hex  
 - Ember  
@@ -15538,8 +15533,9 @@ AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mo
 
 Vulpix @ Heat Rock  
 Ability: Drought  
-Level: 7  
-IVs: 0 Atk  
+Adamant Nature
+Level: 8  
+IVs: 0 Atk / 0 SpA
 - Ember  
 - Disable  
 
@@ -15552,7 +15548,7 @@ Level: 8
 
 Deerling  
 Ability: Chlorophyll  
-Level: 8  
+Level: 9  
 - Tackle  
 - Trailblaze
 
@@ -15567,7 +15563,7 @@ AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mo
 
 Smoliv @ Big Root  
 Ability: Early Bird  
-Level: 10  
+Level: 13  
 Bold Nature  
 IVs: 0 Atk  
 - Leech Seed  
@@ -15576,7 +15572,7 @@ IVs: 0 Atk
 
 Yanma @ Big Root  
 Ability: Speed Boost  
-Level: 10  
+Level: 13  
 IVs: 0 Atk  
 - Leech Life  
 - U-turn  
@@ -15584,7 +15580,7 @@ IVs: 0 Atk
 
 Ralts @ Big Root  
 Ability: Synchronize  
-Level: 11  
+Level: 13  
 IVs: 0 Atk / 0 SpA 
 - Draining Kiss  
 
@@ -15607,7 +15603,8 @@ Level: 17
 Azumarill  
 Ability: Huge Power  
 Level: 18  
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpD  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
+Modest Nature
 - Aqua Jet  
 - Bounce  
 - Disarming Voice  
@@ -15800,7 +15797,7 @@ AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mo
 
 Dewpider  
 Ability: Water Bubble  
-Level: 5  
+Level: 6  
 - Infestation  
 - Bug Bite  
 - Water Gun  
@@ -15808,14 +15805,14 @@ Level: 5
 
 Joltik  
 Ability: Compound Eyes  
-Level: 6  
+Level: 7  
 - Electroweb  
 - Fury Cutter  
 - Absorb  
 
 Tarountula  
 Ability: Stakeout  
-Level: 7  
+Level: 8  
 Modest Nature
 - Bug bite  
 
@@ -15830,7 +15827,7 @@ AI: Smart Switching / Check Bad Move / Try To Faint / Check Viability / Smart Mo
 
 Scyther @ Iron Ball  
 Ability: Technician  
-Level: 8  
+Level: 10  
 Timid Nature  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpD  / 0 Spe
 - Quick Attack  
@@ -15838,14 +15835,14 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpD  / 0 Spe
 
 Pinsir  
 Ability: Moxie  
-Level: 9  
+Level: 11  
 Modest Nature  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpD  / 0 Spe
 - Bug Bite
 
 Kricketune  
 Ability: Technician  
-Level: 10  
+Level: 12  
 Modest Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpD  / 0 Spe
 - Fell Stinger  
@@ -15870,7 +15867,7 @@ Level: 14
 
 Larvesta @ Passho Berry  
 Ability: Flame Body  
-Level: 14  
+Level: 15  
 - Flame Charge  
 - Pounce  
 
@@ -15961,14 +15958,14 @@ AI: Smart Switching / Check Bad Move / Try To Faint / Smart Mon Choices  / Stall
 
 Dwebble @ Sitrus Berry  
 Ability: Sturdy  
-Level: 10  
+Level: 11  
 IVs: 0 Atk  
 - Stealth Rock  
 - Spikes  
 
 Pineco @ Leftovers  
 Ability: Sturdy  
-Level: 10  
+Level: 11  
 IVs: 0 Atk  
 - Stealth Rock  
 - Spikes  
@@ -15976,7 +15973,7 @@ IVs: 0 Atk
 
 Dustox  
 Ability: Shield Dust  
-Level: 11  
+Level: 13  
 Lonely Nature  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpD  
 - Whirlwind  
@@ -16171,7 +16168,7 @@ IVs: 0 Atk
 
 Gligar  
 Ability: Hyper Cutter  
-Level: 15  
+Level: 16  
 Modest Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpD / 0 Spe
 - Knock Off  
@@ -16181,7 +16178,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpD / 0 Spe
 
 Jangmo-o (M) @ Expert Belt  
 Ability: Bulletproof  
-Level: 15 
+Level: 17 
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpD / 0 Spe
 - Low Kick  
 - Dragon Tail
@@ -16507,7 +16504,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Vulpix-Alola @ Eject Button 
 Ability: Snow Warning  
-Level: 23  
+Level: 24  
 IVs: 0 Atk  
 EVs: 252 Spe
 - Aurora Veil  
@@ -16736,7 +16733,7 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 Mugshot: Green
 
 Gallade  
-Ability: Defeatist  
+Ability: Sharpness  
 Level: 30  
 Modest Nature  
 IVs: 0 Atk / 0 Spe  
@@ -17697,7 +17694,7 @@ AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices
 
 Dustox @ Coba Berry  
 Ability: Shield Dust  
-Level: 21  
+Level: 24  
 IVs: 0 Atk  
 - Struggle Bug  
 - Toxic  
@@ -17706,7 +17703,7 @@ IVs: 0 Atk
 
 Beautifly @ Focus Sash  
 Ability: Swarm  
-Level: 21  
+Level: 24  
 IVs: 0 Atk  
 - Quiver Dance  
 - Gust  
@@ -18066,7 +18063,7 @@ AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices
 
 Clamperl @ Deep Sea Tooth  
 Ability: Rattled  
-Level: 22  
+Level: 26  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Shell Smash  
 - Water Gun
@@ -18082,7 +18079,7 @@ AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices
 
 Clodsire @ Luminous Moss  
 Ability: Water Absorb  
-Level: 21  
+Level: 24  
 - Poison Tail  
 - Mud Shot  
 - Yawn
@@ -18098,7 +18095,7 @@ AI: AI_FLAG_DOUBLE_BATTLE / Check Viability / Check Bad Move / Try To Faint / Sm
 
 Minun @ Lum Berry  
 Ability: Minus  
-Level: 26  
+Level: 28  
 IVs: 0 Atk / 31 Spe
 EVs: 252 Spe 
 - Helping Hand  
@@ -18106,7 +18103,7 @@ EVs: 252 Spe
 
 Minun @ Choice Scarf  
 Ability: Minus  
-Level: 26  
+Level: 28  
 IVs: 0 Atk  
 EVs: 252 Spe 
 - Electroweb  
@@ -18123,13 +18120,13 @@ AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices
 
 Flaaffy @ Terrain Extender  
 Ability: Electric Surge  
-Level: 27  
+Level: 29  
 IVs: 0 Atk  
 - Discharge  
 
 Raichu-Alola @ Shuca Berry  
 Ability: Surge Surfer  
-Level: 27  
+Level: 30  
 Impish Nature  
 - Discharge  
 - Heart Stamp  
@@ -19327,7 +19324,7 @@ AI: Check Viability / Check Bad Move / Try To Faint / AI_FLAG_SEQUENCE_SWITCHING
 
 Gligar @ Toxic Orb  
 Ability: Hyper Cutter  
-Level: 23  
+Level: 26  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 EVs: 180 HP / 244 Def / 76 SpD  
 - Toxic Spikes  
@@ -19336,13 +19333,13 @@ EVs: 180 HP / 244 Def / 76 SpD
 
 Skarmory @ Occa Berry  
 Ability: Sturdy  
-Level: 21      
+Level: 23      
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 - Whirlwind  
 
 Tropius @ Sitrus Berry  
 Ability: Harvest  
-Level: 21    
+Level: 23    
 Bold Nature  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Whirlwind  
@@ -19573,7 +19570,7 @@ AI: Check Viability / Check Bad Move / Try To Faint / Smart Mon Choices
 
 Passimian @ Wiki Berry  
 Ability: Receiver  
-Level: 16  
+Level: 17  
 Bold Nature  
 IVs: 0 Atk / 0 SpA / 0 Spe  
 - Low Sweep  
@@ -19880,13 +19877,13 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Wailmer @ Leftovers  
 Ability: Bulletproof  
-Level: 17  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Flip Turn  
 
 Fletchinder @ Heavy-Duty Boots  
 Ability: Gale Wings  
-Level: 17  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Flame Charge  
 - Aerial Ace  
@@ -19894,14 +19891,14 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Darumaka-Galar @ Expert Belt  
 Ability: Hustle  
-Level: 17  
+Level: 18  
 Modest Nature  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Ice Fang  
 
 Rockruff @ Muscle Band  
 Ability: Steadfast  
-Level: 17  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Rock Throw  
 - Bite  
@@ -19909,14 +19906,14 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Spoink @ Kasib Berry  
 Ability: Neuroforce  
-Level: 17  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Psybeam  
 - Simple Beam  
 
 Tinkatink @ Leftovers  
 Ability: Mold Breaker  
-Level: 18  
+Level: 19  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Metal Claw  
 - Rock Smash  
@@ -19934,21 +19931,21 @@ AI: Smart Switching / Check Viability / Check Bad Move / Try To Faint / Smart Mo
 
 Applin @ Sitrus Berry  
 Ability: Ripen  
-Level: 17  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Dragon Breath  
 - Bullet Seed
 
 Darumaka-Galar @ Expert Belt  
 Ability: Hustle  
-Level: 17  
+Level: 18  
 Modest Nature  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 - Ice Fang  
 
 Fletchinder @ Heavy-Duty Boots  
 Ability: Gale Wings  
-Level: 17  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Flame Charge  
 - Aerial Ace  
@@ -19956,20 +19953,20 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Wailmer @ Leftovers  
 Ability: Bulletproof  
-Level: 17  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Flip Turn  
 
 Spoink @ Kasib Berry  
 Ability: Neuroforce  
-Level: 17  
+Level: 18  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
 - Psybeam  
 - Simple Beam  
 
 Nacli @ Passho Berry  
 Ability: Purifying Salt  
-Level: 18  
+Level: 19  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Iron Defense  
 - Smack Down  

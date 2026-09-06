@@ -105,12 +105,12 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_WOOLOO"
+                "species": "SPECIES_YUNGOOS"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_WOOLOO"
+                "species": "SPECIES_YUNGOOS"
               },
               {
                 "min_level": 4,
@@ -228,7 +228,7 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_CAPSAKID"
+                "species": "SPECIES_BELLSPROUT"
               },
               {
                 "min_level": 3,
@@ -760,7 +760,7 @@
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_TYROGUE"
+                "species": "SPECIES_CHESPIN"
               },
               {
                 "min_level": 7,
@@ -775,27 +775,27 @@
               {
                 "min_level": 7,
                 "max_level": 8,
-                "species": "SPECIES_HERACROSS"
+                "species": "SPECIES_MEDITITE"
               },
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_HERACROSS"
+                "species": "SPECIES_CHESPIN"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_HERACROSS"
+                "species": "SPECIES_CHESPIN"
               },
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_HERACROSS"
+                "species": "SPECIES_CHESPIN"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_HERACROSS"
+                "species": "SPECIES_CHESPIN"
               }
             ]
           }
@@ -1882,7 +1882,7 @@
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_HERACROSS"
+                "species": "SPECIES_CHESPIN"
               },
               {
                 "min_level": 16,
@@ -1892,7 +1892,7 @@
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_MEDITITE"
+                "species": "SPECIES_MIENFOO"
               },
               {
                 "min_level": 16,
@@ -4909,42 +4909,42 @@
               {
                 "min_level": 6,
                 "max_level": 7,
-                "species": "SPECIES_GROWLITHE_HISUI"
+                "species": "SPECIES_FENNEKIN"
               },
               {
                 "min_level": 6,
                 "max_level": 7,
-                "species": "SPECIES_GROWLITHE_HISUI"
+                "species": "SPECIES_FENNEKIN"
               },
               {
                 "min_level": 6,
                 "max_level": 7,
-                "species": "SPECIES_CHARCADET"
+                "species": "SPECIES_TEPIG"
               },
               {
                 "min_level": 6,
                 "max_level": 7,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_TEPIG"
               },
               {
                 "min_level": 6,
                 "max_level": 7,
-                "species": "SPECIES_LITLEO"
+                "species": "SPECIES_TEPIG"
               },
               {
                 "min_level": 6,
                 "max_level": 7,
-                "species": "SPECIES_SIZZLIPEDE"
+                "species": "SPECIES_TEPIG"
               },
               {
                 "min_level": 6,
                 "max_level": 7,
-                "species": "SPECIES_SIZZLIPEDE"
+                "species": "SPECIES_TEPIG"
               },
               {
                 "min_level": 6,
                 "max_level": 7,
-                "species": "SPECIES_SIZZLIPEDE"
+                "species": "SPECIES_TEPIG"
               }
             ]
           }

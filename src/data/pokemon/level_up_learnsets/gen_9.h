@@ -14899,6 +14899,7 @@ static const struct LevelUpMove sChespinLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sQuilladinLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_KARATE_CHOP),
     LEVEL_UP_MOVE( 1, MOVE_VINE_WHIP),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 8, MOVE_ROLLOUT),
@@ -14916,6 +14917,7 @@ static const struct LevelUpMove sQuilladinLevelUpLearnset[] = {
 
 static const struct LevelUpMove sChesnaughtLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_SPIKY_SHIELD),
+    LEVEL_UP_MOVE( 1, MOVE_KARATE_CHOP),
     LEVEL_UP_MOVE( 1, MOVE_FEINT),
     LEVEL_UP_MOVE( 1, MOVE_HAMMER_ARM),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
